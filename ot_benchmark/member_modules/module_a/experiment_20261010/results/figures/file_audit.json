@@ -1,0 +1,191 @@
+[
+  {
+    "file": "acceptance_matrix.pdf",
+    "issues": [
+      [
+        "WARN",
+        "PDF 中以下字体可能未嵌入: /ELUGPM+ArialMT. 导致他人电脑打开变成替代字体。"
+      ]
+    ],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\acceptance_matrix.pdf",
+      "ext": "pdf",
+      "size_bytes": 27150,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "acceptance_matrix.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\acceptance_matrix.png",
+      "ext": "png",
+      "size_bytes": 102531,
+      "category": "raster",
+      "size_px": [
+        2190,
+        1234
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  {
+    "file": "acceptance_matrix.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\acceptance_matrix.svg",
+      "ext": "svg",
+      "size_bytes": 41289,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "acceptance_matrix_grayscale.png",
+    "issues": [
+      [
+        "WARN",
+        "文件未嵌入 DPI 元数据。期刊往往按 DPI 折算最终尺寸，请用 fig.savefig(dpi=300) 显式指定。"
+      ]
+    ],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\acceptance_matrix_grayscale.png",
+      "ext": "png",
+      "size_bytes": 46350,
+      "category": "raster",
+      "size_px": [
+        2190,
+        1234
+      ],
+      "dpi": null
+    }
+  },
+  {
+    "file": "outcome_types.pdf",
+    "issues": [
+      [
+        "WARN",
+        "PDF 中以下字体可能未嵌入: /ELUGPM+ArialMT. 导致他人电脑打开变成替代字体。"
+      ]
+    ],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\outcome_types.pdf",
+      "ext": "pdf",
+      "size_bytes": 31326,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "outcome_types.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\outcome_types.png",
+      "ext": "png",
+      "size_bytes": 96839,
+      "category": "raster",
+      "size_px": [
+        2194,
+        935
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  {
+    "file": "outcome_types.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\outcome_types.svg",
+      "ext": "svg",
+      "size_bytes": 14268,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "outcome_types_grayscale.png",
+    "issues": [
+      [
+        "WARN",
+        "文件未嵌入 DPI 元数据。期刊往往按 DPI 折算最终尺寸，请用 fig.savefig(dpi=300) 显式指定。"
+      ]
+    ],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\outcome_types_grayscale.png",
+      "ext": "png",
+      "size_bytes": 43353,
+      "category": "raster",
+      "size_px": [
+        2194,
+        935
+      ],
+      "dpi": null
+    }
+  },
+  {
+    "file": "paired_times.pdf",
+    "issues": [
+      [
+        "WARN",
+        "PDF 中以下字体可能未嵌入: /ELUGPM+ArialMT. 导致他人电脑打开变成替代字体。"
+      ]
+    ],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\paired_times.pdf",
+      "ext": "pdf",
+      "size_bytes": 31471,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "paired_times.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\paired_times.png",
+      "ext": "png",
+      "size_bytes": 125272,
+      "category": "raster",
+      "size_px": [
+        2194,
+        1054
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  {
+    "file": "paired_times.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\paired_times.svg",
+      "ext": "svg",
+      "size_bytes": 58514,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "paired_times_grayscale.png",
+    "issues": [
+      [
+        "WARN",
+        "文件未嵌入 DPI 元数据。期刊往往按 DPI 折算最终尺寸，请用 fig.savefig(dpi=300) 显式指定。"
+      ]
+    ],
+    "info": {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\member_modules\\module_a\\experiment_20261010\\results\\figures\\paired_times_grayscale.png",
+      "ext": "png",
+      "size_bytes": 57590,
+      "category": "raster",
+      "size_px": [
+        2194,
+        1054
+      ],
+      "dpi": null
+    }
+  }
+]

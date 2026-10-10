@@ -1,0 +1,2882 @@
+[
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.017632300005061552,
+    "min_seconds": 0.017108699976233765,
+    "max_seconds": 0.018335300002945587,
+    "task_ids": [
+      "call_0009",
+      "call_0406",
+      "call_0402"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.000527600001078099,
+    "min_seconds": 0.0005040000251028687,
+    "max_seconds": 0.0005808999994769692,
+    "task_ids": [
+      "call_0007",
+      "call_0411",
+      "call_0264"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0006434000097215176,
+    "min_seconds": 0.0005772999720647931,
+    "max_seconds": 0.0006496999994851649,
+    "task_ids": [
+      "call_0330",
+      "call_0331",
+      "call_0052"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.015833500016015023,
+    "min_seconds": 0.015283499989891425,
+    "max_seconds": 0.015859500010265037,
+    "task_ids": [
+      "call_0268",
+      "call_0191",
+      "call_0293"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005459999956656247,
+    "min_seconds": 0.0004966999986208975,
+    "max_seconds": 0.0007939999923110008,
+    "task_ids": [
+      "call_0380",
+      "call_0151",
+      "call_0278"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005778999766334891,
+    "min_seconds": 0.0005703999777324498,
+    "max_seconds": 0.0011452000180725008,
+    "task_ids": [
+      "call_0164",
+      "call_0401",
+      "call_0253"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0262",
+      "call_0084",
+      "call_0061"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0376",
+      "call_0288",
+      "call_0119"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0341",
+      "call_0190",
+      "call_0305"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0213",
+      "call_0063",
+      "call_0222"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0056",
+      "call_0198",
+      "call_0357"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0270",
+      "call_0035",
+      "call_0404"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0382",
+      "call_0326",
+      "call_0170"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0079",
+      "call_0187",
+      "call_0181"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0139",
+      "call_0141",
+      "call_0078"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.3651833000185434,
+    "min_seconds": 2.2846510999952443,
+    "max_seconds": 2.371841600019252,
+    "task_ids": [
+      "call_0389",
+      "call_0285",
+      "call_0385"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.19820250000339,
+    "min_seconds": 3.164163599984022,
+    "max_seconds": 3.613480999978492,
+    "task_ids": [
+      "call_0363",
+      "call_0353",
+      "call_0205"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.844578200019896,
+    "min_seconds": 2.7259155999927316,
+    "max_seconds": 2.9054270000196993,
+    "task_ids": [
+      "call_0313",
+      "call_0423",
+      "call_0019"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 1.3114162000129,
+    "min_seconds": 1.3049768999917433,
+    "max_seconds": 1.3418739000044297,
+    "task_ids": [
+      "call_0352",
+      "call_0289",
+      "call_0266"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "NUMERICAL_ERROR",
+    "successes": 0,
+    "status_counts": {
+      "NUMERICAL_ERROR": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0113",
+      "call_0387",
+      "call_0021"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.6998209999874234,
+    "min_seconds": 2.5422401999821886,
+    "max_seconds": 3.022787400026573,
+    "task_ids": [
+      "call_0033",
+      "call_0002",
+      "call_0321"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.2573794999916572,
+    "min_seconds": 0.25453470001230016,
+    "max_seconds": 0.2610796999942977,
+    "task_ids": [
+      "call_0047",
+      "call_0112",
+      "call_0204"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.34451669998816215,
+    "min_seconds": 0.3147078000183683,
+    "max_seconds": 0.3507316000177525,
+    "task_ids": [
+      "call_0229",
+      "call_0309",
+      "call_0261"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.28977169998688623,
+    "min_seconds": 0.28494350000983104,
+    "max_seconds": 0.29455500000040047,
+    "task_ids": [
+      "call_0273",
+      "call_0159",
+      "call_0232"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.025610399985453114,
+    "min_seconds": 0.025192400004016235,
+    "max_seconds": 0.02629089998663403,
+    "task_ids": [
+      "call_0397",
+      "call_0339",
+      "call_0312"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0008697999874129891,
+    "min_seconds": 0.0007015999872237444,
+    "max_seconds": 0.0009215000027325004,
+    "task_ids": [
+      "call_0093",
+      "call_0166",
+      "call_0036"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0011024000123143196,
+    "min_seconds": 0.0010147000139113516,
+    "max_seconds": 0.0011521000124048442,
+    "task_ids": [
+      "call_0414",
+      "call_0109",
+      "call_0296"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.01940879999892786,
+    "min_seconds": 0.019285199989099056,
+    "max_seconds": 0.020487200003117323,
+    "task_ids": [
+      "call_0008",
+      "call_0425",
+      "call_0050"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0008283999923150986,
+    "min_seconds": 0.0007139000226743519,
+    "max_seconds": 0.0008342000073753297,
+    "task_ids": [
+      "call_0192",
+      "call_0080",
+      "call_0409"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.000892100011697039,
+    "min_seconds": 0.0008338999759871513,
+    "max_seconds": 0.0009618999902158976,
+    "task_ids": [
+      "call_0174",
+      "call_0260",
+      "call_0302"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0107",
+      "call_0032",
+      "call_0239"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0242",
+      "call_0037",
+      "call_0102"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0128",
+      "call_0018",
+      "call_0068"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0011",
+      "call_0413",
+      "call_0026"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0165",
+      "call_0259",
+      "call_0275"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0368",
+      "call_0392",
+      "call_0077"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0307",
+      "call_0133",
+      "call_0310"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0225",
+      "call_0408",
+      "call_0138"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0428",
+      "call_0263",
+      "call_0180"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.780364100006409,
+    "min_seconds": 2.708440500020515,
+    "max_seconds": 2.7942589999875054,
+    "task_ids": [
+      "call_0427",
+      "call_0345",
+      "call_0122"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.397340299998177,
+    "min_seconds": 3.387690900010057,
+    "max_seconds": 3.3996559999941383,
+    "task_ids": [
+      "call_0311",
+      "call_0367",
+      "call_0338"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.256797200010624,
+    "min_seconds": 3.1548903999791946,
+    "max_seconds": 3.351393699995242,
+    "task_ids": [
+      "call_0197",
+      "call_0431",
+      "call_0215"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 1.652452699985588,
+    "min_seconds": 1.6516266999824438,
+    "max_seconds": 1.6657057999982499,
+    "task_ids": [
+      "call_0185",
+      "call_0182",
+      "call_0040"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "NUMERICAL_ERROR",
+    "successes": 0,
+    "status_counts": {
+      "NUMERICAL_ERROR": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0145",
+      "call_0240",
+      "call_0001"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.359233099996345,
+    "min_seconds": 3.3055921999912243,
+    "max_seconds": 3.3852817000006326,
+    "task_ids": [
+      "call_0420",
+      "call_0067",
+      "call_0038"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.2940268999955151,
+    "min_seconds": 0.28588630000012927,
+    "max_seconds": 0.3228693999990355,
+    "task_ids": [
+      "call_0243",
+      "call_0012",
+      "call_0422"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.3527691000199411,
+    "min_seconds": 0.342135299986694,
+    "max_seconds": 0.3551586999965366,
+    "task_ids": [
+      "call_0369",
+      "call_0417",
+      "call_0252"
+    ]
+  },
+  {
+    "seed": 210101,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.34211129997856915,
+    "min_seconds": 0.33952849998604506,
+    "max_seconds": 0.3610501000075601,
+    "task_ids": [
+      "call_0089",
+      "call_0337",
+      "call_0039"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.017799000022932887,
+    "min_seconds": 0.017131200002040714,
+    "max_seconds": 0.018926799995824695,
+    "task_ids": [
+      "call_0058",
+      "call_0167",
+      "call_0065"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005012999754399061,
+    "min_seconds": 0.0004913999873679131,
+    "max_seconds": 0.0005188999930396676,
+    "task_ids": [
+      "call_0153",
+      "call_0304",
+      "call_0318"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0006293999904301018,
+    "min_seconds": 0.0006142999918665737,
+    "max_seconds": 0.0006682999955955893,
+    "task_ids": [
+      "call_0043",
+      "call_0303",
+      "call_0071"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.01642079997691326,
+    "min_seconds": 0.015621200000168756,
+    "max_seconds": 0.016502599988598377,
+    "task_ids": [
+      "call_0031",
+      "call_0086",
+      "call_0049"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005191999953240156,
+    "min_seconds": 0.0005027000152040273,
+    "max_seconds": 0.000547399977222085,
+    "task_ids": [
+      "call_0010",
+      "call_0415",
+      "call_0048"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005772000004071742,
+    "min_seconds": 0.0005326000100467354,
+    "max_seconds": 0.0006041000015102327,
+    "task_ids": [
+      "call_0203",
+      "call_0223",
+      "call_0347"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0028",
+      "call_0216",
+      "call_0276"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0105",
+      "call_0403",
+      "call_0256"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0308",
+      "call_0202",
+      "call_0126"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0384",
+      "call_0299",
+      "call_0395"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0110",
+      "call_0297",
+      "call_0209"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0134",
+      "call_0327",
+      "call_0130"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0024",
+      "call_0188",
+      "call_0329"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0220",
+      "call_0131",
+      "call_0319"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0396",
+      "call_0023",
+      "call_0158"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.4677927999873646,
+    "min_seconds": 2.4652134999923874,
+    "max_seconds": 2.4788470000203233,
+    "task_ids": [
+      "call_0014",
+      "call_0391",
+      "call_0381"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.2459783000231255,
+    "min_seconds": 3.203784600016661,
+    "max_seconds": 3.4362068999907933,
+    "task_ids": [
+      "call_0092",
+      "call_0334",
+      "call_0351"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.839652800001204,
+    "min_seconds": 2.8370274000044446,
+    "max_seconds": 2.861357699992368,
+    "task_ids": [
+      "call_0042",
+      "call_0163",
+      "call_0199"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 1.3714157000067644,
+    "min_seconds": 1.365624600002775,
+    "max_seconds": 1.375338300014846,
+    "task_ids": [
+      "call_0117",
+      "call_0370",
+      "call_0248"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "NUMERICAL_ERROR",
+    "successes": 0,
+    "status_counts": {
+      "NUMERICAL_ERROR": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0085",
+      "call_0410",
+      "call_0379"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.6578115000156686,
+    "min_seconds": 2.6283861999982037,
+    "max_seconds": 2.6651462000154424,
+    "task_ids": [
+      "call_0152",
+      "call_0314",
+      "call_0349"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.2518780999816954,
+    "min_seconds": 0.25166019998141564,
+    "max_seconds": 0.25853770002140664,
+    "task_ids": [
+      "call_0245",
+      "call_0377",
+      "call_0076"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.33795240000472404,
+    "min_seconds": 0.33631810001679696,
+    "max_seconds": 0.3495622999907937,
+    "task_ids": [
+      "call_0178",
+      "call_0189",
+      "call_0254"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.29239550000056624,
+    "min_seconds": 0.2885336000181269,
+    "max_seconds": 0.2982517999771517,
+    "task_ids": [
+      "call_0378",
+      "call_0267",
+      "call_0074"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.024852100003045052,
+    "min_seconds": 0.024786199996015057,
+    "max_seconds": 0.025586500007193536,
+    "task_ids": [
+      "call_0212",
+      "call_0184",
+      "call_0186"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0008482999983243644,
+    "min_seconds": 0.000755899993237108,
+    "max_seconds": 0.0008506999874953181,
+    "task_ids": [
+      "call_0236",
+      "call_0272",
+      "call_0247"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.000989699998172,
+    "min_seconds": 0.0008910000033210963,
+    "max_seconds": 0.0010783000034280121,
+    "task_ids": [
+      "call_0371",
+      "call_0135",
+      "call_0091"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.018783100007567555,
+    "min_seconds": 0.01836879999609664,
+    "max_seconds": 0.01914649998070672,
+    "task_ids": [
+      "call_0088",
+      "call_0081",
+      "call_0120"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0007602000259794295,
+    "min_seconds": 0.0007048000115901232,
+    "max_seconds": 0.0009950999810826033,
+    "task_ids": [
+      "call_0372",
+      "call_0231",
+      "call_0301"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0009075000125449151,
+    "min_seconds": 0.0008534000080544502,
+    "max_seconds": 0.0009652999870013446,
+    "task_ids": [
+      "call_0373",
+      "call_0361",
+      "call_0230"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0123",
+      "call_0238",
+      "call_0366"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0356",
+      "call_0104",
+      "call_0292"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0346",
+      "call_0388",
+      "call_0161"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0348",
+      "call_0257",
+      "call_0094"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0046",
+      "call_0149",
+      "call_0087"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0283",
+      "call_0101",
+      "call_0173"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0083",
+      "call_0207",
+      "call_0015"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0069",
+      "call_0020",
+      "call_0030"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0233",
+      "call_0064",
+      "call_0155"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.7658987999893725,
+    "min_seconds": 2.749987399991369,
+    "max_seconds": 2.7734899999923073,
+    "task_ids": [
+      "call_0082",
+      "call_0251",
+      "call_0025"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.3930851999903098,
+    "min_seconds": 3.332755299983546,
+    "max_seconds": 3.4465024000091944,
+    "task_ids": [
+      "call_0280",
+      "call_0255",
+      "call_0358"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.297629999986384,
+    "min_seconds": 3.294853300001705,
+    "max_seconds": 3.299627900007181,
+    "task_ids": [
+      "call_0306",
+      "call_0097",
+      "call_0342"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 1.6808273999777157,
+    "min_seconds": 1.6321243999991566,
+    "max_seconds": 1.6822654999850783,
+    "task_ids": [
+      "call_0055",
+      "call_0228",
+      "call_0355"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "NUMERICAL_ERROR",
+    "successes": 0,
+    "status_counts": {
+      "NUMERICAL_ERROR": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0298",
+      "call_0208",
+      "call_0070"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.3944748000067193,
+    "min_seconds": 3.2596787000074983,
+    "max_seconds": 3.5054186999914236,
+    "task_ids": [
+      "call_0432",
+      "call_0132",
+      "call_0317"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.2902659999963362,
+    "min_seconds": 0.2891333999868948,
+    "max_seconds": 0.2921537999936845,
+    "task_ids": [
+      "call_0390",
+      "call_0059",
+      "call_0154"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.35442809999221936,
+    "min_seconds": 0.3463822000194341,
+    "max_seconds": 0.35757519997423515,
+    "task_ids": [
+      "call_0051",
+      "call_0418",
+      "call_0175"
+    ]
+  },
+  {
+    "seed": 210102,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.3395297999959439,
+    "min_seconds": 0.32901300000958145,
+    "max_seconds": 0.34685040000476874,
+    "task_ids": [
+      "call_0217",
+      "call_0316",
+      "call_0060"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.017486600001575425,
+    "min_seconds": 0.01659260000451468,
+    "max_seconds": 0.017544699978316203,
+    "task_ids": [
+      "call_0265",
+      "call_0354",
+      "call_0300"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005824000108987093,
+    "min_seconds": 0.000538699998287484,
+    "max_seconds": 0.0005868000152986497,
+    "task_ids": [
+      "call_0287",
+      "call_0407",
+      "call_0146"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0006385000015143305,
+    "min_seconds": 0.0005698000022675842,
+    "max_seconds": 0.0006575000006705523,
+    "task_ids": [
+      "call_0210",
+      "call_0004",
+      "call_0375"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.015524599992204458,
+    "min_seconds": 0.015334800002165139,
+    "max_seconds": 0.01568549999501556,
+    "task_ids": [
+      "call_0344",
+      "call_0017",
+      "call_0291"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0005333999870344996,
+    "min_seconds": 0.0005129000055603683,
+    "max_seconds": 0.0008439999946858734,
+    "task_ids": [
+      "call_0053",
+      "call_0430",
+      "call_0196"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.000608200003625825,
+    "min_seconds": 0.0005530000198632479,
+    "max_seconds": 0.0006082999752834439,
+    "task_ids": [
+      "call_0062",
+      "call_0075",
+      "call_0271"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0195",
+      "call_0365",
+      "call_0144"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0219",
+      "call_0424",
+      "call_0099"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0147",
+      "call_0277",
+      "call_0029"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0383",
+      "call_0324",
+      "call_0179"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0274",
+      "call_0162",
+      "call_0193"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0416",
+      "call_0045",
+      "call_0027"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0286",
+      "call_0241",
+      "call_0218"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0227",
+      "call_0100",
+      "call_0160"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0394",
+      "call_0374",
+      "call_0362"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.479305699991528,
+    "min_seconds": 2.373790099984035,
+    "max_seconds": 2.4969838999968488,
+    "task_ids": [
+      "call_0171",
+      "call_0140",
+      "call_0419"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.2289231999893673,
+    "min_seconds": 3.134911400004057,
+    "max_seconds": 3.3035419000079855,
+    "task_ids": [
+      "call_0332",
+      "call_0003",
+      "call_0246"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.8339171999832615,
+    "min_seconds": 2.817171499977121,
+    "max_seconds": 2.9829348000057507,
+    "task_ids": [
+      "call_0201",
+      "call_0320",
+      "call_0006"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 1.3677419000014197,
+    "min_seconds": 1.3573292999935802,
+    "max_seconds": 1.378742799977772,
+    "task_ids": [
+      "call_0114",
+      "call_0157",
+      "call_0269"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "NUMERICAL_ERROR",
+    "successes": 0,
+    "status_counts": {
+      "NUMERICAL_ERROR": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0340",
+      "call_0142",
+      "call_0200"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.6174392999964766,
+    "min_seconds": 2.5319744999869727,
+    "max_seconds": 2.6609279999975115,
+    "task_ids": [
+      "call_0279",
+      "call_0234",
+      "call_0096"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.2555539000022691,
+    "min_seconds": 0.2526506000140216,
+    "max_seconds": 0.2710824999958277,
+    "task_ids": [
+      "call_0399",
+      "call_0137",
+      "call_0244"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.3345240999769885,
+    "min_seconds": 0.3337271000200417,
+    "max_seconds": 0.3360450999753084,
+    "task_ids": [
+      "call_0333",
+      "call_0224",
+      "call_0115"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 16,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.2923795999959111,
+    "min_seconds": 0.292141999991145,
+    "max_seconds": 0.33541630001855083,
+    "task_ids": [
+      "call_0121",
+      "call_0156",
+      "call_0090"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.02577849998488091,
+    "min_seconds": 0.025124600011622533,
+    "max_seconds": 0.025965600012568757,
+    "task_ids": [
+      "call_0290",
+      "call_0393",
+      "call_0322"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0007348000071942806,
+    "min_seconds": 0.0007330999942496419,
+    "max_seconds": 0.0007356000132858753,
+    "task_ids": [
+      "call_0364",
+      "call_0398",
+      "call_0177"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0009718999790493399,
+    "min_seconds": 0.0008861000242177397,
+    "max_seconds": 0.0009980000031646341,
+    "task_ids": [
+      "call_0111",
+      "call_0143",
+      "call_0116"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.02066659997217357,
+    "min_seconds": 0.019716799986781552,
+    "max_seconds": 0.020837799995206296,
+    "task_ids": [
+      "call_0250",
+      "call_0421",
+      "call_0022"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0007190999749582261,
+    "min_seconds": 0.0006844000017736107,
+    "max_seconds": 0.0007283999875653535,
+    "task_ids": [
+      "call_0125",
+      "call_0054",
+      "call_0315"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.0009953000117093325,
+    "min_seconds": 0.0008686999790370464,
+    "max_seconds": 0.000998999981675297,
+    "task_ids": [
+      "call_0214",
+      "call_0206",
+      "call_0044"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0235",
+      "call_0282",
+      "call_0034"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0098",
+      "call_0172",
+      "call_0005"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0336",
+      "call_0041",
+      "call_0106"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0016",
+      "call_0168",
+      "call_0237"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0294",
+      "call_0136",
+      "call_0412"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 1e-05,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0221",
+      "call_0295",
+      "call_0360"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0323",
+      "call_0426",
+      "call_0072"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0328",
+      "call_0343",
+      "call_0258"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "QUALITY_FAILED",
+    "successes": 0,
+    "status_counts": {
+      "QUALITY_FAILED": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0211",
+      "call_0124",
+      "call_0148"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 2.845735799986869,
+    "min_seconds": 2.8163242999871727,
+    "max_seconds": 2.901656499976525,
+    "task_ids": [
+      "call_0127",
+      "call_0350",
+      "call_0335"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.4159762999915984,
+    "min_seconds": 3.4056862000143155,
+    "max_seconds": 3.4225701999966986,
+    "task_ids": [
+      "call_0066",
+      "call_0325",
+      "call_0108"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.0001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.297305999993114,
+    "min_seconds": 3.2934574999962933,
+    "max_seconds": 3.309427699976368,
+    "task_ids": [
+      "call_0057",
+      "call_0095",
+      "call_0103"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 1.6552240999881178,
+    "min_seconds": 1.588682699977653,
+    "max_seconds": 1.7576818999950774,
+    "task_ids": [
+      "call_0129",
+      "call_0359",
+      "call_0429"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_knopp",
+    "status": "NUMERICAL_ERROR",
+    "successes": 0,
+    "status_counts": {
+      "NUMERICAL_ERROR": 3
+    },
+    "median_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "task_ids": [
+      "call_0284",
+      "call_0150",
+      "call_0183"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 3.3726028999953996,
+    "min_seconds": 3.3036862000008114,
+    "max_seconds": 3.393840900011128,
+    "task_ids": [
+      "call_0073",
+      "call_0194",
+      "call_0249"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_epsilon_scaling",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.29558030000771396,
+    "min_seconds": 0.2919067000038922,
+    "max_seconds": 0.31541210002615117,
+    "task_ids": [
+      "call_0013",
+      "call_0281",
+      "call_0405"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_knopp",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.3518952000013087,
+    "min_seconds": 0.3517025000182912,
+    "max_seconds": 0.3651755999890156,
+    "task_ids": [
+      "call_0226",
+      "call_0169",
+      "call_0400"
+    ]
+  },
+  {
+    "seed": 210103,
+    "n": 64,
+    "delta": 0.001,
+    "epsilon": 0.01,
+    "method": "sinkhorn_stabilized",
+    "status": "SUCCESS",
+    "successes": 3,
+    "status_counts": {
+      "SUCCESS": 3
+    },
+    "median_seconds": 0.3439395999885164,
+    "min_seconds": 0.34210999999777414,
+    "max_seconds": 0.3473859000077937,
+    "task_ids": [
+      "call_0176",
+      "call_0118",
+      "call_0386"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": {
+    "inputs_rebuilt": 24,
+    "bound_calls": 432,
+    "dual_plan_recomputed": 414,
+    "accepted_calls": 252
+  },
+  "expected_calls": 432,
+  "observed_calls": 432,
+  "shared_diagnostics_sha256": "7d8082bf87cef8d789cdbcbe8378c121256d10b7c0445b270f66603135571a79",
+  "missing_calls": [],
+  "errors": [],
+  "meaning": "audit consistency is not solver success; floating numerical diagnostics, not interval certificates"
+}

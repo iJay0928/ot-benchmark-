@@ -1,0 +1,5 @@
+# Full arrays and long native trajectories are included in the evidence ZIP.
+experiment_*/inputs/
+experiment_*/results/plans/
+experiment_*/results/logs/
+*_evidence.zip

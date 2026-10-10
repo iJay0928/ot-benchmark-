@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "frozen_utc": "2026-10-10T01:31:44.640136+00:00",
+  "upstream_commit": "39d866c",
+  "development_seed": 210001,
+  "seeds": [
+    210101,
+    210102,
+    210103
+  ],
+  "n": [
+    16,
+    64
+  ],
+  "delta": [
+    0.0,
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "epsilon": [
+    0.01,
+    0.001
+  ],
+  "repeats": 3,
+  "methods": [
+    "sinkhorn_knopp",
+    "sinkhorn_stabilized",
+    "sinkhorn_epsilon_scaling"
+  ],
+  "order_seed": 210099,
+  "max_iterations": 1000000,
+  "max_outer": 1000,
+  "max_inner": 1000,
+  "stopThr": 1e-12,
+  "timeout_seconds": 30.0,
+  "startup_timeout_seconds": 60.0,
+  "gap_min": -1e-10,
+  "gap_max": 1e-08,
+  "rounded_residual_limit": 1e-12,
+  "reconstruction_rtol": 1e-09,
+  "reconstruction_atol": 1e-12,
+  "geometry": "RNG reset for each (seed,n); same points for all deltas; two narrow 1D clusters",
+  "timing": "solver plus external acceptance; startup/import/warmup/input load/file IO excluded; serial calls",
+  "grouping": "48 dependent input-epsilon conditions; 144 method conditions; 432 repeated calls",
+  "source_sha256": {
+    "core.py": "a9e6b2a081985dff5f21a93281cbdcdd0b313e23b9c9cfb1fa24139a76aebe99",
+    "generate_inputs.py": "1a4ab2379e9d8add991bac3df9a21b9db9def9833751705f175e3285a3913271",
+    "run_baselines.py": "ecb9d9b1eaf4d79743c75b10b1d6ab8c3c16b09ccdc90580b2760725bb9eaafc",
+    "test_module_a.py": "79e440bc5e8d9bf78fe3f52918cc52a1b94e17124feeed0ab17ddd23c77a97be"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "POT": "0.9.6.post1",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "logical_cpu": 32,
+  "physical_cpu": 24,
+  "memory_bytes": 34049220608,
+  "pot_source_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592",
+  "threads": 1
+}

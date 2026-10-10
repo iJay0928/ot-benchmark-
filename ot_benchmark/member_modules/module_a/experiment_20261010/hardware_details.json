@@ -1,0 +1,7 @@
+{
+  "cpu_model": "13th Gen Intel(R) Core(TM) i9-13900HX",
+  "physical_cores": 24,
+  "logical_processors": 32,
+  "source": "read-only Windows Win32_Processor inspection; RAM and OS in environment.json",
+  "note": "Solver processes use single-thread NumPy/POT, not all 32 logical processors. Normal desktop/background activity was not disabled. Startup and transfer overhead are separately recorded; short runtimes remain noisy."
+}
