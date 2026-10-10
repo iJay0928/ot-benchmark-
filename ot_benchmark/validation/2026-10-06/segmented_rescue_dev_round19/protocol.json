@@ -1,0 +1,107 @@
+{
+  "role": "development only; all four previously observed fallback cases, not new holdout",
+  "case_selection": [
+    {
+      "domain": "movielens",
+      "seed": 105002,
+      "file": "movielens_001.npz",
+      "source_id": "movielens:user:22",
+      "target_id": "movielens:user:58",
+      "active_source": 74,
+      "active_target": 90,
+      "stored_shape": [
+        400,
+        400
+      ],
+      "loader_mass_sums": [
+        0.9999999999996478,
+        0.9999999999997261
+      ],
+      "geometry": "Movie genre vectors (19D)",
+      "sha256": "af206318393d64513f4c193d5a6ed4f141085485ddad0c6b6e77ba80c913a5ac"
+    },
+    {
+      "domain": "movielens",
+      "seed": 105007,
+      "file": "movielens_004.npz",
+      "source_id": "movielens:user:283",
+      "target_id": "movielens:user:149",
+      "active_source": 32,
+      "active_target": 30,
+      "stored_shape": [
+        400,
+        400
+      ],
+      "loader_mass_sums": [
+        0.9999999999992648,
+        0.9999999999988506
+      ],
+      "geometry": "Movie genre vectors (19D)",
+      "sha256": "f5d1cbeba8d9f76d398f6a5ce878e9b0bd9b9ed681bd1339a06765c42eca6446"
+    },
+    {
+      "domain": "kos",
+      "seed": 105001,
+      "file": "kos_001.npz",
+      "source_id": "uci:kos:document:971",
+      "target_id": "uci:kos:document:124",
+      "active_source": 52,
+      "active_target": 41,
+      "stored_shape": [
+        500,
+        500
+      ],
+      "loader_mass_sums": [
+        1.0,
+        0.9999999999999999
+      ],
+      "geometry": "TF-IDF term co-occurrence latent geometry",
+      "sha256": "3b4bd114d92a6f3259af04f2874bda76683e84ba167e49fc92347a7fcb180cf0"
+    },
+    {
+      "domain": "kos",
+      "seed": 105002,
+      "file": "kos_002.npz",
+      "source_id": "uci:kos:document:242",
+      "target_id": "uci:kos:document:679",
+      "active_source": 122,
+      "active_target": 86,
+      "stored_shape": [
+        500,
+        500
+      ],
+      "loader_mass_sums": [
+        1.0,
+        1.0
+      ],
+      "geometry": "TF-IDF term co-occurrence latent geometry",
+      "sha256": "8f568c9e1dd07f89d588aee41abc2c75204055e241ba19d481abb3d2e203e3eb"
+    }
+  ],
+  "source_sha256": "955cea83c22f2a4fc2c2ca07cd7e1c4015b642b268bc223115f1a7bc4c716601",
+  "actions": [
+    "ordinary_continue",
+    "warm_stabilized",
+    "cold_stabilized",
+    "cold_epsilon"
+  ],
+  "repetitions": 3,
+  "prefix_iterations": 50000,
+  "block_size": 5000,
+  "max_blocks": 40,
+  "stabilized_stop": 1e-12,
+  "epsilon_outer": 1000,
+  "epsilon_inner": 1000,
+  "epsilon_stop": 1e-22,
+  "epsilon0": 1.0,
+  "gap_tolerance": 1e-08,
+  "feasibility": 1e-12,
+  "roundoff_allowance": 1e-10,
+  "timing": "remaining action time from identical snapshot; includes initial quality check, kernel build, block checks and plan rounding; excludes shared prefix and input generation",
+  "limitation": "different method budgets; outer/inner iterations not interchangeable; not complete application speed or novel method",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

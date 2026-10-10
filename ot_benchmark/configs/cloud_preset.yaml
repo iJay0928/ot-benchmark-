@@ -1,0 +1,36 @@
+# OT Benchmark 华为云部署预设
+
+execution:
+  parallel_workers: 4
+  timeout_per_algorithm: 600
+  memory_limit_mb: 32768
+
+backend:
+  type: torch                   # ModelArts 提供 GPU 实例
+  gpu_id: 0
+  fallback: true
+
+weight_config:
+  w_accuracy: 0.35
+  w_speed: 0.30
+  w_memory: 0.25
+  w_success: 0.10
+  max_runtime: 300.0
+  max_memory: 32768.0
+
+output:
+  charts: true
+  html_report: true
+  format: png
+  dpi: 150
+  output_dir: /cache/benchmark_results
+
+cloud:
+  obs_enabled: true
+  obs_endpoint: "https://obs.cn-south-1.myhuaweicloud.com"
+  obs_bucket: "ot-benchmark-results"
+  modelarts_enabled: false
+
+logging:
+  level: INFO
+  file: /cache/benchmark.log

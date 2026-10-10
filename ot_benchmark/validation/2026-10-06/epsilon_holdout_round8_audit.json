@@ -1,0 +1,54 @@
+{
+  "cases": 12,
+  "runs": 144,
+  "manifest_verified": true,
+  "methods": {
+    "ordinary_10000": {
+      "successful_runs": 33,
+      "runs": 36,
+      "successful_cases": 11,
+      "sum_case_median_seconds": 0.24455930007388815,
+      "warning_runs": 3,
+      "paired_cases": 11,
+      "epsilon_over_method_time_median": 109.16773769961684
+    },
+    "ordinary_50000": {
+      "successful_runs": 33,
+      "runs": 36,
+      "successful_cases": 11,
+      "sum_case_median_seconds": 0.7714553999248892,
+      "warning_runs": 3,
+      "paired_cases": 11,
+      "epsilon_over_method_time_median": 108.90926290519364
+    },
+    "stabilized_50000": {
+      "successful_runs": 33,
+      "runs": 36,
+      "successful_cases": 11,
+      "sum_case_median_seconds": 0.6699114999501035,
+      "warning_runs": 3,
+      "paired_cases": 11,
+      "epsilon_over_method_time_median": 118.92566635092864
+    },
+    "epsilon_scaling": {
+      "successful_runs": 36,
+      "runs": 36,
+      "successful_cases": 12,
+      "sum_case_median_seconds": 5.686182200035546,
+      "warning_runs": 36,
+      "paired_cases": 12,
+      "epsilon_over_method_time_median": 1.0
+    }
+  },
+  "failed_cases": [
+    {
+      "config": "reg_0.001",
+      "seed": 96001,
+      "methods": [
+        "ordinary_10000",
+        "ordinary_50000",
+        "stabilized_50000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "role": "two previously viewed failures, development only; single run each",
+  "cases": [
+    {
+      "domain": "near_balanced_blocks",
+      "seed": 113001,
+      "file": "near_balanced_blocks_113001.npz",
+      "sha256": "d80dd9a25a8492946a0f15e56292ce8742df71b338278114fcf11e7635076a52",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "near_balanced_blocks",
+      "seed": 113002,
+      "file": "near_balanced_blocks_113002.npz",
+      "sha256": "8538febaa54ecc0fb4bb45466f90345495bce04ba0ed03ea26fba995c5ff4646",
+      "active_source": 16,
+      "active_target": 16
+    }
+  ],
+  "reg": 0.001,
+  "initial_reg": 1.0,
+  "factor": 0.5,
+  "stage_gap": 1e-08,
+  "stage_raw_residual": 1e-08,
+  "max_blocks": 1000,
+  "inner": 1000,
+  "target_gap": 1e-08,
+  "rounded_feasibility": 1e-12,
+  "reference": "round34 pace1/10 saved outcomes; compare quality and work only, not cross-run speed",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "manifest_verified": true,
+  "cases": 18,
+  "runs": 162,
+  "failures": [],
+  "totals": {
+    "every_250": {
+      "successes": 54,
+      "runs": 54,
+      "sum_case_median_seconds": 1.3517848000046797,
+      "fallback_runs": 0
+    },
+    "every_1000": {
+      "successes": 54,
+      "runs": 54,
+      "sum_case_median_seconds": 1.2931419998058118,
+      "fallback_runs": 0
+    },
+    "residual_gate": {
+      "successes": 54,
+      "runs": 54,
+      "sum_case_median_seconds": 1.8089294998790137,
+      "fallback_runs": 0
+    }
+  },
+  "groups": {
+    "n_300_reg_0.01": {
+      "every_250": {
+        "successes": 9,
+        "sum_medians": 0.008022000023629516,
+        "paired_cases": 3,
+        "median_speedup": 1.1934079795550159,
+        "faster_cases": 3,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          200,
+          250,
+          250
+        ]
+      },
+      "every_1000": {
+        "successes": 9,
+        "sum_medians": 0.009325999999418855,
+        "paired_cases": 3,
+        "median_speedup": 0.9969000914427013,
+        "faster_cases": 1,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          200,
+          300,
+          300
+        ]
+      },
+      "residual_gate": {
+        "successes": 9,
+        "sum_medians": 0.009327799954917282,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          200,
+          300,
+          300
+        ]
+      }
+    },
+    "n_300_reg_0.001": {
+      "every_250": {
+        "successes": 9,
+        "sum_medians": 0.10373069997876883,
+        "paired_cases": 3,
+        "median_speedup": 1.2670951637847712,
+        "faster_cases": 3,
+        "quality_checks": [
+          12,
+          8,
+          17
+        ],
+        "ordinary_iterations": [
+          3000,
+          2000,
+          4250
+        ]
+      },
+      "every_1000": {
+        "successes": 9,
+        "sum_medians": 0.10684989998117089,
+        "paired_cases": 3,
+        "median_speedup": 1.1850360125468582,
+        "faster_cases": 3,
+        "quality_checks": [
+          3,
+          2,
+          5
+        ],
+        "ordinary_iterations": [
+          3000,
+          2000,
+          5000
+        ]
+      },
+      "residual_gate": {
+        "successes": 9,
+        "sum_medians": 0.13012789993081242,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          4100,
+          2400,
+          5450
+        ]
+      }
+    },
+    "n_1000_reg_0.01": {
+      "every_250": {
+        "successes": 9,
+        "sum_medians": 0.011602799990214407,
+        "paired_cases": 3,
+        "median_speedup": 1.363417289465904,
+        "faster_cases": 2,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          250,
+          250,
+          200
+        ]
+      },
+      "every_1000": {
+        "successes": 9,
+        "sum_medians": 0.015247399976942688,
+        "paired_cases": 3,
+        "median_speedup": 0.970389628439558,
+        "faster_cases": 1,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          350,
+          400,
+          200
+        ]
+      },
+      "residual_gate": {
+        "successes": 9,
+        "sum_medians": 0.014885300013702363,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          350,
+          400,
+          200
+        ]
+      }
+    },
+    "n_1000_reg_0.001": {
+      "every_250": {
+        "successes": 9,
+        "sum_medians": 0.5289955000625923,
+        "paired_cases": 3,
+        "median_speedup": 1.233265002871867,
+        "faster_cases": 3,
+        "quality_checks": [
+          14,
+          122,
+          27
+        ],
+        "ordinary_iterations": [
+          3500,
+          30500,
+          6750
+        ]
+      },
+      "every_1000": {
+        "successes": 9,
+        "sum_medians": 0.5120530999265611,
+        "paired_cases": 3,
+        "median_speedup": 1.284531596422605,
+        "faster_cases": 3,
+        "quality_checks": [
+          4,
+          31,
+          7
+        ],
+        "ordinary_iterations": [
+          4000,
+          31000,
+          7000
+        ]
+      },
+      "residual_gate": {
+        "successes": 9,
+        "sum_medians": 0.6538889000075869,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          4450,
+          40450,
+          9800
+        ]
+      }
+    },
+    "n_2000_reg_0.01": {
+      "every_250": {
+        "successes": 9,
+        "sum_medians": 0.0242683999822475,
+        "paired_cases": 3,
+        "median_speedup": 1.0367788659539068,
+        "faster_cases": 2,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          150,
+          150,
+          200
+        ]
+      },
+      "every_1000": {
+        "successes": 9,
+        "sum_medians": 0.024001399986445904,
+        "paired_cases": 3,
+        "median_speedup": 1.0510739500177404,
+        "faster_cases": 2,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          150,
+          150,
+          200
+        ]
+      },
+      "residual_gate": {
+        "successes": 9,
+        "sum_medians": 0.02480960002867505,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          150,
+          150,
+          200
+        ]
+      }
+    },
+    "n_2000_reg_0.001": {
+      "every_250": {
+        "successes": 9,
+        "sum_medians": 0.6751653999672271,
+        "paired_cases": 3,
+        "median_speedup": 1.126346250483827,
+        "faster_cases": 3,
+        "quality_checks": [
+          14,
+          110,
+          18
+        ],
+        "ordinary_iterations": [
+          3500,
+          27500,
+          4500
+        ]
+      },
+      "every_1000": {
+        "successes": 9,
+        "sum_medians": 0.6256641999352723,
+        "paired_cases": 3,
+        "median_speedup": 1.132407823692131,
+        "faster_cases": 3,
+        "quality_checks": [
+          4,
+          28,
+          5
+        ],
+        "ordinary_iterations": [
+          4000,
+          28000,
+          5000
+        ]
+      },
+      "residual_gate": {
+        "successes": 9,
+        "sum_medians": 0.9758899999433197,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "quality_checks": [
+          1,
+          1,
+          1
+        ],
+        "ordinary_iterations": [
+          4650,
+          50000,
+          5550
+        ]
+      }
+    }
+  },
+  "regressions": {
+    "every_250": [
+      {
+        "label": "n_1000_reg_0.01",
+        "seed": 102003,
+        "slowdown": 1.005079747935913
+      },
+      {
+        "label": "n_2000_reg_0.01",
+        "seed": 102003,
+        "slowdown": 1.0264498904082269
+      }
+    ],
+    "every_1000": [
+      {
+        "label": "n_300_reg_0.01",
+        "seed": 102002,
+        "slowdown": 1.0351007411524502
+      },
+      {
+        "label": "n_300_reg_0.01",
+        "seed": 102003,
+        "slowdown": 1.0031095478713545
+      },
+      {
+        "label": "n_1000_reg_0.01",
+        "seed": 102001,
+        "slowdown": 1.033080335236507
+      },
+      {
+        "label": "n_1000_reg_0.01",
+        "seed": 102002,
+        "slowdown": 1.0305138994612475
+      },
+      {
+        "label": "n_2000_reg_0.01",
+        "seed": 102003,
+        "slowdown": 1.005581171757119
+      }
+    ]
+  },
+  "note": "Exploratory, shared seeds across scales/reg; repeated timing not independent samples; no significance or selected-policy holdout claim"
+}

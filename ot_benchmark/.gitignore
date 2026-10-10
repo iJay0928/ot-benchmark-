@@ -1,0 +1,5 @@
+.venv/
+.pytest*/
+__pycache__/
+*.pyc
+.test_dependencies/

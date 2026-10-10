@@ -1,0 +1,54 @@
+[
+  {
+    "state": "kos_reg_0.001_105001_state.npz",
+    "kernel_zeros": 61,
+    "l1_discrepancy": 141036.99913808945,
+    "total_variation": 0.04740121525494474,
+    "normalization_correction": 1.1102230246251565e-16,
+    "primal_difference": 0.004122983501513688,
+    "primal_bound": 0.042153762312945924,
+    "dual_mass_difference": 141.03699913808947,
+    "dual_bound": 141.03699913808944,
+    "observed_gap_distortion": 141.04112212159097,
+    "gap_distortion_bound": 141.0791529004024
+  },
+  {
+    "state": "kos_reg_0.001_105002_state.npz",
+    "kernel_zeros": 446,
+    "l1_discrepancy": 0.06648803394174878,
+    "total_variation": 0.040542875462037546,
+    "normalization_correction": 5.551115123125783e-17,
+    "primal_difference": 9.468362331510605e-06,
+    "primal_bound": 0.03454076999513896,
+    "dual_mass_difference": 3.668942618087523e-05,
+    "dual_bound": 6.648803394174878e-05,
+    "observed_gap_distortion": 4.6157788512385837e-05,
+    "gap_distortion_bound": 0.03460725802908071
+  },
+  {
+    "state": "movielens_reg_0.001_105002_state.npz",
+    "kernel_zeros": 38,
+    "l1_discrepancy": 1.0310761283908608e-14,
+    "total_variation": 4.197329689471402e-15,
+    "normalization_correction": 0.0,
+    "primal_difference": 1.1102230246251565e-16,
+    "primal_bound": 3.957717480198858e-15,
+    "dual_mass_difference": 1.998401444325282e-18,
+    "dual_bound": 1.0310761283908608e-17,
+    "observed_gap_distortion": 1.1302070390684094e-16,
+    "gap_distortion_bound": 3.968028241482767e-15
+  },
+  {
+    "state": "movielens_reg_0.001_105007_state.npz",
+    "kernel_zeros": 12,
+    "l1_discrepancy": 6.374232699530242e-05,
+    "total_variation": 0.00012708811529250704,
+    "normalization_correction": 0.0,
+    "primal_difference": 2.423823393316038e-05,
+    "primal_bound": 0.00011651901738527353,
+    "dual_mass_difference": 6.37423269874704e-08,
+    "dual_bound": 6.374232699530242e-08,
+    "observed_gap_distortion": 2.430197626014785e-05,
+    "gap_distortion_bound": 0.00011658275971226883
+  }
+]

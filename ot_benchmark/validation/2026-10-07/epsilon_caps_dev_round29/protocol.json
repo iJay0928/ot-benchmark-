@@ -1,0 +1,32 @@
+{
+  "role": "post-hoc known hard case development; fixed caps, single run each, no tuning or generalization claim",
+  "case": {
+    "domain": "kos",
+    "seed": 111012,
+    "file": "kos_005.npz",
+    "source_id": "uci:kos:document:77",
+    "target_id": "uci:kos:document:60",
+    "active_source": 33,
+    "active_target": 42,
+    "stored_shape": [
+      500,
+      500
+    ],
+    "loader_mass_sums": [
+      0.9999999999999999,
+      0.9999999999999999
+    ],
+    "geometry": "TF-IDF term co-occurrence latent geometry",
+    "sha256": "28f15ba4a0278d46ae0109e5933ad4e2fef64090a05520878c99969c93f90135"
+  },
+  "caps": [
+    100,
+    250,
+    500
+  ],
+  "inner": 1000,
+  "reg": 0.001,
+  "epsilon0": 1.0,
+  "stop": 1e-22,
+  "quality_gap": 1e-08
+}

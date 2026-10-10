@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "regenerated_pairs": 6,
+  "rows": [
+    {
+      "family": "balanced_blocks",
+      "seed": 113001,
+      "min_mass": 0.0625,
+      "kernel_zeros": {
+        "0.01": 0,
+        "0.001": 128
+      }
+    },
+    {
+      "family": "near_balanced_blocks",
+      "seed": 113001,
+      "min_mass": 0.0624875,
+      "kernel_zeros": {
+        "0.01": 0,
+        "0.001": 128
+      }
+    },
+    {
+      "family": "dynamic_mass",
+      "seed": 113001,
+      "min_mass": 6.778656250131061e-07,
+      "kernel_zeros": {
+        "0.01": 0,
+        "0.001": 12
+      }
+    },
+    {
+      "family": "balanced_blocks",
+      "seed": 113002,
+      "min_mass": 0.0625,
+      "kernel_zeros": {
+        "0.01": 0,
+        "0.001": 128
+      }
+    },
+    {
+      "family": "near_balanced_blocks",
+      "seed": 113002,
+      "min_mass": 0.0624875,
+      "kernel_zeros": {
+        "0.01": 0,
+        "0.001": 128
+      }
+    },
+    {
+      "family": "dynamic_mass",
+      "seed": 113002,
+      "min_mass": 7.164554489372404e-07,
+      "kernel_zeros": {
+        "0.01": 0,
+        "0.001": 10
+      }
+    }
+  ]
+}

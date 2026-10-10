@@ -1,0 +1,332 @@
+{
+  "manifest_verified": true,
+  "groups": {
+    "all": {
+      "totals": {
+        "guarded": {
+          "successes": 72,
+          "runs": 72,
+          "sum_medians": 0.538760400027968,
+          "stage_runs": 15,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 72,
+          "runs": 72,
+          "sum_medians": 0.7037236998439766,
+          "stage_runs": 72,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 72,
+          "runs": 72,
+          "sum_medians": 0.6431832998641767,
+          "stage_runs": 72,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 24,
+          "faster_cases": 22,
+          "median_speedup": 1.3850900046427164,
+          "paired_time_reduction": 0.23441487028585628,
+          "worst_speedup": 0.955380870484806
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 24,
+          "faster_cases": 22,
+          "median_speedup": 1.2060676223033617,
+          "paired_time_reduction": 0.16235325117779031,
+          "worst_speedup": 0.7270177227054412
+        }
+      }
+    },
+    "movielens": {
+      "totals": {
+        "guarded": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.19437250000191852,
+          "stage_runs": 3,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.28654489998007193,
+          "stage_runs": 36,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.2866161999409087,
+          "stage_runs": 36,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 12,
+          "faster_cases": 12,
+          "median_speedup": 1.526863091202526,
+          "paired_time_reduction": 0.321668262057931,
+          "worst_speedup": 1.1879840757631732
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 12,
+          "faster_cases": 12,
+          "median_speedup": 1.2690527451253972,
+          "paired_time_reduction": 0.3218370069731158,
+          "worst_speedup": 1.1214276093701705
+        }
+      }
+    },
+    "kos": {
+      "totals": {
+        "guarded": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.34438790002604946,
+          "stage_runs": 12,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.4171787998639047,
+          "stage_runs": 36,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.35656709992326796,
+          "stage_runs": 36,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 12,
+          "faster_cases": 10,
+          "median_speedup": 1.340470831831328,
+          "paired_time_reduction": 0.17448369826463295,
+          "worst_speedup": 0.955380870484806
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 12,
+          "faster_cases": 10,
+          "median_speedup": 1.1339368122057154,
+          "paired_time_reduction": 0.03415682461965619,
+          "worst_speedup": 0.7270177227054412
+        }
+      }
+    },
+    "movielens_reg_0.01": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.030788199976086617,
+          "stage_runs": 0,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.054888100014068186,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.04384379991097376,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 6,
+          "faster_cases": 6,
+          "median_speedup": 1.7684472656053858,
+          "paired_time_reduction": 0.43907331519590953,
+          "worst_speedup": 1.4095838436300938
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 6,
+          "faster_cases": 6,
+          "median_speedup": 1.2606469613263287,
+          "paired_time_reduction": 0.2977752831961864,
+          "worst_speedup": 1.1556835483847747
+        }
+      }
+    },
+    "movielens_reg_0.001": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.1635843000258319,
+          "stage_runs": 3,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.23165679996600375,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.24277240002993494,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 6,
+          "faster_cases": 6,
+          "median_speedup": 1.224546383916134,
+          "paired_time_reduction": 0.29385064435907626,
+          "worst_speedup": 1.1879840757631732
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 6,
+          "faster_cases": 6,
+          "median_speedup": 1.2690527451253972,
+          "paired_time_reduction": 0.3261824655287783,
+          "worst_speedup": 1.1214276093701705
+        }
+      }
+    },
+    "kos_reg_0.01": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.037470299983397126,
+          "stage_runs": 0,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.05885639996267855,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.04566559992963448,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 6,
+          "faster_cases": 6,
+          "median_speedup": 1.5279814983080575,
+          "paired_time_reduction": 0.36336065394489925,
+          "worst_speedup": 1.2091995426449382
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 6,
+          "faster_cases": 6,
+          "median_speedup": 1.1905360568297472,
+          "paired_time_reduction": 0.17946331503068802,
+          "worst_speedup": 1.0642979057630813
+        }
+      }
+    },
+    "kos_reg_0.001": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.30691760004265234,
+          "stage_runs": 12,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.35832239990122616,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        },
+        "direct_stabilized_250": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.3109014999936335,
+          "stage_runs": 18,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "direct_stabilized": {
+          "paired_cases": 6,
+          "faster_cases": 4,
+          "median_speedup": 1.1398905810087754,
+          "paired_time_reduction": 0.14345963264575112,
+          "worst_speedup": 0.955380870484806
+        },
+        "direct_stabilized_250": {
+          "paired_cases": 6,
+          "faster_cases": 4,
+          "median_speedup": 1.071409883802954,
+          "paired_time_reduction": 0.012814026149962965,
+          "worst_speedup": 0.7270177227054412
+        }
+      }
+    }
+  },
+  "failures": [],
+  "trigger_cases": [
+    {
+      "domain": "movielens",
+      "seed": 107014,
+      "reg": 0.001,
+      "iteration": 1000,
+      "discrepancy": 0.00010890288079401035
+    },
+    {
+      "domain": "kos",
+      "seed": 107001,
+      "reg": 0.001,
+      "iteration": 250,
+      "discrepancy": 122948294618.95676
+    },
+    {
+      "domain": "kos",
+      "seed": 107002,
+      "reg": 0.001,
+      "iteration": 250,
+      "discrepancy": 5.572788463639054e+18
+    },
+    {
+      "domain": "kos",
+      "seed": 107003,
+      "reg": 0.001,
+      "iteration": 250,
+      "discrepancy": 2.0168519923472108e-05
+    },
+    {
+      "domain": "kos",
+      "seed": 107006,
+      "reg": 0.001,
+      "iteration": 250,
+      "discrepancy": 0.06858703052285035
+    }
+  ],
+  "warning_runs": 87,
+  "note": "complete solver timings; shared preprocessing excluded; six pairs per corpus reused across regularizations; no statistical significance claim"
+}

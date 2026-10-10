@@ -1,0 +1,59 @@
+[
+  {
+    "cap": 100,
+    "outer": 100,
+    "seconds": 1.2846230999566615,
+    "accepted": false,
+    "diagnostics": {
+      "raw_residual": 1.3001759556208192e-06,
+      "rounded_residual": 2.220446049250313e-16,
+      "rounded_primal": 0.2095056189427908,
+      "dual": 0.20950542345300877,
+      "numerical_gap": 1.9548978202887923e-07,
+      "rounding_l1": 1.3001761340099826e-06,
+      "raw_transport_cost": 0.21449815578558584,
+      "rounded_transport_cost": 0.21449826516242493
+    },
+    "warnings": [
+      "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+    ]
+  },
+  {
+    "cap": 250,
+    "outer": 250,
+    "seconds": 3.2337966000195593,
+    "accepted": false,
+    "diagnostics": {
+      "raw_residual": 1.5017300836889236e-07,
+      "rounded_residual": 2.1510571102112408e-16,
+      "rounded_primal": 0.20950544477056113,
+      "dual": 0.20950542356903565,
+      "numerical_gap": 2.1201525479686012e-08,
+      "rounding_l1": 1.5017316945911156e-07,
+      "raw_transport_cost": 0.21449806996992102,
+      "rounded_transport_cost": 0.21449808244979512
+    },
+    "warnings": [
+      "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+    ]
+  },
+  {
+    "cap": 500,
+    "outer": 500,
+    "seconds": 6.459099899977446,
+    "accepted": true,
+    "diagnostics": {
+      "raw_residual": 3.433667540228558e-08,
+      "rounded_residual": 1.8041124150158794e-16,
+      "rounded_primal": 0.20950542726286492,
+      "dual": 0.20950542357081217,
+      "numerical_gap": 3.692052746862018e-09,
+      "rounding_l1": 3.433667542915893e-08,
+      "raw_transport_cost": 0.2144980612732242,
+      "rounded_transport_cost": 0.21449806402500105
+    },
+    "warnings": [
+      "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+    ]
+  }
+]

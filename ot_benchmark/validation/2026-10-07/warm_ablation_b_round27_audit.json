@@ -1,0 +1,121 @@
+{
+  "failures": [],
+  "switches": [
+    {
+      "label": "movielens_reg_0.001",
+      "seed": 110003,
+      "prefix": 750,
+      "warm_work": 181,
+      "cold_work": 871
+    },
+    {
+      "label": "movielens_reg_0.001",
+      "seed": 110004,
+      "prefix": 500,
+      "warm_work": 241,
+      "cold_work": 681
+    },
+    {
+      "label": "kos_reg_0.001",
+      "seed": 110002,
+      "prefix": 500,
+      "warm_work": 1000,
+      "cold_work": 1500
+    },
+    {
+      "label": "kos_reg_0.001",
+      "seed": 110006,
+      "prefix": 250,
+      "warm_work": 1750,
+      "cold_work": 2000
+    }
+  ],
+  "groups": {
+    "all": {
+      "totals": {
+        "guarded_250": 0.34523520001675934,
+        "guarded_cold_250": 0.381459700060077,
+        "direct_stabilized_250": 0.4031513000954874
+      },
+      "comparisons": {
+        "guarded_cold_250": {
+          "paired": 24,
+          "faster": 15,
+          "median_speedup": 1.0111062325492424,
+          "reduction": 0.09496284938517119
+        },
+        "direct_stabilized_250": {
+          "paired": 24,
+          "faster": 24,
+          "median_speedup": 1.186489239087573,
+          "reduction": 0.14365847279919597
+        }
+      }
+    },
+    "switched": {
+      "totals": {
+        "guarded_250": 0.07617160002700984,
+        "guarded_cold_250": 0.1115031000226736,
+        "direct_stabilized_250": 0.08607740001752973
+      },
+      "comparisons": {
+        "guarded_cold_250": {
+          "paired": 4,
+          "faster": 4,
+          "median_speedup": 1.5720278838879889,
+          "reduction": 0.3168656296415012
+        },
+        "direct_stabilized_250": {
+          "paired": 4,
+          "faster": 4,
+          "median_speedup": 1.1076620274434212,
+          "reduction": 0.11508014866274485
+        }
+      }
+    },
+    "not_switched": {
+      "totals": {
+        "guarded_250": 0.2690635999897495,
+        "guarded_cold_250": 0.2699566000374034,
+        "direct_stabilized_250": 0.31707390007795766
+      },
+      "comparisons": {
+        "guarded_cold_250": {
+          "paired": 20,
+          "faster": 11,
+          "median_speedup": 1.0092697444624252,
+          "reduction": 0.0033079393040591487
+        },
+        "direct_stabilized_250": {
+          "paired": 20,
+          "faster": 20,
+          "median_speedup": 1.1963910644108118,
+          "reduction": 0.1514167519824371
+        }
+      }
+    },
+    "kos_reg_0.001": {
+      "totals": {
+        "guarded_250": 0.22257370012812316,
+        "guarded_cold_250": 0.24018680007429793,
+        "direct_stabilized_250": 0.25544090004405007
+      },
+      "comparisons": {
+        "guarded_cold_250": {
+          "paired": 6,
+          "faster": 5,
+          "median_speedup": 1.0240832421942128,
+          "reduction": 0.07333084058210715
+        },
+        "direct_stabilized_250": {
+          "paired": 6,
+          "faster": 6,
+          "median_speedup": 1.155049512252563,
+          "reduction": 0.12866850966411036
+        }
+      }
+    }
+  },
+  "prefix_equal": true,
+  "cold_path_equal_when_budget_allows": true
+}

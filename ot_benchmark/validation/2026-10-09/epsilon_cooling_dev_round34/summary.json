@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "seed": 113001,
+      "pace": 1,
+      "outer": 1000,
+      "inner_work": 1000000,
+      "accepted": false,
+      "seconds": 13.114994800002023,
+      "diagnostics": {
+        "raw_residual": 0.00020000000040730492,
+        "rounded_residual": 1.1102230246251565e-16,
+        "rounded_primal": -0.005705815348711165,
+        "dual": -0.005757769452877412,
+        "numerical_gap": 5.19541041662467e-05,
+        "rounding_l1": 0.0002000000004905673,
+        "raw_transport_cost": 4.751880181441963e-05,
+        "rounded_transport_cost": 0.00014512408921786487
+      },
+      "rounded_net_to_first": 9.999999999999593e-05
+    },
+    {
+      "seed": 113001,
+      "pace": 10,
+      "outer": 1000,
+      "inner_work": 1000000,
+      "accepted": false,
+      "seconds": 12.955586700001732,
+      "diagnostics": {
+        "raw_residual": 0.00020000000154415942,
+        "rounded_residual": 8.326672684688674e-17,
+        "rounded_primal": -0.005705815348708493,
+        "dual": -0.005719987284271994,
+        "numerical_gap": 1.4171935563501124e-05,
+        "rounding_l1": 0.00020000000165018138,
+        "raw_transport_cost": 4.751880181443981e-05,
+        "rounded_transport_cost": 0.0001451240892205372
+      },
+      "rounded_net_to_first": 9.999999999998899e-05
+    },
+    {
+      "seed": 113002,
+      "pace": 1,
+      "outer": 1000,
+      "inner_work": 1000000,
+      "accepted": false,
+      "seconds": 12.97207800000615,
+      "diagnostics": {
+        "raw_residual": 0.000200000000054254,
+        "rounded_residual": 5.551115123125783e-17,
+        "rounded_primal": -0.005690607224815004,
+        "dual": -0.00574114060328984,
+        "numerical_gap": 5.053337847483585e-05,
+        "rounding_l1": 0.00020000000044142173,
+        "raw_transport_cost": 6.396063354157679e-05,
+        "rounded_transport_cost": 0.0001599848888709608
+      },
+      "rounded_net_to_first": 9.999999999996123e-05
+    },
+    {
+      "seed": 113002,
+      "pace": 10,
+      "outer": 1000,
+      "inner_work": 1000000,
+      "accepted": false,
+      "seconds": 12.964031199997407,
+      "diagnostics": {
+        "raw_residual": 0.0002000000002816693,
+        "rounded_residual": 9.020562075079397e-17,
+        "rounded_primal": -0.0056906072248157314,
+        "dual": -0.00570392862507342,
+        "numerical_gap": 1.332140025768827e-05,
+        "rounding_l1": 0.00020000000120838548,
+        "raw_transport_cost": 6.396063354160059e-05,
+        "rounded_transport_cost": 0.0001599848888702327
+      },
+      "rounded_net_to_first": 0.0001000000000000098
+    }
+  ]
+}

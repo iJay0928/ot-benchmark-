@@ -1,0 +1,397 @@
+{
+  "role": "36 previously viewed development cases; no tuning during this run",
+  "cases": [
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101001
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101002
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101003
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102001
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102002
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102003
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101001
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101002
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101003
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102001
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102002
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102003
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101001
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101002
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101003
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102001
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102002
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102003
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101001
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101002
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101003
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102001
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102002
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102003
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101001
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101002
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 101003
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102001
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102002
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102003
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101001
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101002
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 101003
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102001
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102002
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102003
+    }
+  ],
+  "methods": [
+    "adaptive",
+    "every_250",
+    "every_1000",
+    "residual_gate"
+  ],
+  "repetitions": 3,
+  "ordinary_budget": 50000,
+  "periodic_every": [
+    250,
+    1000
+  ],
+  "raw_check_every": 50,
+  "raw_gate": 1e-09,
+  "gap_tolerance": 1e-08,
+  "rounded_feasibility": 1e-12,
+  "roundoff_allowance": 1e-10,
+  "epsilon_outer": 200,
+  "epsilon_inner": 1000,
+  "epsilon0": 1.0,
+  "epsilon_stop": 1e-22,
+  "objective": "sum(C*P)+reg*sum(P*(log(P)-1))",
+  "timing": "entire solver call, including diagnostics, fallback, rounding and full plan allocation; excludes shared input generation and independent output audit",
+  "policy_note": "adaptive first at 250; half log-gap forecast horizon, at least 20x measured check/iteration cost, bounded 50..2000 and rounded to 50; stagnant gap uses 2000; common raw gate and fallback; online timings and trace allocation included",
+  "limitation": "fixed conservative epsilon schedule; no optimal baseline tuning, no interval certificate, dependent seeds across configs",
+  "pot_version": "0.9.6.post1",
+  "pot_source_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "manifest_verified": true,
+  "input_replay_verified": true,
+  "groups": {
+    "all": {
+      "guard_1e-10": {
+        "successes": 72,
+        "runs": 72,
+        "sum_medians": 0.7325968000222929,
+        "paired_cases": 24,
+        "median_speedup": 1.246707015602956,
+        "faster_cases": 22,
+        "paired_time_reduction": 0.19488265799327986
+      },
+      "guard_1e-08": {
+        "successes": 72,
+        "runs": 72,
+        "sum_medians": 0.731617999903392,
+        "paired_cases": 24,
+        "median_speedup": 1.2630096724005349,
+        "faster_cases": 23,
+        "paired_time_reduction": 0.19595835058443134
+      },
+      "guard_1e-06": {
+        "successes": 72,
+        "runs": 72,
+        "sum_medians": 5.974507699953392,
+        "paired_cases": 24,
+        "median_speedup": 1.2135941628277425,
+        "faster_cases": 22,
+        "paired_time_reduction": -5.5659306170034935
+      },
+      "direct_stabilized_250": {
+        "successes": 72,
+        "runs": 72,
+        "sum_medians": 0.9099255000473931,
+        "paired_cases": 24,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "movielens_reg_0.01": {
+      "guard_1e-10": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.049532399978488684,
+        "paired_cases": 6,
+        "median_speedup": 1.2818326123974826,
+        "faster_cases": 5,
+        "paired_time_reduction": 0.2349475934430173
+      },
+      "guard_1e-08": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.04792409995570779,
+        "paired_cases": 6,
+        "median_speedup": 1.291495259593652,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.25978858244069425
+      },
+      "guard_1e-06": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.04855999996652827,
+        "paired_cases": 6,
+        "median_speedup": 1.2810933992200653,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.24996679238369934
+      },
+      "direct_stabilized_250": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.06474379997234792,
+        "paired_cases": 6,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "movielens_reg_0.001": {
+      "guard_1e-10": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.2957453000708483,
+        "paired_cases": 6,
+        "median_speedup": 1.2314646975376173,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.2291351657759747
+      },
+      "guard_1e-08": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.29488840006524697,
+        "paired_cases": 6,
+        "median_speedup": 1.2799861800309809,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.23136868928625942
+      },
+      "guard_1e-06": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 5.53343690012116,
+        "paired_cases": 6,
+        "median_speedup": 1.1796837538248683,
+        "faster_cases": 5,
+        "paired_time_reduction": -13.422991397256888
+      },
+      "direct_stabilized_250": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.3836539000621997,
+        "paired_cases": 6,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "kos_reg_0.01": {
+      "guard_1e-10": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.029929399956017733,
+        "paired_cases": 6,
+        "median_speedup": 1.339986650284143,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.24554261434250257
+      },
+      "guard_1e-08": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.029863899922929704,
+        "paired_cases": 6,
+        "median_speedup": 1.3150744515291115,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.24719373276775314
+      },
+      "guard_1e-06": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.03049599996302277,
+        "paired_cases": 6,
+        "median_speedup": 1.3265715496057044,
+        "faster_cases": 6,
+        "paired_time_reduction": 0.2312598168047394
+      },
+      "direct_stabilized_250": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.03967010002816096,
+        "paired_cases": 6,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "kos_reg_0.001": {
+      "guard_1e-10": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.35738970001693815,
+        "paired_cases": 6,
+        "median_speedup": 1.1894404709697635,
+        "faster_cases": 5,
+        "paired_time_reduction": 0.15281930368957808
+      },
+      "guard_1e-08": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.3589415999595076,
+        "paired_cases": 6,
+        "median_speedup": 1.1808641002461286,
+        "faster_cases": 5,
+        "paired_time_reduction": 0.1491405751926803
+      },
+      "guard_1e-06": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.36201479990268126,
+        "paired_cases": 6,
+        "median_speedup": 1.177898402733975,
+        "faster_cases": 5,
+        "paired_time_reduction": 0.1418556543691769
+      },
+      "direct_stabilized_250": {
+        "successes": 18,
+        "runs": 18,
+        "sum_medians": 0.4218576999846846,
+        "paired_cases": 6,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    }
+  },
+  "failures": [],
+  "threshold_different_paths": [
+    {
+      "label": "movielens_reg_0.001",
+      "seed": 106011,
+      "paths": {
+        "guard_1e-08": [
+          2250,
+          "representation discrepancy",
+          [
+            [
+              "warm_stabilized",
+              3861
+            ]
+          ]
+        ],
+        "guard_1e-10": [
+          2250,
+          "representation discrepancy",
+          [
+            [
+              "warm_stabilized",
+              3861
+            ]
+          ]
+        ],
+        "guard_1e-06": [
+          50000,
+          "ordinary budget",
+          [
+            [
+              "ordinary_continue",
+              200000
+            ],
+            [
+              "cold_epsilon",
+              37
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "triggers": [
+    {
+      "label": "movielens_reg_0.001",
+      "seed": 106011,
+      "method": "guard_1e-08",
+      "iteration": 2250,
+      "discrepancy": 1.3579670573709236e-08
+    },
+    {
+      "label": "movielens_reg_0.001",
+      "seed": 106011,
+      "method": "guard_1e-10",
+      "iteration": 2250,
+      "discrepancy": 1.3579670573709236e-08
+    },
+    {
+      "label": "kos_reg_0.001",
+      "seed": 106007,
+      "method": "guard_1e-10",
+      "iteration": 250,
+      "discrepancy": 1.6612874582923071e+44
+    },
+    {
+      "label": "kos_reg_0.001",
+      "seed": 106007,
+      "method": "guard_1e-06",
+      "iteration": 250,
+      "discrepancy": 1.6612874582923071e+44
+    },
+    {
+      "label": "kos_reg_0.001",
+      "seed": 106007,
+      "method": "guard_1e-08",
+      "iteration": 250,
+      "discrepancy": 1.6612874582923071e+44
+    }
+  ],
+  "note": "exploratory threshold sweep; source role defined in protocol; no selected-threshold holdout; repeated timings and shared inputs are dependent"
+}

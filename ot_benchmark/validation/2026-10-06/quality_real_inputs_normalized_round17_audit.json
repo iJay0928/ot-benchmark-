@@ -1,0 +1,83 @@
+{
+  "manifest_verified": true,
+  "raw_sources_verified": true,
+  "prior_ids_excluded": 120,
+  "pairs": 12,
+  "distinct_new_observations": 24,
+  "rows": [
+    {
+      "domain": "movielens",
+      "source_active": 14,
+      "target_active": 39,
+      "original_mass_defect": 1.9230173009532336e-12
+    },
+    {
+      "domain": "movielens",
+      "source_active": 74,
+      "target_active": 90,
+      "original_mass_defect": 3.5216274341109965e-13
+    },
+    {
+      "domain": "movielens",
+      "source_active": 30,
+      "target_active": 15,
+      "original_mass_defect": 1.7241763572428681e-12
+    },
+    {
+      "domain": "movielens",
+      "source_active": 128,
+      "target_active": 66,
+      "original_mass_defect": 4.785061236134425e-13
+    },
+    {
+      "domain": "movielens",
+      "source_active": 32,
+      "target_active": 30,
+      "original_mass_defect": 1.1494138973944246e-12
+    },
+    {
+      "domain": "movielens",
+      "source_active": 42,
+      "target_active": 68,
+      "original_mass_defect": 8.929523787060134e-13
+    },
+    {
+      "domain": "kos",
+      "source_active": 40,
+      "target_active": 34,
+      "original_mass_defect": 1.1102230246251565e-16
+    },
+    {
+      "domain": "kos",
+      "source_active": 52,
+      "target_active": 41,
+      "original_mass_defect": 1.1102230246251565e-16
+    },
+    {
+      "domain": "kos",
+      "source_active": 122,
+      "target_active": 86,
+      "original_mass_defect": 0.0
+    },
+    {
+      "domain": "kos",
+      "source_active": 57,
+      "target_active": 47,
+      "original_mass_defect": 0.0
+    },
+    {
+      "domain": "kos",
+      "source_active": 31,
+      "target_active": 22,
+      "original_mass_defect": 1.1102230246251565e-16
+    },
+    {
+      "domain": "kos",
+      "source_active": 33,
+      "target_active": 38,
+      "original_mass_defect": 0.0
+    }
+  ],
+  "max_loader_mass_defect": 1.9230173009532336e-12,
+  "solver_performance_evaluated": false
+}

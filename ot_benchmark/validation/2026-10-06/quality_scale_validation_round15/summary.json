@@ -1,0 +1,4596 @@
+{
+  "totals": {
+    "every_250": {
+      "successes": 54,
+      "runs": 54,
+      "sum_case_median_seconds": 1.3517848000046797,
+      "fallback_runs": 0
+    },
+    "every_1000": {
+      "successes": 54,
+      "runs": 54,
+      "sum_case_median_seconds": 1.2931419998058118,
+      "fallback_runs": 0
+    },
+    "residual_gate": {
+      "successes": 54,
+      "runs": 54,
+      "sum_case_median_seconds": 1.8089294998790137,
+      "fallback_runs": 0
+    }
+  },
+  "cases": [
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102001,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.0022604999830946326,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.0022888999665156007,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.002419999975245446,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.002419999975245446,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.0022888999665156007,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.002274800033774227,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.0030814000056125224,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.0024411000194959342,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.00225349998800084,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.002243500028271228,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.002259699977003038,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.0022604999830946326,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.800595121758679e-10,
+              "rounded_residual": 1.5612511283791264e-16,
+              "rounded_primal": 0.06757868086725259,
+              "dual": 0.06757868086132508,
+              "numerical_gap": 5.927508484049326e-12,
+              "rounding_l1": 6.800596463542928e-10,
+              "raw_transport_cost": 0.12041556338095755,
+              "rounded_transport_cost": 0.12041556347501953
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.5612511283791264e-16,
+          "audit_objective": 0.0675786808672526,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102002,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.0027972999960184097,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.0034886000212281942,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.0033702999935485423,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.004666200024075806,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.665779149292675e-10,
+              "rounded_residual": 1.5959455978986625e-16,
+              "rounded_primal": 0.05802200178522855,
+              "dual": 0.05802200176813363,
+              "numerical_gap": 1.7094922699634196e-11,
+              "rounding_l1": 9.665779360652306e-10,
+              "raw_transport_cost": 0.11046746712006464,
+              "rounded_transport_cost": 0.1104674672301946
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.255140518769849e-16,
+          "audit_objective": 0.05802200178522854,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.0027972999960184097,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2543873825071605e-08,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.05802200211964966,
+              "dual": 0.0580220017681336,
+              "numerical_gap": 3.515160593159372e-10,
+              "rounding_l1": 1.2543873900501944e-08,
+              "raw_transport_cost": 0.11046746695885039,
+              "rounded_transport_cost": 0.11046746840972785
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.4224732503009818e-16,
+          "audit_objective": 0.05802200211964966,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.0034886000212281942,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.665779149292675e-10,
+              "rounded_residual": 1.5959455978986625e-16,
+              "rounded_primal": 0.05802200178522855,
+              "dual": 0.05802200176813363,
+              "numerical_gap": 1.7094922699634196e-11,
+              "rounding_l1": 9.665779360652306e-10,
+              "raw_transport_cost": 0.11046746712006464,
+              "rounded_transport_cost": 0.1104674672301946
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.255140518769849e-16,
+          "audit_objective": 0.05802200178522854,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.0029847999685443938,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2543873825071605e-08,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.05802200211964966,
+              "dual": 0.0580220017681336,
+              "numerical_gap": 3.515160593159372e-10,
+              "rounding_l1": 1.2543873900501944e-08,
+              "raw_transport_cost": 0.11046746695885039,
+              "rounded_transport_cost": 0.11046746840972785
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.4224732503009818e-16,
+          "audit_objective": 0.05802200211964966,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.0036098999553360045,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.665779149292675e-10,
+              "rounded_residual": 1.5959455978986625e-16,
+              "rounded_primal": 0.05802200178522855,
+              "dual": 0.05802200176813363,
+              "numerical_gap": 1.7094922699634196e-11,
+              "rounding_l1": 9.665779360652306e-10,
+              "raw_transport_cost": 0.11046746712006464,
+              "rounded_transport_cost": 0.1104674672301946
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.255140518769849e-16,
+          "audit_objective": 0.05802200178522854,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.0033702999935485423,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.665779149292675e-10,
+              "rounded_residual": 1.5959455978986625e-16,
+              "rounded_primal": 0.05802200178522855,
+              "dual": 0.05802200176813363,
+              "numerical_gap": 1.7094922699634196e-11,
+              "rounding_l1": 9.665779360652306e-10,
+              "raw_transport_cost": 0.11046746712006464,
+              "rounded_transport_cost": 0.1104674672301946
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.255140518769849e-16,
+          "audit_objective": 0.05802200178522854,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.002757499983999878,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2543873825071605e-08,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.05802200211964966,
+              "dual": 0.0580220017681336,
+              "numerical_gap": 3.515160593159372e-10,
+              "rounding_l1": 1.2543873900501944e-08,
+              "raw_transport_cost": 0.11046746695885039,
+              "rounded_transport_cost": 0.11046746840972785
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.4224732503009818e-16,
+          "audit_objective": 0.05802200211964966,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.003208999987691641,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.665779149292675e-10,
+              "rounded_residual": 1.5959455978986625e-16,
+              "rounded_primal": 0.05802200178522855,
+              "dual": 0.05802200176813363,
+              "numerical_gap": 1.7094922699634196e-11,
+              "rounding_l1": 9.665779360652306e-10,
+              "raw_transport_cost": 0.11046746712006464,
+              "rounded_transport_cost": 0.1104674672301946
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.255140518769849e-16,
+          "audit_objective": 0.05802200178522854,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.003352499974425882,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.665779149292675e-10,
+              "rounded_residual": 1.5959455978986625e-16,
+              "rounded_primal": 0.05802200178522855,
+              "dual": 0.05802200176813363,
+              "numerical_gap": 1.7094922699634196e-11,
+              "rounding_l1": 9.665779360652306e-10,
+              "raw_transport_cost": 0.11046746712006464,
+              "rounded_transport_cost": 0.1104674672301946
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.255140518769849e-16,
+          "audit_objective": 0.05802200178522854,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.01",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102003,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.002964200044516474,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.00354850001167506,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.0035374999861232936,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.0035147000453434885,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.7107125091508912e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.058797341142752195,
+              "dual": 0.05879734114071708,
+              "numerical_gap": 2.035115131970855e-12,
+              "rounding_l1": 1.7107123540766638e-10,
+              "raw_transport_cost": 0.11117674592206558,
+              "rounded_transport_cost": 0.11117674594333682
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.058797341142752195,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.002929000009316951,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 3.783049006000905e-09,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.05879734121261994,
+              "dual": 0.058797341140717094,
+              "numerical_gap": 7.190284478930664e-11,
+              "rounding_l1": 3.7830489990611556e-09,
+              "raw_transport_cost": 0.11117674586231234,
+              "rounded_transport_cost": 0.11117674633189287
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.05879734121261995,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.0035374999861232936,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.7107125091508912e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.058797341142752195,
+              "dual": 0.05879734114071708,
+              "numerical_gap": 2.035115131970855e-12,
+              "rounding_l1": 1.7107123540766638e-10,
+              "raw_transport_cost": 0.11117674592206558,
+              "rounded_transport_cost": 0.11117674594333682
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.058797341142752195,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.00333799998043105,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 3.783049006000905e-09,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.05879734121261994,
+              "dual": 0.058797341140717094,
+              "numerical_gap": 7.190284478930664e-11,
+              "rounding_l1": 3.7830489990611556e-09,
+              "raw_transport_cost": 0.11117674586231234,
+              "rounded_transport_cost": 0.11117674633189287
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.05879734121261995,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.004088099987711757,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.7107125091508912e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.058797341142752195,
+              "dual": 0.05879734114071708,
+              "numerical_gap": 2.035115131970855e-12,
+              "rounding_l1": 1.7107123540766638e-10,
+              "raw_transport_cost": 0.11117674592206558,
+              "rounded_transport_cost": 0.11117674594333682
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.058797341142752195,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.00354850001167506,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.7107125091508912e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.058797341142752195,
+              "dual": 0.05879734114071708,
+              "numerical_gap": 2.035115131970855e-12,
+              "rounding_l1": 1.7107123540766638e-10,
+              "raw_transport_cost": 0.11117674592206558,
+              "rounded_transport_cost": 0.11117674594333682
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.058797341142752195,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.003735199978109449,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.7107125091508912e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.058797341142752195,
+              "dual": 0.05879734114071708,
+              "numerical_gap": 2.035115131970855e-12,
+              "rounding_l1": 1.7107123540766638e-10,
+              "raw_transport_cost": 0.11117674592206558,
+              "rounded_transport_cost": 0.11117674594333682
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.058797341142752195,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.002964200044516474,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 3.783049006000905e-09,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.05879734121261994,
+              "dual": 0.058797341140717094,
+              "numerical_gap": 7.190284478930664e-11,
+              "rounding_l1": 3.7830489990611556e-09,
+              "raw_transport_cost": 0.11117674586231234,
+              "rounded_transport_cost": 0.11117674633189287
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.05879734121261995,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.0034985000384040177,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.7107125091508912e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.058797341142752195,
+              "dual": 0.05879734114071708,
+              "numerical_gap": 2.035115131970855e-12,
+              "rounding_l1": 1.7107123540766638e-10,
+              "raw_transport_cost": 0.11117674592206558,
+              "rounded_transport_cost": 0.11117674594333682
+            },
+            "ordinary_iterations": 300,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.058797341142752195,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102001,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.03315660002408549,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.03248130000429228,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.043078499962575734,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.04411489999620244,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.130395558192394e-10,
+              "rounded_residual": 1.1102230246251565e-16,
+              "rounded_primal": 0.11351402678766986,
+              "dual": 0.11351402671405876,
+              "numerical_gap": 7.361110332393395e-11,
+              "rounding_l1": 8.130429463657097e-10,
+              "raw_transport_cost": 0.11843135223979066,
+              "rounded_transport_cost": 0.1184313523620191
+            },
+            "ordinary_iterations": 4100,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.1102230246251565e-16,
+          "audit_objective": 0.11351402678766986,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.033842200005892664,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.339500870424565e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.1135140344308022,
+              "dual": 0.11351402671405622,
+              "numerical_gap": 7.716745978325612e-09,
+              "rounding_l1": 8.339500954976396e-08,
+              "raw_transport_cost": 0.11843134834639228,
+              "rounded_transport_cost": 0.11843136085856643
+            },
+            "ordinary_iterations": 3000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 12
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.11351403443080221,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.03248130000429228,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.339500870424565e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.1135140344308022,
+              "dual": 0.11351402671405622,
+              "numerical_gap": 7.716745978325612e-09,
+              "rounding_l1": 8.339500954976396e-08,
+              "raw_transport_cost": 0.11843134834639228,
+              "rounded_transport_cost": 0.11843136085856643
+            },
+            "ordinary_iterations": 3000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 3
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.11351403443080221,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.03306390001671389,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.339500870424565e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.1135140344308022,
+              "dual": 0.11351402671405622,
+              "numerical_gap": 7.716745978325612e-09,
+              "rounding_l1": 8.339500954976396e-08,
+              "raw_transport_cost": 0.11843134834639228,
+              "rounded_transport_cost": 0.11843136085856643
+            },
+            "ordinary_iterations": 3000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 12
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.11351403443080221,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.043078499962575734,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.130395558192394e-10,
+              "rounded_residual": 1.1102230246251565e-16,
+              "rounded_primal": 0.11351402678766986,
+              "dual": 0.11351402671405876,
+              "numerical_gap": 7.361110332393395e-11,
+              "rounding_l1": 8.130429463657097e-10,
+              "raw_transport_cost": 0.11843135223979066,
+              "rounded_transport_cost": 0.1184313523620191
+            },
+            "ordinary_iterations": 4100,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.1102230246251565e-16,
+          "audit_objective": 0.11351402678766986,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.032446300028823316,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.339500870424565e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.1135140344308022,
+              "dual": 0.11351402671405622,
+              "numerical_gap": 7.716745978325612e-09,
+              "rounding_l1": 8.339500954976396e-08,
+              "raw_transport_cost": 0.11843134834639228,
+              "rounded_transport_cost": 0.11843136085856643
+            },
+            "ordinary_iterations": 3000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 3
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.11351403443080221,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.03320519998669624,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.339500870424565e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.1135140344308022,
+              "dual": 0.11351402671405622,
+              "numerical_gap": 7.716745978325612e-09,
+              "rounding_l1": 8.339500954976396e-08,
+              "raw_transport_cost": 0.11843134834639228,
+              "rounded_transport_cost": 0.11843136085856643
+            },
+            "ordinary_iterations": 3000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 3
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.11351403443080221,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.04262580000795424,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.130395558192394e-10,
+              "rounded_residual": 1.1102230246251565e-16,
+              "rounded_primal": 0.11351402678766986,
+              "dual": 0.11351402671405876,
+              "numerical_gap": 7.361110332393395e-11,
+              "rounding_l1": 8.130429463657097e-10,
+              "raw_transport_cost": 0.11843135223979066,
+              "rounded_transport_cost": 0.1184313523620191
+            },
+            "ordinary_iterations": 4100,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.1102230246251565e-16,
+          "audit_objective": 0.11351402678766986,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.03315660002408549,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.339500870424565e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.1135140344308022,
+              "dual": 0.11351402671405622,
+              "numerical_gap": 7.716745978325612e-09,
+              "rounding_l1": 8.339500954976396e-08,
+              "raw_transport_cost": 0.11843134834639228,
+              "rounded_transport_cost": 0.11843136085856643
+            },
+            "ordinary_iterations": 3000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 12
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.11351403443080221,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102002,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.021378899982664734,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.020855399954598397,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.02471440000226721,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.020855399954598397,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.1739214674937335e-08,
+              "rounded_residual": 1.9081958235744878e-16,
+              "rounded_primal": 0.10362195480905063,
+              "dual": 0.10362195273297103,
+              "numerical_gap": 2.0760795998997494e-09,
+              "rounding_l1": 2.173921555456441e-08,
+              "raw_transport_cost": 0.10852832663706101,
+              "rounded_transport_cost": 0.10852832905279433
+            },
+            "ordinary_iterations": 2000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 2
+          },
+          "audit_residual": 2.0469737016526324e-16,
+          "audit_objective": 0.1036219548090506,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.02135150000685826,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.1739214674937335e-08,
+              "rounded_residual": 1.9081958235744878e-16,
+              "rounded_primal": 0.10362195480905063,
+              "dual": 0.10362195273297103,
+              "numerical_gap": 2.0760795998997494e-09,
+              "rounding_l1": 2.173921555456441e-08,
+              "raw_transport_cost": 0.10852832663706101,
+              "rounded_transport_cost": 0.10852832905279433
+            },
+            "ordinary_iterations": 2000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 8
+          },
+          "audit_residual": 2.0469737016526324e-16,
+          "audit_objective": 0.1036219548090506,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.024584900005720556,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.967602931591156e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.10362195280777901,
+              "dual": 0.10362195273297105,
+              "numerical_gap": 7.480796537784329e-11,
+              "rounding_l1": 7.967621946271774e-10,
+              "raw_transport_cost": 0.10852832676037774,
+              "rounded_transport_cost": 0.1085283268489162
+            },
+            "ordinary_iterations": 2400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.10362195280777899,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.021378899982664734,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.1739214674937335e-08,
+              "rounded_residual": 1.9081958235744878e-16,
+              "rounded_primal": 0.10362195480905063,
+              "dual": 0.10362195273297103,
+              "numerical_gap": 2.0760795998997494e-09,
+              "rounding_l1": 2.173921555456441e-08,
+              "raw_transport_cost": 0.10852832663706101,
+              "rounded_transport_cost": 0.10852832905279433
+            },
+            "ordinary_iterations": 2000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 8
+          },
+          "audit_residual": 2.0469737016526324e-16,
+          "audit_objective": 0.1036219548090506,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.02071439998690039,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.1739214674937335e-08,
+              "rounded_residual": 1.9081958235744878e-16,
+              "rounded_primal": 0.10362195480905063,
+              "dual": 0.10362195273297103,
+              "numerical_gap": 2.0760795998997494e-09,
+              "rounding_l1": 2.173921555456441e-08,
+              "raw_transport_cost": 0.10852832663706101,
+              "rounded_transport_cost": 0.10852832905279433
+            },
+            "ordinary_iterations": 2000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 2
+          },
+          "audit_residual": 2.0469737016526324e-16,
+          "audit_objective": 0.1036219548090506,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.02471440000226721,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.967602931591156e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.10362195280777901,
+              "dual": 0.10362195273297105,
+              "numerical_gap": 7.480796537784329e-11,
+              "rounding_l1": 7.967621946271774e-10,
+              "raw_transport_cost": 0.10852832676037774,
+              "rounded_transport_cost": 0.1085283268489162
+            },
+            "ordinary_iterations": 2400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.10362195280777899,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.022700699977576733,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.1739214674937335e-08,
+              "rounded_residual": 1.9081958235744878e-16,
+              "rounded_primal": 0.10362195480905063,
+              "dual": 0.10362195273297103,
+              "numerical_gap": 2.0760795998997494e-09,
+              "rounding_l1": 2.173921555456441e-08,
+              "raw_transport_cost": 0.10852832663706101,
+              "rounded_transport_cost": 0.10852832905279433
+            },
+            "ordinary_iterations": 2000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 8
+          },
+          "audit_residual": 2.0469737016526324e-16,
+          "audit_objective": 0.1036219548090506,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.02621869998984039,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.967602931591156e-10,
+              "rounded_residual": 1.3877787807814457e-16,
+              "rounded_primal": 0.10362195280777901,
+              "dual": 0.10362195273297105,
+              "numerical_gap": 7.480796537784329e-11,
+              "rounding_l1": 7.967621946271774e-10,
+              "raw_transport_cost": 0.10852832676037774,
+              "rounded_transport_cost": 0.1085283268489162
+            },
+            "ordinary_iterations": 2400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.3877787807814457e-16,
+          "audit_objective": 0.10362195280777899,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.0224447000073269,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.1739214674937335e-08,
+              "rounded_residual": 1.9081958235744878e-16,
+              "rounded_primal": 0.10362195480905063,
+              "dual": 0.10362195273297103,
+              "numerical_gap": 2.0760795998997494e-09,
+              "rounding_l1": 2.173921555456441e-08,
+              "raw_transport_cost": 0.10852832663706101,
+              "rounded_transport_cost": 0.10852832905279433
+            },
+            "ordinary_iterations": 2000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 2
+          },
+          "audit_residual": 2.0469737016526324e-16,
+          "audit_objective": 0.1036219548090506,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_300_reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102003,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.0491951999720186,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.053513200022280216,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.06233499996596947,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.057709099957719445,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.625927555045877e-10,
+              "rounded_residual": 6.591949208711867e-17,
+              "rounded_primal": 0.10408821370381337,
+              "dual": 0.10408821361447161,
+              "numerical_gap": 8.934175621533313e-11,
+              "rounding_l1": 9.6259536211195e-10,
+              "raw_transport_cost": 0.10893462913882031,
+              "rounded_transport_cost": 0.10893462924548783
+            },
+            "ordinary_iterations": 5450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 9.020562075079397e-17,
+          "audit_objective": 0.10408821370381335,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.053513200022280216,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 4.4710487152876954e-09,
+              "rounded_residual": 9.367506770274758e-17,
+              "rounded_primal": 0.10408821403276775,
+              "dual": 0.10408821361447158,
+              "numerical_gap": 4.182961615972758e-10,
+              "rounding_l1": 4.471050080734313e-09,
+              "raw_transport_cost": 0.10893462911145481,
+              "rounded_transport_cost": 0.10893462960690437
+            },
+            "ordinary_iterations": 5000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 5
+          },
+          "audit_residual": 8.326672684688674e-17,
+          "audit_objective": 0.10408821403276775,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.04615750000812113,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 5.781237165033981e-08,
+              "rounded_residual": 1.2836953722228372e-16,
+              "rounded_primal": 0.10408821909516117,
+              "dual": 0.10408821361447095,
+              "numerical_gap": 5.480690221104645e-09,
+              "rounding_l1": 5.7812373985399913e-08,
+              "raw_transport_cost": 0.10893462869542014,
+              "rounded_transport_cost": 0.10893463510178111
+            },
+            "ordinary_iterations": 4250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 17
+          },
+          "audit_residual": 1.2836953722228372e-16,
+          "audit_objective": 0.10408821909516117,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.052165000000968575,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 4.4710487152876954e-09,
+              "rounded_residual": 9.367506770274758e-17,
+              "rounded_primal": 0.10408821403276775,
+              "dual": 0.10408821361447158,
+              "numerical_gap": 4.182961615972758e-10,
+              "rounding_l1": 4.471050080734313e-09,
+              "raw_transport_cost": 0.10893462911145481,
+              "rounded_transport_cost": 0.10893462960690437
+            },
+            "ordinary_iterations": 5000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 5
+          },
+          "audit_residual": 8.326672684688674e-17,
+          "audit_objective": 0.10408821403276775,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.0491951999720186,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 5.781237165033981e-08,
+              "rounded_residual": 1.2836953722228372e-16,
+              "rounded_primal": 0.10408821909516117,
+              "dual": 0.10408821361447095,
+              "numerical_gap": 5.480690221104645e-09,
+              "rounding_l1": 5.7812373985399913e-08,
+              "raw_transport_cost": 0.10893462869542014,
+              "rounded_transport_cost": 0.10893463510178111
+            },
+            "ordinary_iterations": 4250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 17
+          },
+          "audit_residual": 1.2836953722228372e-16,
+          "audit_objective": 0.10408821909516117,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.0629342999891378,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.625927555045877e-10,
+              "rounded_residual": 6.591949208711867e-17,
+              "rounded_primal": 0.10408821370381337,
+              "dual": 0.10408821361447161,
+              "numerical_gap": 8.934175621533313e-11,
+              "rounding_l1": 9.6259536211195e-10,
+              "raw_transport_cost": 0.10893462913882031,
+              "rounded_transport_cost": 0.10893462924548783
+            },
+            "ordinary_iterations": 5450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 9.020562075079397e-17,
+          "audit_objective": 0.10408821370381335,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.05567560001509264,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 4.4710487152876954e-09,
+              "rounded_residual": 9.367506770274758e-17,
+              "rounded_primal": 0.10408821403276775,
+              "dual": 0.10408821361447158,
+              "numerical_gap": 4.182961615972758e-10,
+              "rounding_l1": 4.471050080734313e-09,
+              "raw_transport_cost": 0.10893462911145481,
+              "rounded_transport_cost": 0.10893462960690437
+            },
+            "ordinary_iterations": 5000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 5
+          },
+          "audit_residual": 8.326672684688674e-17,
+          "audit_objective": 0.10408821403276775,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.05191569996532053,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 5.781237165033981e-08,
+              "rounded_residual": 1.2836953722228372e-16,
+              "rounded_primal": 0.10408821909516117,
+              "dual": 0.10408821361447095,
+              "numerical_gap": 5.480690221104645e-09,
+              "rounding_l1": 5.7812373985399913e-08,
+              "raw_transport_cost": 0.10893462869542014,
+              "rounded_transport_cost": 0.10893463510178111
+            },
+            "ordinary_iterations": 4250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 17
+          },
+          "audit_residual": 1.2836953722228372e-16,
+          "audit_objective": 0.10408821909516117,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.06233499996596947,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.625927555045877e-10,
+              "rounded_residual": 6.591949208711867e-17,
+              "rounded_primal": 0.10408821370381337,
+              "dual": 0.10408821361447161,
+              "numerical_gap": 8.934175621533313e-11,
+              "rounding_l1": 9.6259536211195e-10,
+              "raw_transport_cost": 0.10893462913882031,
+              "rounded_transport_cost": 0.10893462924548783
+            },
+            "ordinary_iterations": 5450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 9.020562075079397e-17,
+          "audit_objective": 0.10408821370381335,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102001,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.004232599982060492,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.005961699993349612,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.00577079999493435,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.004422100028023124,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.4437746636251914e-08,
+              "rounded_residual": 1.726049858596923e-16,
+              "rounded_primal": 0.0033781979137493673,
+              "dual": 0.003378197374882319,
+              "numerical_gap": 5.388670482053826e-10,
+              "rounding_l1": 1.4437746626558012e-08,
+              "raw_transport_cost": 0.07015797307922278,
+              "rounded_transport_cost": 0.07015797462059442
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.7755575615628914e-16,
+          "audit_objective": 0.0033781979137493534,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.0061030000215396285,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.298635391930314e-10,
+              "rounded_residual": 1.465841337200402e-16,
+              "rounded_primal": 0.0033781973779824503,
+              "dual": 0.003378197374882628,
+              "numerical_gap": 3.099822482033332e-12,
+              "rounding_l1": 1.2986354942345865e-10,
+              "raw_transport_cost": 0.07015797286844949,
+              "rounded_transport_cost": 0.07015797288231386
+            },
+            "ordinary_iterations": 350,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.498001805406602e-16,
+          "audit_objective": 0.0033781973779824365,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.006344399997033179,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.298635391930314e-10,
+              "rounded_residual": 1.465841337200402e-16,
+              "rounded_primal": 0.0033781973779824503,
+              "dual": 0.003378197374882628,
+              "numerical_gap": 3.099822482033332e-12,
+              "rounding_l1": 1.2986354942345865e-10,
+              "raw_transport_cost": 0.07015797286844949,
+              "rounded_transport_cost": 0.07015797288231386
+            },
+            "ordinary_iterations": 350,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.498001805406602e-16,
+          "audit_objective": 0.0033781973779824365,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.00577079999493435,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.298635391930314e-10,
+              "rounded_residual": 1.465841337200402e-16,
+              "rounded_primal": 0.0033781973779824503,
+              "dual": 0.003378197374882628,
+              "numerical_gap": 3.099822482033332e-12,
+              "rounding_l1": 1.2986354942345865e-10,
+              "raw_transport_cost": 0.07015797286844949,
+              "rounded_transport_cost": 0.07015797288231386
+            },
+            "ordinary_iterations": 350,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.498001805406602e-16,
+          "audit_objective": 0.0033781973779824365,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.004079599981196225,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.4437746636251914e-08,
+              "rounded_residual": 1.726049858596923e-16,
+              "rounded_primal": 0.0033781979137493673,
+              "dual": 0.003378197374882319,
+              "numerical_gap": 5.388670482053826e-10,
+              "rounding_l1": 1.4437746626558012e-08,
+              "raw_transport_cost": 0.07015797307922278,
+              "rounded_transport_cost": 0.07015797462059442
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.7755575615628914e-16,
+          "audit_objective": 0.0033781979137493534,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.005961699993349612,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.298635391930314e-10,
+              "rounded_residual": 1.465841337200402e-16,
+              "rounded_primal": 0.0033781973779824503,
+              "dual": 0.003378197374882628,
+              "numerical_gap": 3.099822482033332e-12,
+              "rounding_l1": 1.2986354942345865e-10,
+              "raw_transport_cost": 0.07015797286844949,
+              "rounded_transport_cost": 0.07015797288231386
+            },
+            "ordinary_iterations": 350,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.498001805406602e-16,
+          "audit_objective": 0.0033781973779824365,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.005350299994461238,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.298635391930314e-10,
+              "rounded_residual": 1.465841337200402e-16,
+              "rounded_primal": 0.0033781973779824503,
+              "dual": 0.003378197374882628,
+              "numerical_gap": 3.099822482033332e-12,
+              "rounding_l1": 1.2986354942345865e-10,
+              "raw_transport_cost": 0.07015797286844949,
+              "rounded_transport_cost": 0.07015797288231386
+            },
+            "ordinary_iterations": 350,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.498001805406602e-16,
+          "audit_objective": 0.0033781973779824365,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.004232599982060492,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.4437746636251914e-08,
+              "rounded_residual": 1.726049858596923e-16,
+              "rounded_primal": 0.0033781979137493673,
+              "dual": 0.003378197374882319,
+              "numerical_gap": 5.388670482053826e-10,
+              "rounding_l1": 1.4437746626558012e-08,
+              "raw_transport_cost": 0.07015797307922278,
+              "rounded_transport_cost": 0.07015797462059442
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.7755575615628914e-16,
+          "audit_objective": 0.0033781979137493534,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.005683600029442459,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.298635391930314e-10,
+              "rounded_residual": 1.465841337200402e-16,
+              "rounded_primal": 0.0033781973779824503,
+              "dual": 0.003378197374882628,
+              "numerical_gap": 3.099822482033332e-12,
+              "rounding_l1": 1.2986354942345865e-10,
+              "raw_transport_cost": 0.07015797286844949,
+              "rounded_transport_cost": 0.07015797288231386
+            },
+            "ordinary_iterations": 350,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.498001805406602e-16,
+          "audit_objective": 0.0033781973779824365,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102002,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.003986800031270832,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.005923599994275719,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.005748199997469783,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.006827000004705042,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.8220600422484976e-10,
+              "rounded_residual": 2.1076890233118206e-16,
+              "rounded_primal": 0.016233790972823195,
+              "dual": 0.016233790962209966,
+              "numerical_gap": 1.0613229045608463e-11,
+              "rounding_l1": 2.8220602020863093e-10,
+              "raw_transport_cost": 0.08312289261726295,
+              "rounded_transport_cost": 0.0831228926551051
+            },
+            "ordinary_iterations": 400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.229119666630197e-16,
+          "audit_objective": 0.016233790972823167,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.005832800001371652,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.8220600422484976e-10,
+              "rounded_residual": 2.1076890233118206e-16,
+              "rounded_primal": 0.016233790972823195,
+              "dual": 0.016233790962209966,
+              "numerical_gap": 1.0613229045608463e-11,
+              "rounding_l1": 2.8220602020863093e-10,
+              "raw_transport_cost": 0.08312289261726295,
+              "rounded_transport_cost": 0.0831228926551051
+            },
+            "ordinary_iterations": 400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.229119666630197e-16,
+          "audit_objective": 0.016233790972823167,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.00408640003297478,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.254793329449888e-07,
+              "rounded_residual": 2.0296264668928643e-16,
+              "rounded_primal": 0.01623379823772686,
+              "dual": 0.016233790962191047,
+              "numerical_gap": 7.275535812700795e-09,
+              "rounding_l1": 1.254793329102027e-07,
+              "raw_transport_cost": 0.08312289183677518,
+              "rounded_transport_cost": 0.08312290856300651
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.177077962350893e-16,
+          "audit_objective": 0.016233798237726874,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.00655299995560199,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.8220600422484976e-10,
+              "rounded_residual": 2.1076890233118206e-16,
+              "rounded_primal": 0.016233790972823195,
+              "dual": 0.016233790962209966,
+              "numerical_gap": 1.0613229045608463e-11,
+              "rounding_l1": 2.8220602020863093e-10,
+              "raw_transport_cost": 0.08312289261726295,
+              "rounded_transport_cost": 0.0831228926551051
+            },
+            "ordinary_iterations": 400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.229119666630197e-16,
+          "audit_objective": 0.016233790972823167,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.005748199997469783,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.8220600422484976e-10,
+              "rounded_residual": 2.1076890233118206e-16,
+              "rounded_primal": 0.016233790972823195,
+              "dual": 0.016233790962209966,
+              "numerical_gap": 1.0613229045608463e-11,
+              "rounding_l1": 2.8220602020863093e-10,
+              "raw_transport_cost": 0.08312289261726295,
+              "rounded_transport_cost": 0.0831228926551051
+            },
+            "ordinary_iterations": 400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.229119666630197e-16,
+          "audit_objective": 0.016233790972823167,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.003986800031270832,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.254793329449888e-07,
+              "rounded_residual": 2.0296264668928643e-16,
+              "rounded_primal": 0.01623379823772686,
+              "dual": 0.016233790962191047,
+              "numerical_gap": 7.275535812700795e-09,
+              "rounding_l1": 1.254793329102027e-07,
+              "raw_transport_cost": 0.08312289183677518,
+              "rounded_transport_cost": 0.08312290856300651
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.177077962350893e-16,
+          "audit_objective": 0.016233798237726874,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.005923599994275719,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.8220600422484976e-10,
+              "rounded_residual": 2.1076890233118206e-16,
+              "rounded_primal": 0.016233790972823195,
+              "dual": 0.016233790962209966,
+              "numerical_gap": 1.0613229045608463e-11,
+              "rounding_l1": 2.8220602020863093e-10,
+              "raw_transport_cost": 0.08312289261726295,
+              "rounded_transport_cost": 0.0831228926551051
+            },
+            "ordinary_iterations": 400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.229119666630197e-16,
+          "audit_objective": 0.016233790972823167,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.0056404999922961,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.8220600422484976e-10,
+              "rounded_residual": 2.1076890233118206e-16,
+              "rounded_primal": 0.016233790972823195,
+              "dual": 0.016233790962209966,
+              "numerical_gap": 1.0613229045608463e-11,
+              "rounding_l1": 2.8220602020863093e-10,
+              "raw_transport_cost": 0.08312289261726295,
+              "rounded_transport_cost": 0.0831228926551051
+            },
+            "ordinary_iterations": 400,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.229119666630197e-16,
+          "audit_objective": 0.016233790972823167,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.003913399996235967,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.254793329449888e-07,
+              "rounded_residual": 2.0296264668928643e-16,
+              "rounded_primal": 0.01623379823772686,
+              "dual": 0.016233790962191047,
+              "numerical_gap": 7.275535812700795e-09,
+              "rounding_l1": 1.254793329102027e-07,
+              "raw_transport_cost": 0.08312289183677518,
+              "rounded_transport_cost": 0.08312290856300651
+            },
+            "ordinary_iterations": 250,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.177077962350893e-16,
+          "audit_objective": 0.016233798237726874,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.01",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102003,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.0033833999768830836,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.0033620999893173575,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.0033663000212982297,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.003986900032032281,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.0033620999893173575,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.0033663000212982297,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.0033123999601230025,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.0033833999768830836,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.0033210000256076455,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.0035241000005044043,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.004054500022903085,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.0033441000268794596,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.025722746634155e-10,
+              "rounded_residual": 2.688821387764051e-16,
+              "rounded_primal": 0.011761540453969085,
+              "dual": 0.01176154043152418,
+              "numerical_gap": 2.2444905309337848e-11,
+              "rounding_l1": 7.02572323004979e-10,
+              "raw_transport_cost": 0.07870856944812699,
+              "rounded_transport_cost": 0.07870856954859935
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.688821387764051e-16,
+          "audit_objective": 0.011761540453969085,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102001,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.045509800023864955,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.04920289997244254,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.053197800007183105,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.05238390003796667,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.615005814103683e-10,
+              "rounded_residual": 8.760353553682876e-17,
+              "rounded_primal": 0.06052816011955544,
+              "dual": 0.06052816002581028,
+              "numerical_gap": 9.374515747007095e-11,
+              "rounding_l1": 9.615009863423766e-10,
+              "raw_transport_cost": 0.06658706682271884,
+              "rounded_transport_cost": 0.06658706692749518
+            },
+            "ordinary_iterations": 4450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.6306400674181987e-16,
+          "audit_objective": 0.06052816011955544,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.044629800016991794,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.753056764127353e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.06052816775327703,
+              "dual": 0.06052816002580915,
+              "numerical_gap": 7.727467880858097e-09,
+              "rounding_l1": 7.753056802746445e-08,
+              "raw_transport_cost": 0.06658706683434273,
+              "rounded_transport_cost": 0.06658707528211479
+            },
+            "ordinary_iterations": 3500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 14
+          },
+          "audit_residual": 1.960237527853792e-16,
+          "audit_objective": 0.06052816775327702,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.04834639996988699,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.692061558019214e-09,
+              "rounded_residual": 9.8879238130678e-17,
+              "rounded_primal": 0.060528160783700526,
+              "dual": 0.06052816002581027,
+              "numerical_gap": 7.578902574967294e-10,
+              "rounding_l1": 7.692062033982014e-09,
+              "raw_transport_cost": 0.06658706682373922,
+              "rounded_transport_cost": 0.06658706766193814
+            },
+            "ordinary_iterations": 4000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 4
+          },
+          "audit_residual": 1.7780915628762273e-16,
+          "audit_objective": 0.06052816078370051,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.053197800007183105,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.615005814103683e-10,
+              "rounded_residual": 8.760353553682876e-17,
+              "rounded_primal": 0.06052816011955544,
+              "dual": 0.06052816002581028,
+              "numerical_gap": 9.374515747007095e-11,
+              "rounding_l1": 9.615009863423766e-10,
+              "raw_transport_cost": 0.06658706682271884,
+              "rounded_transport_cost": 0.06658706692749518
+            },
+            "ordinary_iterations": 4450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.6306400674181987e-16,
+          "audit_objective": 0.06052816011955544,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.045509800023864955,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.753056764127353e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.06052816775327703,
+              "dual": 0.06052816002580915,
+              "numerical_gap": 7.727467880858097e-09,
+              "rounding_l1": 7.753056802746445e-08,
+              "raw_transport_cost": 0.06658706683434273,
+              "rounded_transport_cost": 0.06658707528211479
+            },
+            "ordinary_iterations": 3500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 14
+          },
+          "audit_residual": 1.960237527853792e-16,
+          "audit_objective": 0.06052816775327702,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.05046589998528361,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.692061558019214e-09,
+              "rounded_residual": 9.8879238130678e-17,
+              "rounded_primal": 0.060528160783700526,
+              "dual": 0.06052816002581027,
+              "numerical_gap": 7.578902574967294e-10,
+              "rounding_l1": 7.692062033982014e-09,
+              "raw_transport_cost": 0.06658706682373922,
+              "rounded_transport_cost": 0.06658706766193814
+            },
+            "ordinary_iterations": 4000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 4
+          },
+          "audit_residual": 1.7780915628762273e-16,
+          "audit_objective": 0.06052816078370051,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.05629909998970106,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.615005814103683e-10,
+              "rounded_residual": 8.760353553682876e-17,
+              "rounded_primal": 0.06052816011955544,
+              "dual": 0.06052816002581028,
+              "numerical_gap": 9.374515747007095e-11,
+              "rounding_l1": 9.615009863423766e-10,
+              "raw_transport_cost": 0.06658706682271884,
+              "rounded_transport_cost": 0.06658706692749518
+            },
+            "ordinary_iterations": 4450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.6306400674181987e-16,
+          "audit_objective": 0.06052816011955544,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.0468438999960199,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.753056764127353e-08,
+              "rounded_residual": 1.0061396160665481e-16,
+              "rounded_primal": 0.06052816775327703,
+              "dual": 0.06052816002580915,
+              "numerical_gap": 7.727467880858097e-09,
+              "rounding_l1": 7.753056802746445e-08,
+              "raw_transport_cost": 0.06658706683434273,
+              "rounded_transport_cost": 0.06658707528211479
+            },
+            "ordinary_iterations": 3500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 14
+          },
+          "audit_residual": 1.960237527853792e-16,
+          "audit_objective": 0.06052816775327702,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.04920289997244254,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 7.692061558019214e-09,
+              "rounded_residual": 9.8879238130678e-17,
+              "rounded_primal": 0.060528160783700526,
+              "dual": 0.06052816002581027,
+              "numerical_gap": 7.578902574967294e-10,
+              "rounding_l1": 7.692062033982014e-09,
+              "raw_transport_cost": 0.06658706682373922,
+              "rounded_transport_cost": 0.06658706766193814
+            },
+            "ordinary_iterations": 4000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 4
+          },
+          "audit_residual": 1.7780915628762273e-16,
+          "audit_objective": 0.06052816078370051,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102002,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.3948462000116706,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.3790875999839045,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.4869499999913387,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.40859279996948317,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.107841654395737e-08,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.07360947865273582,
+              "dual": 0.07360946947651952,
+              "numerical_gap": 9.176216300699203e-09,
+              "rounding_l1": 8.107841657985904e-08,
+              "raw_transport_cost": 0.07971437329068415,
+              "rounded_transport_cost": 0.07971438417449239
+            },
+            "ordinary_iterations": 30500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 122
+          },
+          "audit_residual": 1.2663481374630692e-16,
+          "audit_objective": 0.07360947865273582,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.3960479000234045,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.512483147463194e-08,
+              "rounded_residual": 1.2750217548429532e-16,
+              "rounded_primal": 0.07360947684072328,
+              "dual": 0.07360946947661592,
+              "numerical_gap": 7.364107351692795e-09,
+              "rounding_l1": 6.512483148750672e-08,
+              "raw_transport_cost": 0.0797143735336046,
+              "rounded_transport_cost": 0.0797143822765064
+            },
+            "ordinary_iterations": 31000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 31
+          },
+          "audit_residual": 1.2663481374630692e-16,
+          "audit_objective": 0.07360947684072326,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.4955945999827236,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.963846813593191e-10,
+              "rounded_residual": 1.249000902703301e-16,
+              "rounded_primal": 0.07360946958743317,
+              "dual": 0.07360946947679035,
+              "numerical_gap": 1.1064281435491097e-10,
+              "rounding_l1": 9.963846994232124e-10,
+              "raw_transport_cost": 0.07971437451015177,
+              "rounded_transport_cost": 0.07971437464395623
+            },
+            "ordinary_iterations": 40450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.231653667943533e-16,
+          "audit_objective": 0.07360946958743317,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.3697338000056334,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.512483147463194e-08,
+              "rounded_residual": 1.2750217548429532e-16,
+              "rounded_primal": 0.07360947684072328,
+              "dual": 0.07360946947661592,
+              "numerical_gap": 7.364107351692795e-09,
+              "rounding_l1": 6.512483148750672e-08,
+              "raw_transport_cost": 0.0797143735336046,
+              "rounded_transport_cost": 0.0797143822765064
+            },
+            "ordinary_iterations": 31000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 31
+          },
+          "audit_residual": 1.2663481374630692e-16,
+          "audit_objective": 0.07360947684072326,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.4869499999913387,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.963846813593191e-10,
+              "rounded_residual": 1.249000902703301e-16,
+              "rounded_primal": 0.07360946958743317,
+              "dual": 0.07360946947679035,
+              "numerical_gap": 1.1064281435491097e-10,
+              "rounding_l1": 9.963846994232124e-10,
+              "raw_transport_cost": 0.07971437451015177,
+              "rounded_transport_cost": 0.07971437464395623
+            },
+            "ordinary_iterations": 40450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.231653667943533e-16,
+          "audit_objective": 0.07360946958743317,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.38777039997512475,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.107841654395737e-08,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.07360947865273582,
+              "dual": 0.07360946947651952,
+              "numerical_gap": 9.176216300699203e-09,
+              "rounding_l1": 8.107841657985904e-08,
+              "raw_transport_cost": 0.07971437329068415,
+              "rounded_transport_cost": 0.07971438417449239
+            },
+            "ordinary_iterations": 30500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 122
+          },
+          "audit_residual": 1.2663481374630692e-16,
+          "audit_objective": 0.07360947865273582,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.3948462000116706,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.107841654395737e-08,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.07360947865273582,
+              "dual": 0.07360946947651952,
+              "numerical_gap": 9.176216300699203e-09,
+              "rounding_l1": 8.107841657985904e-08,
+              "raw_transport_cost": 0.07971437329068415,
+              "rounded_transport_cost": 0.07971438417449239
+            },
+            "ordinary_iterations": 30500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 122
+          },
+          "audit_residual": 1.2663481374630692e-16,
+          "audit_objective": 0.07360947865273582,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.4840420000255108,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.963846813593191e-10,
+              "rounded_residual": 1.249000902703301e-16,
+              "rounded_primal": 0.07360946958743317,
+              "dual": 0.07360946947679035,
+              "numerical_gap": 1.1064281435491097e-10,
+              "rounding_l1": 9.963846994232124e-10,
+              "raw_transport_cost": 0.07971437451015177,
+              "rounded_transport_cost": 0.07971437464395623
+            },
+            "ordinary_iterations": 40450,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 1.231653667943533e-16,
+          "audit_objective": 0.07360946958743317,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.3790875999839045,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.512483147463194e-08,
+              "rounded_residual": 1.2750217548429532e-16,
+              "rounded_primal": 0.07360947684072328,
+              "dual": 0.07360946947661592,
+              "numerical_gap": 7.364107351692795e-09,
+              "rounding_l1": 6.512483148750672e-08,
+              "raw_transport_cost": 0.0797143735336046,
+              "rounded_transport_cost": 0.0797143822765064
+            },
+            "ordinary_iterations": 31000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 31
+          },
+          "audit_residual": 1.2663481374630692e-16,
+          "audit_objective": 0.07360947684072326,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_1000_reg_0.001",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102003,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.08863950002705678,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.08376259997021407,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.11374110000906512,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.08412889996543527,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.396990862977264e-08,
+              "rounded_residual": 2.8362728832220796e-16,
+              "rounded_primal": 0.0693670710309205,
+              "dual": 0.06936706506441798,
+              "numerical_gap": 5.966502528154116e-09,
+              "rounding_l1": 6.396991193762534e-08,
+              "raw_transport_cost": 0.07549057971011304,
+              "rounded_transport_cost": 0.07549058708924788
+            },
+            "ordinary_iterations": 7000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 7
+          },
+          "audit_residual": 2.8362728832220796e-16,
+          "audit_objective": 0.06936707103092048,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.11358050000853837,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.713274854578069e-10,
+              "rounded_residual": 2.888314587501384e-16,
+              "rounded_primal": 0.06936706514786699,
+              "dual": 0.06936706506442664,
+              "numerical_gap": 8.344035185015031e-11,
+              "rounding_l1": 9.713296671910642e-10,
+              "raw_transport_cost": 0.07549058060186806,
+              "rounded_transport_cost": 0.07549058070860061
+            },
+            "ordinary_iterations": 9800,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.888314587501384e-16,
+          "audit_objective": 0.06936706514786699,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.08863950002705678,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.320973595478704e-08,
+              "rounded_residual": 3.165870343657673e-16,
+              "rounded_primal": 0.06936707381334282,
+              "dual": 0.06936706506440869,
+              "numerical_gap": 8.748934132718489e-09,
+              "rounding_l1": 9.320973895218664e-08,
+              "raw_transport_cost": 0.07549057929364739,
+              "rounded_transport_cost": 0.07549059008399589
+            },
+            "ordinary_iterations": 6750,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 27
+          },
+          "audit_residual": 3.165870343657673e-16,
+          "audit_objective": 0.06936707381334282,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.08940660004736856,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.320973595478704e-08,
+              "rounded_residual": 3.165870343657673e-16,
+              "rounded_primal": 0.06936707381334282,
+              "dual": 0.06936706506440869,
+              "numerical_gap": 8.748934132718489e-09,
+              "rounding_l1": 9.320973895218664e-08,
+              "raw_transport_cost": 0.07549057929364739,
+              "rounded_transport_cost": 0.07549059008399589
+            },
+            "ordinary_iterations": 6750,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 27
+          },
+          "audit_residual": 3.165870343657673e-16,
+          "audit_objective": 0.06936707381334282,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.08376259997021407,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.396990862977264e-08,
+              "rounded_residual": 2.8362728832220796e-16,
+              "rounded_primal": 0.0693670710309205,
+              "dual": 0.06936706506441798,
+              "numerical_gap": 5.966502528154116e-09,
+              "rounding_l1": 6.396991193762534e-08,
+              "raw_transport_cost": 0.07549057971011304,
+              "rounded_transport_cost": 0.07549058708924788
+            },
+            "ordinary_iterations": 7000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 7
+          },
+          "audit_residual": 2.8362728832220796e-16,
+          "audit_objective": 0.06936707103092048,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.11455430003115907,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.713274854578069e-10,
+              "rounded_residual": 2.888314587501384e-16,
+              "rounded_primal": 0.06936706514786699,
+              "dual": 0.06936706506442664,
+              "numerical_gap": 8.344035185015031e-11,
+              "rounding_l1": 9.713296671910642e-10,
+              "raw_transport_cost": 0.07549058060186806,
+              "rounded_transport_cost": 0.07549058070860061
+            },
+            "ordinary_iterations": 9800,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.888314587501384e-16,
+          "audit_objective": 0.06936706514786699,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.08346940000774339,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.396990862977264e-08,
+              "rounded_residual": 2.8362728832220796e-16,
+              "rounded_primal": 0.0693670710309205,
+              "dual": 0.06936706506441798,
+              "numerical_gap": 5.966502528154116e-09,
+              "rounding_l1": 6.396991193762534e-08,
+              "raw_transport_cost": 0.07549057971011304,
+              "rounded_transport_cost": 0.07549058708924788
+            },
+            "ordinary_iterations": 7000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 7
+          },
+          "audit_residual": 2.8362728832220796e-16,
+          "audit_objective": 0.06936707103092048,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.11374110000906512,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.713274854578069e-10,
+              "rounded_residual": 2.888314587501384e-16,
+              "rounded_primal": 0.06936706514786699,
+              "dual": 0.06936706506442664,
+              "numerical_gap": 8.344035185015031e-11,
+              "rounding_l1": 9.713296671910642e-10,
+              "raw_transport_cost": 0.07549058060186806,
+              "rounded_transport_cost": 0.07549058070860061
+            },
+            "ordinary_iterations": 9800,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.888314587501384e-16,
+          "audit_objective": 0.06936706514786699,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.08550819999072701,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.320973595478704e-08,
+              "rounded_residual": 3.165870343657673e-16,
+              "rounded_primal": 0.06936707381334282,
+              "dual": 0.06936706506440869,
+              "numerical_gap": 8.748934132718489e-09,
+              "rounding_l1": 9.320973895218664e-08,
+              "raw_transport_cost": 0.07549057929364739,
+              "rounded_transport_cost": 0.07549059008399589
+            },
+            "ordinary_iterations": 6750,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 27
+          },
+          "audit_residual": 3.165870343657673e-16,
+          "audit_objective": 0.06936707381334282,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102001,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.007632100023329258,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.007528299989644438,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.007912800007034093,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.007912800007034093,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.007528299989644438,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.007636599999386817,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.007632100023329258,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.007527100038714707,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.007471899967640638,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.007952300016768277,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.008320500026457012,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.007469700009096414,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1038501709914605e-10,
+              "rounded_residual": 3.382710778154774e-16,
+              "rounded_primal": -0.01702353533882272,
+              "dual": -0.017023535341964054,
+              "numerical_gap": 3.141334414813457e-12,
+              "rounding_l1": 1.1038504321892217e-10,
+              "raw_transport_cost": 0.05968862482616255,
+              "rounded_transport_cost": 0.05968862484173993
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.382710778154774e-16,
+          "audit_objective": -0.01702353533882274,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102002,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.007753299956675619,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.007770699972752482,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.008242700016126037,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.0075310999527573586,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.007753299956675619,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.008195300004445016,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.007770699972752482,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.007644099998287857,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.008303600014187396,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.008242700016126037,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.007692799961660057,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.008025399991311133,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3857455547633402e-11,
+              "rounded_residual": 2.953366717850514e-16,
+              "rounded_primal": -0.01342502547514772,
+              "dual": -0.013425025475442972,
+              "numerical_gap": 2.9525167033472854e-13,
+              "rounding_l1": 1.3857514283248721e-11,
+              "raw_transport_cost": 0.06323660050319277,
+              "rounded_transport_cost": 0.06323660050510144
+            },
+            "ordinary_iterations": 150,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.953366717850514e-16,
+          "audit_objective": -0.01342502547514772,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.01",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 102003,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.008883000002242625,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.008702400024048984,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.00865410000551492,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.00865410000551492,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.008222000033129007,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.009085499972570688,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.00812650000443682,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.008702400024048984,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.008883000002242625,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.009954500012099743,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.00882739998633042,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.008200199983548373,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0520473554820331e-10,
+              "rounded_residual": 2.0252896582029223e-16,
+              "rounded_primal": -0.009845594068532318,
+              "dual": -0.009845594074377078,
+              "numerical_gap": 5.844760439521757e-12,
+              "rounding_l1": 1.0520474803425702e-10,
+              "raw_transport_cost": 0.06613330643276644,
+              "rounded_transport_cost": 0.06613330645053428
+            },
+            "ordinary_iterations": 200,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 2.979387569990166e-16,
+          "audit_objective": -0.009845594068532387,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102001,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.06990709999809042,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.06953290000092238,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.07873959996504709,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.07748829998308793,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.232563212210887e-10,
+              "rounded_residual": 3.720981855970251e-16,
+              "rounded_primal": 0.04790006100307804,
+              "dual": 0.04790006090641168,
+              "numerical_gap": 9.666635547578295e-11,
+              "rounding_l1": 9.232583281014299e-10,
+              "raw_transport_cost": 0.05469460250546722,
+              "rounded_transport_cost": 0.05469460261618646
+            },
+            "ordinary_iterations": 4650,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.720981855970251e-16,
+          "audit_objective": 0.047900061003078045,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.06934260000707582,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.638574863567989e-08,
+              "rounded_residual": 3.8424124992886277e-16,
+              "rounded_primal": 0.047900067969968506,
+              "dual": 0.047900060906409,
+              "numerical_gap": 7.063559508135864e-09,
+              "rounding_l1": 6.638575047065631e-08,
+              "raw_transport_cost": 0.054694602328901776,
+              "rounded_transport_cost": 0.054694610277219585
+            },
+            "ordinary_iterations": 3500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 14
+          },
+          "audit_residual": 3.8424124992886277e-16,
+          "audit_objective": 0.04790006796996845,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.06953290000092238,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.034412280484509e-08,
+              "rounded_residual": 3.5388358909926865e-16,
+              "rounded_primal": 0.04790006199962206,
+              "dual": 0.047900060906411614,
+              "numerical_gap": 1.09321044577948e-09,
+              "rounding_l1": 1.0344124611303423e-08,
+              "raw_transport_cost": 0.05469460248112812,
+              "rounded_transport_cost": 0.054694603720588944
+            },
+            "ordinary_iterations": 4000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 4
+          },
+          "audit_residual": 3.5388358909926865e-16,
+          "audit_objective": 0.047900061999622025,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.06990709999809042,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.638574863567989e-08,
+              "rounded_residual": 3.8424124992886277e-16,
+              "rounded_primal": 0.047900067969968506,
+              "dual": 0.047900060906409,
+              "numerical_gap": 7.063559508135864e-09,
+              "rounding_l1": 6.638575047065631e-08,
+              "raw_transport_cost": 0.054694602328901776,
+              "rounded_transport_cost": 0.054694610277219585
+            },
+            "ordinary_iterations": 3500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 14
+          },
+          "audit_residual": 3.8424124992886277e-16,
+          "audit_objective": 0.04790006796996845,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.07913149998057634,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.232563212210887e-10,
+              "rounded_residual": 3.720981855970251e-16,
+              "rounded_primal": 0.04790006100307804,
+              "dual": 0.04790006090641168,
+              "numerical_gap": 9.666635547578295e-11,
+              "rounding_l1": 9.232583281014299e-10,
+              "raw_transport_cost": 0.05469460250546722,
+              "rounded_transport_cost": 0.05469460261618646
+            },
+            "ordinary_iterations": 4650,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.720981855970251e-16,
+          "audit_objective": 0.047900061003078045,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.07407640002202243,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.034412280484509e-08,
+              "rounded_residual": 3.5388358909926865e-16,
+              "rounded_primal": 0.04790006199962206,
+              "dual": 0.047900060906411614,
+              "numerical_gap": 1.09321044577948e-09,
+              "rounding_l1": 1.0344124611303423e-08,
+              "raw_transport_cost": 0.05469460248112812,
+              "rounded_transport_cost": 0.054694603720588944
+            },
+            "ordinary_iterations": 4000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 4
+          },
+          "audit_residual": 3.5388358909926865e-16,
+          "audit_objective": 0.047900061999622025,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.06750369997462258,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.034412280484509e-08,
+              "rounded_residual": 3.5388358909926865e-16,
+              "rounded_primal": 0.04790006199962206,
+              "dual": 0.047900060906411614,
+              "numerical_gap": 1.09321044577948e-09,
+              "rounding_l1": 1.0344124611303423e-08,
+              "raw_transport_cost": 0.05469460248112812,
+              "rounded_transport_cost": 0.054694603720588944
+            },
+            "ordinary_iterations": 4000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 4
+          },
+          "audit_residual": 3.5388358909926865e-16,
+          "audit_objective": 0.047900061999622025,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.07873959996504709,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.232563212210887e-10,
+              "rounded_residual": 3.720981855970251e-16,
+              "rounded_primal": 0.04790006100307804,
+              "dual": 0.04790006090641168,
+              "numerical_gap": 9.666635547578295e-11,
+              "rounding_l1": 9.232583281014299e-10,
+              "raw_transport_cost": 0.05469460250546722,
+              "rounded_transport_cost": 0.05469460261618646
+            },
+            "ordinary_iterations": 4650,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.720981855970251e-16,
+          "audit_objective": 0.047900061003078045,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.07176020002225414,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 6.638574863567989e-08,
+              "rounded_residual": 3.8424124992886277e-16,
+              "rounded_primal": 0.047900067969968506,
+              "dual": 0.047900060906409,
+              "numerical_gap": 7.063559508135864e-09,
+              "rounding_l1": 6.638575047065631e-08,
+              "raw_transport_cost": 0.054694602328901776,
+              "rounded_transport_cost": 0.054694610277219585
+            },
+            "ordinary_iterations": 3500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 14
+          },
+          "audit_residual": 3.8424124992886277e-16,
+          "audit_objective": 0.04790006796996845,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102002,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.5152345999958925,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.4661305999616161,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.8042571999831125,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.4661305999616161,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.400747633250868e-08,
+              "rounded_residual": 5.741934705483231e-16,
+              "rounded_primal": 0.05154256854159575,
+              "dual": 0.05154255936045871,
+              "numerical_gap": 9.18113703812784e-09,
+              "rounding_l1": 8.400747878306769e-08,
+              "raw_transport_cost": 0.05834745562238592,
+              "rounded_transport_cost": 0.058347466411106386
+            },
+            "ordinary_iterations": 28000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 28
+          },
+          "audit_residual": 5.741934705483231e-16,
+          "audit_objective": 0.051542568541595765,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.8080032999860123,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.915861094243688e-09,
+              "rounded_residual": 7.39425881635114e-16,
+              "rounded_primal": 0.05154255967468683,
+              "dual": 0.051542559360947655,
+              "numerical_gap": 3.137391735297257e-10,
+              "rounding_l1": 2.9158633121500616e-09,
+              "raw_transport_cost": 0.05834745638992558,
+              "rounded_transport_cost": 0.058347456764373765
+            },
+            "ordinary_iterations": 50000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 7.39425881635114e-16,
+          "audit_objective": 0.051542559674686836,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.5383264999836683,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.070859088335104e-08,
+              "rounded_residual": 6.301383026485752e-16,
+              "rounded_primal": 0.05154256927750331,
+              "dual": 0.051542559360377695,
+              "numerical_gap": 9.917125613767563e-09,
+              "rounding_l1": 9.070859318786279e-08,
+              "raw_transport_cost": 0.058347455559285014,
+              "rounded_transport_cost": 0.05834746720866282
+            },
+            "ordinary_iterations": 27500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 110
+          },
+          "audit_residual": 6.301383026485752e-16,
+          "audit_objective": 0.051542569277503315,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.5152345999958925,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.070859088335104e-08,
+              "rounded_residual": 6.301383026485752e-16,
+              "rounded_primal": 0.05154256927750331,
+              "dual": 0.051542559360377695,
+              "numerical_gap": 9.917125613767563e-09,
+              "rounding_l1": 9.070859318786279e-08,
+              "raw_transport_cost": 0.058347455559285014,
+              "rounded_transport_cost": 0.05834746720866282
+            },
+            "ordinary_iterations": 27500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 110
+          },
+          "audit_residual": 6.301383026485752e-16,
+          "audit_objective": 0.051542569277503315,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.8042571999831125,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.915861094243688e-09,
+              "rounded_residual": 7.39425881635114e-16,
+              "rounded_primal": 0.05154255967468683,
+              "dual": 0.051542559360947655,
+              "numerical_gap": 3.137391735297257e-10,
+              "rounding_l1": 2.9158633121500616e-09,
+              "raw_transport_cost": 0.05834745638992558,
+              "rounded_transport_cost": 0.058347456764373765
+            },
+            "ordinary_iterations": 50000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 7.39425881635114e-16,
+          "audit_objective": 0.051542559674686836,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.4689213000237942,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.400747633250868e-08,
+              "rounded_residual": 5.741934705483231e-16,
+              "rounded_primal": 0.05154256854159575,
+              "dual": 0.05154255936045871,
+              "numerical_gap": 9.18113703812784e-09,
+              "rounding_l1": 8.400747878306769e-08,
+              "raw_transport_cost": 0.05834745562238592,
+              "rounded_transport_cost": 0.058347466411106386
+            },
+            "ordinary_iterations": 28000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 28
+          },
+          "audit_residual": 5.741934705483231e-16,
+          "audit_objective": 0.051542568541595765,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.7946954999933951,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 2.915861094243688e-09,
+              "rounded_residual": 7.39425881635114e-16,
+              "rounded_primal": 0.05154255967468683,
+              "dual": 0.051542559360947655,
+              "numerical_gap": 3.137391735297257e-10,
+              "rounding_l1": 2.9158633121500616e-09,
+              "raw_transport_cost": 0.05834745638992558,
+              "rounded_transport_cost": 0.058347456764373765
+            },
+            "ordinary_iterations": 50000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 7.39425881635114e-16,
+          "audit_objective": 0.051542559674686836,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.46194410003954545,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.400747633250868e-08,
+              "rounded_residual": 5.741934705483231e-16,
+              "rounded_primal": 0.05154256854159575,
+              "dual": 0.05154255936045871,
+              "numerical_gap": 9.18113703812784e-09,
+              "rounding_l1": 8.400747878306769e-08,
+              "raw_transport_cost": 0.05834745562238592,
+              "rounded_transport_cost": 0.058347466411106386
+            },
+            "ordinary_iterations": 28000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 28
+          },
+          "audit_residual": 5.741934705483231e-16,
+          "audit_objective": 0.051542568541595765,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.504724400001578,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.070859088335104e-08,
+              "rounded_residual": 6.301383026485752e-16,
+              "rounded_primal": 0.05154256927750331,
+              "dual": 0.051542559360377695,
+              "numerical_gap": 9.917125613767563e-09,
+              "rounding_l1": 9.070859318786279e-08,
+              "raw_transport_cost": 0.058347455559285014,
+              "rounded_transport_cost": 0.05834746720866282
+            },
+            "ordinary_iterations": 27500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 110
+          },
+          "audit_residual": 6.301383026485752e-16,
+          "audit_objective": 0.051542569277503315,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "config": {
+        "label": "n_2000_reg_0.001",
+        "n": 2000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 102003,
+      "metrics": {
+        "every_250": {
+          "successes": 3,
+          "median_seconds": 0.09002369997324422,
+          "fallback_runs": 0
+        },
+        "every_1000": {
+          "successes": 3,
+          "median_seconds": 0.09000069997273386,
+          "fallback_runs": 0
+        },
+        "residual_gate": {
+          "successes": 3,
+          "median_seconds": 0.0928931999951601,
+          "fallback_runs": 0
+        }
+      },
+      "runs": [
+        {
+          "method": "every_250",
+          "repeat": 0,
+          "seconds": 0.09002369997324422,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 4.1372641681504396e-08,
+              "rounded_residual": 2.445960101127298e-16,
+              "rounded_primal": 0.054804271623121306,
+              "dual": 0.054804267096859316,
+              "numerical_gap": 4.526261990211999e-09,
+              "rounding_l1": 4.1372643224793853e-08,
+              "raw_transport_cost": 0.06161636952803515,
+              "rounded_transport_cost": 0.06161637446869894
+            },
+            "ordinary_iterations": 4500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 18
+          },
+          "audit_residual": 2.5934115965853266e-16,
+          "audit_objective": 0.05480427162312133,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 0,
+          "seconds": 0.09394039999460801,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 5.785110145269112e-09,
+              "rounded_residual": 3.920475055707584e-16,
+              "rounded_primal": 0.0548042677146511,
+              "dual": 0.05480426709686036,
+              "numerical_gap": 6.177907421744955e-10,
+              "rounding_l1": 5.785112244783816e-09,
+              "raw_transport_cost": 0.06161636955513737,
+              "rounded_transport_cost": 0.06161637023750123
+            },
+            "ordinary_iterations": 5000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 5
+          },
+          "audit_residual": 3.400058012914542e-16,
+          "audit_objective": 0.054804267714651085,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 0,
+          "seconds": 0.09299129998544231,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.926934486758187e-10,
+              "rounded_residual": 4.145989107584569e-16,
+              "rounded_primal": 0.05480426718927493,
+              "dual": 0.05480426709686037,
+              "numerical_gap": 9.24145621139516e-11,
+              "rounding_l1": 8.926951284017912e-10,
+              "raw_transport_cost": 0.06161636955998193,
+              "rounded_transport_cost": 0.06161636966383098
+            },
+            "ordinary_iterations": 5550,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.5388358909926865e-16,
+          "audit_objective": 0.05480426718927492,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 1,
+          "seconds": 0.09061019995715469,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.926934486758187e-10,
+              "rounded_residual": 4.145989107584569e-16,
+              "rounded_primal": 0.05480426718927493,
+              "dual": 0.05480426709686037,
+              "numerical_gap": 9.24145621139516e-11,
+              "rounding_l1": 8.926951284017912e-10,
+              "raw_transport_cost": 0.06161636955998193,
+              "rounded_transport_cost": 0.06161636966383098
+            },
+            "ordinary_iterations": 5550,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.5388358909926865e-16,
+          "audit_objective": 0.05480426718927492,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 1,
+          "seconds": 0.0917530000442639,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 4.1372641681504396e-08,
+              "rounded_residual": 2.445960101127298e-16,
+              "rounded_primal": 0.054804271623121306,
+              "dual": 0.054804267096859316,
+              "numerical_gap": 4.526261990211999e-09,
+              "rounding_l1": 4.1372643224793853e-08,
+              "raw_transport_cost": 0.06161636952803515,
+              "rounded_transport_cost": 0.06161637446869894
+            },
+            "ordinary_iterations": 4500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 18
+          },
+          "audit_residual": 2.5934115965853266e-16,
+          "audit_objective": 0.05480427162312133,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 1,
+          "seconds": 0.09000069997273386,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 5.785110145269112e-09,
+              "rounded_residual": 3.920475055707584e-16,
+              "rounded_primal": 0.0548042677146511,
+              "dual": 0.05480426709686036,
+              "numerical_gap": 6.177907421744955e-10,
+              "rounding_l1": 5.785112244783816e-09,
+              "raw_transport_cost": 0.06161636955513737,
+              "rounded_transport_cost": 0.06161637023750123
+            },
+            "ordinary_iterations": 5000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 5
+          },
+          "audit_residual": 3.400058012914542e-16,
+          "audit_objective": 0.054804267714651085,
+          "warnings": []
+        },
+        {
+          "method": "residual_gate",
+          "repeat": 2,
+          "seconds": 0.0928931999951601,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.926934486758187e-10,
+              "rounded_residual": 4.145989107584569e-16,
+              "rounded_primal": 0.05480426718927493,
+              "dual": 0.05480426709686037,
+              "numerical_gap": 9.24145621139516e-11,
+              "rounding_l1": 8.926951284017912e-10,
+              "raw_transport_cost": 0.06161636955998193,
+              "rounded_transport_cost": 0.06161636966383098
+            },
+            "ordinary_iterations": 5550,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 1
+          },
+          "audit_residual": 3.5388358909926865e-16,
+          "audit_objective": 0.05480426718927492,
+          "warnings": []
+        },
+        {
+          "method": "every_250",
+          "repeat": 2,
+          "seconds": 0.08952680003130808,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 4.1372641681504396e-08,
+              "rounded_residual": 2.445960101127298e-16,
+              "rounded_primal": 0.054804271623121306,
+              "dual": 0.054804267096859316,
+              "numerical_gap": 4.526261990211999e-09,
+              "rounding_l1": 4.1372643224793853e-08,
+              "raw_transport_cost": 0.06161636952803515,
+              "rounded_transport_cost": 0.06161637446869894
+            },
+            "ordinary_iterations": 4500,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 18
+          },
+          "audit_residual": 2.5934115965853266e-16,
+          "audit_objective": 0.05480427162312133,
+          "warnings": []
+        },
+        {
+          "method": "every_1000",
+          "repeat": 2,
+          "seconds": 0.08772890002001077,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 5.785110145269112e-09,
+              "rounded_residual": 3.920475055707584e-16,
+              "rounded_primal": 0.0548042677146511,
+              "dual": 0.05480426709686036,
+              "numerical_gap": 6.177907421744955e-10,
+              "rounding_l1": 5.785112244783816e-09,
+              "raw_transport_cost": 0.06161636955513737,
+              "rounded_transport_cost": 0.06161637023750123
+            },
+            "ordinary_iterations": 5000,
+            "epsilon_outer_iterations": 0,
+            "used_epsilon": false,
+            "quality_checks": 5
+          },
+          "audit_residual": 3.400058012914542e-16,
+          "audit_objective": 0.054804267714651085,
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

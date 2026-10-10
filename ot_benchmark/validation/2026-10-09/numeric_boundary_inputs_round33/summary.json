@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "domain": "balanced_blocks",
+      "seed": 113001,
+      "file": "balanced_blocks_113001.npz",
+      "sha256": "ffdc53ba6893b1cd01f0cd69ac3e25cc06a2fdf064d9abd6aeb8fe9a0e050f47",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "near_balanced_blocks",
+      "seed": 113001,
+      "file": "near_balanced_blocks_113001.npz",
+      "sha256": "d80dd9a25a8492946a0f15e56292ce8742df71b338278114fcf11e7635076a52",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "dynamic_mass",
+      "seed": 113001,
+      "file": "dynamic_mass_113001.npz",
+      "sha256": "ed708da20f75ccc3581d1fdc6426a17fd0f7ed9f961de1bcf672fa9a52ccf377",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "balanced_blocks",
+      "seed": 113002,
+      "file": "balanced_blocks_113002.npz",
+      "sha256": "475a448bf99f900de4eca3ba8ae03c345e22aaaced374bd72094113217389e66",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "near_balanced_blocks",
+      "seed": 113002,
+      "file": "near_balanced_blocks_113002.npz",
+      "sha256": "8538febaa54ecc0fb4bb45466f90345495bce04ba0ed03ea26fba995c5ff4646",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "dynamic_mass",
+      "seed": 113002,
+      "file": "dynamic_mass_113002.npz",
+      "sha256": "6a53f2c7707455ac24161a0a6b7c7f052804cd47699057b02bb76a0754f55b1e",
+      "active_source": 16,
+      "active_target": 16
+    }
+  ]
+}

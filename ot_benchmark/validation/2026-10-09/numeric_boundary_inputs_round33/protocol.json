@@ -1,0 +1,20 @@
+{
+  "role": "new synthetic boundary inputs, no solver outcomes inspected",
+  "seeds": [
+    113001,
+    113002
+  ],
+  "n": 16,
+  "reg": [
+    0.01,
+    0.001
+  ],
+  "families": [
+    "balanced_blocks",
+    "near_balanced_blocks",
+    "dynamic_mass"
+  ],
+  "delta": 0.0001,
+  "generation": "two narrow 1D clusters for blocks, squared distance normalized by max; uniform equal masses or cluster transfer delta; dynamic masses 10**uniform(-6,0) on shared uniform 1D support",
+  "limitations": "designed stress families, not representative real population; shared seeds and paired regularizations dependent; no guarantee of fallback activation"
+}

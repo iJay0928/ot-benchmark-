@@ -1,0 +1,5370 @@
+{
+  "cases": [
+    {
+      "input": {
+        "domain": "near_balanced_blocks",
+        "seed": 113001,
+        "file": "near_balanced_blocks_113001.npz",
+        "sha256": "d80dd9a25a8492946a0f15e56292ce8742df71b338278114fcf11e7635076a52",
+        "active_source": 16,
+        "active_target": 16
+      },
+      "seconds": 3.7916254000010667,
+      "detail": {
+        "accepted": true,
+        "diagnostics": {
+          "raw_residual": 7.065973463421527e-07,
+          "rounded_residual": 1.6653345369377348e-16,
+          "rounded_primal": -0.005708523664655037,
+          "dual": -0.005708531100022594,
+          "numerical_gap": 7.435367556894723e-09,
+          "rounding_l1": 7.065975268288581e-07,
+          "raw_transport_cost": 0.00014169081228516112,
+          "rounded_transport_cost": 0.00014203565316556324
+        },
+        "target_diagnostic_error": null,
+        "reached_reg": 0.001,
+        "blocks": 296,
+        "inner_work": 296000,
+        "trace": [
+          {
+            "block": 1,
+            "reg": 1.0,
+            "executed": 1000,
+            "work": 1000,
+            "gap": 0.0,
+            "raw_residual": 1.457167719820518e-16,
+            "action": "cool"
+          },
+          {
+            "block": 2,
+            "reg": 0.5,
+            "executed": 1000,
+            "work": 2000,
+            "gap": -4.440892098500626e-16,
+            "raw_residual": 4.3021142204224816e-16,
+            "action": "cool"
+          },
+          {
+            "block": 3,
+            "reg": 0.25,
+            "executed": 1000,
+            "work": 3000,
+            "gap": -4.440892098500626e-16,
+            "raw_residual": 1.2698175844150228e-15,
+            "action": "cool"
+          },
+          {
+            "block": 4,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 4000,
+            "gap": 8.394494499519567e-08,
+            "raw_residual": 3.680601283208296e-05,
+            "action": "hold"
+          },
+          {
+            "block": 5,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 5000,
+            "gap": 2.896342055080936e-09,
+            "raw_residual": 6.890389084232562e-06,
+            "action": "hold"
+          },
+          {
+            "block": 6,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 6000,
+            "gap": 9.990419602701195e-11,
+            "raw_residual": 1.281603563017819e-06,
+            "action": "hold"
+          },
+          {
+            "block": 7,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 7000,
+            "gap": 3.4449110231093982e-12,
+            "raw_residual": 2.3807278376475338e-07,
+            "action": "hold"
+          },
+          {
+            "block": 8,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 8000,
+            "gap": 1.197930643570544e-13,
+            "raw_residual": 4.421420712191759e-08,
+            "action": "hold"
+          },
+          {
+            "block": 9,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 9000,
+            "gap": 3.552713678800501e-15,
+            "raw_residual": 8.210975718792035e-09,
+            "action": "cool"
+          },
+          {
+            "block": 10,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 10000,
+            "gap": 3.262774506279653e-05,
+            "raw_residual": 0.000199660045221553,
+            "action": "hold"
+          },
+          {
+            "block": 11,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 11000,
+            "gap": 3.0134216098209876e-05,
+            "raw_residual": 0.00019943594756244298,
+            "action": "hold"
+          },
+          {
+            "block": 12,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 12000,
+            "gap": 2.764877776018082e-05,
+            "raw_residual": 0.0001991213056467614,
+            "action": "hold"
+          },
+          {
+            "block": 13,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 13000,
+            "gap": 2.5173581059356742e-05,
+            "raw_residual": 0.0001986662601045977,
+            "action": "hold"
+          },
+          {
+            "block": 14,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 14000,
+            "gap": 2.2712427883209152e-05,
+            "raw_residual": 0.0001979995900368639,
+            "action": "hold"
+          },
+          {
+            "block": 15,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 15000,
+            "gap": 2.0271295137375134e-05,
+            "raw_residual": 0.00019701883555961475,
+            "action": "hold"
+          },
+          {
+            "block": 16,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 16000,
+            "gap": 1.7859129860908762e-05,
+            "raw_residual": 0.0001955772977973655,
+            "action": "hold"
+          },
+          {
+            "block": 17,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 17000,
+            "gap": 1.5488944015762396e-05,
+            "raw_residual": 0.0001934679547403173,
+            "action": "hold"
+          },
+          {
+            "block": 18,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 18000,
+            "gap": 1.3179185824774287e-05,
+            "raw_residual": 0.00019040596823026446,
+            "action": "hold"
+          },
+          {
+            "block": 19,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 19000,
+            "gap": 1.0955223578468232e-05,
+            "raw_residual": 0.00018601500897504064,
+            "action": "hold"
+          },
+          {
+            "block": 20,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 20000,
+            "gap": 8.850490047063175e-06,
+            "raw_residual": 0.00017982899209014608,
+            "action": "hold"
+          },
+          {
+            "block": 21,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 21000,
+            "gap": 6.906375567494738e-06,
+            "raw_residual": 0.00017132950683278192,
+            "action": "hold"
+          },
+          {
+            "block": 22,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 22000,
+            "gap": 5.169467437782238e-06,
+            "raw_residual": 0.00016004497955016822,
+            "action": "hold"
+          },
+          {
+            "block": 23,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 23000,
+            "gap": 3.684738875353588e-06,
+            "raw_residual": 0.00014572631709482836,
+            "action": "hold"
+          },
+          {
+            "block": 24,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 24000,
+            "gap": 2.48470380803667e-06,
+            "raw_residual": 0.00012856681812629944,
+            "action": "hold"
+          },
+          {
+            "block": 25,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 25000,
+            "gap": 1.5777723760823648e-06,
+            "raw_residual": 0.0001093567721401692,
+            "action": "hold"
+          },
+          {
+            "block": 26,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 26000,
+            "gap": 9.421379854601675e-07,
+            "raw_residual": 8.942391549469908e-05,
+            "action": "hold"
+          },
+          {
+            "block": 27,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 27000,
+            "gap": 5.303637915510251e-07,
+            "raw_residual": 7.030627385489624e-05,
+            "action": "hold"
+          },
+          {
+            "block": 28,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 28000,
+            "gap": 2.831701998995406e-07,
+            "raw_residual": 5.330549138132107e-05,
+            "action": "hold"
+          },
+          {
+            "block": 29,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 29000,
+            "gap": 1.445957871770709e-07,
+            "raw_residual": 3.9173975636519476e-05,
+            "action": "hold"
+          },
+          {
+            "block": 30,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 30000,
+            "gap": 7.125787276907047e-08,
+            "raw_residual": 2.8071888134355294e-05,
+            "action": "hold"
+          },
+          {
+            "block": 31,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 31000,
+            "gap": 3.417966498719949e-08,
+            "raw_residual": 1.9730190084082944e-05,
+            "action": "hold"
+          },
+          {
+            "block": 32,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 32000,
+            "gap": 1.6072505937270165e-08,
+            "raw_residual": 1.3670180847094593e-05,
+            "action": "hold"
+          },
+          {
+            "block": 33,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 33000,
+            "gap": 7.451456396356804e-09,
+            "raw_residual": 9.374674338168132e-06,
+            "action": "hold"
+          },
+          {
+            "block": 34,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 34000,
+            "gap": 3.4204617471722543e-09,
+            "raw_residual": 6.382686572305174e-06,
+            "action": "hold"
+          },
+          {
+            "block": 35,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 35000,
+            "gap": 1.5593631386146e-09,
+            "raw_residual": 4.323951037249474e-06,
+            "action": "hold"
+          },
+          {
+            "block": 36,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 36000,
+            "gap": 7.075698360559102e-10,
+            "raw_residual": 2.9192486908288795e-06,
+            "action": "hold"
+          },
+          {
+            "block": 37,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 37000,
+            "gap": 3.2003966143889784e-10,
+            "raw_residual": 1.966300048797387e-06,
+            "action": "hold"
+          },
+          {
+            "block": 38,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 38000,
+            "gap": 1.4444456741813383e-10,
+            "raw_residual": 1.3223412122786993e-06,
+            "action": "hold"
+          },
+          {
+            "block": 39,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 39000,
+            "gap": 6.509809358234975e-11,
+            "raw_residual": 8.88331437964851e-07,
+            "action": "hold"
+          },
+          {
+            "block": 40,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 40000,
+            "gap": 2.930922171628936e-11,
+            "raw_residual": 5.963418187593383e-07,
+            "action": "hold"
+          },
+          {
+            "block": 41,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 41000,
+            "gap": 1.318678499728776e-11,
+            "raw_residual": 4.001346923659943e-07,
+            "action": "hold"
+          },
+          {
+            "block": 42,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 42000,
+            "gap": 5.930922419850049e-12,
+            "raw_residual": 2.6839633055636414e-07,
+            "action": "hold"
+          },
+          {
+            "block": 43,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 43000,
+            "gap": 2.668087972779176e-12,
+            "raw_residual": 1.7999174857508127e-07,
+            "action": "hold"
+          },
+          {
+            "block": 44,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 44000,
+            "gap": 1.1983192216291627e-12,
+            "raw_residual": 1.2068833905171106e-07,
+            "action": "hold"
+          },
+          {
+            "block": 45,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 45000,
+            "gap": 5.401790126313699e-13,
+            "raw_residual": 8.091620536110344e-08,
+            "action": "hold"
+          },
+          {
+            "block": 46,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 46000,
+            "gap": 2.4280577548552174e-13,
+            "raw_residual": 5.4247205789892394e-08,
+            "action": "hold"
+          },
+          {
+            "block": 47,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 47000,
+            "gap": 1.0791367799356522e-13,
+            "raw_residual": 3.636637924825381e-08,
+            "action": "hold"
+          },
+          {
+            "block": 48,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 48000,
+            "gap": 4.873879078104437e-14,
+            "raw_residual": 2.4378650445577854e-08,
+            "action": "hold"
+          },
+          {
+            "block": 49,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 49000,
+            "gap": 2.2315482794965646e-14,
+            "raw_residual": 1.6342225121757092e-08,
+            "action": "hold"
+          },
+          {
+            "block": 50,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 50000,
+            "gap": 7.271960811294775e-15,
+            "raw_residual": 1.0954844961719168e-08,
+            "action": "hold"
+          },
+          {
+            "block": 51,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 51000,
+            "gap": 6.494804694057166e-15,
+            "raw_residual": 7.343413301053037e-09,
+            "action": "cool"
+          },
+          {
+            "block": 52,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 52000,
+            "gap": 2.2406185625045705e-05,
+            "raw_residual": 0.00019993709745048244,
+            "action": "hold"
+          },
+          {
+            "block": 53,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 53000,
+            "gap": 2.1157050333592275e-05,
+            "raw_residual": 0.00019990617498131386,
+            "action": "hold"
+          },
+          {
+            "block": 54,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 54000,
+            "gap": 1.990834001061592e-05,
+            "raw_residual": 0.00019986006177925147,
+            "action": "hold"
+          },
+          {
+            "block": 55,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 55000,
+            "gap": 1.8660263261083276e-05,
+            "raw_residual": 0.00019979130849798882,
+            "action": "hold"
+          },
+          {
+            "block": 56,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 56000,
+            "gap": 1.7413130803334287e-05,
+            "raw_residual": 0.00019968882859459913,
+            "action": "hold"
+          },
+          {
+            "block": 57,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 57000,
+            "gap": 1.6167405100880883e-05,
+            "raw_residual": 0.00019953614178906676,
+            "action": "hold"
+          },
+          {
+            "block": 58,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 58000,
+            "gap": 1.4923773630964865e-05,
+            "raw_residual": 0.00019930879336226004,
+            "action": "hold"
+          },
+          {
+            "block": 59,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 59000,
+            "gap": 1.3683256663760135e-05,
+            "raw_residual": 0.00019897059066773665,
+            "action": "hold"
+          },
+          {
+            "block": 60,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 60000,
+            "gap": 1.2447364465151267e-05,
+            "raw_residual": 0.00019846817962985291,
+            "action": "hold"
+          },
+          {
+            "block": 61,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 61000,
+            "gap": 1.1218324033501759e-05,
+            "raw_residual": 0.00019772336881690444,
+            "action": "hold"
+          },
+          {
+            "block": 62,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 62000,
+            "gap": 9.999400572197059e-06,
+            "raw_residual": 0.00019662257474471062,
+            "action": "hold"
+          },
+          {
+            "block": 63,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 63000,
+            "gap": 8.795340782769001e-06,
+            "raw_residual": 0.00019500297820070067,
+            "action": "hold"
+          },
+          {
+            "block": 64,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 64000,
+            "gap": 7.612957721003788e-06,
+            "raw_residual": 0.00019263581657453371,
+            "action": "hold"
+          },
+          {
+            "block": 65,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 65000,
+            "gap": 6.461846129457438e-06,
+            "raw_residual": 0.00018920935014508922,
+            "action": "hold"
+          },
+          {
+            "block": 66,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 66000,
+            "gap": 5.35513894778239e-06,
+            "raw_residual": 0.00018431837957576247,
+            "action": "hold"
+          },
+          {
+            "block": 67,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 67000,
+            "gap": 4.310060667839233e-06,
+            "raw_residual": 0.0001774744596073491,
+            "action": "hold"
+          },
+          {
+            "block": 68,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 68000,
+            "gap": 3.347788308433186e-06,
+            "raw_residual": 0.00016815964579706966,
+            "action": "hold"
+          },
+          {
+            "block": 69,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 69000,
+            "gap": 2.4918832629006182e-06,
+            "raw_residual": 0.00015594905822132604,
+            "action": "hold"
+          },
+          {
+            "block": 70,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 70000,
+            "gap": 1.76460346715257e-06,
+            "raw_residual": 0.00014070694976255765,
+            "action": "hold"
+          },
+          {
+            "block": 71,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 71000,
+            "gap": 1.1812342688710675e-06,
+            "raw_residual": 0.00012280169517515233,
+            "action": "hold"
+          },
+          {
+            "block": 72,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 72000,
+            "gap": 7.443163767828498e-07,
+            "raw_residual": 0.00010320895133520552,
+            "action": "hold"
+          },
+          {
+            "block": 73,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 73000,
+            "gap": 4.411065950560289e-07,
+            "raw_residual": 8.336652810551903e-05,
+            "action": "hold"
+          },
+          {
+            "block": 74,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 74000,
+            "gap": 2.4661278205662107e-07,
+            "raw_residual": 6.478560624083307e-05,
+            "action": "hold"
+          },
+          {
+            "block": 75,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 75000,
+            "gap": 1.309066281485194e-07,
+            "raw_residual": 4.861973850453505e-05,
+            "action": "hold"
+          },
+          {
+            "block": 76,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 76000,
+            "gap": 6.65368504737529e-08,
+            "raw_residual": 3.5430753199588993e-05,
+            "action": "hold"
+          },
+          {
+            "block": 77,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 77000,
+            "gap": 3.267567155740281e-08,
+            "raw_residual": 2.5223407628470473e-05,
+            "action": "hold"
+          },
+          {
+            "block": 78,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 78000,
+            "gap": 1.5633632916012274e-08,
+            "raw_residual": 1.764150461411318e-05,
+            "action": "hold"
+          },
+          {
+            "block": 79,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 79000,
+            "gap": 7.338375018761667e-09,
+            "raw_residual": 1.2179830178121742e-05,
+            "action": "hold"
+          },
+          {
+            "block": 80,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 80000,
+            "gap": 3.3979884184187625e-09,
+            "raw_residual": 8.3317961756188e-06,
+            "action": "hold"
+          },
+          {
+            "block": 81,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 81000,
+            "gap": 1.5584796786427546e-09,
+            "raw_residual": 5.6628375908543416e-06,
+            "action": "hold"
+          },
+          {
+            "block": 82,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 82000,
+            "gap": 7.100972310158937e-10,
+            "raw_residual": 3.831746329084618e-06,
+            "action": "hold"
+          },
+          {
+            "block": 83,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 83000,
+            "gap": 3.220918809443418e-10,
+            "raw_residual": 2.584867576531369e-06,
+            "action": "hold"
+          },
+          {
+            "block": 84,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 84000,
+            "gap": 1.4565079697881345e-10,
+            "raw_residual": 1.740133397314103e-06,
+            "action": "hold"
+          },
+          {
+            "block": 85,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 85000,
+            "gap": 6.572803412652206e-11,
+            "raw_residual": 1.1698223803466301e-06,
+            "action": "hold"
+          },
+          {
+            "block": 86,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 86000,
+            "gap": 2.962141643081395e-11,
+            "raw_residual": 7.856843024511839e-07,
+            "action": "hold"
+          },
+          {
+            "block": 87,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 87000,
+            "gap": 1.3336914905792696e-11,
+            "raw_residual": 5.273522994606039e-07,
+            "action": "hold"
+          },
+          {
+            "block": 88,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 88000,
+            "gap": 6.000339114464737e-12,
+            "raw_residual": 3.538086476156943e-07,
+            "action": "hold"
+          },
+          {
+            "block": 89,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 89000,
+            "gap": 2.697508882931743e-12,
+            "raw_residual": 2.3730765105062224e-07,
+            "action": "hold"
+          },
+          {
+            "block": 90,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 90000,
+            "gap": 1.2162770790524746e-12,
+            "raw_residual": 1.5913715500914805e-07,
+            "action": "hold"
+          },
+          {
+            "block": 91,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 91000,
+            "gap": 5.429823257685484e-13,
+            "raw_residual": 1.0670271715501611e-07,
+            "action": "hold"
+          },
+          {
+            "block": 92,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 92000,
+            "gap": 2.4572011092516277e-13,
+            "raw_residual": 7.153879938437413e-08,
+            "action": "hold"
+          },
+          {
+            "block": 93,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 93000,
+            "gap": 1.078026556911027e-13,
+            "raw_residual": 4.796041639526516e-08,
+            "action": "hold"
+          },
+          {
+            "block": 94,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 94000,
+            "gap": 5.007105841059456e-14,
+            "raw_residual": 3.215194881861505e-08,
+            "action": "hold"
+          },
+          {
+            "block": 95,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 95000,
+            "gap": 2.070565940925917e-14,
+            "raw_residual": 2.1553612665481392e-08,
+            "action": "hold"
+          },
+          {
+            "block": 96,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 96000,
+            "gap": 7.41073868937292e-15,
+            "raw_residual": 1.4448621118989813e-08,
+            "action": "hold"
+          },
+          {
+            "block": 97,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 97000,
+            "gap": 3.0531133177191805e-15,
+            "raw_residual": 9.685579990814652e-09,
+            "action": "cool"
+          },
+          {
+            "block": 98,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 98000,
+            "gap": 1.1449658157608456e-05,
+            "raw_residual": 0.00019992672943308643,
+            "action": "hold"
+          },
+          {
+            "block": 99,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 99000,
+            "gap": 1.0824993144753492e-05,
+            "raw_residual": 0.00019989071284794852,
+            "action": "hold"
+          },
+          {
+            "block": 100,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 100000,
+            "gap": 1.0200492859602228e-05,
+            "raw_residual": 0.00019983700650791358,
+            "action": "hold"
+          },
+          {
+            "block": 101,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 101000,
+            "gap": 9.576238269803916e-06,
+            "raw_residual": 0.00019975693971589076,
+            "action": "hold"
+          },
+          {
+            "block": 102,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 102000,
+            "gap": 8.952350117427677e-06,
+            "raw_residual": 0.00019963761326458745,
+            "action": "hold"
+          },
+          {
+            "block": 103,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 103000,
+            "gap": 8.329008385557501e-06,
+            "raw_residual": 0.00019945986400114746,
+            "action": "hold"
+          },
+          {
+            "block": 104,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 104000,
+            "gap": 7.706481324892822e-06,
+            "raw_residual": 0.0001991952808627212,
+            "action": "hold"
+          },
+          {
+            "block": 105,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 105000,
+            "gap": 7.085168436310463e-06,
+            "raw_residual": 0.00019880187153019369,
+            "action": "hold"
+          },
+          {
+            "block": 106,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 106000,
+            "gap": 6.465664226296131e-06,
+            "raw_residual": 0.00019821785412713067,
+            "action": "hold"
+          },
+          {
+            "block": 107,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 107000,
+            "gap": 5.848852112827485e-06,
+            "raw_residual": 0.000197352953571997,
+            "action": "hold"
+          },
+          {
+            "block": 108,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 108000,
+            "gap": 5.2360417348434884e-06,
+            "raw_residual": 0.0001960766142796791,
+            "action": "hold"
+          },
+          {
+            "block": 109,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 109000,
+            "gap": 4.629166937122897e-06,
+            "raw_residual": 0.00019420293685367546,
+            "action": "hold"
+          },
+          {
+            "block": 110,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 110000,
+            "gap": 4.031064205448076e-06,
+            "raw_residual": 0.00019147337242305523,
+            "action": "hold"
+          },
+          {
+            "block": 111,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 111000,
+            "gap": 3.445845972199768e-06,
+            "raw_residual": 0.00018754105122848613,
+            "action": "hold"
+          },
+          {
+            "block": 112,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 112000,
+            "gap": 2.8793571096169535e-06,
+            "raw_residual": 0.00018196605168048496,
+            "action": "hold"
+          },
+          {
+            "block": 113,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 113000,
+            "gap": 2.339629164627155e-06,
+            "raw_residual": 0.0001742391319421721,
+            "action": "hold"
+          },
+          {
+            "block": 114,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 114000,
+            "gap": 1.8370983420890052e-06,
+            "raw_residual": 0.00016385914718754918,
+            "action": "hold"
+          },
+          {
+            "block": 115,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 115000,
+            "gap": 1.3841468000652668e-06,
+            "raw_residual": 0.00015048541501579138,
+            "action": "hold"
+          },
+          {
+            "block": 116,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 116000,
+            "gap": 9.934328576710616e-07,
+            "raw_residual": 0.00013415180099277807,
+            "action": "hold"
+          },
+          {
+            "block": 117,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 117000,
+            "gap": 6.748556922314686e-07,
+            "raw_residual": 0.00011545746383974376,
+            "action": "hold"
+          },
+          {
+            "block": 118,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 118000,
+            "gap": 4.320571755228597e-07,
+            "raw_residual": 9.558696595100835e-05,
+            "action": "hold"
+          },
+          {
+            "block": 119,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 119000,
+            "gap": 2.604212111512183e-07,
+            "raw_residual": 7.605994612148309e-05,
+            "action": "hold"
+          },
+          {
+            "block": 120,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 120000,
+            "gap": 1.4815849055938024e-07,
+            "raw_residual": 5.8295147578886486e-05,
+            "action": "hold"
+          },
+          {
+            "block": 121,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 121000,
+            "gap": 8.000798272511656e-08,
+            "raw_residual": 4.3232448188136596e-05,
+            "action": "hold"
+          },
+          {
+            "block": 122,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 122000,
+            "gap": 4.1321247395975647e-08,
+            "raw_residual": 3.1204828213948765e-05,
+            "action": "hold"
+          },
+          {
+            "block": 123,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 123000,
+            "gap": 2.0578493908907092e-08,
+            "raw_residual": 2.20527547230287e-05,
+            "action": "hold"
+          },
+          {
+            "block": 124,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 124000,
+            "gap": 9.960407165721108e-09,
+            "raw_residual": 1.534098183068877e-05,
+            "action": "hold"
+          },
+          {
+            "block": 125,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 125000,
+            "gap": 4.718187174290733e-09,
+            "raw_residual": 1.0550845614618054e-05,
+            "action": "hold"
+          },
+          {
+            "block": 126,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 126000,
+            "gap": 2.199826307225372e-09,
+            "raw_residual": 7.198110112752176e-06,
+            "action": "hold"
+          },
+          {
+            "block": 127,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 127000,
+            "gap": 1.0140532025193494e-09,
+            "raw_residual": 4.883314115015913e-06,
+            "action": "hold"
+          },
+          {
+            "block": 128,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 128000,
+            "gap": 4.637164124909887e-10,
+            "raw_residual": 3.3001795260514943e-06,
+            "action": "hold"
+          },
+          {
+            "block": 129,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 129000,
+            "gap": 2.1087313839540656e-10,
+            "raw_residual": 2.224435418786419e-06,
+            "action": "hold"
+          },
+          {
+            "block": 130,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 130000,
+            "gap": 9.552866830908613e-11,
+            "raw_residual": 1.4966789214643228e-06,
+            "action": "hold"
+          },
+          {
+            "block": 131,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 131000,
+            "gap": 4.3164471996703924e-11,
+            "raw_residual": 1.0058080026631444e-06,
+            "action": "hold"
+          },
+          {
+            "block": 132,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 132000,
+            "gap": 1.9470133838517256e-11,
+            "raw_residual": 6.753819879398715e-07,
+            "action": "hold"
+          },
+          {
+            "block": 133,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 133000,
+            "gap": 8.7710533280827e-12,
+            "raw_residual": 4.532596786926968e-07,
+            "action": "hold"
+          },
+          {
+            "block": 134,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 134000,
+            "gap": 3.946676319088738e-12,
+            "raw_residual": 3.040784099794802e-07,
+            "action": "hold"
+          },
+          {
+            "block": 135,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 135000,
+            "gap": 1.775052327346316e-12,
+            "raw_residual": 2.0394697329562117e-07,
+            "action": "hold"
+          },
+          {
+            "block": 136,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 136000,
+            "gap": 7.976813654053672e-13,
+            "raw_residual": 1.3676571416348926e-07,
+            "action": "hold"
+          },
+          {
+            "block": 137,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 137000,
+            "gap": 3.610445276081009e-13,
+            "raw_residual": 9.17041731648971e-08,
+            "action": "hold"
+          },
+          {
+            "block": 138,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 138000,
+            "gap": 1.6170398353665405e-13,
+            "raw_residual": 6.148491610291629e-08,
+            "action": "hold"
+          },
+          {
+            "block": 139,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 139000,
+            "gap": 7.076284003204591e-14,
+            "raw_residual": 4.122183015070613e-08,
+            "action": "hold"
+          },
+          {
+            "block": 140,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 140000,
+            "gap": 3.1155633628543455e-14,
+            "raw_residual": 2.763568170138786e-08,
+            "action": "hold"
+          },
+          {
+            "block": 141,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 141000,
+            "gap": 1.3614109839465982e-14,
+            "raw_residual": 1.8526921059802692e-08,
+            "action": "hold"
+          },
+          {
+            "block": 142,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 142000,
+            "gap": 6.328271240363392e-15,
+            "raw_residual": 1.242024853798096e-08,
+            "action": "hold"
+          },
+          {
+            "block": 143,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 143000,
+            "gap": 4.704570066849101e-15,
+            "raw_residual": 8.32631218139479e-09,
+            "action": "cool"
+          },
+          {
+            "block": 144,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 144000,
+            "gap": 6.2090594449074055e-06,
+            "raw_residual": 0.00019988092286220283,
+            "action": "hold"
+          },
+          {
+            "block": 145,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 145000,
+            "gap": 5.896401660175632e-06,
+            "raw_residual": 0.00019982240984831728,
+            "action": "hold"
+          },
+          {
+            "block": 146,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 146000,
+            "gap": 5.583667093467248e-06,
+            "raw_residual": 0.0001997351822795243,
+            "action": "hold"
+          },
+          {
+            "block": 147,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 147000,
+            "gap": 5.270819016876815e-06,
+            "raw_residual": 0.0001996051957136799,
+            "action": "hold"
+          },
+          {
+            "block": 148,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 148000,
+            "gap": 4.9578038078326725e-06,
+            "raw_residual": 0.0001994115928458523,
+            "action": "hold"
+          },
+          {
+            "block": 149,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 149000,
+            "gap": 4.644544187554223e-06,
+            "raw_residual": 0.0001991234689021973,
+            "action": "hold"
+          },
+          {
+            "block": 150,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 150000,
+            "gap": 4.330930624241169e-06,
+            "raw_residual": 0.00019869518354350552,
+            "action": "hold"
+          },
+          {
+            "block": 151,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 151000,
+            "gap": 4.016812249582613e-06,
+            "raw_residual": 0.00019805967259448748,
+            "action": "hold"
+          },
+          {
+            "block": 152,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 152000,
+            "gap": 3.701990398993771e-06,
+            "raw_residual": 0.0001971191266755823,
+            "action": "hold"
+          },
+          {
+            "block": 153,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 153000,
+            "gap": 3.3862234087994603e-06,
+            "raw_residual": 0.00019573249426713124,
+            "action": "hold"
+          },
+          {
+            "block": 154,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 154000,
+            "gap": 3.069260469001911e-06,
+            "raw_residual": 0.0001936997881832117,
+            "action": "hold"
+          },
+          {
+            "block": 155,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 155000,
+            "gap": 2.7509376302123356e-06,
+            "raw_residual": 0.00019074467155638652,
+            "action": "hold"
+          },
+          {
+            "block": 156,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 156000,
+            "gap": 2.4313892011823546e-06,
+            "raw_residual": 0.00018650011942850098,
+            "action": "hold"
+          },
+          {
+            "block": 157,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 157000,
+            "gap": 2.111440641140716e-06,
+            "raw_residual": 0.0001805080257594252,
+            "action": "hold"
+          },
+          {
+            "block": 158,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 158000,
+            "gap": 1.7932267704703908e-06,
+            "raw_residual": 0.00017225219972754474,
+            "action": "hold"
+          },
+          {
+            "block": 159,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 159000,
+            "gap": 1.4809686925063015e-06,
+            "raw_residual": 0.00016125066110666414,
+            "action": "hold"
+          },
+          {
+            "block": 160,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 160000,
+            "gap": 1.181600721399112e-06,
+            "raw_residual": 0.00014722428376435365,
+            "action": "hold"
+          },
+          {
+            "block": 161,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 161000,
+            "gap": 9.046388914565884e-07,
+            "raw_residual": 0.0001303157466561386,
+            "action": "hold"
+          },
+          {
+            "block": 162,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 162000,
+            "gap": 6.606547861276457e-07,
+            "raw_residual": 0.00011125657040890469,
+            "action": "hold"
+          },
+          {
+            "block": 163,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 163000,
+            "gap": 4.5839949431442095e-07,
+            "raw_residual": 9.133274754150045e-05,
+            "action": "hold"
+          },
+          {
+            "block": 164,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 164000,
+            "gap": 3.0184345727740647e-07,
+            "raw_residual": 7.208011731296704e-05,
+            "action": "hold"
+          },
+          {
+            "block": 165,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 165000,
+            "gap": 1.8894373164657363e-07,
+            "raw_residual": 5.483880633498639e-05,
+            "action": "hold"
+          },
+          {
+            "block": 166,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 166000,
+            "gap": 1.1286692767897843e-07,
+            "raw_residual": 4.041915893177733e-05,
+            "action": "hold"
+          },
+          {
+            "block": 167,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 167000,
+            "gap": 6.465390579163399e-08,
+            "raw_residual": 2.9033188426293155e-05,
+            "action": "hold"
+          },
+          {
+            "block": 168,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 168000,
+            "gap": 3.568961418065619e-08,
+            "raw_residual": 2.0443959205612705e-05,
+            "action": "hold"
+          },
+          {
+            "block": 169,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 169000,
+            "gap": 1.9068066847705012e-08,
+            "raw_residual": 1.4185081150488998e-05,
+            "action": "hold"
+          },
+          {
+            "block": 170,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 170000,
+            "gap": 9.896959030086805e-09,
+            "raw_residual": 9.738486707211447e-06,
+            "action": "hold"
+          },
+          {
+            "block": 171,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 171000,
+            "gap": 5.006219140624157e-09,
+            "raw_residual": 6.6360173976223735e-06,
+            "action": "hold"
+          },
+          {
+            "block": 172,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 172000,
+            "gap": 2.475037771954014e-09,
+            "raw_residual": 4.4985727828128486e-06,
+            "action": "hold"
+          },
+          {
+            "block": 173,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 173000,
+            "gap": 1.1993191439962914e-09,
+            "raw_residual": 3.0387812038276674e-06,
+            "action": "hold"
+          },
+          {
+            "block": 174,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 174000,
+            "gap": 5.712146103342697e-10,
+            "raw_residual": 2.0477350534189864e-06,
+            "action": "hold"
+          },
+          {
+            "block": 175,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 175000,
+            "gap": 2.681742328203285e-10,
+            "raw_residual": 1.377642207811558e-06,
+            "action": "hold"
+          },
+          {
+            "block": 176,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 176000,
+            "gap": 1.2445901254043434e-10,
+            "raw_residual": 9.258031701542269e-07,
+            "action": "hold"
+          },
+          {
+            "block": 177,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 177000,
+            "gap": 5.72467004356092e-11,
+            "raw_residual": 6.216947455103816e-07,
+            "action": "hold"
+          },
+          {
+            "block": 178,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 178000,
+            "gap": 2.6154377275044993e-11,
+            "raw_residual": 4.172707424310307e-07,
+            "action": "hold"
+          },
+          {
+            "block": 179,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 179000,
+            "gap": 1.1893777629445879e-11,
+            "raw_residual": 2.799706257383683e-07,
+            "action": "hold"
+          },
+          {
+            "block": 180,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 180000,
+            "gap": 5.386080470515253e-12,
+            "raw_residual": 1.8780558010134119e-07,
+            "action": "hold"
+          },
+          {
+            "block": 181,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 181000,
+            "gap": 2.4358431938154013e-12,
+            "raw_residual": 1.2596186338420523e-07,
+            "action": "hold"
+          },
+          {
+            "block": 182,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 182000,
+            "gap": 1.0964007479685733e-12,
+            "raw_residual": 8.447440730946498e-08,
+            "action": "hold"
+          },
+          {
+            "block": 183,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 183000,
+            "gap": 4.917941054394248e-13,
+            "raw_residual": 5.6647626187067424e-08,
+            "action": "hold"
+          },
+          {
+            "block": 184,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 184000,
+            "gap": 2.2254420528611263e-13,
+            "raw_residual": 3.7985509321325495e-08,
+            "action": "hold"
+          },
+          {
+            "block": 185,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 185000,
+            "gap": 1.0124540095191037e-13,
+            "raw_residual": 2.5470623749024313e-08,
+            "action": "hold"
+          },
+          {
+            "block": 186,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 186000,
+            "gap": 4.4853010194856324e-14,
+            "raw_residual": 1.707872315098724e-08,
+            "action": "hold"
+          },
+          {
+            "block": 187,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 187000,
+            "gap": 1.8519907829528393e-14,
+            "raw_residual": 1.145141442782105e-08,
+            "action": "hold"
+          },
+          {
+            "block": 188,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 188000,
+            "gap": 1.1463052729254741e-14,
+            "raw_residual": 7.678334378036222e-09,
+            "action": "cool"
+          },
+          {
+            "block": 189,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 189000,
+            "gap": 3.96539693051437e-06,
+            "raw_residual": 0.0001996816963466888,
+            "action": "hold"
+          },
+          {
+            "block": 190,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 190000,
+            "gap": 3.8076221372355945e-06,
+            "raw_residual": 0.00019952551877256558,
+            "action": "hold"
+          },
+          {
+            "block": 191,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 191000,
+            "gap": 3.6491084402894003e-06,
+            "raw_residual": 0.0001992929832295709,
+            "action": "hold"
+          },
+          {
+            "block": 192,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 192000,
+            "gap": 3.48950548989882e-06,
+            "raw_residual": 0.00019894708823137847,
+            "action": "hold"
+          },
+          {
+            "block": 193,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 193000,
+            "gap": 3.328305669257625e-06,
+            "raw_residual": 0.00019843330264662784,
+            "action": "hold"
+          },
+          {
+            "block": 194,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 194000,
+            "gap": 3.164783276599775e-06,
+            "raw_residual": 0.00019767174505320312,
+            "action": "hold"
+          },
+          {
+            "block": 195,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 195000,
+            "gap": 2.99792043545119e-06,
+            "raw_residual": 0.00019654645332874837,
+            "action": "hold"
+          },
+          {
+            "block": 196,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 196000,
+            "gap": 2.826327990961691e-06,
+            "raw_residual": 0.00019489136129025725,
+            "action": "hold"
+          },
+          {
+            "block": 197,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 197000,
+            "gap": 2.6481835225487804e-06,
+            "raw_residual": 0.000192473493564993,
+            "action": "hold"
+          },
+          {
+            "block": 198,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 198000,
+            "gap": 2.4612336940489643e-06,
+            "raw_residual": 0.00018897609108484148,
+            "action": "hold"
+          },
+          {
+            "block": 199,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 199000,
+            "gap": 2.262945636381103e-06,
+            "raw_residual": 0.00018398889501931165,
+            "action": "hold"
+          },
+          {
+            "block": 200,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 200000,
+            "gap": 2.050934643907376e-06,
+            "raw_residual": 0.00017702021219673236,
+            "action": "hold"
+          },
+          {
+            "block": 201,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 201000,
+            "gap": 1.8238071316824256e-06,
+            "raw_residual": 0.00016755400287678246,
+            "action": "hold"
+          },
+          {
+            "block": 202,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 202000,
+            "gap": 1.58245273887761e-06,
+            "raw_residual": 0.00015517682556412393,
+            "action": "hold"
+          },
+          {
+            "block": 203,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 203000,
+            "gap": 1.331489904412425e-06,
+            "raw_residual": 0.00013977690346214655,
+            "action": "hold"
+          },
+          {
+            "block": 204,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 204000,
+            "gap": 1.0800509749296638e-06,
+            "raw_residual": 0.00012175624262456691,
+            "action": "hold"
+          },
+          {
+            "block": 205,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 205000,
+            "gap": 8.408284161605384e-07,
+            "raw_residual": 0.00010212204386792628,
+            "action": "hold"
+          },
+          {
+            "block": 206,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 206000,
+            "gap": 6.270070577983622e-07,
+            "raw_residual": 8.232557353694131e-05,
+            "action": "hold"
+          },
+          {
+            "block": 207,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 207000,
+            "gap": 4.483255744008874e-07,
+            "raw_residual": 6.386518665172508e-05,
+            "action": "hold"
+          },
+          {
+            "block": 208,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 208000,
+            "gap": 3.0851702887552124e-07,
+            "raw_residual": 4.786249903293571e-05,
+            "action": "hold"
+          },
+          {
+            "block": 209,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 209000,
+            "gap": 2.0542228930039985e-07,
+            "raw_residual": 3.4844520050689165e-05,
+            "action": "hold"
+          },
+          {
+            "block": 210,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 210000,
+            "gap": 1.3311043907046627e-07,
+            "raw_residual": 2.4791039125157677e-05,
+            "action": "hold"
+          },
+          {
+            "block": 211,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 211000,
+            "gap": 8.438878808594841e-08,
+            "raw_residual": 1.733419068545433e-05,
+            "action": "hold"
+          },
+          {
+            "block": 212,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 212000,
+            "gap": 5.2573198204564076e-08,
+            "raw_residual": 1.19672852429073e-05,
+            "action": "hold"
+          },
+          {
+            "block": 213,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 213000,
+            "gap": 3.229086079775678e-08,
+            "raw_residual": 8.187670848196216e-06,
+            "action": "hold"
+          },
+          {
+            "block": 214,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 214000,
+            "gap": 1.9598427120764983e-08,
+            "raw_residual": 5.566479546907643e-06,
+            "action": "hold"
+          },
+          {
+            "block": 215,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 215000,
+            "gap": 1.1770928943360959e-08,
+            "raw_residual": 3.767972626134153e-06,
+            "action": "hold"
+          },
+          {
+            "block": 216,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 216000,
+            "gap": 7.0012415552545004e-09,
+            "raw_residual": 2.5429668039228526e-06,
+            "action": "hold"
+          },
+          {
+            "block": 217,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 217000,
+            "gap": 4.124880131906039e-09,
+            "raw_residual": 1.7127516265744158e-06,
+            "action": "hold"
+          },
+          {
+            "block": 218,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 218000,
+            "gap": 2.4068563669876752e-09,
+            "raw_residual": 1.1520019678745719e-06,
+            "action": "hold"
+          },
+          {
+            "block": 219,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 219000,
+            "gap": 1.3902835618861964e-09,
+            "raw_residual": 7.741244214126697e-07,
+            "action": "hold"
+          },
+          {
+            "block": 220,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 220000,
+            "gap": 7.945436843181941e-10,
+            "raw_residual": 5.198738206660392e-07,
+            "action": "hold"
+          },
+          {
+            "block": 221,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 221000,
+            "gap": 4.4894672007744774e-10,
+            "raw_residual": 3.489820998639481e-07,
+            "action": "hold"
+          },
+          {
+            "block": 222,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 222000,
+            "gap": 2.506279003777756e-10,
+            "raw_residual": 2.3420014053782134e-07,
+            "action": "hold"
+          },
+          {
+            "block": 223,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 223000,
+            "gap": 1.3812837679205714e-10,
+            "raw_residual": 1.5714059037330586e-07,
+            "action": "hold"
+          },
+          {
+            "block": 224,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 224000,
+            "gap": 7.510176508462862e-11,
+            "raw_residual": 1.054226510810441e-07,
+            "action": "hold"
+          },
+          {
+            "block": 225,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 225000,
+            "gap": 4.0255208888506644e-11,
+            "raw_residual": 7.072013764181095e-08,
+            "action": "hold"
+          },
+          {
+            "block": 226,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 226000,
+            "gap": 2.1252718335196263e-11,
+            "raw_residual": 4.743814926988499e-08,
+            "action": "hold"
+          },
+          {
+            "block": 227,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 227000,
+            "gap": 1.1049133830098867e-11,
+            "raw_residual": 3.1819723987636106e-08,
+            "action": "hold"
+          },
+          {
+            "block": 228,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 228000,
+            "gap": 5.649678641583833e-12,
+            "raw_residual": 2.1343016291808237e-08,
+            "action": "hold"
+          },
+          {
+            "block": 229,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 229000,
+            "gap": 2.8373345339893774e-12,
+            "raw_residual": 1.4315353784322138e-08,
+            "action": "hold"
+          },
+          {
+            "block": 230,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 230000,
+            "gap": 1.3986103941654449e-12,
+            "raw_residual": 9.601727933572501e-09,
+            "action": "cool"
+          },
+          {
+            "block": 231,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 231000,
+            "gap": 3.219682425283435e-06,
+            "raw_residual": 0.0001990669562675143,
+            "action": "hold"
+          },
+          {
+            "block": 232,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 232000,
+            "gap": 3.135666204185164e-06,
+            "raw_residual": 0.0001986112549101013,
+            "action": "hold"
+          },
+          {
+            "block": 233,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 233000,
+            "gap": 3.0488528776507345e-06,
+            "raw_residual": 0.00019793530173761037,
+            "action": "hold"
+          },
+          {
+            "block": 234,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 234000,
+            "gap": 2.957976015193625e-06,
+            "raw_residual": 0.00019693542339953296,
+            "action": "hold"
+          },
+          {
+            "block": 235,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 235000,
+            "gap": 2.861257810861037e-06,
+            "raw_residual": 0.00019546245396676737,
+            "action": "hold"
+          },
+          {
+            "block": 236,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 236000,
+            "gap": 2.756262567418788e-06,
+            "raw_residual": 0.0001933056242731171,
+            "action": "hold"
+          },
+          {
+            "block": 237,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 237000,
+            "gap": 2.639768599248943e-06,
+            "raw_residual": 0.00019017522320322056,
+            "action": "hold"
+          },
+          {
+            "block": 238,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 238000,
+            "gap": 2.5077357494046604e-06,
+            "raw_residual": 0.00018568956893388194,
+            "action": "hold"
+          },
+          {
+            "block": 239,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 239000,
+            "gap": 2.3555145265575367e-06,
+            "raw_residual": 0.0001793784061180359,
+            "action": "hold"
+          },
+          {
+            "block": 240,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 240000,
+            "gap": 2.1785184802867313e-06,
+            "raw_residual": 0.0001707235127776166,
+            "action": "hold"
+          },
+          {
+            "block": 241,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 241000,
+            "gap": 1.9735848248540744e-06,
+            "raw_residual": 0.00015926246979364872,
+            "action": "hold"
+          },
+          {
+            "block": 242,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 242000,
+            "gap": 1.7410178056731507e-06,
+            "raw_residual": 0.00014476841559865616,
+            "action": "hold"
+          },
+          {
+            "block": 243,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 243000,
+            "gap": 1.4867008335788662e-06,
+            "raw_residual": 0.00012746915839732115,
+            "action": "hold"
+          },
+          {
+            "block": 244,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 244000,
+            "gap": 1.2229015475678784e-06,
+            "raw_residual": 0.00010819162494576928,
+            "action": "hold"
+          },
+          {
+            "block": 245,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 245000,
+            "gap": 9.663659716087347e-07,
+            "raw_residual": 8.828501225128377e-05,
+            "action": "hold"
+          },
+          {
+            "block": 246,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 246000,
+            "gap": 7.338190287572988e-07,
+            "raw_residual": 6.928092713375661e-05,
+            "action": "hold"
+          },
+          {
+            "block": 247,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 247000,
+            "gap": 5.371451388003906e-07,
+            "raw_residual": 5.244998457732547e-05,
+            "action": "hold"
+          },
+          {
+            "block": 248,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 248000,
+            "gap": 3.809589088753923e-07,
+            "raw_residual": 3.8505500616160815e-05,
+            "action": "hold"
+          },
+          {
+            "block": 249,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 249000,
+            "gap": 2.6335055935272633e-07,
+            "raw_residual": 2.757669053408962e-05,
+            "action": "hold"
+          },
+          {
+            "block": 250,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 250000,
+            "gap": 1.7846892106342105e-07,
+            "raw_residual": 1.937824316609188e-05,
+            "action": "hold"
+          },
+          {
+            "block": 251,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 251000,
+            "gap": 1.1915694014472122e-07,
+            "raw_residual": 1.3427717150966967e-05,
+            "action": "hold"
+          },
+          {
+            "block": 252,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 252000,
+            "gap": 7.869013659601853e-08,
+            "raw_residual": 9.211431923547564e-06,
+            "action": "hold"
+          },
+          {
+            "block": 253,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 253000,
+            "gap": 5.1553408039056725e-08,
+            "raw_residual": 6.274619971401163e-06,
+            "action": "hold"
+          },
+          {
+            "block": 254,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 254000,
+            "gap": 3.35788692615302e-08,
+            "raw_residual": 4.2532973335771e-06,
+            "action": "hold"
+          },
+          {
+            "block": 255,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 255000,
+            "gap": 2.1777345713194785e-08,
+            "raw_residual": 2.8734905227895124e-06,
+            "action": "hold"
+          },
+          {
+            "block": 256,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 256000,
+            "gap": 1.407758662246017e-08,
+            "raw_residual": 1.936884655329152e-06,
+            "action": "hold"
+          },
+          {
+            "block": 257,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 257000,
+            "gap": 9.077032308082988e-09,
+            "raw_residual": 1.3035484216078475e-06,
+            "action": "hold"
+          },
+          {
+            "block": 258,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 258000,
+            "gap": 5.840610255852807e-09,
+            "raw_residual": 8.763908798947728e-07,
+            "action": "hold"
+          },
+          {
+            "block": 259,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 259000,
+            "gap": 3.751533557763698e-09,
+            "raw_residual": 5.887933829870629e-07,
+            "action": "hold"
+          },
+          {
+            "block": 260,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 260000,
+            "gap": 2.4059399455350627e-09,
+            "raw_residual": 3.95387252626056e-07,
+            "action": "hold"
+          },
+          {
+            "block": 261,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 261000,
+            "gap": 1.540793669735363e-09,
+            "raw_residual": 2.654266096635549e-07,
+            "action": "hold"
+          },
+          {
+            "block": 262,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 262000,
+            "gap": 9.85407446613129e-10,
+            "raw_residual": 1.781449826196435e-07,
+            "action": "hold"
+          },
+          {
+            "block": 263,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 263000,
+            "gap": 6.293885048552772e-10,
+            "raw_residual": 1.1954743486114472e-07,
+            "action": "hold"
+          },
+          {
+            "block": 264,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 264000,
+            "gap": 4.014725166895383e-10,
+            "raw_residual": 8.021691778881124e-08,
+            "action": "hold"
+          },
+          {
+            "block": 265,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 265000,
+            "gap": 2.557490018373354e-10,
+            "raw_residual": 5.3822238173240056e-08,
+            "action": "hold"
+          },
+          {
+            "block": 266,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 266000,
+            "gap": 1.62701825970335e-10,
+            "raw_residual": 3.611116777824108e-08,
+            "action": "hold"
+          },
+          {
+            "block": 267,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 267000,
+            "gap": 1.0336696776303e-10,
+            "raw_residual": 2.4227315952030093e-08,
+            "action": "hold"
+          },
+          {
+            "block": 268,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 268000,
+            "gap": 6.55718188080634e-11,
+            "raw_residual": 1.625433941609966e-08,
+            "action": "hold"
+          },
+          {
+            "block": 269,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 269000,
+            "gap": 4.1534008871080275e-11,
+            "raw_residual": 1.0904700128988587e-08,
+            "action": "hold"
+          },
+          {
+            "block": 270,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 270000,
+            "gap": 2.6267198485752097e-11,
+            "raw_residual": 7.31577729645716e-09,
+            "action": "cool"
+          },
+          {
+            "block": 271,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 271000,
+            "gap": 3.0134140581406996e-06,
+            "raw_residual": 0.0001974350137262451,
+            "action": "hold"
+          },
+          {
+            "block": 272,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 272000,
+            "gap": 2.955859005141989e-06,
+            "raw_residual": 0.00019619753679739338,
+            "action": "hold"
+          },
+          {
+            "block": 273,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 273000,
+            "gap": 2.8902608829421694e-06,
+            "raw_residual": 0.00019438007290948495,
+            "action": "hold"
+          },
+          {
+            "block": 274,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 274000,
+            "gap": 2.8132659052344106e-06,
+            "raw_residual": 0.0001917306208214925,
+            "action": "hold"
+          },
+          {
+            "block": 275,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 275000,
+            "gap": 2.7204535207733457e-06,
+            "raw_residual": 0.00018790998947956078,
+            "action": "hold"
+          },
+          {
+            "block": 276,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 276000,
+            "gap": 2.606334041829403e-06,
+            "raw_residual": 0.00018248577180001585,
+            "action": "hold"
+          },
+          {
+            "block": 277,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 277000,
+            "gap": 2.4647289808676226e-06,
+            "raw_residual": 0.00017495307596120113,
+            "action": "hold"
+          },
+          {
+            "block": 278,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 278000,
+            "gap": 2.2898417148670136e-06,
+            "raw_residual": 0.00016480677401067845,
+            "action": "hold"
+          },
+          {
+            "block": 279,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 279000,
+            "gap": 2.0782543145051943e-06,
+            "raw_residual": 0.00015168753051821027,
+            "action": "hold"
+          },
+          {
+            "block": 280,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 280000,
+            "gap": 1.8316274427139859e-06,
+            "raw_residual": 0.000135592366194294,
+            "action": "hold"
+          },
+          {
+            "block": 281,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 281000,
+            "gap": 1.5589717575004505e-06,
+            "raw_residual": 0.00011707110584480845,
+            "action": "hold"
+          },
+          {
+            "block": 282,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 282000,
+            "gap": 1.2766181681153621e-06,
+            "raw_residual": 9.726437299104052e-05,
+            "action": "hold"
+          },
+          {
+            "block": 283,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 283000,
+            "gap": 1.0047022985203158e-06,
+            "raw_residual": 7.767496888761577e-05,
+            "action": "hold"
+          },
+          {
+            "block": 284,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 284000,
+            "gap": 7.613876883425311e-07,
+            "raw_residual": 5.97409053401457e-05,
+            "action": "hold"
+          },
+          {
+            "block": 285,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 285000,
+            "gap": 5.580494050697743e-07,
+            "raw_residual": 4.444611151370459e-05,
+            "action": "hold"
+          },
+          {
+            "block": 286,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 286000,
+            "gap": 3.978621056846543e-07,
+            "raw_residual": 3.2170886080484795e-05,
+            "action": "hold"
+          },
+          {
+            "block": 287,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 287000,
+            "gap": 2.775716893390137e-07,
+            "raw_residual": 2.2790300963637655e-05,
+            "action": "hold"
+          },
+          {
+            "block": 288,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 288000,
+            "gap": 1.9051856652105986e-07,
+            "raw_residual": 1.588666280376988e-05,
+            "action": "hold"
+          },
+          {
+            "block": 289,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 289000,
+            "gap": 1.292228998710579e-07,
+            "raw_residual": 1.0945424396377468e-05,
+            "action": "hold"
+          },
+          {
+            "block": 290,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 290000,
+            "gap": 8.690832818594035e-08,
+            "raw_residual": 7.478787822423616e-06,
+            "action": "hold"
+          },
+          {
+            "block": 291,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 291000,
+            "gap": 5.8102275812647874e-08,
+            "raw_residual": 5.080672046797741e-06,
+            "action": "hold"
+          },
+          {
+            "block": 292,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 292000,
+            "gap": 3.868237777229083e-08,
+            "raw_residual": 3.4378302048027054e-06,
+            "action": "hold"
+          },
+          {
+            "block": 293,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 293000,
+            "gap": 2.5678271704278333e-08,
+            "raw_residual": 2.3198958809880765e-06,
+            "action": "hold"
+          },
+          {
+            "block": 294,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 294000,
+            "gap": 1.701081722184361e-08,
+            "raw_residual": 1.5626154572304096e-06,
+            "action": "hold"
+          },
+          {
+            "block": 295,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 295000,
+            "gap": 1.125244510850193e-08,
+            "raw_residual": 1.0512224256284397e-06,
+            "action": "hold"
+          },
+          {
+            "block": 296,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 296000,
+            "gap": 7.435367556894723e-09,
+            "raw_residual": 7.065973463421527e-07,
+            "action": "accept"
+          }
+        ],
+        "reason": "target quality"
+      },
+      "audit_residual": 1.6653345369377348e-16,
+      "audit_objective": -0.005708523664655037,
+      "net_to_first": 9.999999999998366e-05,
+      "warnings": [
+        "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+      ]
+    },
+    {
+      "input": {
+        "domain": "near_balanced_blocks",
+        "seed": 113002,
+        "file": "near_balanced_blocks_113002.npz",
+        "sha256": "8538febaa54ecc0fb4bb45466f90345495bce04ba0ed03ea26fba995c5ff4646",
+        "active_source": 16,
+        "active_target": 16
+      },
+      "seconds": 3.725733700004639,
+      "detail": {
+        "accepted": true,
+        "diagnostics": {
+          "raw_residual": 6.642244397420116e-07,
+          "rounded_residual": 1.249000902703301e-16,
+          "rounded_primal": -0.005693743954797358,
+          "dual": -0.005693752287079983,
+          "numerical_gap": 8.332282625152232e-09,
+          "rounding_l1": 6.64225080393906e-07,
+          "raw_transport_cost": 0.0001561193650720229,
+          "rounded_transport_cost": 0.00015643827667005284
+        },
+        "target_diagnostic_error": null,
+        "reached_reg": 0.001,
+        "blocks": 292,
+        "inner_work": 292000,
+        "trace": [
+          {
+            "block": 1,
+            "reg": 1.0,
+            "executed": 1000,
+            "work": 1000,
+            "gap": 0.0,
+            "raw_residual": 1.734723475976807e-16,
+            "action": "cool"
+          },
+          {
+            "block": 2,
+            "reg": 0.5,
+            "executed": 1000,
+            "work": 2000,
+            "gap": 0.0,
+            "raw_residual": 6.175615574477433e-16,
+            "action": "cool"
+          },
+          {
+            "block": 3,
+            "reg": 0.25,
+            "executed": 1000,
+            "work": 3000,
+            "gap": 6.661338147750939e-16,
+            "raw_residual": 1.0408340855860843e-15,
+            "action": "cool"
+          },
+          {
+            "block": 4,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 4000,
+            "gap": 4.809214138035145e-08,
+            "raw_residual": 2.931760567188857e-05,
+            "action": "hold"
+          },
+          {
+            "block": 5,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 5000,
+            "gap": 1.069882737958494e-09,
+            "raw_residual": 4.397189585357564e-06,
+            "action": "hold"
+          },
+          {
+            "block": 6,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 6000,
+            "gap": 2.3811619342950507e-11,
+            "raw_residual": 6.565618881418378e-07,
+            "action": "hold"
+          },
+          {
+            "block": 7,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 7000,
+            "gap": 5.303535388634373e-13,
+            "raw_residual": 9.796538624068374e-08,
+            "action": "hold"
+          },
+          {
+            "block": 8,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 8000,
+            "gap": 1.176836406102666e-14,
+            "raw_residual": 1.4615848864529823e-08,
+            "action": "hold"
+          },
+          {
+            "block": 9,
+            "reg": 0.125,
+            "executed": 1000,
+            "work": 9000,
+            "gap": -1.1102230246251565e-16,
+            "raw_residual": 2.1805639308092317e-09,
+            "action": "cool"
+          },
+          {
+            "block": 10,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 10000,
+            "gap": 3.1409890572875465e-05,
+            "raw_residual": 0.00019959394794549085,
+            "action": "hold"
+          },
+          {
+            "block": 11,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 11000,
+            "gap": 2.891704179475152e-05,
+            "raw_residual": 0.00019931607340958196,
+            "action": "hold"
+          },
+          {
+            "block": 12,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 12000,
+            "gap": 2.6434294113808487e-05,
+            "raw_residual": 0.00019892866812452892,
+            "action": "hold"
+          },
+          {
+            "block": 13,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 13000,
+            "gap": 2.3964150687394437e-05,
+            "raw_residual": 0.0001983706493650511,
+            "action": "hold"
+          },
+          {
+            "block": 14,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 14000,
+            "gap": 2.151113901238677e-05,
+            "raw_residual": 0.00019755536674221502,
+            "action": "hold"
+          },
+          {
+            "block": 15,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 15000,
+            "gap": 1.9082411149451417e-05,
+            "raw_residual": 0.00019635902965486202,
+            "action": "hold"
+          },
+          {
+            "block": 16,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 16000,
+            "gap": 1.668865057347091e-05,
+            "raw_residual": 0.0001946059592343244,
+            "action": "hold"
+          },
+          {
+            "block": 17,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 17000,
+            "gap": 1.4345290033135338e-05,
+            "raw_residual": 0.00019205134242843147,
+            "action": "hold"
+          },
+          {
+            "block": 18,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 18000,
+            "gap": 1.2073958312874833e-05,
+            "raw_residual": 0.00018836465725367846,
+            "action": "hold"
+          },
+          {
+            "block": 19,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 19000,
+            "gap": 9.903869039429303e-06,
+            "raw_residual": 0.00018312184891987326,
+            "action": "hold"
+          },
+          {
+            "block": 20,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 20000,
+            "gap": 7.872490408955546e-06,
+            "raw_residual": 0.0001758221447082653,
+            "action": "hold"
+          },
+          {
+            "block": 21,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 21000,
+            "gap": 6.024323984721303e-06,
+            "raw_residual": 0.0001659537380137993,
+            "action": "hold"
+          },
+          {
+            "block": 22,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 22000,
+            "gap": 4.4062788260856856e-06,
+            "raw_residual": 0.0001531320059768651,
+            "action": "hold"
+          },
+          {
+            "block": 23,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 23000,
+            "gap": 3.058708270886612e-06,
+            "raw_residual": 0.0001373063100242808,
+            "action": "hold"
+          },
+          {
+            "block": 24,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 24000,
+            "gap": 2.0035315344557603e-06,
+            "raw_residual": 0.0001189649764682249,
+            "action": "hold"
+          },
+          {
+            "block": 25,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 25000,
+            "gap": 1.234454130638607e-06,
+            "raw_residual": 9.9197282771947e-05,
+            "action": "hold"
+          },
+          {
+            "block": 26,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 26000,
+            "gap": 7.158006876673007e-07,
+            "raw_residual": 7.949222844180065e-05,
+            "action": "hold"
+          },
+          {
+            "block": 27,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 27000,
+            "gap": 3.9231370946302135e-07,
+            "raw_residual": 6.1320389383418e-05,
+            "action": "hold"
+          },
+          {
+            "block": 28,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 28000,
+            "gap": 2.047331450483192e-07,
+            "raw_residual": 4.572639828609448e-05,
+            "action": "hold"
+          },
+          {
+            "block": 29,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 29000,
+            "gap": 1.0263729116610776e-07,
+            "raw_residual": 3.315009117221823e-05,
+            "action": "hold"
+          },
+          {
+            "block": 30,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 30000,
+            "gap": 4.987110358012359e-08,
+            "raw_residual": 2.350569204725983e-05,
+            "action": "hold"
+          },
+          {
+            "block": 31,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 31000,
+            "gap": 2.3672971860566605e-08,
+            "raw_residual": 1.6391505322586875e-05,
+            "action": "hold"
+          },
+          {
+            "block": 32,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 32000,
+            "gap": 1.1048829573478969e-08,
+            "raw_residual": 1.1292719918461203e-05,
+            "action": "hold"
+          },
+          {
+            "block": 33,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 33000,
+            "gap": 5.095512678465752e-09,
+            "raw_residual": 7.71334829374748e-06,
+            "action": "hold"
+          },
+          {
+            "block": 34,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 34000,
+            "gap": 2.330496684521677e-09,
+            "raw_residual": 5.237019239053009e-06,
+            "action": "hold"
+          },
+          {
+            "block": 35,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 35000,
+            "gap": 1.059804133340947e-09,
+            "raw_residual": 3.5410620157771966e-06,
+            "action": "hold"
+          },
+          {
+            "block": 36,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 36000,
+            "gap": 4.800755348810526e-10,
+            "raw_residual": 2.3875911446466502e-06,
+            "action": "hold"
+          },
+          {
+            "block": 37,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 37000,
+            "gap": 2.1689289253501443e-10,
+            "raw_residual": 1.6067806556385733e-06,
+            "action": "hold"
+          },
+          {
+            "block": 38,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 38000,
+            "gap": 9.781514487272602e-11,
+            "raw_residual": 1.0799220813567656e-06,
+            "action": "hold"
+          },
+          {
+            "block": 39,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 39000,
+            "gap": 4.405881215419072e-11,
+            "raw_residual": 7.251873997346503e-07,
+            "action": "hold"
+          },
+          {
+            "block": 40,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 40000,
+            "gap": 1.9830193043191002e-11,
+            "raw_residual": 4.86691491219382e-07,
+            "action": "hold"
+          },
+          {
+            "block": 41,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 41000,
+            "gap": 8.921918759341452e-12,
+            "raw_residual": 3.265023805071321e-07,
+            "action": "hold"
+          },
+          {
+            "block": 42,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 42000,
+            "gap": 4.0103476095509905e-12,
+            "raw_residual": 2.1897987188129742e-07,
+            "action": "hold"
+          },
+          {
+            "block": 43,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 43000,
+            "gap": 1.802502591630173e-12,
+            "raw_residual": 1.468402290802362e-07,
+            "action": "hold"
+          },
+          {
+            "block": 44,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 44000,
+            "gap": 8.103517856739018e-13,
+            "raw_residual": 9.845419278453615e-08,
+            "action": "hold"
+          },
+          {
+            "block": 45,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 45000,
+            "gap": 3.637090628672013e-13,
+            "raw_residual": 6.6006810829633e-08,
+            "action": "hold"
+          },
+          {
+            "block": 46,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 46000,
+            "gap": 1.628142065612792e-13,
+            "raw_residual": 4.425069066033016e-08,
+            "action": "hold"
+          },
+          {
+            "block": 47,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 47000,
+            "gap": 7.51620987671231e-14,
+            "raw_residual": 2.9664412877494772e-08,
+            "action": "hold"
+          },
+          {
+            "block": 48,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 48000,
+            "gap": 3.291811268013589e-14,
+            "raw_residual": 1.9885707920608287e-08,
+            "action": "hold"
+          },
+          {
+            "block": 49,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 49000,
+            "gap": 1.404432126150823e-14,
+            "raw_residual": 1.3330289948265683e-08,
+            "action": "hold"
+          },
+          {
+            "block": 50,
+            "reg": 0.0625,
+            "executed": 1000,
+            "work": 50000,
+            "gap": 1.0880185641326534e-14,
+            "raw_residual": 8.935791065423082e-09,
+            "action": "cool"
+          },
+          {
+            "block": 51,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 51000,
+            "gap": 2.2450964427184195e-05,
+            "raw_residual": 0.00019993638555595994,
+            "action": "hold"
+          },
+          {
+            "block": 52,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 52000,
+            "gap": 2.1201816740951118e-05,
+            "raw_residual": 0.00019990511326908184,
+            "action": "hold"
+          },
+          {
+            "block": 53,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 53000,
+            "gap": 1.9953087938395786e-05,
+            "raw_residual": 0.0001998584786705171,
+            "action": "hold"
+          },
+          {
+            "block": 54,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 54000,
+            "gap": 1.8704983642314765e-05,
+            "raw_residual": 0.00019978894846866407,
+            "action": "hold"
+          },
+          {
+            "block": 55,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 55000,
+            "gap": 1.745781014328429e-05,
+            "raw_residual": 0.00019968531140517748,
+            "action": "hold"
+          },
+          {
+            "block": 56,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 56000,
+            "gap": 1.6212023336625858e-05,
+            "raw_residual": 0.0001995309028292036,
+            "action": "hold"
+          },
+          {
+            "block": 57,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 57000,
+            "gap": 1.4968300983631e-05,
+            "raw_residual": 0.00019930099563610082,
+            "action": "hold"
+          },
+          {
+            "block": 58,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 58000,
+            "gap": 1.3727649030570444e-05,
+            "raw_residual": 0.0001989589975697481,
+            "action": "hold"
+          },
+          {
+            "block": 59,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 59000,
+            "gap": 1.2491556759197664e-05,
+            "raw_residual": 0.0001984509724720293,
+            "action": "hold"
+          },
+          {
+            "block": 60,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 60000,
+            "gap": 1.1262220726782068e-05,
+            "raw_residual": 0.00019769789219444694,
+            "action": "hold"
+          },
+          {
+            "block": 61,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 61000,
+            "gap": 1.0042862574111133e-05,
+            "raw_residual": 0.00019658499260066103,
+            "action": "hold"
+          },
+          {
+            "block": 62,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 62000,
+            "gap": 8.838167913999273e-06,
+            "raw_residual": 0.00019494783735574117,
+            "action": "hold"
+          },
+          {
+            "block": 63,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 63000,
+            "gap": 7.654866845924202e-06,
+            "raw_residual": 0.00019255555251248418,
+            "action": "hold"
+          },
+          {
+            "block": 64,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 64000,
+            "gap": 6.502446793427152e-06,
+            "raw_residual": 0.00018909385570371057,
+            "action": "hold"
+          },
+          {
+            "block": 65,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 65000,
+            "gap": 5.39391246212606e-06,
+            "raw_residual": 0.000184154922463306,
+            "action": "hold"
+          },
+          {
+            "block": 66,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 66000,
+            "gap": 4.346354405659891e-06,
+            "raw_residual": 0.00017724847550425193,
+            "action": "hold"
+          },
+          {
+            "block": 67,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 67000,
+            "gap": 3.380844215417067e-06,
+            "raw_residual": 0.00016785714636922272,
+            "action": "hold"
+          },
+          {
+            "block": 68,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 68000,
+            "gap": 2.5209208723842025e-06,
+            "raw_residual": 0.00015556122521696858,
+            "action": "hold"
+          },
+          {
+            "block": 69,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 69000,
+            "gap": 1.7889641960588953e-06,
+            "raw_residual": 0.00014023637622986862,
+            "action": "hold"
+          },
+          {
+            "block": 70,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 70000,
+            "gap": 1.2005585767471683e-06,
+            "raw_residual": 0.00012226756270359435,
+            "action": "hold"
+          },
+          {
+            "block": 71,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 71000,
+            "gap": 7.58683632390289e-07,
+            "raw_residual": 0.0001026467801302014,
+            "action": "hold"
+          },
+          {
+            "block": 72,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 72000,
+            "gap": 4.510563143544921e-07,
+            "raw_residual": 8.282002125068605e-05,
+            "action": "hold"
+          },
+          {
+            "block": 73,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 73000,
+            "gap": 2.5301623271523077e-07,
+            "raw_residual": 6.429382768677327e-05,
+            "action": "hold"
+          },
+          {
+            "block": 74,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 74000,
+            "gap": 1.3474493257281672e-07,
+            "raw_residual": 4.820698654033756e-05,
+            "action": "hold"
+          },
+          {
+            "block": 75,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 75000,
+            "gap": 6.869328778025263e-08,
+            "raw_residual": 3.510405849200399e-05,
+            "action": "hold"
+          },
+          {
+            "block": 76,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 76000,
+            "gap": 3.3821726003191444e-08,
+            "raw_residual": 2.4976591458183983e-05,
+            "action": "hold"
+          },
+          {
+            "block": 77,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 77000,
+            "gap": 1.621583600730503e-08,
+            "raw_residual": 1.7461500659503304e-05,
+            "action": "hold"
+          },
+          {
+            "block": 78,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 78000,
+            "gap": 7.623960684988162e-09,
+            "raw_residual": 1.2051895973710924e-05,
+            "action": "hold"
+          },
+          {
+            "block": 79,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 79000,
+            "gap": 3.534467690746723e-09,
+            "raw_residual": 8.242524867231593e-06,
+            "action": "hold"
+          },
+          {
+            "block": 80,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 80000,
+            "gap": 1.6224803167652624e-09,
+            "raw_residual": 5.601339659266902e-06,
+            "action": "hold"
+          },
+          {
+            "block": 81,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 81000,
+            "gap": 7.397136514430969e-10,
+            "raw_residual": 3.7897546607407184e-06,
+            "action": "hold"
+          },
+          {
+            "block": 82,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 82000,
+            "gap": 3.3566560642128707e-10,
+            "raw_residual": 2.556368091315153e-06,
+            "action": "hold"
+          },
+          {
+            "block": 83,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 83000,
+            "gap": 1.518339065587071e-10,
+            "raw_residual": 1.7208703186402663e-06,
+            "action": "hold"
+          },
+          {
+            "block": 84,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 84000,
+            "gap": 6.853381750993037e-11,
+            "raw_residual": 1.1568384325547076e-06,
+            "action": "hold"
+          },
+          {
+            "block": 85,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 85000,
+            "gap": 3.0886598834101164e-11,
+            "raw_residual": 7.769491123660321e-07,
+            "action": "hold"
+          },
+          {
+            "block": 86,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 86000,
+            "gap": 1.3910234075709127e-11,
+            "raw_residual": 5.214828950259043e-07,
+            "action": "hold"
+          },
+          {
+            "block": 87,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 87000,
+            "gap": 6.258382700963239e-12,
+            "raw_residual": 3.498682061564562e-07,
+            "action": "hold"
+          },
+          {
+            "block": 88,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 88000,
+            "gap": 2.8173019472887972e-12,
+            "raw_residual": 2.3466372531949498e-07,
+            "action": "hold"
+          },
+          {
+            "block": 89,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 89000,
+            "gap": 1.263600335477122e-12,
+            "raw_residual": 1.5736384877118592e-07,
+            "action": "hold"
+          },
+          {
+            "block": 90,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 90000,
+            "gap": 5.704603456280211e-13,
+            "raw_residual": 1.0551363199134967e-07,
+            "action": "hold"
+          },
+          {
+            "block": 91,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 91000,
+            "gap": 2.521871600436043e-13,
+            "raw_residual": 7.074165769144214e-08,
+            "action": "hold"
+          },
+          {
+            "block": 92,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 92000,
+            "gap": 1.1590728377086634e-13,
+            "raw_residual": 4.7426030810870934e-08,
+            "action": "hold"
+          },
+          {
+            "block": 93,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 93000,
+            "gap": 4.7933879088191134e-14,
+            "raw_residual": 3.179373440909128e-08,
+            "action": "hold"
+          },
+          {
+            "block": 94,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 94000,
+            "gap": 1.9984014443252818e-14,
+            "raw_residual": 2.1313518269727716e-08,
+            "action": "hold"
+          },
+          {
+            "block": 95,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 95000,
+            "gap": 1.2850831510036187e-14,
+            "raw_residual": 1.4287674786339633e-08,
+            "action": "hold"
+          },
+          {
+            "block": 96,
+            "reg": 0.03125,
+            "executed": 1000,
+            "work": 96000,
+            "gap": 1.1934897514720433e-15,
+            "raw_residual": 9.577730629428682e-09,
+            "action": "cool"
+          },
+          {
+            "block": 97,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 97000,
+            "gap": 1.1529561233097896e-05,
+            "raw_residual": 0.00019992438051549127,
+            "action": "hold"
+          },
+          {
+            "block": 98,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 98000,
+            "gap": 1.0904868421257596e-05,
+            "raw_residual": 0.0001998872100526794,
+            "action": "hold"
+          },
+          {
+            "block": 99,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 99000,
+            "gap": 1.0280326698142161e-05,
+            "raw_residual": 0.00019983178375506533,
+            "action": "hold"
+          },
+          {
+            "block": 100,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 100000,
+            "gap": 9.65601038302455e-06,
+            "raw_residual": 0.00019974915468853188,
+            "action": "hold"
+          },
+          {
+            "block": 101,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 101000,
+            "gap": 9.032030337599584e-06,
+            "raw_residual": 0.00019962601349538672,
+            "action": "hold"
+          },
+          {
+            "block": 102,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 102000,
+            "gap": 8.408551980018664e-06,
+            "raw_residual": 0.00019944259046938279,
+            "action": "hold"
+          },
+          {
+            "block": 103,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 103000,
+            "gap": 7.78582204243039e-06,
+            "raw_residual": 0.00019916958114537392,
+            "action": "hold"
+          },
+          {
+            "block": 104,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 104000,
+            "gap": 7.164208647408854e-06,
+            "raw_residual": 0.00019876368581622783,
+            "action": "hold"
+          },
+          {
+            "block": 105,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 105000,
+            "gap": 6.544260825525061e-06,
+            "raw_residual": 0.00019816122729813396,
+            "action": "hold"
+          },
+          {
+            "block": 106,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 106000,
+            "gap": 5.9267970872189935e-06,
+            "raw_residual": 0.00019726922372465677,
+            "action": "hold"
+          },
+          {
+            "block": 107,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 107000,
+            "gap": 5.31303648935999e-06,
+            "raw_residual": 0.00019595334015384824,
+            "action": "hold"
+          },
+          {
+            "block": 108,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 108000,
+            "gap": 4.7047904422892195e-06,
+            "raw_residual": 0.00019402258648536924,
+            "action": "hold"
+          },
+          {
+            "block": 109,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 109000,
+            "gap": 4.1047378858127814e-06,
+            "raw_residual": 0.00019121194774455313,
+            "action": "hold"
+          },
+          {
+            "block": 110,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 110000,
+            "gap": 3.516803349687403e-06,
+            "raw_residual": 0.00018716714588124655,
+            "action": "hold"
+          },
+          {
+            "block": 111,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 111000,
+            "gap": 2.946633605491189e-06,
+            "raw_residual": 0.00018144139789152275,
+            "action": "hold"
+          },
+          {
+            "block": 112,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 112000,
+            "gap": 2.4020947855252217e-06,
+            "raw_residual": 0.00017352240369346988,
+            "action": "hold"
+          },
+          {
+            "block": 113,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 113000,
+            "gap": 1.8935559622512699e-06,
+            "raw_residual": 0.00016291511161500155,
+            "action": "hold"
+          },
+          {
+            "block": 114,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 114000,
+            "gap": 1.4335017217842472e-06,
+            "raw_residual": 0.00014930016845398492,
+            "action": "hold"
+          },
+          {
+            "block": 115,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 115000,
+            "gap": 1.034903207200455e-06,
+            "raw_residual": 0.0001327503508178271,
+            "action": "hold"
+          },
+          {
+            "block": 116,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 116000,
+            "gap": 7.081555672000528e-07,
+            "raw_residual": 0.00011391353474369398,
+            "action": "hold"
+          },
+          {
+            "block": 117,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 117000,
+            "gap": 4.5748092920849803e-07,
+            "raw_residual": 9.401336094336937e-05,
+            "action": "hold"
+          },
+          {
+            "block": 118,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 118000,
+            "gap": 2.787973189394277e-07,
+            "raw_residual": 7.457829207027644e-05,
+            "action": "hold"
+          },
+          {
+            "block": 119,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 119000,
+            "gap": 1.606925583291785e-07,
+            "raw_residual": 5.7000490822481376e-05,
+            "action": "hold"
+          },
+          {
+            "block": 120,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 120000,
+            "gap": 8.806404398764567e-08,
+            "raw_residual": 4.21728355815415e-05,
+            "action": "hold"
+          },
+          {
+            "block": 121,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 121000,
+            "gap": 4.620434571056542e-08,
+            "raw_residual": 3.0382938518355718e-05,
+            "action": "hold"
+          },
+          {
+            "block": 122,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 122000,
+            "gap": 2.3378583804967157e-08,
+            "raw_residual": 2.1441345536235557e-05,
+            "action": "hold"
+          },
+          {
+            "block": 123,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 123000,
+            "gap": 1.1487087045458644e-08,
+            "raw_residual": 1.4900109215079671e-05,
+            "action": "hold"
+          },
+          {
+            "block": 124,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 124000,
+            "gap": 5.5147253708032196e-09,
+            "raw_residual": 1.0240024082924792e-05,
+            "action": "hold"
+          },
+          {
+            "block": 125,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 125000,
+            "gap": 2.600342607905759e-09,
+            "raw_residual": 6.98243516433078e-06,
+            "action": "hold"
+          },
+          {
+            "block": 126,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 126000,
+            "gap": 1.2095220519592331e-09,
+            "raw_residual": 4.735305209238594e-06,
+            "action": "hold"
+          },
+          {
+            "block": 127,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 127000,
+            "gap": 5.569310290720608e-10,
+            "raw_residual": 3.1993753696682448e-06,
+            "action": "hold"
+          },
+          {
+            "block": 128,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 128000,
+            "gap": 2.5455776375693517e-10,
+            "raw_residual": 2.1561352304966253e-06,
+            "action": "hold"
+          },
+          {
+            "block": 129,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 129000,
+            "gap": 1.1574327607455359e-10,
+            "raw_residual": 1.4505640032053124e-06,
+            "action": "hold"
+          },
+          {
+            "block": 130,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 130000,
+            "gap": 5.243248890618446e-11,
+            "raw_residual": 9.74745722637227e-07,
+            "action": "hold"
+          },
+          {
+            "block": 131,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 131000,
+            "gap": 2.3689952777239398e-11,
+            "raw_residual": 6.544923875084763e-07,
+            "action": "hold"
+          },
+          {
+            "block": 132,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 132000,
+            "gap": 1.0682218998248061e-11,
+            "raw_residual": 4.3922627805670356e-07,
+            "action": "hold"
+          },
+          {
+            "block": 133,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 133000,
+            "gap": 4.816771981275281e-12,
+            "raw_residual": 2.946577816811957e-07,
+            "action": "hold"
+          },
+          {
+            "block": 134,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 134000,
+            "gap": 2.1693202789663246e-12,
+            "raw_residual": 1.9762593674726991e-07,
+            "action": "hold"
+          },
+          {
+            "block": 135,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 135000,
+            "gap": 9.789669075388474e-13,
+            "raw_residual": 1.3252581561318255e-07,
+            "action": "hold"
+          },
+          {
+            "block": 136,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 136000,
+            "gap": 4.4259040876681865e-13,
+            "raw_residual": 8.88608495119847e-08,
+            "action": "hold"
+          },
+          {
+            "block": 137,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 137000,
+            "gap": 1.9460821842898213e-13,
+            "raw_residual": 5.95784186638304e-08,
+            "action": "hold"
+          },
+          {
+            "block": 138,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 138000,
+            "gap": 8.867906409193438e-14,
+            "raw_residual": 3.994360347342463e-08,
+            "action": "hold"
+          },
+          {
+            "block": 139,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 139000,
+            "gap": 4.218847493575595e-14,
+            "raw_residual": 2.6778804076976748e-08,
+            "action": "hold"
+          },
+          {
+            "block": 140,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 140000,
+            "gap": 1.7666423879347803e-14,
+            "raw_residual": 1.7952491097872336e-08,
+            "action": "hold"
+          },
+          {
+            "block": 141,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 141000,
+            "gap": 4.2049697057677804e-15,
+            "raw_residual": 1.2035169028035142e-08,
+            "action": "hold"
+          },
+          {
+            "block": 142,
+            "reg": 0.015625,
+            "executed": 1000,
+            "work": 142000,
+            "gap": 4.315992008230296e-15,
+            "raw_residual": 8.068161708174593e-09,
+            "action": "cool"
+          },
+          {
+            "block": 143,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 143000,
+            "gap": 6.338107517982194e-06,
+            "raw_residual": 0.0001998712990325946,
+            "action": "hold"
+          },
+          {
+            "block": 144,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 144000,
+            "gap": 6.025344712827507e-06,
+            "raw_residual": 0.00019980806148847674,
+            "action": "hold"
+          },
+          {
+            "block": 145,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 145000,
+            "gap": 5.712453915784899e-06,
+            "raw_residual": 0.00019971379657428984,
+            "action": "hold"
+          },
+          {
+            "block": 146,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 146000,
+            "gap": 5.399373758194215e-06,
+            "raw_residual": 0.00019957333514530884,
+            "action": "hold"
+          },
+          {
+            "block": 147,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 147000,
+            "gap": 5.086014500270408e-06,
+            "raw_residual": 0.00019936415842917304,
+            "action": "hold"
+          },
+          {
+            "block": 148,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 148000,
+            "gap": 4.7722463354243905e-06,
+            "raw_residual": 0.00019905291777177342,
+            "action": "hold"
+          },
+          {
+            "block": 149,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 149000,
+            "gap": 4.457884362416009e-06,
+            "raw_residual": 0.00019859040428872599,
+            "action": "hold"
+          },
+          {
+            "block": 150,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 150000,
+            "gap": 4.14267137562041e-06,
+            "raw_residual": 0.00019790439903152185,
+            "action": "hold"
+          },
+          {
+            "block": 151,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 151000,
+            "gap": 3.826262560784055e-06,
+            "raw_residual": 0.0001968897690737964,
+            "action": "hold"
+          },
+          {
+            "block": 152,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 152000,
+            "gap": 3.5082225822574697e-06,
+            "raw_residual": 0.0001953953217596685,
+            "action": "hold"
+          },
+          {
+            "block": 153,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 153000,
+            "gap": 3.188057122800736e-06,
+            "raw_residual": 0.00019320758942421162,
+            "action": "hold"
+          },
+          {
+            "block": 154,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 154000,
+            "gap": 2.8653191792779586e-06,
+            "raw_residual": 0.0001900334921082769,
+            "action": "hold"
+          },
+          {
+            "block": 155,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 155000,
+            "gap": 2.539852507539575e-06,
+            "raw_residual": 0.00018548761635481942,
+            "action": "hold"
+          },
+          {
+            "block": 156,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 156000,
+            "gap": 2.2122491648984832e-06,
+            "raw_residual": 0.00017909650752939016,
+            "action": "hold"
+          },
+          {
+            "block": 157,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 157000,
+            "gap": 1.8845683753196396e-06,
+            "raw_residual": 0.00017034111183196476,
+            "action": "hold"
+          },
+          {
+            "block": 158,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 158000,
+            "gap": 1.561233154770414e-06,
+            "raw_residual": 0.00015876333455506347,
+            "action": "hold"
+          },
+          {
+            "block": 159,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 159000,
+            "gap": 1.2497377287826184e-06,
+            "raw_residual": 0.00014414857762383437,
+            "action": "hold"
+          },
+          {
+            "block": 160,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 160000,
+            "gap": 9.604659989698172e-07,
+            "raw_residual": 0.00012674511393014065,
+            "action": "hold"
+          },
+          {
+            "block": 161,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 161000,
+            "gap": 7.049332806999264e-07,
+            "raw_residual": 0.00010740346438647269,
+            "action": "hold"
+          },
+          {
+            "block": 162,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 162000,
+            "gap": 4.925935388408464e-07,
+            "raw_residual": 8.748958359549447e-05,
+            "action": "hold"
+          },
+          {
+            "block": 163,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 163000,
+            "gap": 3.276955611308807e-07,
+            "raw_residual": 6.853629060399324e-05,
+            "action": "hold"
+          },
+          {
+            "block": 164,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 164000,
+            "gap": 2.0811690282229733e-07,
+            "raw_residual": 5.179950172543718e-05,
+            "action": "hold"
+          },
+          {
+            "block": 165,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 165000,
+            "gap": 1.2678859109133134e-07,
+            "raw_residual": 3.797004212528765e-05,
+            "action": "hold"
+          },
+          {
+            "block": 166,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 166000,
+            "gap": 7.451175458583759e-08,
+            "raw_residual": 2.715659723142444e-05,
+            "action": "hold"
+          },
+          {
+            "block": 167,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 167000,
+            "gap": 4.247159987591509e-08,
+            "raw_residual": 1.9060648246985168e-05,
+            "action": "hold"
+          },
+          {
+            "block": 168,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 168000,
+            "gap": 2.3590016828833882e-08,
+            "raw_residual": 1.3194141369202161e-05,
+            "action": "hold"
+          },
+          {
+            "block": 169,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 169000,
+            "gap": 1.2815237065977314e-08,
+            "raw_residual": 9.043049736930098e-06,
+            "action": "hold"
+          },
+          {
+            "block": 170,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 170000,
+            "gap": 6.828323483032417e-09,
+            "raw_residual": 6.154955528511752e-06,
+            "action": "hold"
+          },
+          {
+            "block": 171,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 171000,
+            "gap": 3.5758722094492157e-09,
+            "raw_residual": 4.169111831375805e-06,
+            "action": "hold"
+          },
+          {
+            "block": 172,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 172000,
+            "gap": 1.8431369763760586e-09,
+            "raw_residual": 2.814686142126044e-06,
+            "action": "hold"
+          },
+          {
+            "block": 173,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 173000,
+            "gap": 9.35957859826697e-10,
+            "raw_residual": 1.8960173729584695e-06,
+            "action": "hold"
+          },
+          {
+            "block": 174,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 174000,
+            "gap": 4.685177107388583e-10,
+            "raw_residual": 1.2752495925846818e-06,
+            "action": "hold"
+          },
+          {
+            "block": 175,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 175000,
+            "gap": 2.3126773412984747e-10,
+            "raw_residual": 8.568465237543399e-07,
+            "action": "hold"
+          },
+          {
+            "block": 176,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 176000,
+            "gap": 1.1259194965251851e-10,
+            "raw_residual": 5.753222118293211e-07,
+            "action": "hold"
+          },
+          {
+            "block": 177,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 177000,
+            "gap": 5.4084695055856e-11,
+            "raw_residual": 3.8611591966775105e-07,
+            "action": "hold"
+          },
+          {
+            "block": 178,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 178000,
+            "gap": 2.5651973600826494e-11,
+            "raw_residual": 2.5905311901858186e-07,
+            "action": "hold"
+          },
+          {
+            "block": 179,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 179000,
+            "gap": 1.2024756190776031e-11,
+            "raw_residual": 1.737677648022684e-07,
+            "action": "hold"
+          },
+          {
+            "block": 180,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 180000,
+            "gap": 5.5820209565737855e-12,
+            "raw_residual": 1.1654355368262426e-07,
+            "action": "hold"
+          },
+          {
+            "block": 181,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 181000,
+            "gap": 2.5690422011948044e-12,
+            "raw_residual": 7.815678707695506e-08,
+            "action": "hold"
+          },
+          {
+            "block": 182,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 182000,
+            "gap": 1.175941288789062e-12,
+            "raw_residual": 5.241041448750261e-08,
+            "action": "hold"
+          },
+          {
+            "block": 183,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 183000,
+            "gap": 5.384026557919697e-13,
+            "raw_residual": 3.5143919843716453e-08,
+            "action": "hold"
+          },
+          {
+            "block": 184,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 184000,
+            "gap": 2.4300700340873505e-13,
+            "raw_residual": 2.3565158727145707e-08,
+            "action": "hold"
+          },
+          {
+            "block": 185,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 185000,
+            "gap": 1.1301376501293703e-13,
+            "raw_residual": 1.580087547609077e-08,
+            "action": "hold"
+          },
+          {
+            "block": 186,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 186000,
+            "gap": 4.705957845629882e-14,
+            "raw_residual": 1.0594795346596797e-08,
+            "action": "hold"
+          },
+          {
+            "block": 187,
+            "reg": 0.0078125,
+            "executed": 1000,
+            "work": 187000,
+            "gap": 2.4001634013615103e-14,
+            "raw_residual": 7.103814356201887e-09,
+            "action": "cool"
+          },
+          {
+            "block": 188,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 188000,
+            "gap": 4.153646753060625e-06,
+            "raw_residual": 0.00019959756904929654,
+            "action": "hold"
+          },
+          {
+            "block": 189,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 189000,
+            "gap": 3.995049565684583e-06,
+            "raw_residual": 0.00019940023806951784,
+            "action": "hold"
+          },
+          {
+            "block": 190,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 190000,
+            "gap": 3.835323338422653e-06,
+            "raw_residual": 0.0001991065803348957,
+            "action": "hold"
+          },
+          {
+            "block": 191,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 191000,
+            "gap": 3.673941797607827e-06,
+            "raw_residual": 0.00019867010122324308,
+            "action": "hold"
+          },
+          {
+            "block": 192,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 192000,
+            "gap": 3.5101514223555286e-06,
+            "raw_residual": 0.000198022501857395,
+            "action": "hold"
+          },
+          {
+            "block": 193,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 193000,
+            "gap": 3.3428911859860466e-06,
+            "raw_residual": 0.00019706421921165257,
+            "action": "hold"
+          },
+          {
+            "block": 194,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 194000,
+            "gap": 3.1707010263969104e-06,
+            "raw_residual": 0.0001956517728357865,
+            "action": "hold"
+          },
+          {
+            "block": 195,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 195000,
+            "gap": 2.991634368704199e-06,
+            "raw_residual": 0.0001935819454073201,
+            "action": "hold"
+          },
+          {
+            "block": 196,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 196000,
+            "gap": 2.803211475613937e-06,
+            "raw_residual": 0.00019057438731574783,
+            "action": "hold"
+          },
+          {
+            "block": 197,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 197000,
+            "gap": 2.6024865459189916e-06,
+            "raw_residual": 0.0001862576669202573,
+            "action": "hold"
+          },
+          {
+            "block": 198,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 198000,
+            "gap": 2.3863530107352815e-06,
+            "raw_residual": 0.00018017000500476776,
+            "action": "hold"
+          },
+          {
+            "block": 199,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 199000,
+            "gap": 2.152255209476872e-06,
+            "raw_residual": 0.00017179455570775354,
+            "action": "hold"
+          },
+          {
+            "block": 200,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 200000,
+            "gap": 1.8994385161154315e-06,
+            "raw_residual": 0.0001606551716063359,
+            "action": "hold"
+          },
+          {
+            "block": 201,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 201000,
+            "gap": 1.6306254144449195e-06,
+            "raw_residual": 0.00014648845488048068,
+            "action": "hold"
+          },
+          {
+            "block": 202,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 202000,
+            "gap": 1.3534768612960546e-06,
+            "raw_residual": 0.0001294628571903711,
+            "action": "hold"
+          },
+          {
+            "block": 203,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 203000,
+            "gap": 1.080646680334807e-06,
+            "raw_residual": 0.000110338940755135,
+            "action": "hold"
+          },
+          {
+            "block": 204,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 204000,
+            "gap": 8.274290049375965e-07,
+            "raw_residual": 9.042201932232125e-05,
+            "action": "hold"
+          },
+          {
+            "block": 205,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 205000,
+            "gap": 6.074763980561115e-07,
+            "raw_residual": 7.124658015069535e-05,
+            "action": "hold"
+          },
+          {
+            "block": 206,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 206000,
+            "gap": 4.28826010860639e-07,
+            "raw_residual": 5.4131258378158076e-05,
+            "action": "hold"
+          },
+          {
+            "block": 207,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 207000,
+            "gap": 2.9248714723817404e-07,
+            "raw_residual": 3.985645380855801e-05,
+            "action": "hold"
+          },
+          {
+            "block": 208,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 208000,
+            "gap": 1.9388162348157878e-07,
+            "raw_residual": 2.860878923400395e-05,
+            "action": "hold"
+          },
+          {
+            "block": 209,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 209000,
+            "gap": 1.25618416051132e-07,
+            "raw_residual": 2.0136744931890938e-05,
+            "action": "hold"
+          },
+          {
+            "block": 210,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 210000,
+            "gap": 7.994808313288582e-08,
+            "raw_residual": 1.3969394978413652e-05,
+            "action": "hold"
+          },
+          {
+            "block": 211,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 211000,
+            "gap": 5.017796249687234e-08,
+            "raw_residual": 9.590384161761722e-06,
+            "action": "hold"
+          },
+          {
+            "block": 212,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 212000,
+            "gap": 3.1149610724146015e-08,
+            "raw_residual": 6.535919349279218e-06,
+            "action": "hold"
+          },
+          {
+            "block": 213,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 213000,
+            "gap": 1.9166807817966314e-08,
+            "raw_residual": 4.431673469751374e-06,
+            "action": "hold"
+          },
+          {
+            "block": 214,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 214000,
+            "gap": 1.1707003207128697e-08,
+            "raw_residual": 2.9944233828071987e-06,
+            "action": "hold"
+          },
+          {
+            "block": 215,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 215000,
+            "gap": 7.10512792004292e-09,
+            "raw_residual": 2.0184892947985866e-06,
+            "action": "hold"
+          },
+          {
+            "block": 216,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 216000,
+            "gap": 4.2875039039935725e-09,
+            "raw_residual": 1.358439436965897e-06,
+            "action": "hold"
+          },
+          {
+            "block": 217,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 217000,
+            "gap": 2.573434708386113e-09,
+            "raw_residual": 9.132329206948397e-07,
+            "action": "hold"
+          },
+          {
+            "block": 218,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 218000,
+            "gap": 1.5367021266587955e-09,
+            "raw_residual": 6.134859646469981e-07,
+            "action": "hold"
+          },
+          {
+            "block": 219,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 219000,
+            "gap": 9.130169363602558e-10,
+            "raw_residual": 4.11920545041744e-07,
+            "action": "hold"
+          },
+          {
+            "block": 220,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 220000,
+            "gap": 5.397425908992837e-10,
+            "raw_residual": 2.7648910295996476e-07,
+            "action": "hold"
+          },
+          {
+            "block": 221,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 221000,
+            "gap": 3.1747228457223997e-10,
+            "raw_residual": 1.8554361069789138e-07,
+            "action": "hold"
+          },
+          {
+            "block": 222,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 222000,
+            "gap": 1.8577298033228828e-10,
+            "raw_residual": 1.2449414206472387e-07,
+            "action": "hold"
+          },
+          {
+            "block": 223,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 223000,
+            "gap": 1.081409684022816e-10,
+            "raw_residual": 8.352354293611475e-08,
+            "action": "hold"
+          },
+          {
+            "block": 224,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 224000,
+            "gap": 6.262644916543714e-11,
+            "raw_residual": 5.6032545527051614e-08,
+            "action": "hold"
+          },
+          {
+            "block": 225,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 225000,
+            "gap": 3.606861684324336e-11,
+            "raw_residual": 3.7588038875879803e-08,
+            "action": "hold"
+          },
+          {
+            "block": 226,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 226000,
+            "gap": 2.0663620120542348e-11,
+            "raw_residual": 2.5214333489176344e-08,
+            "action": "hold"
+          },
+          {
+            "block": 227,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 227000,
+            "gap": 1.1787418263686789e-11,
+            "raw_residual": 1.6913772847571007e-08,
+            "action": "hold"
+          },
+          {
+            "block": 228,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 228000,
+            "gap": 6.683726488931896e-12,
+            "raw_residual": 1.1345353712055584e-08,
+            "action": "hold"
+          },
+          {
+            "block": 229,
+            "reg": 0.00390625,
+            "executed": 1000,
+            "work": 229000,
+            "gap": 3.77255171546409e-12,
+            "raw_residual": 7.610074549690982e-09,
+            "action": "cool"
+          },
+          {
+            "block": 230,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 230000,
+            "gap": 3.4889583807803937e-06,
+            "raw_residual": 0.00019843089989073082,
+            "action": "hold"
+          },
+          {
+            "block": 231,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 231000,
+            "gap": 3.3992645778416902e-06,
+            "raw_residual": 0.00019766819831193438,
+            "action": "hold"
+          },
+          {
+            "block": 232,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 232000,
+            "gap": 3.3042186670349805e-06,
+            "raw_residual": 0.0001965412437809136,
+            "action": "hold"
+          },
+          {
+            "block": 233,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 233000,
+            "gap": 3.2015237162105747e-06,
+            "raw_residual": 0.0001948837684342536,
+            "action": "hold"
+          },
+          {
+            "block": 234,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 234000,
+            "gap": 3.0880624690768355e-06,
+            "raw_residual": 0.00019246254832169796,
+            "action": "hold"
+          },
+          {
+            "block": 235,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 235000,
+            "gap": 2.9597611729912515e-06,
+            "raw_residual": 0.0001889605684076423,
+            "action": "hold"
+          },
+          {
+            "block": 236,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 236000,
+            "gap": 2.8115991001411572e-06,
+            "raw_residual": 0.00018396739194932732,
+            "action": "hold"
+          },
+          {
+            "block": 237,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 237000,
+            "gap": 2.637961260898783e-06,
+            "raw_residual": 0.00017699141084861342,
+            "action": "hold"
+          },
+          {
+            "block": 238,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 238000,
+            "gap": 2.4336130385535504e-06,
+            "raw_residual": 0.0001675172069380837,
+            "action": "hold"
+          },
+          {
+            "block": 239,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 239000,
+            "gap": 2.195529182931824e-06,
+            "raw_residual": 0.00015513277453745727,
+            "action": "hold"
+          },
+          {
+            "block": 240,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 240000,
+            "gap": 1.9254262759119817e-06,
+            "raw_residual": 0.000139728575261594,
+            "action": "hold"
+          },
+          {
+            "block": 241,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 241000,
+            "gap": 1.6320232326342415e-06,
+            "raw_residual": 0.0001217089896176915,
+            "action": "hold"
+          },
+          {
+            "block": 242,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 242000,
+            "gap": 1.3312658791696241e-06,
+            "raw_residual": 0.00010208240327896217,
+            "action": "hold"
+          },
+          {
+            "block": 243,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 243000,
+            "gap": 1.0431768381943124e-06,
+            "raw_residual": 8.229894637492435e-05,
+            "action": "hold"
+          },
+          {
+            "block": 244,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 244000,
+            "gap": 7.861956574390511e-07,
+            "raw_residual": 6.385375229143314e-05,
+            "action": "hold"
+          },
+          {
+            "block": 245,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 245000,
+            "gap": 5.720896597630198e-07,
+            "raw_residual": 4.7864777179634777e-05,
+            "action": "hold"
+          },
+          {
+            "block": 246,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 246000,
+            "gap": 4.041617300640926e-07,
+            "raw_residual": 3.4856630740667804e-05,
+            "action": "hold"
+          },
+          {
+            "block": 247,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 247000,
+            "gap": 2.788736243840295e-07,
+            "raw_residual": 2.4808527092731736e-05,
+            "action": "hold"
+          },
+          {
+            "block": 248,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 248000,
+            "gap": 1.8899061072531753e-07,
+            "raw_residual": 1.7353336898499883e-05,
+            "action": "hold"
+          },
+          {
+            "block": 249,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 249000,
+            "gap": 1.2638104257209348e-07,
+            "raw_residual": 1.198560206004673e-05,
+            "action": "hold"
+          },
+          {
+            "block": 250,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 250000,
+            "gap": 8.369826035199701e-08,
+            "raw_residual": 8.203823610226924e-06,
+            "action": "hold"
+          },
+          {
+            "block": 251,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 251000,
+            "gap": 5.504526525909603e-08,
+            "raw_residual": 5.579973132198435e-06,
+            "action": "hold"
+          },
+          {
+            "block": 252,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 252000,
+            "gap": 3.601925220066138e-08,
+            "raw_residual": 3.7788233221980327e-06,
+            "action": "hold"
+          },
+          {
+            "block": 253,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 253000,
+            "gap": 2.3482684415043753e-08,
+            "raw_residual": 2.5514531713996536e-06,
+            "action": "hold"
+          },
+          {
+            "block": 254,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 254000,
+            "gap": 1.5267228705220792e-08,
+            "raw_residual": 1.7192515440536682e-06,
+            "action": "hold"
+          },
+          {
+            "block": 255,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 255000,
+            "gap": 9.9047424081955e-09,
+            "raw_residual": 1.1569010579040584e-06,
+            "action": "hold"
+          },
+          {
+            "block": 256,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 256000,
+            "gap": 6.414741748200781e-09,
+            "raw_residual": 7.777704318506773e-07,
+            "action": "hold"
+          },
+          {
+            "block": 257,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 257000,
+            "gap": 4.148512091142753e-09,
+            "raw_residual": 5.225597766375656e-07,
+            "action": "hold"
+          },
+          {
+            "block": 258,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 258000,
+            "gap": 2.679596572408016e-09,
+            "raw_residual": 3.509444554891661e-07,
+            "action": "hold"
+          },
+          {
+            "block": 259,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 259000,
+            "gap": 1.7288881437593773e-09,
+            "raw_residual": 2.356231868227976e-07,
+            "action": "hold"
+          },
+          {
+            "block": 260,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 260000,
+            "gap": 1.114366309298842e-09,
+            "raw_residual": 1.5816681569330582e-07,
+            "action": "hold"
+          },
+          {
+            "block": 261,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 261000,
+            "gap": 7.175778235501973e-10,
+            "raw_residual": 1.061596826626432e-07,
+            "action": "hold"
+          },
+          {
+            "block": 262,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 262000,
+            "gap": 4.6163653628916723e-10,
+            "raw_residual": 7.124676274644637e-08,
+            "action": "hold"
+          },
+          {
+            "block": 263,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 263000,
+            "gap": 2.9669922074759825e-10,
+            "raw_residual": 4.781299870609823e-08,
+            "action": "hold"
+          },
+          {
+            "block": 264,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 264000,
+            "gap": 1.90501912855634e-10,
+            "raw_residual": 3.208552970535017e-08,
+            "action": "hold"
+          },
+          {
+            "block": 265,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 265000,
+            "gap": 1.2219434492033443e-10,
+            "raw_residual": 2.1530681147685637e-08,
+            "action": "hold"
+          },
+          {
+            "block": 266,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 266000,
+            "gap": 7.829224768496346e-11,
+            "raw_residual": 1.4447686200180776e-08,
+            "action": "hold"
+          },
+          {
+            "block": 267,
+            "reg": 0.001953125,
+            "executed": 1000,
+            "work": 267000,
+            "gap": 5.0107598625892535e-11,
+            "raw_residual": 9.694665188686447e-09,
+            "action": "cool"
+          },
+          {
+            "block": 268,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 268000,
+            "gap": 3.366219502144198e-06,
+            "raw_residual": 0.00019595318859665783,
+            "action": "hold"
+          },
+          {
+            "block": 269,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 269000,
+            "gap": 3.2947457280036938e-06,
+            "raw_residual": 0.00019402251303973078,
+            "action": "hold"
+          },
+          {
+            "block": 270,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 270000,
+            "gap": 3.2093154772785265e-06,
+            "raw_residual": 0.0001912121616010204,
+            "action": "hold"
+          },
+          {
+            "block": 271,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 271000,
+            "gap": 3.1045721166538323e-06,
+            "raw_residual": 0.00018716812151623602,
+            "action": "hold"
+          },
+          {
+            "block": 272,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 272000,
+            "gap": 2.9739264718895222e-06,
+            "raw_residual": 0.00018144412801793935,
+            "action": "hold"
+          },
+          {
+            "block": 273,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 273000,
+            "gap": 2.8100865727227406e-06,
+            "raw_residual": 0.00017352879925325304,
+            "action": "hold"
+          },
+          {
+            "block": 274,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 274000,
+            "gap": 2.606445454120254e-06,
+            "raw_residual": 0.00016292848675013988,
+            "action": "hold"
+          },
+          {
+            "block": 275,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 275000,
+            "gap": 2.3595618406663937e-06,
+            "raw_residual": 0.0001493255282604411,
+            "action": "hold"
+          },
+          {
+            "block": 276,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 276000,
+            "gap": 2.072349957831475e-06,
+            "raw_residual": 0.00013279391603201324,
+            "action": "hold"
+          },
+          {
+            "block": 277,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 277000,
+            "gap": 1.7564929053973805e-06,
+            "raw_residual": 0.0001139809278169826,
+            "action": "hold"
+          },
+          {
+            "block": 278,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 278000,
+            "gap": 1.4318769180343693e-06,
+            "raw_residual": 9.410675370689903e-05,
+            "action": "hold"
+          },
+          {
+            "block": 279,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 279000,
+            "gap": 1.1219758783587858e-06,
+            "raw_residual": 7.469418722238358e-05,
+            "action": "hold"
+          },
+          {
+            "block": 280,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 280000,
+            "gap": 8.470600101817202e-07,
+            "raw_residual": 5.713005238922736e-05,
+            "action": "hold"
+          },
+          {
+            "block": 281,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 281000,
+            "gap": 6.190607551043864e-07,
+            "raw_residual": 4.2304809596105386e-05,
+            "action": "hold"
+          },
+          {
+            "block": 282,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 282000,
+            "gap": 4.405358110873281e-07,
+            "raw_residual": 3.0507202439043757e-05,
+            "action": "hold"
+          },
+          {
+            "block": 283,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 283000,
+            "gap": 3.070615693474485e-07,
+            "raw_residual": 2.155112202073539e-05,
+            "action": "hold"
+          },
+          {
+            "block": 284,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 284000,
+            "gap": 2.1073794380637584e-07,
+            "raw_residual": 1.4992339765852736e-05,
+            "action": "hold"
+          },
+          {
+            "block": 285,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 285000,
+            "gap": 1.430151001825808e-07,
+            "raw_residual": 1.0314563799407317e-05,
+            "action": "hold"
+          },
+          {
+            "block": 286,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 286000,
+            "gap": 9.628438456601995e-08,
+            "raw_residual": 7.040909811704965e-06,
+            "action": "hold"
+          },
+          {
+            "block": 287,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 287000,
+            "gap": 6.44614041927713e-08,
+            "raw_residual": 4.780143154942129e-06,
+            "action": "hold"
+          },
+          {
+            "block": 288,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 288000,
+            "gap": 4.2988325977925956e-08,
+            "raw_residual": 3.2331562259402258e-06,
+            "action": "hold"
+          },
+          {
+            "block": 289,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 289000,
+            "gap": 2.859051370044524e-08,
+            "raw_residual": 2.1812393578846123e-06,
+            "action": "hold"
+          },
+          {
+            "block": 290,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 290000,
+            "gap": 1.897874652746767e-08,
+            "raw_residual": 1.4690191284250087e-06,
+            "action": "hold"
+          },
+          {
+            "block": 291,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 291000,
+            "gap": 1.2581342152123698e-08,
+            "raw_residual": 9.881936173655737e-07,
+            "action": "hold"
+          },
+          {
+            "block": 292,
+            "reg": 0.001,
+            "executed": 1000,
+            "work": 292000,
+            "gap": 8.332282625152232e-09,
+            "raw_residual": 6.642244397420116e-07,
+            "action": "accept"
+          }
+        ],
+        "reason": "target quality"
+      },
+      "audit_residual": 1.249000902703301e-16,
+      "audit_objective": -0.005693743954797358,
+      "net_to_first": 0.00010000000000001297,
+      "warnings": [
+        "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+      ]
+    }
+  ]
+}

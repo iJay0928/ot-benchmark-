@@ -1,0 +1,2129 @@
+{
+  "summary": {
+    "base": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.3568320380676828
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.205055456635105
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 10.729124294265645
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "n_100": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.3891367672837898
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.2275221834419938
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 10.019438856893135
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "n_1000": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9863505430558134
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.005286190208495
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 15.798599936406912
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "d_1": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.3031942748073908
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.1801759279345756
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 11.27341518700144
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "d_32": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.3618203520135084
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.245237467468509
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 11.121808541071438
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "d_128": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9528511804980008
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.8868578693881343
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 7.80624125736094
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "zero_0.0": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.8095464337567706
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.113012834878157
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 33.32299951496008
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "zero_0.5": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0605745251504601
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.2391975190947813
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 27.253453452462068
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "zero_0.98": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.393112024717817
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.296680151336605
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 9.677913610825003
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "reg_0.1": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.307260685576363
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.2311468745999627
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 8.65871570347047
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "reg_0.001": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.11656657683876824
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.10360170490504801
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9911865245261888
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 6,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    }
+  },
+  "cases": [
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0015699999639764428,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.11220502456536961,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00397670001257211,
+          "cost": 0.11383363867777474,
+          "exact_abs_error": 0.0016286141124051273,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.003378499997779727,
+          "cost": 0.11383363867368068,
+          "exact_abs_error": 0.001628614108311069,
+          "log_abs_difference": 4.094058425607727e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.031659499974921346,
+          "cost": 0.11383363867777474,
+          "exact_abs_error": 0.0016286141124051273,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0029508000006899238,
+          "cost": 0.11383363867103782,
+          "exact_abs_error": 0.0016286141056682107,
+          "log_abs_difference": 6.736916580152297e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00045759999193251133,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.11269858190005472,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0035857000038959086,
+          "cost": 0.1146169872142016,
+          "exact_abs_error": 0.001918405314146887,
+          "log_abs_difference": 4.163336342344337e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0031846000347286463,
+          "cost": 0.11461698721420158,
+          "exact_abs_error": 0.0019184053141468593,
+          "log_abs_difference": 1.3877787807814457e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.02963499998440966,
+          "cost": 0.11461698721420156,
+          "exact_abs_error": 0.0019184053141468455,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.002642699982970953,
+          "cost": 0.11461698722520686,
+          "exact_abs_error": 0.0019184053251521394,
+          "log_abs_difference": 1.1005293898413981e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0003687000134959817,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.14267301673441657,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004870700009632856,
+          "cost": 0.1450663531169419,
+          "exact_abs_error": 0.0023933363825253406,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004123699967749417,
+          "cost": 0.14506635312433502,
+          "exact_abs_error": 0.0023933363899184545,
+          "log_abs_difference": 7.393113898856996e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.0349984000204131,
+          "cost": 0.1450663531169419,
+          "exact_abs_error": 0.0023933363825253406,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.00330539996502921,
+          "cost": 0.14506635312685381,
+          "exact_abs_error": 0.0023933363924372453,
+          "log_abs_difference": 9.911904630399704e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_100",
+        "n": 100,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 10,
+      "active_target": 10,
+      "preprocessing_seconds": 0.00021060003200545907,
+      "dense_cost_bytes": 80000,
+      "exact_cost": 0.15231386381215997,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0035267999628558755,
+          "cost": 0.15357835928030206,
+          "exact_abs_error": 0.001264495468142085,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0032509000157006085,
+          "cost": 0.15357835928030203,
+          "exact_abs_error": 0.0012644954681420573,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.02612349996343255,
+          "cost": 0.15357835928030206,
+          "exact_abs_error": 0.001264495468142085,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0026018000207841396,
+          "cost": 0.15357835935392516,
+          "exact_abs_error": 0.0012644955417651926,
+          "log_abs_difference": 7.36231076103877e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_100",
+        "n": 100,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 10,
+      "active_target": 10,
+      "preprocessing_seconds": 0.00022609997540712357,
+      "dense_cost_bytes": 80000,
+      "exact_cost": 0.16987270337697072,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.01033119997009635,
+          "cost": 0.17022666538178718,
+          "exact_abs_error": 0.000353962004816466,
+          "log_abs_difference": 1.1102230246251565e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.008576399995945394,
+          "cost": 0.17022666538178718,
+          "exact_abs_error": 0.000353962004816466,
+          "log_abs_difference": 1.1102230246251565e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.07151459995657206,
+          "cost": 0.17022666538178707,
+          "exact_abs_error": 0.000353962004816355,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.007265899970661849,
+          "cost": 0.1702266654288167,
+          "exact_abs_error": 0.00035396205184598517,
+          "log_abs_difference": 4.702963019020956e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_100",
+        "n": 100,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 10,
+      "active_target": 10,
+      "preprocessing_seconds": 0.00016310001956298947,
+      "dense_cost_bytes": 80000,
+      "exact_cost": 0.20219862583854775,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.002708399959374219,
+          "cost": 0.20312347070627548,
+          "exact_abs_error": 0.000924844867727731,
+          "log_abs_difference": 8.326672684688674e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0023933000047691166,
+          "cost": 0.20312347080332527,
+          "exact_abs_error": 0.0009248449647775159,
+          "log_abs_difference": 9.70498681418519e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.01953489996958524,
+          "cost": 0.2031234707062754,
+          "exact_abs_error": 0.0009248448677276477,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0019497000030241907,
+          "cost": 0.20312347079679055,
+          "exact_abs_error": 0.0009248449582427987,
+          "log_abs_difference": 9.051515093005946e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_1000",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 100,
+      "active_target": 100,
+      "preprocessing_seconds": 0.0028915999573655427,
+      "dense_cost_bytes": 8000000,
+      "exact_cost": 0.07846560515004487,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.002209700003731996,
+          "cost": 0.08231958362554773,
+          "exact_abs_error": 0.0038539784755028533,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0024567999644204974,
+          "cost": 0.08231958362554773,
+          "exact_abs_error": 0.0038539784755028533,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.03709450003225356,
+          "cost": 0.08231958362554773,
+          "exact_abs_error": 0.0038539784755028533,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0025721999700181186,
+          "cost": 0.08231958367776473,
+          "exact_abs_error": 0.003853978527719862,
+          "log_abs_difference": 5.2217008494892525e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_1000",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 100,
+      "active_target": 100,
+      "preprocessing_seconds": 0.003347999998368323,
+      "dense_cost_bytes": 8000000,
+      "exact_cost": 0.0863883633160474,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004786600009538233,
+          "cost": 0.0900480354601704,
+          "exact_abs_error": 0.003659672144122994,
+          "log_abs_difference": 1.3877787807814457e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004868399992119521,
+          "cost": 0.09004803546017037,
+          "exact_abs_error": 0.0036596721441229663,
+          "log_abs_difference": 1.3877787807814457e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.08576139999786392,
+          "cost": 0.09004803546017039,
+          "exact_abs_error": 0.00365967214412298,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.004842800030019134,
+          "cost": 0.09004803551758257,
+          "exact_abs_error": 0.0036596722015351663,
+          "log_abs_difference": 5.741218611632348e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_1000",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 100,
+      "active_target": 100,
+      "preprocessing_seconds": 0.0035091000027023256,
+      "dense_cost_bytes": 8000000,
+      "exact_cost": 0.06749719942769465,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0028038000455126166,
+          "cost": 0.07172078918361496,
+          "exact_abs_error": 0.004223589755920312,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00301649997709319,
+          "cost": 0.07172078917110815,
+          "exact_abs_error": 0.004223589743413497,
+          "log_abs_difference": 1.2506815028068274e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.044909100048244,
+          "cost": 0.07172078918361496,
+          "exact_abs_error": 0.004223589755920312,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.002842599991708994,
+          "cost": 0.07172078917293363,
+          "exact_abs_error": 0.0042235897452389815,
+          "log_abs_difference": 1.068133081982836e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_1",
+        "n": 300,
+        "d": 1,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0004991000168956816,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.024720454222590022,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004695799958426505,
+          "cost": 0.028604885667601936,
+          "exact_abs_error": 0.0038844314450119134,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0042011000332422554,
+          "cost": 0.028604885667601936,
+          "exact_abs_error": 0.0038844314450119134,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.040728599997237325,
+          "cost": 0.028604885667601936,
+          "exact_abs_error": 0.0038844314450119134,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.00360330002149567,
+          "cost": 0.02860488586912477,
+          "exact_abs_error": 0.0038844316465347466,
+          "log_abs_difference": 2.0152283314311958e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_1",
+        "n": 300,
+        "d": 1,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00028630002634599805,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.014664615980027945,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.005799500038847327,
+          "cost": 0.01870261565075076,
+          "exact_abs_error": 0.004037999670722816,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004999099997803569,
+          "cost": 0.018702615650750765,
+          "exact_abs_error": 0.00403799967072282,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.042897599982097745,
+          "cost": 0.018702615650750765,
+          "exact_abs_error": 0.00403799967072282,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0038052000454626977,
+          "cost": 0.018702615900473736,
+          "exact_abs_error": 0.004037999920445791,
+          "log_abs_difference": 2.4972297146819145e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_1",
+        "n": 300,
+        "d": 1,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00024039996787905693,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.009767430507279108,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00452179997228086,
+          "cost": 0.013553221291585666,
+          "exact_abs_error": 0.003785790784306558,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004266100004315376,
+          "cost": 0.013553221291585666,
+          "exact_abs_error": 0.003785790784306558,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.03763249999610707,
+          "cost": 0.01355322129158567,
+          "exact_abs_error": 0.0037857907843065614,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.003614800050854683,
+          "cost": 0.01355322147455683,
+          "exact_abs_error": 0.003785790967277722,
+          "log_abs_difference": 1.8297116079202258e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0009586000232957304,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.3146236324729766,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0063248000224120915,
+          "cost": 0.31644923304909794,
+          "exact_abs_error": 0.0018256005761213556,
+          "log_abs_difference": 1.6653345369377348e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0060415000189095736,
+          "cost": 0.31644923304909794,
+          "exact_abs_error": 0.0018256005761213556,
+          "log_abs_difference": 1.6653345369377348e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.05230250000022352,
+          "cost": 0.3164492330490978,
+          "exact_abs_error": 0.001825600576121189,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.004392900038510561,
+          "cost": 0.3164492330674683,
+          "exact_abs_error": 0.0018256005944917164,
+          "log_abs_difference": 1.8370527321565078e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0008034000056795776,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.32717911029346514,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004117599979508668,
+          "cost": 0.32884451260874353,
+          "exact_abs_error": 0.001665402315278397,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0037650999729521573,
+          "cost": 0.3288445126137688,
+          "exact_abs_error": 0.001665402320303655,
+          "log_abs_difference": 5.025257987512077e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.03362790000392124,
+          "cost": 0.32884451260874353,
+          "exact_abs_error": 0.001665402315278397,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.003023599972948432,
+          "cost": 0.32884451261625236,
+          "exact_abs_error": 0.0016654023227872239,
+          "log_abs_difference": 7.508826893598552e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0007856999873183668,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.34857456082671895,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.052726500027347356,
+          "cost": 0.35049729223947373,
+          "exact_abs_error": 0.0019227314127547857,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.04421679995721206,
+          "cost": 0.3504972922394738,
+          "exact_abs_error": 0.0019227314127548412,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.43602020002435893,
+          "cost": 0.3504972922394738,
+          "exact_abs_error": 0.0019227314127548412,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.4514153999625705,
+          "cost": 0.3504972922394738,
+          "exact_abs_error": 0.0019227314127548412,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0027602000045590103,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.49462408334919894,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.012823999975807965,
+          "cost": 0.4973221650844423,
+          "exact_abs_error": 0.002698081735243385,
+          "log_abs_difference": 2.7755575615628914e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.01087350002489984,
+          "cost": 0.4973221650844423,
+          "exact_abs_error": 0.002698081735243385,
+          "log_abs_difference": 2.7755575615628914e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.1042872000252828,
+          "cost": 0.49732216508444205,
+          "exact_abs_error": 0.0026980817352431075,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.008536000037565827,
+          "cost": 0.49732216521033157,
+          "exact_abs_error": 0.0026980818611326285,
+          "log_abs_difference": 1.2588952102987605e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.002530599944293499,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.5649549361195205,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0025282000424340367,
+          "cost": 0.5673196038948811,
+          "exact_abs_error": 0.002364667775360596,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0023530999897047877,
+          "cost": 0.5673196038950012,
+          "exact_abs_error": 0.002364667775480722,
+          "log_abs_difference": 1.2012613126444194e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.020712299970909953,
+          "cost": 0.5673196038948811,
+          "exact_abs_error": 0.002364667775360596,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.002653300005476922,
+          "cost": 0.567319603894993,
+          "exact_abs_error": 0.0023646677754725065,
+          "log_abs_difference": 1.1191048088221578e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.002514699997846037,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.5720886046552232,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.13306899997405708,
+          "cost": 0.5753987144094715,
+          "exact_abs_error": 0.0033101097542483915,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.11497070000041276,
+          "cost": 0.5753987144094715,
+          "exact_abs_error": 0.0033101097542483915,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 1.109188099973835,
+          "cost": 0.5753987144094715,
+          "exact_abs_error": 0.0033101097542483915,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 1.1555105000152253,
+          "cost": 0.5753987144094715,
+          "exact_abs_error": 0.0033101097542483915,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.0",
+        "n": 300,
+        "d": 8,
+        "zero": 0.0,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 300,
+      "active_target": 300,
+      "preprocessing_seconds": 0.00037919997703284025,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.013098326102067672,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.026922599994577467,
+          "cost": 0.014805085183332924,
+          "exact_abs_error": 0.0017067590812652519,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.03701480000745505,
+          "cost": 0.01480508518852202,
+          "exact_abs_error": 0.0017067590864543476,
+          "log_abs_difference": 5.189099150371135e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 1.1082030000397936,
+          "cost": 0.01480508518333292,
+          "exact_abs_error": 0.0017067590812652484,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.03325639996910468,
+          "cost": 0.0148050852104556,
+          "exact_abs_error": 0.0017067591083879275,
+          "log_abs_difference": 2.7122679102653535e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.0",
+        "n": 300,
+        "d": 8,
+        "zero": 0.0,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 300,
+      "active_target": 300,
+      "preprocessing_seconds": 0.00037260004319250584,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.014290960555577829,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.1323273999732919,
+          "cost": 0.015786230611175248,
+          "exact_abs_error": 0.001495270055597419,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.1866988000110723,
+          "cost": 0.015786230611175248,
+          "exact_abs_error": 0.001495270055597419,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 5.80602399999043,
+          "cost": 0.01578623061117525,
+          "exact_abs_error": 0.0014952700555974224,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 5.9164019000018016,
+          "cost": 0.01578623061117525,
+          "exact_abs_error": 0.0014952700555974224,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.0",
+        "n": 300,
+        "d": 8,
+        "zero": 0.0,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 300,
+      "active_target": 300,
+      "preprocessing_seconds": 0.000444200006313622,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.01384565540752183,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.043353800021577626,
+          "cost": 0.015528869435485176,
+          "exact_abs_error": 0.0016832140279633458,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0595768999774009,
+          "cost": 0.015528869440208813,
+          "exact_abs_error": 0.0016832140326869822,
+          "log_abs_difference": 4.72363294312661e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 1.8023308999836445,
+          "cost": 0.01552886943548518,
+          "exact_abs_error": 0.0016832140279633492,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.04522920004092157,
+          "cost": 0.015528869461235429,
+          "exact_abs_error": 0.0016832140537135984,
+          "log_abs_difference": 2.5750249155187532e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.5",
+        "n": 300,
+        "d": 8,
+        "zero": 0.5,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 150,
+      "active_target": 150,
+      "preprocessing_seconds": 0.0005009999731555581,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.046255900886928346,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.01116080000065267,
+          "cost": 0.04893199302336419,
+          "exact_abs_error": 0.0026760921364358467,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.012891000020317733,
+          "cost": 0.04893199302336419,
+          "exact_abs_error": 0.0026760921364358467,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.28350949997548014,
+          "cost": 0.04893199302336419,
+          "exact_abs_error": 0.0026760921364358467,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.010402699990663677,
+          "cost": 0.04893199309631459,
+          "exact_abs_error": 0.0026760922093862424,
+          "log_abs_difference": 7.295039572419171e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.5",
+        "n": 300,
+        "d": 8,
+        "zero": 0.5,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 150,
+      "active_target": 150,
+      "preprocessing_seconds": 0.00034089997643604875,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.057025517710840884,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.008458400028757751,
+          "cost": 0.059931057223637875,
+          "exact_abs_error": 0.002905539512796991,
+          "log_abs_difference": 6.938893903907228e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.010579900001175702,
+          "cost": 0.059931057253213786,
+          "exact_abs_error": 0.002905539542372902,
+          "log_abs_difference": 2.9575904225698224e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.22384180000517517,
+          "cost": 0.05993105722363788,
+          "exact_abs_error": 0.002905539512796998,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.007975300017278641,
+          "cost": 0.05993105726833327,
+          "exact_abs_error": 0.0029055395574923842,
+          "log_abs_difference": 4.469538628093517e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.5",
+        "n": 300,
+        "d": 8,
+        "zero": 0.5,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 150,
+      "active_target": 150,
+      "preprocessing_seconds": 0.00035310001112520695,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.051502019544292565,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.026566100015770644,
+          "cost": 0.05442102280677999,
+          "exact_abs_error": 0.002919003262487424,
+          "log_abs_difference": 1.3877787807814457e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.03199960000347346,
+          "cost": 0.054421022806779976,
+          "exact_abs_error": 0.00291900326248741,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.7154683000408113,
+          "cost": 0.054421022806779976,
+          "exact_abs_error": 0.00291900326248741,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.026833599957171828,
+          "cost": 0.054421022849141715,
+          "exact_abs_error": 0.0029190033048491493,
+          "log_abs_difference": 4.236173911653651e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.98",
+        "n": 300,
+        "d": 8,
+        "zero": 0.98,
+        "reg": 0.01
+      },
+      "seed": 92001,
+      "active_source": 6,
+      "active_target": 6,
+      "preprocessing_seconds": 0.0003488999791443348,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.16896934025141894,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.002791099948808551,
+          "cost": 0.16942939931936885,
+          "exact_abs_error": 0.00046005906794990836,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.002451599983032793,
+          "cost": 0.16942939931936887,
+          "exact_abs_error": 0.0004600590679499361,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.01938969996990636,
+          "cost": 0.16942939931936887,
+          "exact_abs_error": 0.0004600590679499361,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0020035000052303076,
+          "cost": 0.16942939931823225,
+          "exact_abs_error": 0.00046005906681331754,
+          "log_abs_difference": 1.1366185770356196e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.98",
+        "n": 300,
+        "d": 8,
+        "zero": 0.98,
+        "reg": 0.01
+      },
+      "seed": 92002,
+      "active_source": 6,
+      "active_target": 6,
+      "preprocessing_seconds": 0.0003527000080794096,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.2496447998675599,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.001608500024303794,
+          "cost": 0.25060448831670756,
+          "exact_abs_error": 0.0009596884491476498,
+          "log_abs_difference": 2.220446049250313e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.001235600037034601,
+          "cost": 0.25060448831670756,
+          "exact_abs_error": 0.0009596884491476498,
+          "log_abs_difference": 2.220446049250313e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.009450400015339255,
+          "cost": 0.2506044883167078,
+          "exact_abs_error": 0.0009596884491478719,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0009333999478258193,
+          "cost": 0.25060448831851456,
+          "exact_abs_error": 0.0009596884509546488,
+          "log_abs_difference": 1.8067769502749798e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.98",
+        "n": 300,
+        "d": 8,
+        "zero": 0.98,
+        "reg": 0.01
+      },
+      "seed": 92003,
+      "active_source": 6,
+      "active_target": 6,
+      "preprocessing_seconds": 0.00036020000698044896,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.16141301761076737,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0023982999846339226,
+          "cost": 0.16153809904515962,
+          "exact_abs_error": 0.0001250814343922435,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0022770999930799007,
+          "cost": 0.16153809905309707,
+          "exact_abs_error": 0.00012508144232969975,
+          "log_abs_difference": 7.937400736679479e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.01678659999743104,
+          "cost": 0.16153809904515967,
+          "exact_abs_error": 0.00012508143439229902,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.001756099984049797,
+          "cost": 0.16153809904634164,
+          "exact_abs_error": 0.0001250814355742702,
+          "log_abs_difference": 1.1819711875915573e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.1",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.1
+      },
+      "seed": 92001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00034139998024329543,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.11220502456536961,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0003727000439539552,
+          "cost": 0.2034088564124118,
+          "exact_abs_error": 0.09120383184704219,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00035099999513477087,
+          "cost": 0.2034088564124118,
+          "exact_abs_error": 0.09120383184704219,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.0024685999960638583,
+          "cost": 0.2034088564124118,
+          "exact_abs_error": 0.09120383184704219,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.000285100017208606,
+          "cost": 0.20340885641054152,
+          "exact_abs_error": 0.0912038318451719,
+          "log_abs_difference": 1.8702817072835387e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.1",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.1
+      },
+      "seed": 92002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0002978999982587993,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.11269858190005472,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00036289996933192015,
+          "cost": 0.20407238585623286,
+          "exact_abs_error": 0.09137380395617814,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00033599999733269215,
+          "cost": 0.20407238585623289,
+          "exact_abs_error": 0.09137380395617817,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.002588599978480488,
+          "cost": 0.20407238585623289,
+          "exact_abs_error": 0.09137380395617817,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.00039379997178912163,
+          "cost": 0.20407238585361498,
+          "exact_abs_error": 0.09137380395356026,
+          "log_abs_difference": 2.617905892066119e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.1",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.1
+      },
+      "seed": 92003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00034060003235936165,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.14267301673441657,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0003512999974191189,
+          "cost": 0.2285665400838163,
+          "exact_abs_error": 0.08589352334939973,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00031510001281276345,
+          "cost": 0.22856654008381627,
+          "exact_abs_error": 0.0858935233493997,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.0023216999834403396,
+          "cost": 0.22856654008381627,
+          "exact_abs_error": 0.0858935233493997,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.00022629997693002224,
+          "cost": 0.22856654007726374,
+          "exact_abs_error": 0.08589352334284717,
+          "log_abs_difference": 6.552536291337674e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 92001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00030620000325143337,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.11220502456536961,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.05268159997649491,
+          "cost": 0.11220786652500982,
+          "exact_abs_error": 2.8419596402040614e-06,
+          "log_abs_difference": 1.6653345369377348e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.046822200005408376,
+          "cost": 0.1122078665250098,
+          "exact_abs_error": 2.8419596401901837e-06,
+          "log_abs_difference": 1.5265566588595902e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.44796110002789646,
+          "cost": 0.11220786652500965,
+          "exact_abs_error": 2.841959640037528e-06,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.4519443000317551,
+          "cost": 0.11220786652500969,
+          "exact_abs_error": 2.8419596400791614e-06,
+          "log_abs_difference": 4.163336342344337e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 92002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0007960000075399876,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.11269858190005472,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.02604669996071607,
+          "cost": 0.11270460073517505,
+          "exact_abs_error": 6.0188351203305235e-06,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.02105060004396364,
+          "cost": 0.11270460074331816,
+          "exact_abs_error": 6.018843263441709e-06,
+          "log_abs_difference": 8.143083429779097e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.20410249999258667,
+          "cost": 0.11270460073517508,
+          "exact_abs_error": 6.018835120358279e-06,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.018212899973150343,
+          "cost": 0.11270460079747989,
+          "exact_abs_error": 6.018897425172365e-06,
+          "log_abs_difference": 6.230481408575628e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 92003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0003643999807536602,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.14267301673441657,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.07909819995984435,
+          "cost": 0.1426926502372624,
+          "exact_abs_error": 1.9633502845839423e-05,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.06810840003890917,
+          "cost": 0.14269265023728936,
+          "exact_abs_error": 1.9633502872790087e-05,
+          "log_abs_difference": 2.6978419498391304e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.6787775999982841,
+          "cost": 0.14269265023726238,
+          "exact_abs_error": 1.9633502845811668e-05,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.6960708000115119,
+          "cost": 0.14269265023726235,
+          "exact_abs_error": 1.9633502845783912e-05,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    }
+  ]
+}

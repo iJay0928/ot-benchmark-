@@ -1,0 +1,83 @@
+{
+  "manifest_verified": true,
+  "raw_sources_verified": true,
+  "prior_ids_excluded": 192,
+  "pairs": 12,
+  "distinct_new_observations": 24,
+  "rows": [
+    {
+      "domain": "movielens",
+      "source_active": 12,
+      "target_active": 14,
+      "original_mass_defect": 2.5000002068509275e-12
+    },
+    {
+      "domain": "movielens",
+      "source_active": 54,
+      "target_active": 95,
+      "original_mass_defect": 6.621370118864434e-13
+    },
+    {
+      "domain": "movielens",
+      "source_active": 96,
+      "target_active": 13,
+      "original_mass_defect": 2.2726265314076954e-12
+    },
+    {
+      "domain": "movielens",
+      "source_active": 15,
+      "target_active": 21,
+      "original_mass_defect": 1.7543744235126724e-12
+    },
+    {
+      "domain": "movielens",
+      "source_active": 145,
+      "target_active": 131,
+      "original_mass_defect": 2.162714451969805e-13
+    },
+    {
+      "domain": "movielens",
+      "source_active": 12,
+      "target_active": 20,
+      "original_mass_defect": 1.8183232697310814e-12
+    },
+    {
+      "domain": "kos",
+      "source_active": 43,
+      "target_active": 21,
+      "original_mass_defect": 0.0
+    },
+    {
+      "domain": "kos",
+      "source_active": 135,
+      "target_active": 59,
+      "original_mass_defect": 2.220446049250313e-16
+    },
+    {
+      "domain": "kos",
+      "source_active": 44,
+      "target_active": 35,
+      "original_mass_defect": 1.1102230246251565e-16
+    },
+    {
+      "domain": "kos",
+      "source_active": 123,
+      "target_active": 39,
+      "original_mass_defect": 1.1102230246251565e-16
+    },
+    {
+      "domain": "kos",
+      "source_active": 125,
+      "target_active": 29,
+      "original_mass_defect": 0.0
+    },
+    {
+      "domain": "kos",
+      "source_active": 136,
+      "target_active": 57,
+      "original_mass_defect": 1.1102230246251565e-16
+    }
+  ],
+  "max_loader_mass_defect": 2.5000002068509275e-12,
+  "solver_performance_evaluated": false
+}

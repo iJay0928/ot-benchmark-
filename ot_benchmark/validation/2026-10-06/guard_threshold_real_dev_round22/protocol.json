@@ -1,0 +1,673 @@
+{
+  "role": "12 previously viewed round20 pairs; development sensitivity only, contains known near-threshold case",
+  "input_manifest_sha256": "89b3f7de451692945cd621e4b6765dda30fa6211b62c903722d987ee5de857c2",
+  "input_directory": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-06\\quality_real_inputs_round20",
+  "cases": [
+    {
+      "config": {
+        "label": "movielens_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106000,
+      "input": {
+        "domain": "movielens",
+        "seed": 106000,
+        "file": "movielens_000.npz",
+        "source_id": "movielens:user:150",
+        "target_id": "movielens:user:192",
+        "active_source": 28,
+        "active_target": 25,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999990566,
+          0.9999999999988636
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "9a6e4213093bf7f3d7806e8239e5b6bb484920fc8bbdca6488890971d5358f57"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106000,
+      "input": {
+        "domain": "movielens",
+        "seed": 106000,
+        "file": "movielens_000.npz",
+        "source_id": "movielens:user:150",
+        "target_id": "movielens:user:192",
+        "active_source": 28,
+        "active_target": 25,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999990566,
+          0.9999999999988636
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "9a6e4213093bf7f3d7806e8239e5b6bb484920fc8bbdca6488890971d5358f57"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106002,
+      "input": {
+        "domain": "movielens",
+        "seed": 106002,
+        "file": "movielens_001.npz",
+        "source_id": "movielens:user:83",
+        "target_id": "movielens:user:34",
+        "active_source": 79,
+        "active_target": 14,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999996416,
+          0.9999999999981131
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "38caa6c4a5a5cde81b76be55678b93eb8b26d3735122f29824d7847232a493ef"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106002,
+      "input": {
+        "domain": "movielens",
+        "seed": 106002,
+        "file": "movielens_001.npz",
+        "source_id": "movielens:user:83",
+        "target_id": "movielens:user:34",
+        "active_source": 79,
+        "active_target": 14,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999996416,
+          0.9999999999981131
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "38caa6c4a5a5cde81b76be55678b93eb8b26d3735122f29824d7847232a493ef"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106003,
+      "input": {
+        "domain": "movielens",
+        "seed": 106003,
+        "file": "movielens_002.npz",
+        "source_id": "movielens:user:46",
+        "target_id": "movielens:user:21",
+        "active_source": 21,
+        "active_target": 70,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999987952,
+          0.9999999999995576
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "d3b5cc5130203673c5a30bd2a68c5a91b05f0c30a8ef8b3d6c97159e306f9945"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106003,
+      "input": {
+        "domain": "movielens",
+        "seed": 106003,
+        "file": "movielens_002.npz",
+        "source_id": "movielens:user:46",
+        "target_id": "movielens:user:21",
+        "active_source": 21,
+        "active_target": 70,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999987952,
+          0.9999999999995576
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "d3b5cc5130203673c5a30bd2a68c5a91b05f0c30a8ef8b3d6c97159e306f9945"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106004,
+      "input": {
+        "domain": "movielens",
+        "seed": 106004,
+        "file": "movielens_003.npz",
+        "source_id": "movielens:user:195",
+        "target_id": "movielens:user:30",
+        "active_source": 46,
+        "active_target": 29,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999993976,
+          0.9999999999991305
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "dab12ab4f81fa790eeaff9b61b0254928c598969370143332815b7f1a5081257"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106004,
+      "input": {
+        "domain": "movielens",
+        "seed": 106004,
+        "file": "movielens_003.npz",
+        "source_id": "movielens:user:195",
+        "target_id": "movielens:user:30",
+        "active_source": 46,
+        "active_target": 29,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999993976,
+          0.9999999999991305
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "dab12ab4f81fa790eeaff9b61b0254928c598969370143332815b7f1a5081257"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106010,
+      "input": {
+        "domain": "movielens",
+        "seed": 106010,
+        "file": "movielens_004.npz",
+        "source_id": "movielens:user:282",
+        "target_id": "movielens:user:227",
+        "active_source": 19,
+        "active_target": 39,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999985507,
+          0.9999999999992959
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "d41cc5d95b010f327e73774af78ff21661aeb15d1c573bf94e114e39020239d4"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106010,
+      "input": {
+        "domain": "movielens",
+        "seed": 106010,
+        "file": "movielens_004.npz",
+        "source_id": "movielens:user:282",
+        "target_id": "movielens:user:227",
+        "active_source": 19,
+        "active_target": 39,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999985507,
+          0.9999999999992959
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "d41cc5d95b010f327e73774af78ff21661aeb15d1c573bf94e114e39020239d4"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106011,
+      "input": {
+        "domain": "movielens",
+        "seed": 106011,
+        "file": "movielens_005.npz",
+        "source_id": "movielens:user:276",
+        "target_id": "movielens:user:200",
+        "active_source": 246,
+        "active_target": 114,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999998939,
+          0.9999999999997947
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "2b60e039813dc843c47c4a5595df5522659a4989f25bcda17f553d3a7fa16ecc"
+      }
+    },
+    {
+      "config": {
+        "label": "movielens_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106011,
+      "input": {
+        "domain": "movielens",
+        "seed": 106011,
+        "file": "movielens_005.npz",
+        "source_id": "movielens:user:276",
+        "target_id": "movielens:user:200",
+        "active_source": 246,
+        "active_target": 114,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999998939,
+          0.9999999999997947
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "2b60e039813dc843c47c4a5595df5522659a4989f25bcda17f553d3a7fa16ecc"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106001,
+      "input": {
+        "domain": "kos",
+        "seed": 106001,
+        "file": "kos_000.npz",
+        "source_id": "uci:kos:document:804",
+        "target_id": "uci:kos:document:916",
+        "active_source": 135,
+        "active_target": 102,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "26e5ce8e0b96072ed61d2e392395ca2bceddcd2e70bc55f6fbdcf77badf94229"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106001,
+      "input": {
+        "domain": "kos",
+        "seed": 106001,
+        "file": "kos_000.npz",
+        "source_id": "uci:kos:document:804",
+        "target_id": "uci:kos:document:916",
+        "active_source": 135,
+        "active_target": 102,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "26e5ce8e0b96072ed61d2e392395ca2bceddcd2e70bc55f6fbdcf77badf94229"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106002,
+      "input": {
+        "domain": "kos",
+        "seed": 106002,
+        "file": "kos_001.npz",
+        "source_id": "uci:kos:document:256",
+        "target_id": "uci:kos:document:772",
+        "active_source": 49,
+        "active_target": 26,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "13834287e9888c118119bfb652bc0d877a136b52f8a1630bfb1c8e57599b4c06"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106002,
+      "input": {
+        "domain": "kos",
+        "seed": 106002,
+        "file": "kos_001.npz",
+        "source_id": "uci:kos:document:256",
+        "target_id": "uci:kos:document:772",
+        "active_source": 49,
+        "active_target": 26,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "13834287e9888c118119bfb652bc0d877a136b52f8a1630bfb1c8e57599b4c06"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106003,
+      "input": {
+        "domain": "kos",
+        "seed": 106003,
+        "file": "kos_002.npz",
+        "source_id": "uci:kos:document:507",
+        "target_id": "uci:kos:document:336",
+        "active_source": 45,
+        "active_target": 83,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "c5f393583a60298759079837d58323af516f92d9ca43757307a7c00502137d4e"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106003,
+      "input": {
+        "domain": "kos",
+        "seed": 106003,
+        "file": "kos_002.npz",
+        "source_id": "uci:kos:document:507",
+        "target_id": "uci:kos:document:336",
+        "active_source": 45,
+        "active_target": 83,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "c5f393583a60298759079837d58323af516f92d9ca43757307a7c00502137d4e"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106004,
+      "input": {
+        "domain": "kos",
+        "seed": 106004,
+        "file": "kos_003.npz",
+        "source_id": "uci:kos:document:894",
+        "target_id": "uci:kos:document:922",
+        "active_source": 43,
+        "active_target": 28,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "92166240818e3cf041a60e05664707a911ae94329aaa616d9b72eeb3ed0b15fd"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106004,
+      "input": {
+        "domain": "kos",
+        "seed": 106004,
+        "file": "kos_003.npz",
+        "source_id": "uci:kos:document:894",
+        "target_id": "uci:kos:document:922",
+        "active_source": 43,
+        "active_target": 28,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "92166240818e3cf041a60e05664707a911ae94329aaa616d9b72eeb3ed0b15fd"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106006,
+      "input": {
+        "domain": "kos",
+        "seed": 106006,
+        "file": "kos_004.npz",
+        "source_id": "uci:kos:document:810",
+        "target_id": "uci:kos:document:291",
+        "active_source": 75,
+        "active_target": 42,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0000000000000002,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "3193dd685601d30cf6d7e3db7a980b9a8fc2eb75c13dcb9284204ef8b2641b67"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106006,
+      "input": {
+        "domain": "kos",
+        "seed": 106006,
+        "file": "kos_004.npz",
+        "source_id": "uci:kos:document:810",
+        "target_id": "uci:kos:document:291",
+        "active_source": 75,
+        "active_target": 42,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0000000000000002,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "3193dd685601d30cf6d7e3db7a980b9a8fc2eb75c13dcb9284204ef8b2641b67"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 106007,
+      "input": {
+        "domain": "kos",
+        "seed": 106007,
+        "file": "kos_005.npz",
+        "source_id": "uci:kos:document:465",
+        "target_id": "uci:kos:document:658",
+        "active_source": 38,
+        "active_target": 28,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "76d9bb8923c41fc9671aca8999623e5de5df5a40476255504741eb13df989409"
+      }
+    },
+    {
+      "config": {
+        "label": "kos_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 106007,
+      "input": {
+        "domain": "kos",
+        "seed": 106007,
+        "file": "kos_005.npz",
+        "source_id": "uci:kos:document:465",
+        "target_id": "uci:kos:document:658",
+        "active_source": 38,
+        "active_target": 28,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "76d9bb8923c41fc9671aca8999623e5de5df5a40476255504741eb13df989409"
+      }
+    }
+  ],
+  "methods": [
+    "guard_1e-10",
+    "guard_1e-08",
+    "guard_1e-06",
+    "direct_stabilized_250"
+  ],
+  "repetitions": 3,
+  "ordinary_budget": 50000,
+  "periodic_every": 250,
+  "discrepancy_l1_triggers": [
+    1e-10,
+    1e-08,
+    1e-06
+  ],
+  "rescue_block": 5000,
+  "rescue_max_blocks": 40,
+  "direct_iteration_budget": 250000,
+  "direct_blocks": [
+    250
+  ],
+  "stabilized_internal_stop": 1e-12,
+  "raw_check_every": 50,
+  "raw_gate": 1e-09,
+  "gap_tolerance": 1e-08,
+  "rounded_feasibility": 1e-12,
+  "roundoff_allowance": 1e-10,
+  "epsilon_outer": 1000,
+  "epsilon_inner": 1000,
+  "epsilon0": 1.0,
+  "epsilon_stop": 1e-22,
+  "objective": "sum(C*P)+reg*sum(P*(log(P)-1))",
+  "timing": "entire solver call, including diagnostics, fallback, rounding and full plan allocation; excludes shared input generation and independent output audit",
+  "transfer": "MovieLens genre geometry and KOS shared cooccurrence geometry; unchanged costs and frozen normalized masses; paired regularizations are dependent",
+  "policy_note": "guarded thresholds 1e-10/1e-8/1e-6, default unchanged; direct stabilized starts from zero dual potentials with no ordinary prefix, block size 5000 or 250, total max 250000, common quality gate and cold epsilon fallback; direct stage counted as used_rescue field for schema compatibility only",
+  "limitation": "fixed conservative epsilon schedule; no optimal baseline tuning, no interval certificate, dependent seeds across configs",
+  "pot_version": "0.9.6.post1",
+  "pot_source_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

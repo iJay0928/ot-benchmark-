@@ -1,0 +1,110 @@
+{
+  "configs": [
+    {
+      "label": "base",
+      "n": 300,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "n_100",
+      "n": 100,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "n_1000",
+      "n": 1000,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "d_1",
+      "n": 300,
+      "d": 1,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "d_32",
+      "n": 300,
+      "d": 32,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "d_128",
+      "n": 300,
+      "d": 128,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "zero_0.0",
+      "n": 300,
+      "d": 8,
+      "zero": 0.0,
+      "reg": 0.01
+    },
+    {
+      "label": "zero_0.5",
+      "n": 300,
+      "d": 8,
+      "zero": 0.5,
+      "reg": 0.01
+    },
+    {
+      "label": "zero_0.98",
+      "n": 300,
+      "d": 8,
+      "zero": 0.98,
+      "reg": 0.01
+    },
+    {
+      "label": "reg_0.1",
+      "n": 300,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.1
+    },
+    {
+      "label": "reg_0.001",
+      "n": 300,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.001
+    }
+  ],
+  "seeds": [
+    92001,
+    92002,
+    92003
+  ],
+  "repetitions": 3,
+  "methods": [
+    "sinkhorn",
+    "sinkhorn_stabilized",
+    "sinkhorn_log",
+    "bounded_full"
+  ],
+  "pot_version": "0.9.6.post1",
+  "native_budget": 10000,
+  "candidate_budget": 2000,
+  "fallback_budget": 10000,
+  "stop_threshold": 1e-09,
+  "acceptance_residual": 1e-07,
+  "cost_agreement": "1e-4 + 1e-3 * abs(log cost)",
+  "design": "one-factor exploratory sweep; matched seeds across configs are dependent, not independent samples",
+  "geometry": "shared uniform [0,1]^d support, squared Euclidean divided by full cost maximum",
+  "weights": "uniform random positive weights on independently permuted active supports; exact zero ratio rounded",
+  "timing": "solver includes active-support slicing and validation; preprocessing reported separately; EMD excluded",
+  "memory": "dense cost bytes only, not process peak memory",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

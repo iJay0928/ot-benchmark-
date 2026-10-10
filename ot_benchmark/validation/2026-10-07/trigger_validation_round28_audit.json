@@ -1,0 +1,136 @@
+{
+  "failures": [],
+  "safety_early_switches": [],
+  "guarded_budget_exhaustion": [
+    [
+      111012,
+      "kos_reg_0.001"
+    ]
+  ],
+  "groups": {
+    "all": {
+      "totals": {
+        "guarded_250": 16.731455000001006,
+        "fixed_250": 16.674810700060334,
+        "fixed_1000": 16.633096000063233,
+        "fixed_50000": 18.138524900306948,
+        "direct_stabilized_250": 17.37996149988612
+      },
+      "comparisons": {
+        "fixed_250": {
+          "paired": 24,
+          "faster": 19,
+          "reduction": -0.0033969980804919864
+        },
+        "fixed_1000": {
+          "paired": 24,
+          "faster": 16,
+          "reduction": -0.005913451105999723
+        },
+        "fixed_50000": {
+          "paired": 24,
+          "faster": 10,
+          "reduction": 0.07757355727874715
+        },
+        "direct_stabilized_250": {
+          "paired": 24,
+          "faster": 24,
+          "reduction": 0.03731346009537273
+        }
+      }
+    },
+    "movielens": {
+      "totals": {
+        "guarded_250": 0.5174028999754228,
+        "fixed_250": 0.6282990000327118,
+        "fixed_1000": 0.5902979000238702,
+        "fixed_50000": 0.5128238002653234,
+        "direct_stabilized_250": 0.6460129999904893
+      },
+      "comparisons": {
+        "fixed_250": {
+          "paired": 12,
+          "faster": 12,
+          "reduction": 0.17650211133793836
+        },
+        "fixed_1000": {
+          "paired": 12,
+          "faster": 9,
+          "reduction": 0.12348849630923586
+        },
+        "fixed_50000": {
+          "paired": 12,
+          "faster": 2,
+          "reduction": -0.008929187193984056
+        },
+        "direct_stabilized_250": {
+          "paired": 12,
+          "faster": 12,
+          "reduction": 0.1990828358205794
+        }
+      }
+    },
+    "kos": {
+      "totals": {
+        "guarded_250": 16.214052100025583,
+        "fixed_250": 16.046511700027622,
+        "fixed_1000": 16.042798100039363,
+        "fixed_50000": 17.625701100041624,
+        "direct_stabilized_250": 16.733948499895632
+      },
+      "comparisons": {
+        "fixed_250": {
+          "paired": 12,
+          "faster": 7,
+          "reduction": -0.010440923431207283
+        },
+        "fixed_1000": {
+          "paired": 12,
+          "faster": 7,
+          "reduction": -0.010674821120250755
+        },
+        "fixed_50000": {
+          "paired": 12,
+          "faster": 8,
+          "reduction": 0.08009037439155864
+        },
+        "direct_stabilized_250": {
+          "paired": 12,
+          "faster": 12,
+          "reduction": 0.03106836380387401
+        }
+      }
+    },
+    "kos_reg_0.001": {
+      "totals": {
+        "guarded_250": 16.180481899995357,
+        "fixed_250": 16.011043600039557,
+        "fixed_1000": 16.007330700056627,
+        "fixed_50000": 17.590352100029122,
+        "direct_stabilized_250": 16.693145199969877
+      },
+      "comparisons": {
+        "fixed_250": {
+          "paired": 6,
+          "faster": 4,
+          "reduction": -0.010582589379456886
+        },
+        "fixed_1000": {
+          "paired": 6,
+          "faster": 3,
+          "reduction": -0.01081699398751823
+        },
+        "fixed_50000": {
+          "paired": 6,
+          "faster": 4,
+          "reduction": 0.08015019779117616
+        },
+        "direct_stabilized_250": {
+          "paired": 6,
+          "faster": 6,
+          "reduction": 0.03071100705308938
+        }
+      }
+    }
+  }
+}

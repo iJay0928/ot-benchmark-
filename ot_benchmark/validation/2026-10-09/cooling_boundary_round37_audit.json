@@ -1,0 +1,379 @@
+{
+  "audit_passed": true,
+  "totals": {
+    "gated": {
+      "accepted": 8,
+      "total": 12
+    },
+    "fixed1": {
+      "accepted": 8,
+      "total": 12
+    },
+    "fixed10": {
+      "accepted": 8,
+      "total": 12
+    }
+  },
+  "rows": [
+    {
+      "seed": 137001,
+      "delta": 0.001,
+      "reg": 0.001,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 79000,
+      "reached_reg": 0.001,
+      "gap": 1.8717062830186926e-09
+    },
+    {
+      "seed": 137001,
+      "delta": 0.0,
+      "reg": 0.001,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 101000,
+      "reached_reg": 0.001,
+      "gap": 8.179177821143746e-13
+    },
+    {
+      "seed": 137002,
+      "delta": 0.001,
+      "reg": 0.001,
+      "method": "gated",
+      "accepted": true,
+      "work": 40000,
+      "reached_reg": 0.001,
+      "gap": 4.430927052351263e-09
+    },
+    {
+      "seed": 137001,
+      "delta": 1e-05,
+      "reg": 0.001,
+      "method": "gated",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.015625,
+      "gap": 0.5519875504562968
+    },
+    {
+      "seed": 137002,
+      "delta": 0.0,
+      "reg": 0.001,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 11000,
+      "reached_reg": 0.001,
+      "gap": 2.686939212792616e-13
+    },
+    {
+      "seed": 137002,
+      "delta": 0.0,
+      "reg": 0.003,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 91000,
+      "reached_reg": 0.003,
+      "gap": 2.954199385118983e-13
+    },
+    {
+      "seed": 137001,
+      "delta": 1e-05,
+      "reg": 0.003,
+      "method": "fixed1",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.003,
+      "gap": 8.038777659816893e-06
+    },
+    {
+      "seed": 137001,
+      "delta": 1e-05,
+      "reg": 0.001,
+      "method": "fixed1",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.001,
+      "gap": 9.067595196033708e-06
+    },
+    {
+      "seed": 137001,
+      "delta": 0.001,
+      "reg": 0.001,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 103000,
+      "reached_reg": 0.001,
+      "gap": 1.625325591995963e-09
+    },
+    {
+      "seed": 137002,
+      "delta": 1e-05,
+      "reg": 0.003,
+      "method": "fixed1",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.003,
+      "gap": 8.080180368404827e-06
+    },
+    {
+      "seed": 137001,
+      "delta": 0.001,
+      "reg": 0.003,
+      "method": "gated",
+      "accepted": true,
+      "work": 34000,
+      "reached_reg": 0.003,
+      "gap": 2.2393891255245713e-09
+    },
+    {
+      "seed": 137001,
+      "delta": 0.0,
+      "reg": 0.003,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 91000,
+      "reached_reg": 0.003,
+      "gap": 5.046033035860376e-13
+    },
+    {
+      "seed": 137001,
+      "delta": 0.001,
+      "reg": 0.001,
+      "method": "gated",
+      "accepted": true,
+      "work": 40000,
+      "reached_reg": 0.001,
+      "gap": 1.6253344781169687e-09
+    },
+    {
+      "seed": 137001,
+      "delta": 0.0,
+      "reg": 0.001,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 11000,
+      "reached_reg": 0.001,
+      "gap": 1.849397371356254e-13
+    },
+    {
+      "seed": 137001,
+      "delta": 0.001,
+      "reg": 0.003,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 92000,
+      "reached_reg": 0.003,
+      "gap": 2.2393837825762652e-09
+    },
+    {
+      "seed": 137002,
+      "delta": 0.001,
+      "reg": 0.003,
+      "method": "gated",
+      "accepted": true,
+      "work": 34000,
+      "reached_reg": 0.003,
+      "gap": 6.1924521239931085e-09
+    },
+    {
+      "seed": 137002,
+      "delta": 0.0,
+      "reg": 0.001,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 101000,
+      "reached_reg": 0.001,
+      "gap": 7.027373474799425e-13
+    },
+    {
+      "seed": 137001,
+      "delta": 0.0,
+      "reg": 0.001,
+      "method": "gated",
+      "accepted": true,
+      "work": 11000,
+      "reached_reg": 0.001,
+      "gap": 1.849397371356254e-13
+    },
+    {
+      "seed": 137001,
+      "delta": 1e-05,
+      "reg": 0.003,
+      "method": "fixed10",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.003,
+      "gap": 7.696701694457492e-06
+    },
+    {
+      "seed": 137002,
+      "delta": 0.0,
+      "reg": 0.003,
+      "method": "gated",
+      "accepted": true,
+      "work": 10000,
+      "reached_reg": 0.003,
+      "gap": 4.7569587158236004e-14
+    },
+    {
+      "seed": 137002,
+      "delta": 0.0,
+      "reg": 0.001,
+      "method": "gated",
+      "accepted": true,
+      "work": 11000,
+      "reached_reg": 0.001,
+      "gap": 2.686939212792616e-13
+    },
+    {
+      "seed": 137001,
+      "delta": 0.0,
+      "reg": 0.003,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 10000,
+      "reached_reg": 0.003,
+      "gap": 5.1264548162066603e-14
+    },
+    {
+      "seed": 137002,
+      "delta": 0.001,
+      "reg": 0.003,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 33000,
+      "reached_reg": 0.003,
+      "gap": 1.7637014071425483e-10
+    },
+    {
+      "seed": 137001,
+      "delta": 1e-05,
+      "reg": 0.001,
+      "method": "fixed10",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.001,
+      "gap": 8.657287989468666e-06
+    },
+    {
+      "seed": 137002,
+      "delta": 0.001,
+      "reg": 0.001,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 103000,
+      "reached_reg": 0.001,
+      "gap": 4.430941599742333e-09
+    },
+    {
+      "seed": 137002,
+      "delta": 0.001,
+      "reg": 0.003,
+      "method": "fixed10",
+      "accepted": true,
+      "work": 92000,
+      "reached_reg": 0.003,
+      "gap": 6.192446836555954e-09
+    },
+    {
+      "seed": 137002,
+      "delta": 1e-05,
+      "reg": 0.003,
+      "method": "fixed10",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.003,
+      "gap": 7.73766310380869e-06
+    },
+    {
+      "seed": 137002,
+      "delta": 1e-05,
+      "reg": 0.003,
+      "method": "gated",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.015625,
+      "gap": 0.540989810362108
+    },
+    {
+      "seed": 137002,
+      "delta": 1e-05,
+      "reg": 0.001,
+      "method": "gated",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.015625,
+      "gap": 0.5540801659040002
+    },
+    {
+      "seed": 137002,
+      "delta": 1e-05,
+      "reg": 0.001,
+      "method": "fixed10",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.001,
+      "gap": 8.698264903413133e-06
+    },
+    {
+      "seed": 137002,
+      "delta": 0.001,
+      "reg": 0.001,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 77000,
+      "reached_reg": 0.001,
+      "gap": 1.0185433121923104e-09
+    },
+    {
+      "seed": 137001,
+      "delta": 0.001,
+      "reg": 0.003,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 33000,
+      "reached_reg": 0.003,
+      "gap": 2.417153019407259e-09
+    },
+    {
+      "seed": 137001,
+      "delta": 1e-05,
+      "reg": 0.003,
+      "method": "gated",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.015625,
+      "gap": 0.5388971949173054
+    },
+    {
+      "seed": 137002,
+      "delta": 1e-05,
+      "reg": 0.001,
+      "method": "fixed1",
+      "accepted": false,
+      "work": 1000000,
+      "reached_reg": 0.001,
+      "gap": 9.109013438677455e-06
+    },
+    {
+      "seed": 137002,
+      "delta": 0.0,
+      "reg": 0.003,
+      "method": "fixed1",
+      "accepted": true,
+      "work": 10000,
+      "reached_reg": 0.003,
+      "gap": 4.7569587158236004e-14
+    },
+    {
+      "seed": 137001,
+      "delta": 0.0,
+      "reg": 0.003,
+      "method": "gated",
+      "accepted": true,
+      "work": 10000,
+      "reached_reg": 0.003,
+      "gap": 5.1264548162066603e-14
+    }
+  ]
+}

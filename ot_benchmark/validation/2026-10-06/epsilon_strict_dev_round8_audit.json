@@ -1,0 +1,79 @@
+{
+  "cases": 4,
+  "runs": 48,
+  "manifest_verified": true,
+  "methods": {
+    "ordinary_10000": {
+      "successful_runs": 0,
+      "runs": 12,
+      "successful_cases": 0,
+      "sum_case_median_seconds": 0.5157802999601699,
+      "warning_runs": 12,
+      "paired_cases": 0,
+      "epsilon_over_method_time_median": null
+    },
+    "ordinary_50000": {
+      "successful_runs": 3,
+      "runs": 12,
+      "successful_cases": 1,
+      "sum_case_median_seconds": 2.5907044999767095,
+      "warning_runs": 9,
+      "paired_cases": 1,
+      "epsilon_over_method_time_median": 2.421905154586299
+    },
+    "stabilized_50000": {
+      "successful_runs": 3,
+      "runs": 12,
+      "successful_cases": 1,
+      "sum_case_median_seconds": 2.2351721000741236,
+      "warning_runs": 9,
+      "paired_cases": 1,
+      "epsilon_over_method_time_median": 2.8403320037926503
+    },
+    "epsilon_scaling": {
+      "successful_runs": 12,
+      "runs": 12,
+      "successful_cases": 4,
+      "sum_case_median_seconds": 4.6581068999366835,
+      "warning_runs": 12,
+      "paired_cases": 4,
+      "epsilon_over_method_time_median": 1.0
+    }
+  },
+  "failed_cases": [
+    {
+      "config": "d_32",
+      "seed": 94001,
+      "methods": [
+        "ordinary_10000",
+        "ordinary_50000",
+        "stabilized_50000"
+      ]
+    },
+    {
+      "config": "d_128",
+      "seed": 94001,
+      "methods": [
+        "ordinary_10000",
+        "ordinary_50000",
+        "stabilized_50000"
+      ]
+    },
+    {
+      "config": "reg_0.001",
+      "seed": 94001,
+      "methods": [
+        "ordinary_10000"
+      ]
+    },
+    {
+      "config": "reg_0.001",
+      "seed": 94002,
+      "methods": [
+        "ordinary_10000",
+        "ordinary_50000",
+        "stabilized_50000"
+      ]
+    }
+  ]
+}

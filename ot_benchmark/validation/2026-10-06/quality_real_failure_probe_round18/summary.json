@@ -1,0 +1,48 @@
+{
+  "runs": [
+    {
+      "config": {
+        "outer": 1000,
+        "inner": 1000
+      },
+      "seconds": 3.8028252000221983,
+      "outer_iterations": 271,
+      "diagnostics": {
+        "raw_residual": 6.606256774260855e-12,
+        "rounded_residual": 1.8474805019152996e-16,
+        "rounded_primal": 0.16085744884442166,
+        "dual": 0.16085744884389894,
+        "numerical_gap": 5.227207555691393e-13,
+        "rounding_l1": 6.6412549537106884e-12,
+        "raw_transport_cost": 0.16869091257013696,
+        "rounded_transport_cost": 0.1686909125705753
+      },
+      "accepted": true,
+      "warnings": [
+        "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+      ]
+    },
+    {
+      "config": {
+        "outer": 200,
+        "inner": 5000
+      },
+      "seconds": 3.533069400000386,
+      "outer_iterations": 51,
+      "diagnostics": {
+        "raw_residual": 1.4963434137593712e-12,
+        "rounded_residual": 1.687018580387445e-16,
+        "rounded_primal": 0.16085744884399739,
+        "dual": 0.1608574488439039,
+        "numerical_gap": 9.348077867343818e-14,
+        "rounding_l1": 1.6932670972258845e-12,
+        "raw_transport_cost": 0.1686909125701369,
+        "rounded_transport_cost": 0.16869091257012456
+      },
+      "accepted": true,
+      "warnings": [
+        "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+      ]
+    }
+  ]
+}

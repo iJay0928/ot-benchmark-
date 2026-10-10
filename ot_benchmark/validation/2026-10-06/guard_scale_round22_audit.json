@@ -1,0 +1,276 @@
+{
+  "manifest_verified": true,
+  "input_replay_verified": true,
+  "groups": {
+    "all": {
+      "guard_1e-10": {
+        "successes": 54,
+        "runs": 54,
+        "sum_medians": 6.293675000022631,
+        "paired_cases": 18,
+        "median_speedup": 1.9358361525195558,
+        "faster_cases": 18,
+        "paired_time_reduction": 0.6461420201763566
+      },
+      "guard_1e-08": {
+        "successes": 54,
+        "runs": 54,
+        "sum_medians": 6.275267799966969,
+        "paired_cases": 18,
+        "median_speedup": 1.9523361178105327,
+        "faster_cases": 18,
+        "paired_time_reduction": 0.6471769536017213
+      },
+      "guard_1e-06": {
+        "successes": 54,
+        "runs": 54,
+        "sum_medians": 6.291786200017668,
+        "paired_cases": 18,
+        "median_speedup": 1.9337415596262977,
+        "faster_cases": 18,
+        "paired_time_reduction": 0.646248216787088
+      },
+      "direct_stabilized_250": {
+        "successes": 54,
+        "runs": 54,
+        "sum_medians": 17.785878400027286,
+        "paired_cases": 18,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "active_100_reg_0.01": {
+      "guard_1e-10": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.010779399948660284,
+        "paired_cases": 3,
+        "median_speedup": 1.370761280846964,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.2675196900131058
+      },
+      "guard_1e-08": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.011159999936353415,
+        "paired_cases": 3,
+        "median_speedup": 1.3026382369440437,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.24165721174026644
+      },
+      "guard_1e-06": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.010550900013186038,
+        "paired_cases": 3,
+        "median_speedup": 1.4113682586261875,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.28304668635476804
+      },
+      "direct_stabilized_250": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.014716299949213862,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "active_100_reg_0.001": {
+      "guard_1e-10": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.21436939999694005,
+        "paired_cases": 3,
+        "median_speedup": 1.3351073305764753,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.2330553120657799
+      },
+      "guard_1e-08": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.21172160003334284,
+        "paired_cases": 3,
+        "median_speedup": 1.2894621682707448,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.2425282877648408
+      },
+      "guard_1e-06": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.21541880001313984,
+        "paired_cases": 3,
+        "median_speedup": 1.268749080097027,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.22930089670633946
+      },
+      "direct_stabilized_250": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.27951090002898127,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "active_300_reg_0.01": {
+      "guard_1e-10": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.022327399987261742,
+        "paired_cases": 3,
+        "median_speedup": 2.0463047276037787,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.5181299629965934
+      },
+      "guard_1e-08": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.02232810005079955,
+        "paired_cases": 3,
+        "median_speedup": 2.0662068925953756,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.5181148542224836
+      },
+      "guard_1e-06": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.022985300049185753,
+        "paired_cases": 3,
+        "median_speedup": 2.041608913800785,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.5039311611941115
+      },
+      "direct_stabilized_250": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.046334900020156056,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "active_300_reg_0.001": {
+      "guard_1e-10": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.8500489000580274,
+        "paired_cases": 3,
+        "median_speedup": 1.9029628782245114,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.46798052893829456
+      },
+      "guard_1e-08": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.8692424999899231,
+        "paired_cases": 3,
+        "median_speedup": 1.8374859912324415,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.4559678448646606
+      },
+      "guard_1e-06": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.8869997999863699,
+        "paired_cases": 3,
+        "median_speedup": 1.7840794487039782,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.44485409676034715
+      },
+      "direct_stabilized_250": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 1.5977778000524268,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "active_600_reg_0.01": {
+      "guard_1e-10": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.09640810004202649,
+        "paired_cases": 3,
+        "median_speedup": 2.98903850722956,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.6712540602522632
+      },
+      "guard_1e-08": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.09497599996393546,
+        "paired_cases": 3,
+        "median_speedup": 2.9345069744521095,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.6761374371239122
+      },
+      "guard_1e-06": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.09514299995498732,
+        "paired_cases": 3,
+        "median_speedup": 2.9969736556620052,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.6755679769958496
+      },
+      "direct_stabilized_250": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 0.293260200007353,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    },
+    "active_600_reg_0.001": {
+      "guard_1e-10": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 5.099741799989715,
+        "paired_cases": 3,
+        "median_speedup": 2.9904953954549454,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.6721325347509162
+      },
+      "guard_1e-08": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 5.065839599992614,
+        "paired_cases": 3,
+        "median_speedup": 3.0074627474967675,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.6743121408594921
+      },
+      "guard_1e-06": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 5.0606884000007994,
+        "paired_cases": 3,
+        "median_speedup": 3.0333867777558816,
+        "faster_cases": 3,
+        "paired_time_reduction": 0.6746433166230004
+      },
+      "direct_stabilized_250": {
+        "successes": 9,
+        "runs": 9,
+        "sum_medians": 15.554278299969155,
+        "paired_cases": 3,
+        "median_speedup": 1.0,
+        "faster_cases": 0,
+        "paired_time_reduction": 0.0
+      }
+    }
+  },
+  "failures": [],
+  "threshold_different_paths": [],
+  "triggers": [],
+  "note": "exploratory threshold sweep; source role defined in protocol; no selected-threshold holdout; repeated timings and shared inputs are dependent"
+}

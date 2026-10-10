@@ -1,0 +1,17 @@
+{
+  "role": "all 16 cases previously examined; development only",
+  "decision_iteration": 1000,
+  "fit_window": [
+    500,
+    1000
+  ],
+  "check_every": 50,
+  "total_budget": 50000,
+  "tolerance": 1e-09,
+  "hypothesis": "residual log-slope by iteration 1000 predicts failure to reach target by 50000",
+  "limitation": "predicts budget failure, not which solver is faster; no deployed switching or runtime saving claim",
+  "source_sha256": {
+    "validation\\2026-10-06\\epsilon_strict_dev_round8\\summary.json": "96495f2218c7ca15a997d5b6490146cd2d5d9dd322da2e9095ec0c3ae3483efb",
+    "validation\\2026-10-06\\epsilon_holdout_round8\\summary.json": "68fb725ef31ca4a84221119f4d539ae63b7e89ed7815bd046db12eed81f93067"
+  }
+}

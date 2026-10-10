@@ -1,0 +1,14 @@
+........................................................................ [ 72%]
+...........................                                              [100%]
+============================== warnings summary ===============================
+tests/test_backend.py::TestBackendAutoDetect::test_explicit_invalid_falls_back
+  C:\Users\Lenovo\Desktop\��\ot_benchmark\tests\..\ot_benchmark\backend\base.py:125: UserWarning: Backend 'nonexistent_backend' not available, falling back to NumPy
+    warnings.warn(f"Backend '{preferred}' not available, falling back to NumPy")
+
+tests/test_quality_policy.py::test_returns_actual_feasible_plan_and_correct_objective[always]
+tests/test_quality_policy.py::test_numerically_underflowing_ordinary_path_gets_fallback
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\ot\bregman\_sinkhorn.py:1330: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+99 passed, 3 warnings in 31.07s

@@ -1,0 +1,251 @@
+{
+  "failures": [],
+  "groups": {
+    "all": {
+      "cases": 24,
+      "totals": {
+        "pot1000": 36.142259900225326,
+        "quality_compat": 23.63390860031359
+      },
+      "reduction": 0.3460865849131297,
+      "faster": 8
+    },
+    "without_known_hard": {
+      "cases": 23,
+      "totals": {
+        "pot1000": 17.78240630030632,
+        "quality_compat": 17.794439100311138
+      },
+      "reduction": -0.000676668826569804,
+      "faster": 7
+    },
+    "known_hard": {
+      "cases": 1,
+      "totals": {
+        "pot1000": 18.359853599919006,
+        "quality_compat": 5.839469500002451
+      },
+      "reduction": 0.6819435695267084,
+      "faster": 1
+    }
+  },
+  "outer": [
+    {
+      "domain": "movielens",
+      "seed": 111002,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111002,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111003,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111003,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111004,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111004,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111005,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111005,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111006,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111006,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111008,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 111008,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111000,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111000,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111004,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111004,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111007,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111007,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111008,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111008,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111010,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111010,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111012,
+      "reg": 0.01,
+      "outer": {
+        "pot1000": 37,
+        "quality_compat": 37
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 111012,
+      "reg": 0.001,
+      "outer": {
+        "pot1000": 1000,
+        "quality_compat": 321
+      }
+    }
+  ],
+  "runs": 144
+}

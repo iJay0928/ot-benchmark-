@@ -1,0 +1,9 @@
+{
+  "cases": 5,
+  "runs": 30,
+  "bound_checks": 11856,
+  "baseline_sum_medians": 3.1056840001256205,
+  "augmented_sum_medians": 5.249997500039171,
+  "overhead_fraction": 0.6904480622712472,
+  "passed": true
+}

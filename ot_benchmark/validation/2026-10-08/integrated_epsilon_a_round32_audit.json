@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "failures": [],
+  "fallback_cases": [
+    {
+      "seed": 111012,
+      "label": "kos_reg_0.001",
+      "old_outer": 1000,
+      "new_outer": 321,
+      "old_gap": 3.272903864592891e-09,
+      "new_gap": 9.147326923697463e-09
+    }
+  ],
+  "groups": {
+    "all": {
+      "cases": 24,
+      "totals": {
+        "legacy_fallback": 22.595500599825755,
+        "quality_fallback": 10.791016799979843
+      },
+      "reduction": 0.5224263010989427,
+      "faster": 10
+    },
+    "fallback": {
+      "cases": 1,
+      "totals": {
+        "legacy_fallback": 21.415111100068316,
+        "quality_fallback": 9.577791499905288
+      },
+      "reduction": 0.5527554606114216,
+      "faster": 1
+    },
+    "no_fallback": {
+      "cases": 23,
+      "totals": {
+        "legacy_fallback": 1.180389499757439,
+        "quality_fallback": 1.213225300074555
+      },
+      "reduction": -0.027817767206387067,
+      "faster": 9
+    }
+  },
+  "runs": 144
+}

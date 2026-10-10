@@ -1,0 +1,13 @@
+{
+  "cases": 12,
+  "accepted": 11,
+  "ordinary_raw_not_yet_accepted": 7,
+  "max_accepted_gap": 9.962388636264308e-09,
+  "failed": [
+    [
+      "reg_0.001",
+      99002,
+      5.877835796558317e-07
+    ]
+  ]
+}

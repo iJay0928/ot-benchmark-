@@ -1,0 +1,224 @@
+{
+  "role": "new frozen synthetic boundary families; no performance-based selection",
+  "input_manifest_sha256": "bda42ec49d2b4ec5ab8a1f59c15f609d94e022bdc81f3e06b7943cad247b5008",
+  "input_directory": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-09\\numeric_boundary_inputs_round33",
+  "cases": [
+    {
+      "config": {
+        "label": "balanced_blocks_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 113001,
+      "input": {
+        "domain": "balanced_blocks",
+        "seed": 113001,
+        "file": "balanced_blocks_113001.npz",
+        "sha256": "ffdc53ba6893b1cd01f0cd69ac3e25cc06a2fdf064d9abd6aeb8fe9a0e050f47",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "balanced_blocks_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 113001,
+      "input": {
+        "domain": "balanced_blocks",
+        "seed": 113001,
+        "file": "balanced_blocks_113001.npz",
+        "sha256": "ffdc53ba6893b1cd01f0cd69ac3e25cc06a2fdf064d9abd6aeb8fe9a0e050f47",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "near_balanced_blocks_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 113001,
+      "input": {
+        "domain": "near_balanced_blocks",
+        "seed": 113001,
+        "file": "near_balanced_blocks_113001.npz",
+        "sha256": "d80dd9a25a8492946a0f15e56292ce8742df71b338278114fcf11e7635076a52",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "near_balanced_blocks_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 113001,
+      "input": {
+        "domain": "near_balanced_blocks",
+        "seed": 113001,
+        "file": "near_balanced_blocks_113001.npz",
+        "sha256": "d80dd9a25a8492946a0f15e56292ce8742df71b338278114fcf11e7635076a52",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "dynamic_mass_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 113001,
+      "input": {
+        "domain": "dynamic_mass",
+        "seed": 113001,
+        "file": "dynamic_mass_113001.npz",
+        "sha256": "ed708da20f75ccc3581d1fdc6426a17fd0f7ed9f961de1bcf672fa9a52ccf377",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "dynamic_mass_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 113001,
+      "input": {
+        "domain": "dynamic_mass",
+        "seed": 113001,
+        "file": "dynamic_mass_113001.npz",
+        "sha256": "ed708da20f75ccc3581d1fdc6426a17fd0f7ed9f961de1bcf672fa9a52ccf377",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "balanced_blocks_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 113002,
+      "input": {
+        "domain": "balanced_blocks",
+        "seed": 113002,
+        "file": "balanced_blocks_113002.npz",
+        "sha256": "475a448bf99f900de4eca3ba8ae03c345e22aaaced374bd72094113217389e66",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "balanced_blocks_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 113002,
+      "input": {
+        "domain": "balanced_blocks",
+        "seed": 113002,
+        "file": "balanced_blocks_113002.npz",
+        "sha256": "475a448bf99f900de4eca3ba8ae03c345e22aaaced374bd72094113217389e66",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "near_balanced_blocks_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 113002,
+      "input": {
+        "domain": "near_balanced_blocks",
+        "seed": 113002,
+        "file": "near_balanced_blocks_113002.npz",
+        "sha256": "8538febaa54ecc0fb4bb45466f90345495bce04ba0ed03ea26fba995c5ff4646",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "near_balanced_blocks_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 113002,
+      "input": {
+        "domain": "near_balanced_blocks",
+        "seed": 113002,
+        "file": "near_balanced_blocks_113002.npz",
+        "sha256": "8538febaa54ecc0fb4bb45466f90345495bce04ba0ed03ea26fba995c5ff4646",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "dynamic_mass_reg_0.01",
+        "reg": 0.01
+      },
+      "seed": 113002,
+      "input": {
+        "domain": "dynamic_mass",
+        "seed": 113002,
+        "file": "dynamic_mass_113002.npz",
+        "sha256": "6a53f2c7707455ac24161a0a6b7c7f052804cd47699057b02bb76a0754f55b1e",
+        "active_source": 16,
+        "active_target": 16
+      }
+    },
+    {
+      "config": {
+        "label": "dynamic_mass_reg_0.001",
+        "reg": 0.001
+      },
+      "seed": 113002,
+      "input": {
+        "domain": "dynamic_mass",
+        "seed": 113002,
+        "file": "dynamic_mass_113002.npz",
+        "sha256": "6a53f2c7707455ac24161a0a6b7c7f052804cd47699057b02bb76a0754f55b1e",
+        "active_source": 16,
+        "active_target": 16
+      }
+    }
+  ],
+  "methods": [
+    "legacy_fallback",
+    "quality_fallback"
+  ],
+  "repetitions": 3,
+  "ordinary_budget": 50000,
+  "periodic_every": 250,
+  "discrepancy_l1_trigger": 1e-08,
+  "rescue_block": 5000,
+  "rescue_max_blocks": 40,
+  "direct_iteration_budget": 250000,
+  "direct_blocks": [
+    5000,
+    250
+  ],
+  "stabilized_internal_stop": 1e-12,
+  "raw_check_every": 50,
+  "raw_gate": 1e-09,
+  "gap_tolerance": 1e-08,
+  "rounded_feasibility": 1e-12,
+  "roundoff_allowance": 1e-10,
+  "epsilon_outer": 1000,
+  "epsilon_inner": 1000,
+  "epsilon0": 1.0,
+  "epsilon_stop": 1e-22,
+  "objective": "sum(C*P)+reg*sum(P*(log(P)-1))",
+  "timing": "entire solver call, including diagnostics, fallback, rounding and full plan allocation; excludes shared input generation and independent output audit",
+  "transfer": "six synthetic pairs in three stress families; shared seeds and paired regularizations dependent",
+  "policy_note": "both guarded_250; only cold epsilon stopping legacy versus compatible target-quality; defaults unchanged",
+  "limitation": "fixed conservative epsilon schedule; no optimal baseline tuning, no interval certificate, dependent seeds across configs",
+  "pot_version": "0.9.6.post1",
+  "pot_source_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

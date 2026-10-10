@@ -1,0 +1,48 @@
+{
+  "role": "post-hoc development, four round19 states plus known round20 near-threshold case",
+  "cases": [
+    {
+      "name": "kos_reg_0.001_105001_state",
+      "path": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-06\\segmented_rescue_dev_round19\\kos_reg_0.001_105001_state.npz",
+      "sha256": "1138f51801c768ca474e769b18fda0835450363f35662f9c0d38295848de8d9f"
+    },
+    {
+      "name": "kos_reg_0.001_105002_state",
+      "path": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-06\\segmented_rescue_dev_round19\\kos_reg_0.001_105002_state.npz",
+      "sha256": "f002cbb031ba94fe554cf44352516cd8672acb2b11dc60adebbc7ee688820ba2"
+    },
+    {
+      "name": "movielens_reg_0.001_105002_state",
+      "path": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-06\\segmented_rescue_dev_round19\\movielens_reg_0.001_105002_state.npz",
+      "sha256": "645864502daba97909bab4f2a8fdce58ff1249b160eab32f4c3d063d6b1265db"
+    },
+    {
+      "name": "movielens_reg_0.001_105007_state",
+      "path": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-06\\segmented_rescue_dev_round19\\movielens_reg_0.001_105007_state.npz",
+      "sha256": "0605612ea40d0dfaa873858963d48b83ca591389beb349851e5e55dc0c4c7413"
+    },
+    {
+      "name": "movielens_106011",
+      "path": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-06\\quality_real_inputs_round20\\movielens_005.npz",
+      "sha256": "2b60e039813dc843c47c4a5595df5522659a4989f25bcda17f553d3a7fa16ecc"
+    }
+  ],
+  "iterations": 50000,
+  "repetitions": 3,
+  "reg": 0.001,
+  "thresholds": {
+    "l1": 1e-08,
+    "bound": 1e-08,
+    "observed": 1e-08
+  },
+  "check_every": 250,
+  "raw_check_every": 50,
+  "raw_gate": 1e-09,
+  "order_seed": 24001,
+  "interpretation": "Forced trajectories do not stop or rescue; first crossing is counterfactual. Timing compares diagnostic overhead only, not end-to-end switching policies. Acceptance takes precedence.",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

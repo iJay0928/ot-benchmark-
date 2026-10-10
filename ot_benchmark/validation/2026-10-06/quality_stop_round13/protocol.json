@@ -1,0 +1,11 @@
+{
+  "role": "retrospective development analysis, not timed online experiment",
+  "thresholds": [
+    1e-06,
+    1e-08
+  ],
+  "rounded_feasibility_l1": 1e-12,
+  "gap_roundoff_allowance": 1e-10,
+  "no_historical_relabeling": true,
+  "source_manifest_sha256": "3aacf5226c31f5ceeb12306ba463e13bf75c76f737302439607378296b7d4369"
+}

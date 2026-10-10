@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "caps": [
+    100,
+    250,
+    500
+  ],
+  "accepted": [
+    false,
+    false,
+    true
+  ],
+  "note": "failed quality caps retained; development single runs"
+}

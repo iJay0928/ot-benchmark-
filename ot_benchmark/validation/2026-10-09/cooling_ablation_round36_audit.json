@@ -1,0 +1,49 @@
+{
+  "audit_passed": true,
+  "unique_cases": 2,
+  "trajectories": 6,
+  "rows": [
+    {
+      "seed": 113001,
+      "method": "gated",
+      "accepted": true,
+      "work": 296000,
+      "gap": 7.435367556894723e-09
+    },
+    {
+      "seed": 113001,
+      "method": "fixed1",
+      "accepted": false,
+      "work": 1000000,
+      "gap": 4.96589305647617e-05
+    },
+    {
+      "seed": 113001,
+      "method": "fixed10",
+      "accepted": false,
+      "work": 1000000,
+      "gap": 8.851610708869584e-06
+    },
+    {
+      "seed": 113002,
+      "method": "gated",
+      "accepted": true,
+      "work": 292000,
+      "gap": 8.332282625152232e-09
+    },
+    {
+      "seed": 113002,
+      "method": "fixed1",
+      "accepted": false,
+      "work": 1000000,
+      "gap": 4.827167519107223e-05
+    },
+    {
+      "seed": 113002,
+      "method": "fixed10",
+      "accepted": false,
+      "work": 1000000,
+      "gap": 7.721466450073475e-06
+    }
+  ]
+}

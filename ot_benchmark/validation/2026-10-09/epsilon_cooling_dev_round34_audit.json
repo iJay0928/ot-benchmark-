@@ -1,0 +1,75 @@
+{
+  "audit_passed": true,
+  "quality_successes": 0,
+  "runs": 4,
+  "rows": [
+    {
+      "seed": 113001,
+      "pace": 1,
+      "accepted": false,
+      "final_gap": 5.19541041662467e-05,
+      "first_current_gap_over_tolerance": {
+        "outer": 4,
+        "reg": 0.05073728129949608,
+        "inner": 1000,
+        "work": 4000,
+        "current_gap": 4.561728275692678e-05,
+        "raw_residual": 0.00019999267701063111,
+        "net_to_first": 3.661493805745004e-09,
+        "required_net": 9.999999999998899e-05
+      },
+      "final_raw_net": 5.3315591737287306e-219
+    },
+    {
+      "seed": 113001,
+      "pace": 10,
+      "accepted": false,
+      "final_gap": 1.4171935563501124e-05,
+      "first_current_gap_over_tolerance": {
+        "outer": 22,
+        "reg": 0.12333397182472892,
+        "inner": 1000,
+        "work": 22000,
+        "current_gap": 3.0809895967820466e-08,
+        "raw_residual": 2.1644105537010905e-05,
+        "net_to_first": 8.91779472296953e-05,
+        "required_net": 9.999999999998899e-05
+      },
+      "final_raw_net": 6.49722105302227e-55
+    },
+    {
+      "seed": 113002,
+      "pace": 1,
+      "accepted": false,
+      "final_gap": 5.053337847483585e-05,
+      "first_current_gap_over_tolerance": {
+        "outer": 4,
+        "reg": 0.05073728129949608,
+        "inner": 1000,
+        "work": 4000,
+        "current_gap": 4.419656526044591e-05,
+        "raw_residual": 0.00019999040485429997,
+        "net_to_first": 4.797572727937812e-09,
+        "required_net": 9.999999999998899e-05
+      },
+      "final_raw_net": 5.774465330719693e-211
+    },
+    {
+      "seed": 113002,
+      "pace": 10,
+      "accepted": false,
+      "final_gap": 1.332140025768827e-05,
+      "first_current_gap_over_tolerance": {
+        "outer": 22,
+        "reg": 0.12333397182472892,
+        "inner": 1000,
+        "work": 22000,
+        "current_gap": 1.7862181400651878e-08,
+        "raw_residual": 1.7310105588592972e-05,
+        "net_to_first": 9.13449472078524e-05,
+        "required_net": 9.999999999998899e-05
+      },
+      "final_raw_net": 2.3500645810818666e-49
+    }
+  ]
+}

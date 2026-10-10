@@ -1,0 +1,58 @@
+{
+  "cases": 28,
+  "runs": 252,
+  "manifest_verified": true,
+  "totals": {
+    "budget": {
+      "successes": 84,
+      "runs": 84,
+      "epsilon_runs": 12,
+      "sum_case_median_seconds": 6.099347399722319
+    },
+    "rolling": {
+      "successes": 84,
+      "runs": 84,
+      "epsilon_runs": 15,
+      "sum_case_median_seconds": 5.485911900061183
+    },
+    "always": {
+      "successes": 84,
+      "runs": 84,
+      "epsilon_runs": 84,
+      "sum_case_median_seconds": 16.669868800090626
+    }
+  },
+  "budget_over_rolling_median": 1.0004344716397042,
+  "budget_over_rolling_min": 0.3022831883693166,
+  "budget_over_rolling_max": 1.293182041523172,
+  "extra_epsilon_cases": [
+    {
+      "config": "reg_0.001",
+      "seed": 97001,
+      "rolling_over_budget": 3.30815618756225
+    }
+  ],
+  "both_epsilon_cases": [
+    {
+      "config": "d_32",
+      "seed": 94001,
+      "rolling_over_budget": 0.7943710761392965
+    },
+    {
+      "config": "d_128",
+      "seed": 94001,
+      "rolling_over_budget": 0.81185176956668
+    },
+    {
+      "config": "reg_0.001",
+      "seed": 94002,
+      "rolling_over_budget": 0.7732863339349747
+    },
+    {
+      "config": "reg_0.001",
+      "seed": 96001,
+      "rolling_over_budget": 0.790963118803682
+    }
+  ],
+  "note": "same-seed configurations dependent; complete solver policy time excludes common preprocessing; no significance claim"
+}

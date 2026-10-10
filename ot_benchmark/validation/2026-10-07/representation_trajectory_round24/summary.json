@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "name": "kos_reg_0.001_105001_state",
+      "first_events": {
+        "l1": {
+          "iteration": 250,
+          "action": "switch",
+          "value": 5461.82688472822,
+          "observed": 5.465025840960658,
+          "bound": 5.5224308512818645
+        },
+        "bound": {
+          "iteration": 250,
+          "action": "switch",
+          "value": 5.5224308512818645,
+          "observed": 5.465025840960658,
+          "bound": 5.5224308512818645
+        },
+        "observed": {
+          "iteration": 250,
+          "action": "switch",
+          "value": 5.465025840960658,
+          "observed": 5.465025840960658,
+          "bound": 5.5224308512818645
+        }
+      },
+      "median_seconds": {
+        "False": 0.4544375999830663,
+        "True": 0.7171310000121593
+      },
+      "overhead_fraction": 0.5780626427894209
+    },
+    {
+      "name": "kos_reg_0.001_105002_state",
+      "first_events": {
+        "l1": {
+          "iteration": 250,
+          "action": "switch",
+          "value": 0.06400959758550148,
+          "observed": 0.00047565137808888946,
+          "bound": 0.03594719693508095
+        },
+        "bound": {
+          "iteration": 250,
+          "action": "switch",
+          "value": 0.03594719693508095,
+          "observed": 0.00047565137808888946,
+          "bound": 0.03594719693508095
+        },
+        "observed": {
+          "iteration": 250,
+          "action": "switch",
+          "value": 0.00047565137808888946,
+          "observed": 0.00047565137808888946,
+          "bound": 0.03594719693508095
+        }
+      },
+      "median_seconds": {
+        "False": 0.7120744000421837,
+        "True": 1.2571350000216626
+      },
+      "overhead_fraction": 0.7654545647859117
+    },
+    {
+      "name": "movielens_reg_0.001_105002_state",
+      "first_events": {
+        "l1": null,
+        "bound": null,
+        "observed": null
+      },
+      "median_seconds": {
+        "False": 0.3982303000520915,
+        "True": 0.4862022000015713
+      },
+      "overhead_fraction": 0.22090709807358322
+    },
+    {
+      "name": "movielens_reg_0.001_105007_state",
+      "first_events": {
+        "l1": {
+          "iteration": 3500,
+          "action": "switch",
+          "value": 6.098675138145945e-05,
+          "observed": 6.839314041987565e-07,
+          "bound": 0.00012410286608101613
+        },
+        "bound": {
+          "iteration": 3250,
+          "action": "switch",
+          "value": 1.6693403186080465e-08,
+          "observed": 7.326266404650283e-11,
+          "bound": 1.6693403186080465e-08
+        },
+        "observed": {
+          "iteration": 3500,
+          "action": "switch",
+          "value": 6.839314041987565e-07,
+          "observed": 6.839314041987565e-07,
+          "bound": 0.00012410286608101613
+        }
+      },
+      "median_seconds": {
+        "False": 0.4093189000268467,
+        "True": 0.6173103000037372
+      },
+      "overhead_fraction": 0.5081402299362396
+    },
+    {
+      "name": "movielens_106011",
+      "first_events": {
+        "l1": {
+          "iteration": 2250,
+          "action": "switch",
+          "value": 1.3579670573709236e-08,
+          "observed": 5.7027967427236706e-09,
+          "bound": 3.4901180511956984e-08
+        },
+        "bound": {
+          "iteration": 2250,
+          "action": "switch",
+          "value": 3.4901180511956984e-08,
+          "observed": 5.7027967427236706e-09,
+          "bound": 3.4901180511956984e-08
+        },
+        "observed": {
+          "iteration": 2500,
+          "action": "switch",
+          "value": 2.217148155148063e-08,
+          "observed": 2.217148155148063e-08,
+          "bound": 1.3616529214203377e-07
+        }
+      },
+      "median_seconds": {
+        "False": 1.1316228000214323,
+        "True": 2.172219000000041
+      },
+      "overhead_fraction": 0.9195610056274055
+    }
+  ],
+  "total_runs": 30
+}

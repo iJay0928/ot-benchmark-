@@ -1,0 +1,10 @@
+{
+  "cases": 20,
+  "runs": 240,
+  "unique_observations": 40,
+  "prior_overlap": 0,
+  "bounded_reasons": {
+    "truncated kernel has uncovered positive-mass row or column": 60
+  },
+  "manifest_verified": true
+}

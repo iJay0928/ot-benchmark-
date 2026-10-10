@@ -1,0 +1,39 @@
+{
+  "role": "post-hoc development on both round33 failures; single trajectory each, no new validation",
+  "cases": [
+    {
+      "domain": "near_balanced_blocks",
+      "seed": 113001,
+      "file": "near_balanced_blocks_113001.npz",
+      "sha256": "d80dd9a25a8492946a0f15e56292ce8742df71b338278114fcf11e7635076a52",
+      "active_source": 16,
+      "active_target": 16
+    },
+    {
+      "domain": "near_balanced_blocks",
+      "seed": 113002,
+      "file": "near_balanced_blocks_113002.npz",
+      "sha256": "8538febaa54ecc0fb4bb45466f90345495bce04ba0ed03ea26fba995c5ff4646",
+      "active_source": 16,
+      "active_target": 16
+    }
+  ],
+  "paces": [
+    1,
+    10
+  ],
+  "schedule": "(1-reg)*exp(-i/pace)+reg",
+  "reg": 0.001,
+  "inner": 1000,
+  "outer": 1000,
+  "stopThr": 1e-22,
+  "quality": "check final-reg gap every10 at i>=35 and final; same [-1e-10,1e-8] and feasibility1e-12",
+  "observation": "record current-reg quality and signed cross-cluster transport each stage; no state changes by diagnostics",
+  "limitation": "same maximum outer and inner work but no claim of equal actual work or optimal schedule; profiling times are not benchmark results",
+  "pot_version": "0.9.6.post1",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

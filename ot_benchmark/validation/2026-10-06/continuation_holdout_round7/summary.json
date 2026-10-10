@@ -1,0 +1,3284 @@
+{
+  "summary": {
+    "base": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0767783767712147
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9144435239009076
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 8.447353866793517
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9806225276516585
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 10.377474218714328
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9981297889628308
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "n_100": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.283407943798707
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.1191942715205419
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 8.841107031845521
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0576583876962824
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 9.43584930829642
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0569989792845338
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "n_1000": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9091248827723115
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0599565370439534
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 16.83906279967582
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0052438918431374
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 18.374000424475266
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0329571897249146
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "d_1": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.1654241205137184
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0014910512506454
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 9.488438387665706
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.002709930852779
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 11.066536734138912
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9646017695713168
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "d_32": {
+      "sinkhorn": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.1605269485659941
+      },
+      "sinkhorn_stabilized": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.078845687211344
+      },
+      "sinkhorn_log": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 9.617835163740319
+      },
+      "matched_full": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 0.9859026619316169
+      },
+      "matched_log": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 11.068591100994954
+      },
+      "cold_switch": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.0189569023227192
+      },
+      "bounded_full": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "d_128": {
+      "sinkhorn": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.17173614530908
+      },
+      "sinkhorn_stabilized": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.1110476007509758
+      },
+      "sinkhorn_log": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 9.489300552493752
+      },
+      "matched_full": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.0160214037696091
+      },
+      "matched_log": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 11.083653978963735
+      },
+      "cold_switch": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.0321361875894932
+      },
+      "bounded_full": {
+        "successes": 6,
+        "runs": 9,
+        "agree_cases": 2,
+        "fallback_runs": 0,
+        "paired_cases": 2,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "zero_0.0": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.1939754883523068
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.6578505574676252
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 51.12655849558682
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0302693004737018
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 59.44388109601428
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9784710963841086
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "zero_0.5": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.1216056595113402
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.2938541316037777
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 29.67162708776572
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0105167067582177
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 34.23977448138304
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0768300370212267
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 3,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "zero_0.98": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.2068350832056263
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0178541728317418
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 8.471003896034585
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9566025897491953
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 8.549962045871974
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0196450627339326
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "reg_0.1": {
+      "sinkhorn": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0673526349720777
+      },
+      "sinkhorn_stabilized": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.042313514436829
+      },
+      "sinkhorn_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 7.3846874478283
+      },
+      "matched_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0322677757957839
+      },
+      "matched_log": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 7.7330840223145705
+      },
+      "cold_switch": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 0.9719365382213975
+      },
+      "bounded_full": {
+        "successes": 9,
+        "runs": 9,
+        "agree_cases": 3,
+        "fallback_runs": 0,
+        "paired_cases": 3,
+        "candidate_speedup_median": 1.0
+      }
+    },
+    "reg_0.001": {
+      "sinkhorn": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 0,
+        "paired_cases": 1,
+        "candidate_speedup_median": 0.15573202674006853
+      },
+      "sinkhorn_stabilized": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 0,
+        "paired_cases": 1,
+        "candidate_speedup_median": 0.14287983272748864
+      },
+      "sinkhorn_log": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 0,
+        "paired_cases": 1,
+        "candidate_speedup_median": 1.3220723102193714
+      },
+      "matched_full": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 0,
+        "paired_cases": 1,
+        "candidate_speedup_median": 0.1474375915600792
+      },
+      "matched_log": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 0,
+        "paired_cases": 1,
+        "candidate_speedup_median": 1.5837451030482967
+      },
+      "cold_switch": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 3,
+        "paired_cases": 1,
+        "candidate_speedup_median": 1.6588964100534946
+      },
+      "bounded_full": {
+        "successes": 3,
+        "runs": 9,
+        "agree_cases": 1,
+        "fallback_runs": 3,
+        "paired_cases": 1,
+        "candidate_speedup_median": 1.0
+      }
+    }
+  },
+  "cases": [
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.000882500025909394,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.12524627457929038,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.007212799973785877,
+          "cost": 0.12710313367676088,
+          "exact_abs_error": 0.0018568590974704924,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.006125399959273636,
+          "cost": 0.12710313367676085,
+          "exact_abs_error": 0.0018568590974704646,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.056584600009955466,
+          "cost": 0.1271031336767609,
+          "exact_abs_error": 0.0018568590974705201,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.006568700016941875,
+          "cost": 0.12710313379090404,
+          "exact_abs_error": 0.0018568592116136595,
+          "log_abs_difference": 1.1414313938473697e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.07127590000163764,
+          "cost": 0.12710313379090404,
+          "exact_abs_error": 0.0018568592116136595,
+          "log_abs_difference": 1.1414313938473697e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.006106200045906007,
+          "cost": 0.12710313379090404,
+          "exact_abs_error": 0.0018568592116136595,
+          "log_abs_difference": 1.1414313938473697e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.006698500015772879,
+          "cost": 0.12710313379090404,
+          "exact_abs_error": 0.0018568592116136595,
+          "log_abs_difference": 1.1414313938473697e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.000533799990080297,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.12800191986770826,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.051644999999552965,
+          "cost": 0.12961166246292394,
+          "exact_abs_error": 0.0016097425952156796,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.04520530003355816,
+          "cost": 0.12961166246280512,
+          "exact_abs_error": 0.001609742595096858,
+          "log_abs_difference": 1.1876610805927612e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.43213339999783784,
+          "cost": 0.12961166246292388,
+          "exact_abs_error": 0.0016097425952156241,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.04805010004201904,
+          "cost": 0.12961166246040462,
+          "exact_abs_error": 0.0016097425926963616,
+          "log_abs_difference": 2.519262576328174e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.5318758999928832,
+          "cost": 0.12961166246040468,
+          "exact_abs_error": 0.001609742592696417,
+          "log_abs_difference": 2.5192070651769427e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.545367399987299,
+          "cost": 0.12961166246040468,
+          "exact_abs_error": 0.001609742592696417,
+          "log_abs_difference": 2.5192070651769427e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.2918913999455981,
+          "cost": 0.12961166246040468,
+          "exact_abs_error": 0.001609742592696417,
+          "log_abs_difference": 2.5192070651769427e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0003513999981805682,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.14140883581320246,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0022352999658323824,
+          "cost": 0.14425836507695358,
+          "exact_abs_error": 0.0028495292637511216,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0019790000515058637,
+          "cost": 0.1442583650769536,
+          "exact_abs_error": 0.0028495292637511493,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.017206799995619804,
+          "cost": 0.14425836507695358,
+          "exact_abs_error": 0.0028495292637511216,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0019585000118240714,
+          "cost": 0.14425836510205914,
+          "exact_abs_error": 0.002849529288856678,
+          "log_abs_difference": 2.5105556522575512e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.019975600007455796,
+          "cost": 0.1442583651020591,
+          "exact_abs_error": 0.0028495292888566504,
+          "log_abs_difference": 2.5105528766999896e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0019213000196032226,
+          "cost": 0.14425836510205914,
+          "exact_abs_error": 0.002849529288856678,
+          "log_abs_difference": 2.5105556522575512e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0019248999888077378,
+          "cost": 0.14425836510205914,
+          "exact_abs_error": 0.002849529288856678,
+          "log_abs_difference": 2.5105556522575512e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_100",
+        "n": 100,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 10,
+      "active_target": 10,
+      "preprocessing_seconds": 0.00016840000171214342,
+      "dense_cost_bytes": 80000,
+      "exact_cost": 0.16016433839038396,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0026237000129185617,
+          "cost": 0.1615553563295004,
+          "exact_abs_error": 0.0013910179391164457,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0020891999593004584,
+          "cost": 0.161555356329881,
+          "exact_abs_error": 0.0013910179394970301,
+          "log_abs_difference": 3.806122084171193e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.016538299969397485,
+          "cost": 0.16155535632950038,
+          "exact_abs_error": 0.001391017939116418,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0018514000112190843,
+          "cost": 0.16155535632942006,
+          "exact_abs_error": 0.0013910179390360933,
+          "log_abs_difference": 8.032463583163008e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.017613900010474026,
+          "cost": 0.1615553563294201,
+          "exact_abs_error": 0.0013910179390361488,
+          "log_abs_difference": 8.026912468039882e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.001973100006580353,
+          "cost": 0.16155535632942006,
+          "exact_abs_error": 0.0013910179390360933,
+          "log_abs_difference": 8.032463583163008e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.001866700011305511,
+          "cost": 0.16155535632942006,
+          "exact_abs_error": 0.0013910179390360933,
+          "log_abs_difference": 8.032463583163008e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_100",
+        "n": 100,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 10,
+      "active_target": 10,
+      "preprocessing_seconds": 0.00015570002142339945,
+      "dense_cost_bytes": 80000,
+      "exact_cost": 0.19309751650846968,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004729999986011535,
+          "cost": 0.1943558474657688,
+          "exact_abs_error": 0.0012583309572991308,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0041674000094644725,
+          "cost": 0.1943558474657688,
+          "exact_abs_error": 0.0012583309572991308,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.03258390002883971,
+          "cost": 0.19435584746576876,
+          "exact_abs_error": 0.0012583309572990753,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0038979999953880906,
+          "cost": 0.194355847481948,
+          "exact_abs_error": 0.0012583309734783277,
+          "log_abs_difference": 1.617925238228679e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.035817000025417656,
+          "cost": 0.19435584748194804,
+          "exact_abs_error": 0.0012583309734783554,
+          "log_abs_difference": 1.6179280137862406e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.003964000032283366,
+          "cost": 0.194355847481948,
+          "exact_abs_error": 0.0012583309734783277,
+          "log_abs_difference": 1.617925238228679e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.003685500007122755,
+          "cost": 0.194355847481948,
+          "exact_abs_error": 0.0012583309734783277,
+          "log_abs_difference": 1.617925238228679e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_100",
+        "n": 100,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 10,
+      "active_target": 10,
+      "preprocessing_seconds": 0.00016200001118704677,
+      "dense_cost_bytes": 80000,
+      "exact_cost": 0.15077558156898946,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.002207099983934313,
+          "cost": 0.15249105271488708,
+          "exact_abs_error": 0.0017154711458976235,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0018364000134170055,
+          "cost": 0.15249105271488708,
+          "exact_abs_error": 0.0017154711458976235,
+          "log_abs_difference": 2.7755575615628914e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.015498500026296824,
+          "cost": 0.1524910527148871,
+          "exact_abs_error": 0.0017154711458976513,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0019919000333175063,
+          "cost": 0.1524910527322241,
+          "exact_abs_error": 0.0017154711632346442,
+          "log_abs_difference": 1.7336992952365904e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.01683710003271699,
+          "cost": 0.1524910527322241,
+          "exact_abs_error": 0.0017154711632346442,
+          "log_abs_difference": 1.7336992952365904e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.001844800019171089,
+          "cost": 0.1524910527322241,
+          "exact_abs_error": 0.0017154711632346442,
+          "log_abs_difference": 1.7336992952365904e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.001811699999962002,
+          "cost": 0.1524910527322241,
+          "exact_abs_error": 0.0017154711632346442,
+          "log_abs_difference": 1.7336992952365904e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_1000",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 100,
+      "active_target": 100,
+      "preprocessing_seconds": 0.003256399999372661,
+      "dense_cost_bytes": 8000000,
+      "exact_cost": 0.07735238364876024,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0033679999760352075,
+          "cost": 0.08060894880785834,
+          "exact_abs_error": 0.0032565651590980987,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00365949998376891,
+          "cost": 0.08060894880785834,
+          "exact_abs_error": 0.0032565651590980987,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.05834860005415976,
+          "cost": 0.08060894880785834,
+          "exact_abs_error": 0.0032565651590980987,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0038047999842092395,
+          "cost": 0.08060894884045672,
+          "exact_abs_error": 0.003256565191696481,
+          "log_abs_difference": 3.2598382326831654e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.06731429998762906,
+          "cost": 0.08060894884045672,
+          "exact_abs_error": 0.003256565191696481,
+          "log_abs_difference": 3.2598382326831654e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0035808999673463404,
+          "cost": 0.08060894884045672,
+          "exact_abs_error": 0.003256565191696481,
+          "log_abs_difference": 3.2598382326831654e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.003452500037383288,
+          "cost": 0.08060894884045672,
+          "exact_abs_error": 0.003256565191696481,
+          "log_abs_difference": 3.2598382326831654e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_1000",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 100,
+      "active_target": 100,
+      "preprocessing_seconds": 0.0037510000402107835,
+      "dense_cost_bytes": 8000000,
+      "exact_cost": 0.07612244620027536,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.002543100039474666,
+          "cost": 0.07943211603494812,
+          "exact_abs_error": 0.0033096698346727627,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0030832000193186104,
+          "cost": 0.07943211607510565,
+          "exact_abs_error": 0.0033096698748302927,
+          "log_abs_difference": 4.015753007902134e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.04374299995834008,
+          "cost": 0.07943211603494812,
+          "exact_abs_error": 0.0033096698346727627,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0030480000423267484,
+          "cost": 0.0794321160891195,
+          "exact_abs_error": 0.0033096698888441384,
+          "log_abs_difference": 5.417137571850361e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.05525619996478781,
+          "cost": 0.0794321160891195,
+          "exact_abs_error": 0.0033096698888441384,
+          "log_abs_difference": 5.417137571850361e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0028426999924704432,
+          "cost": 0.0794321160891195,
+          "exact_abs_error": 0.0033096698888441384,
+          "log_abs_difference": 5.417137571850361e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0030321000376716256,
+          "cost": 0.0794321160891195,
+          "exact_abs_error": 0.0033096698888441384,
+          "log_abs_difference": 5.417137571850361e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "n_1000",
+        "n": 1000,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 100,
+      "active_target": 100,
+      "preprocessing_seconds": 0.0034465999924577773,
+      "dense_cost_bytes": 8000000,
+      "exact_cost": 0.06535540699177998,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.002433000016026199,
+          "cost": 0.06940832761190555,
+          "exact_abs_error": 0.0040529206201255635,
+          "log_abs_difference": 1.3877787807814457e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.002896799996960908,
+          "cost": 0.06940832764173219,
+          "exact_abs_error": 0.004052920649952205,
+          "log_abs_difference": 2.9826627279128104e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.04506469995249063,
+          "cost": 0.06940832761190556,
+          "exact_abs_error": 0.004052920620125577,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.002463200013153255,
+          "cost": 0.06940832764024982,
+          "exact_abs_error": 0.004052920648469835,
+          "log_abs_difference": 2.8344257496648595e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.049172500032000244,
+          "cost": 0.06940832764024982,
+          "exact_abs_error": 0.004052920648469835,
+          "log_abs_difference": 2.8344257496648595e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0027644000365398824,
+          "cost": 0.06940832764024982,
+          "exact_abs_error": 0.004052920648469835,
+          "log_abs_difference": 2.8344257496648595e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0026762000052258372,
+          "cost": 0.06940832764024982,
+          "exact_abs_error": 0.004052920648469835,
+          "log_abs_difference": 2.8344257496648595e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_1",
+        "n": 300,
+        "d": 1,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0005383000243455172,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.018673449070057163,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0098483000183478,
+          "cost": 0.022187912950153196,
+          "exact_abs_error": 0.003514463880096033,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00846300000557676,
+          "cost": 0.022187912950153196,
+          "exact_abs_error": 0.003514463880096033,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.08018109999829903,
+          "cost": 0.022187912950153196,
+          "exact_abs_error": 0.003514463880096033,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.00847330002579838,
+          "cost": 0.02218791316256922,
+          "exact_abs_error": 0.0035144640925120554,
+          "log_abs_difference": 2.1241602227162204e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.09157390001928434,
+          "cost": 0.022187913162569222,
+          "exact_abs_error": 0.003514464092512059,
+          "log_abs_difference": 2.12416025741069e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.00797850004164502,
+          "cost": 0.02218791316256922,
+          "exact_abs_error": 0.0035144640925120554,
+          "log_abs_difference": 2.1241602227162204e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.008450400026049465,
+          "cost": 0.02218791316256922,
+          "exact_abs_error": 0.0035144640925120554,
+          "log_abs_difference": 2.1241602227162204e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_1",
+        "n": 300,
+        "d": 1,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0002503000432625413,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.008844473406785174,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.003091000020503998,
+          "cost": 0.01279159607823769,
+          "exact_abs_error": 0.003947122671452516,
+          "log_abs_difference": 1.734723475976807e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0027731999871321023,
+          "cost": 0.012791596078237691,
+          "exact_abs_error": 0.003947122671452518,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.025515899993479252,
+          "cost": 0.012791596078237691,
+          "exact_abs_error": 0.003947122671452518,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.00266840000404045,
+          "cost": 0.012791596166994025,
+          "exact_abs_error": 0.0039471227602088516,
+          "log_abs_difference": 8.875633387972481e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.03044539998518303,
+          "cost": 0.012791596166994027,
+          "exact_abs_error": 0.003947122760208853,
+          "log_abs_difference": 8.875633561444829e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0028427999932318926,
+          "cost": 0.012791596166994025,
+          "exact_abs_error": 0.0039471227602088516,
+          "log_abs_difference": 8.875633387972481e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0026528999442234635,
+          "cost": 0.012791596166994025,
+          "exact_abs_error": 0.0039471227602088516,
+          "log_abs_difference": 8.875633387972481e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_1",
+        "n": 300,
+        "d": 1,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00025530002312734723,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.008166862936813112,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.003535300027579069,
+          "cost": 0.012003795641385756,
+          "exact_abs_error": 0.0038369327045726445,
+          "log_abs_difference": 1.734723475976807e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0030007000314071774,
+          "cost": 0.012003795685040931,
+          "exact_abs_error": 0.0038369327482278195,
+          "log_abs_difference": 4.365517322635348e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.026982099981978536,
+          "cost": 0.012003795641385758,
+          "exact_abs_error": 0.0038369327045726462,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0030014999792911112,
+          "cost": 0.012003795704476714,
+          "exact_abs_error": 0.0038369327676636023,
+          "log_abs_difference": 6.309095607059945e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.03351389995077625,
+          "cost": 0.012003795704476714,
+          "exact_abs_error": 0.0038369327676636023,
+          "log_abs_difference": 6.309095607059945e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0029212000081315637,
+          "cost": 0.012003795704476714,
+          "exact_abs_error": 0.0038369327676636023,
+          "log_abs_difference": 6.309095607059945e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.003028400009498,
+          "cost": 0.012003795704476714,
+          "exact_abs_error": 0.0038369327676636023,
+          "log_abs_difference": 6.309095607059945e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0008245999924838543,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.30887056954594494,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 0,
+          "median_seconds": 0.13286269997479394,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 0,
+          "median_seconds": 0.1157365000108257,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 0,
+          "median_seconds": 1.1199802000191994,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 0,
+          "median_seconds": 0.11071069998433813,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 0,
+          "median_seconds": 1.214871599979233,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 0,
+          "median_seconds": 1.0197748999926262,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 0,
+          "median_seconds": 0.9964413999696262,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0008874000050127506,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.30803388206316407,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.003452399978414178,
+          "cost": 0.3097586769077169,
+          "exact_abs_error": 0.001724794844552846,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0032251999946311116,
+          "cost": 0.3097586769077169,
+          "exact_abs_error": 0.001724794844552846,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.030127300007734448,
+          "cost": 0.30975867690771697,
+          "exact_abs_error": 0.0017247948445529016,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.003085500036831945,
+          "cost": 0.3097586768143099,
+          "exact_abs_error": 0.0017247947511458417,
+          "log_abs_difference": 9.340705986460307e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.035002099990379065,
+          "cost": 0.30975867681430974,
+          "exact_abs_error": 0.0017247947511456752,
+          "log_abs_difference": 9.340722639805676e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.003204900014679879,
+          "cost": 0.3097586768143099,
+          "exact_abs_error": 0.0017247947511458417,
+          "log_abs_difference": 9.340705986460307e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.003048999991733581,
+          "cost": 0.3097586768143099,
+          "exact_abs_error": 0.0017247947511458417,
+          "log_abs_difference": 9.340705986460307e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0007931999862194061,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.3504842915791336,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0053332000388763845,
+          "cost": 0.3527062048818167,
+          "exact_abs_error": 0.0022219133026831206,
+          "log_abs_difference": 1.1102230246251565e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004934600030537695,
+          "cost": 0.3527062048973436,
+          "exact_abs_error": 0.0022219133182100337,
+          "log_abs_difference": 1.5526802066290202e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.041968600009568036,
+          "cost": 0.3527062048818168,
+          "exact_abs_error": 0.0022219133026832316,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.004306200018618256,
+          "cost": 0.3527062049051837,
+          "exact_abs_error": 0.0022219133260500956,
+          "log_abs_difference": 2.336686399928567e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.04781300004106015,
+          "cost": 0.35270620490518356,
+          "exact_abs_error": 0.0022219133260499846,
+          "log_abs_difference": 2.3366752976983207e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.00442710000788793,
+          "cost": 0.3527062049051837,
+          "exact_abs_error": 0.0022219133260500956,
+          "log_abs_difference": 2.336686399928567e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.004486399993766099,
+          "cost": 0.3527062049051837,
+          "exact_abs_error": 0.0022219133260500956,
+          "log_abs_difference": 2.336686399928567e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0026428999844938517,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.522549864364352,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 0,
+          "median_seconds": 0.1334571999614127,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 0,
+          "median_seconds": 0.11694160004844889,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 0,
+          "median_seconds": 1.1345046000205912,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 0,
+          "median_seconds": 0.10864500002935529,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 0,
+          "median_seconds": 1.2486865000100806,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 0,
+          "median_seconds": 1.0390593000338413,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 0,
+          "median_seconds": 1.0267827999778092,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.002556899969931692,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.5198305424493213,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00402260001283139,
+          "cost": 0.52310414979299,
+          "exact_abs_error": 0.003273607343668772,
+          "log_abs_difference": 3.3306690738754696e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0036831999896094203,
+          "cost": 0.52310414979299,
+          "exact_abs_error": 0.003273607343668772,
+          "log_abs_difference": 3.3306690738754696e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.031707199988886714,
+          "cost": 0.5231041497929897,
+          "exact_abs_error": 0.0032736073436684388,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.003430899989325553,
+          "cost": 0.5231041500273252,
+          "exact_abs_error": 0.0032736075780039897,
+          "log_abs_difference": 2.3433555096374903e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.035956499981693923,
+          "cost": 0.5231041500273255,
+          "exact_abs_error": 0.0032736075780042118,
+          "log_abs_difference": 2.3433577300835395e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0035088000004179776,
+          "cost": 0.5231041500273252,
+          "exact_abs_error": 0.0032736075780039897,
+          "log_abs_difference": 2.3433555096374903e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0033662999630905688,
+          "cost": 0.5231041500273252,
+          "exact_abs_error": 0.0032736075780039897,
+          "log_abs_difference": 2.3433555096374903e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0027590999961830676,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.5509838911603964,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004637799982447177,
+          "cost": 0.5538397886597368,
+          "exact_abs_error": 0.002855897499340454,
+          "log_abs_difference": 2.220446049250313e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0045547999907284975,
+          "cost": 0.5538397886181246,
+          "exact_abs_error": 0.002855897457728185,
+          "log_abs_difference": 4.161204714137057e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.038602600048761815,
+          "cost": 0.5538397886597366,
+          "exact_abs_error": 0.002855897499340232,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.004090000002179295,
+          "cost": 0.5538397886072701,
+          "exact_abs_error": 0.0028558974468737564,
+          "log_abs_difference": 5.24664756085258e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.04638160002650693,
+          "cost": 0.5538397886072702,
+          "exact_abs_error": 0.0028558974468738674,
+          "log_abs_difference": 5.2466364586223335e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.004126699990592897,
+          "cost": 0.5538397886072701,
+          "exact_abs_error": 0.0028558974468737564,
+          "log_abs_difference": 5.24664756085258e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.004038099956233054,
+          "cost": 0.5538397886072701,
+          "exact_abs_error": 0.0028558974468737564,
+          "log_abs_difference": 5.24664756085258e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.0",
+        "n": 300,
+        "d": 8,
+        "zero": 0.0,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 300,
+      "active_target": 300,
+      "preprocessing_seconds": 0.00039980001747608185,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.01473756382940692,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.019385699997656047,
+          "cost": 0.016600206254469223,
+          "exact_abs_error": 0.0018626424250623025,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.02922889997716993,
+          "cost": 0.016600206254469223,
+          "exact_abs_error": 0.0018626424250623025,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.806230999995023,
+          "cost": 0.016600206254469223,
+          "exact_abs_error": 0.0018626424250623025,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.019126800005324185,
+          "cost": 0.016600206388038715,
+          "exact_abs_error": 0.0018626425586317948,
+          "log_abs_difference": 1.3356949227216752e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 1.0028088000253774,
+          "cost": 0.016600206388038715,
+          "exact_abs_error": 0.0018626425586317948,
+          "log_abs_difference": 1.3356949227216752e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.017659800010733306,
+          "cost": 0.016600206388038715,
+          "exact_abs_error": 0.0018626425586317948,
+          "log_abs_difference": 1.3356949227216752e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.017630599963013083,
+          "cost": 0.016600206388038715,
+          "exact_abs_error": 0.0018626425586317948,
+          "log_abs_difference": 1.3356949227216752e-10,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.0",
+        "n": 300,
+        "d": 8,
+        "zero": 0.0,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 300,
+      "active_target": 300,
+      "preprocessing_seconds": 0.0003476000274531543,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.016863996853180845,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.06264669995289296,
+          "cost": 0.018207861496765697,
+          "exact_abs_error": 0.0013438646435848522,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.08404079999309033,
+          "cost": 0.018207861496765697,
+          "exact_abs_error": 0.0013438646435848522,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 2.6825594000401907,
+          "cost": 0.0182078614967657,
+          "exact_abs_error": 0.0013438646435848557,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.054057199973613024,
+          "cost": 0.018207861499952984,
+          "exact_abs_error": 0.0013438646467721395,
+          "log_abs_difference": 3.1872837702451307e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 3.118960999941919,
+          "cost": 0.018207861499952984,
+          "exact_abs_error": 0.0013438646467721395,
+          "log_abs_difference": 3.1872837702451307e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.05133940000087023,
+          "cost": 0.018207861499952984,
+          "exact_abs_error": 0.0013438646467721395,
+          "log_abs_difference": 3.1872837702451307e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.052469000045675784,
+          "cost": 0.018207861499952984,
+          "exact_abs_error": 0.0013438646467721395,
+          "log_abs_difference": 3.1872837702451307e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.0",
+        "n": 300,
+        "d": 8,
+        "zero": 0.0,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 300,
+      "active_target": 300,
+      "preprocessing_seconds": 0.00035669998032972217,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.014878543894752232,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.03008100000442937,
+          "cost": 0.016632265175713732,
+          "exact_abs_error": 0.0017537212809615003,
+          "log_abs_difference": 3.469446951953614e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.045414799998980016,
+          "cost": 0.01663226517571373,
+          "exact_abs_error": 0.0017537212809614969,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 1.345382699975744,
+          "cost": 0.01663226517571373,
+          "exact_abs_error": 0.0017537212809614969,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.024190600030124187,
+          "cost": 0.01663226519433471,
+          "exact_abs_error": 0.0017537212995824766,
+          "log_abs_difference": 1.8620979758132705e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 1.5536594000295736,
+          "cost": 0.01663226519433471,
+          "exact_abs_error": 0.0017537212995824766,
+          "log_abs_difference": 1.8620979758132705e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0234941000235267,
+          "cost": 0.01663226519433471,
+          "exact_abs_error": 0.0017537212995824766,
+          "log_abs_difference": 1.8620979758132705e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.024707899952773005,
+          "cost": 0.01663226519433471,
+          "exact_abs_error": 0.0017537212995824766,
+          "log_abs_difference": 1.8620979758132705e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.5",
+        "n": 300,
+        "d": 8,
+        "zero": 0.5,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 150,
+      "active_target": 150,
+      "preprocessing_seconds": 0.0005590000073425472,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.04884591225151595,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.04913559998385608,
+          "cost": 0.05196497814327559,
+          "exact_abs_error": 0.0031190658917596356,
+          "log_abs_difference": 6.938893903907228e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.05638439999893308,
+          "cost": 0.051964978147858804,
+          "exact_abs_error": 0.0031190658963428514,
+          "log_abs_difference": 4.5832088124697634e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 1.274556600023061,
+          "cost": 0.051964978143275595,
+          "exact_abs_error": 0.0031190658917596426,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0423634999897331,
+          "cost": 0.05196497819633832,
+          "exact_abs_error": 0.0031190659448223704,
+          "log_abs_difference": 5.306272782279464e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 1.4659684000071138,
+          "cost": 0.05196497819633832,
+          "exact_abs_error": 0.0031190659448223704,
+          "log_abs_difference": 5.306272782279464e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 1.5014473000192083,
+          "cost": 0.05196497819633832,
+          "exact_abs_error": 0.0031190659448223704,
+          "log_abs_difference": 5.306272782279464e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.4603907000273466,
+          "cost": 0.05196497819633832,
+          "exact_abs_error": 0.0031190659448223704,
+          "log_abs_difference": 5.306272782279464e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.5",
+        "n": 300,
+        "d": 8,
+        "zero": 0.5,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 150,
+      "active_target": 150,
+      "preprocessing_seconds": 0.0004130000015720725,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.05764958491904901,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.014621700043790042,
+          "cost": 0.05996764791995002,
+          "exact_abs_error": 0.0023180630009010106,
+          "log_abs_difference": 1.3877787807814457e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.016867200029082596,
+          "cost": 0.05996764793795006,
+          "exact_abs_error": 0.0023180630189010495,
+          "log_abs_difference": 1.800002508156595e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.386811200005468,
+          "cost": 0.05996764791995003,
+          "exact_abs_error": 0.0023180630009010245,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.013173500017728657,
+          "cost": 0.059967648004095216,
+          "exact_abs_error": 0.0023180630850462083,
+          "log_abs_difference": 8.414518387622749e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.4541748000192456,
+          "cost": 0.059967648004095216,
+          "exact_abs_error": 0.0023180630850462083,
+          "log_abs_difference": 8.414518387622749e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.013295299955643713,
+          "cost": 0.059967648004095216,
+          "exact_abs_error": 0.0023180630850462083,
+          "log_abs_difference": 8.414518387622749e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.013036400021519512,
+          "cost": 0.059967648004095216,
+          "exact_abs_error": 0.0023180630850462083,
+          "log_abs_difference": 8.414518387622749e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.5",
+        "n": 300,
+        "d": 8,
+        "zero": 0.5,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 150,
+      "active_target": 150,
+      "preprocessing_seconds": 0.0003893999964930117,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.04955656922797885,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.007393299951218069,
+          "cost": 0.052356826145133664,
+          "exact_abs_error": 0.0028002569171548114,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.008372200012672693,
+          "cost": 0.05235682614513366,
+          "exact_abs_error": 0.0028002569171548045,
+          "log_abs_difference": 6.938893903907228e-18,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.17595529998652637,
+          "cost": 0.052356826145133664,
+          "exact_abs_error": 0.0028002569171548114,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.006002600013744086,
+          "cost": 0.052356826194958656,
+          "exact_abs_error": 0.0028002569669798028,
+          "log_abs_difference": 4.98249913549742e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.2009908999898471,
+          "cost": 0.052356826194958656,
+          "exact_abs_error": 0.0028002569669798028,
+          "log_abs_difference": 4.98249913549742e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.006321099994238466,
+          "cost": 0.052356826194958656,
+          "exact_abs_error": 0.0028002569669798028,
+          "log_abs_difference": 4.98249913549742e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.00587009999435395,
+          "cost": 0.052356826194958656,
+          "exact_abs_error": 0.0028002569669798028,
+          "log_abs_difference": 4.98249913549742e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.98",
+        "n": 300,
+        "d": 8,
+        "zero": 0.98,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "active_source": 6,
+      "active_target": 6,
+      "preprocessing_seconds": 0.00039110000943765044,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.17378595418033368,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0031146000255830586,
+          "cost": 0.17505442092893345,
+          "exact_abs_error": 0.0012684667485997614,
+          "log_abs_difference": 8.326672684688674e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00252169999293983,
+          "cost": 0.17505442092893347,
+          "exact_abs_error": 0.0012684667485997891,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.02200629998696968,
+          "cost": 0.17505442092893353,
+          "exact_abs_error": 0.0012684667485998447,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.002468799997586757,
+          "cost": 0.1750544209510797,
+          "exact_abs_error": 0.0012684667707460184,
+          "log_abs_difference": 2.214617378371031e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.023341600026469678,
+          "cost": 0.17505442095107956,
+          "exact_abs_error": 0.0012684667707458797,
+          "log_abs_difference": 2.2146035005832232e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.002631500014103949,
+          "cost": 0.1750544209510797,
+          "exact_abs_error": 0.0012684667707460184,
+          "log_abs_difference": 2.214617378371031e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0025808000355027616,
+          "cost": 0.1750544209510797,
+          "exact_abs_error": 0.0012684667707460184,
+          "log_abs_difference": 2.214617378371031e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.98",
+        "n": 300,
+        "d": 8,
+        "zero": 0.98,
+        "reg": 0.01
+      },
+      "seed": 94002,
+      "active_source": 6,
+      "active_target": 6,
+      "preprocessing_seconds": 0.0003749000024981797,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.22431332281443725,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.0023344000219367445,
+          "cost": 0.2249725333006777,
+          "exact_abs_error": 0.000659210486240458,
+          "log_abs_difference": 2.220446049250313e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.00198240001918748,
+          "cost": 0.22497253333236486,
+          "exact_abs_error": 0.0006592105179276109,
+          "log_abs_difference": 3.1686930856977824e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.01450489996932447,
+          "cost": 0.22497253330067793,
+          "exact_abs_error": 0.00065921048624068,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.001676799962297082,
+          "cost": 0.22497253329462977,
+          "exact_abs_error": 0.000659210480192518,
+          "log_abs_difference": 6.048161971250465e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.014640100009273738,
+          "cost": 0.2249725332946296,
+          "exact_abs_error": 0.0006592104801923515,
+          "log_abs_difference": 6.048328504704159e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0018005999736487865,
+          "cost": 0.22497253329462977,
+          "exact_abs_error": 0.000659210480192518,
+          "log_abs_difference": 6.048161971250465e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.001712299999780953,
+          "cost": 0.22497253329462977,
+          "exact_abs_error": 0.000659210480192518,
+          "log_abs_difference": 6.048161971250465e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "zero_0.98",
+        "n": 300,
+        "d": 8,
+        "zero": 0.98,
+        "reg": 0.01
+      },
+      "seed": 94003,
+      "active_source": 6,
+      "active_target": 6,
+      "preprocessing_seconds": 0.0003485999768599868,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.21189241868749514,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.004879600019194186,
+          "cost": 0.21234708776864156,
+          "exact_abs_error": 0.0004546690811464138,
+          "log_abs_difference": 8.326672684688674e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004287099989596754,
+          "cost": 0.21234708776864158,
+          "exact_abs_error": 0.00045466908114644156,
+          "log_abs_difference": 5.551115123125783e-17,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.03189919999567792,
+          "cost": 0.21234708776864164,
+          "exact_abs_error": 0.00045466908114649707,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.003908000013325363,
+          "cost": 0.21234708777031744,
+          "exact_abs_error": 0.00045466908282229546,
+          "log_abs_difference": 1.675798388944827e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.03479989996412769,
+          "cost": 0.21234708777031744,
+          "exact_abs_error": 0.00045466908282229546,
+          "log_abs_difference": 1.675798388944827e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.004037500009872019,
+          "cost": 0.21234708777031744,
+          "exact_abs_error": 0.00045466908282229546,
+          "log_abs_difference": 1.675798388944827e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.004211899999063462,
+          "cost": 0.21234708777031744,
+          "exact_abs_error": 0.00045466908282229546,
+          "log_abs_difference": 1.675798388944827e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.1",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.1
+      },
+      "seed": 94001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00040419999277219176,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.12524627457929038,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00034229998709633946,
+          "cost": 0.2099015027479652,
+          "exact_abs_error": 0.08465522816867482,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0003394000232219696,
+          "cost": 0.2099015027479652,
+          "exact_abs_error": 0.08465522816867482,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.0024262999650090933,
+          "cost": 0.2099015027479652,
+          "exact_abs_error": 0.08465522816867482,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0003761000116355717,
+          "cost": 0.20990150274795205,
+          "exact_abs_error": 0.08465522816866167,
+          "log_abs_difference": 1.3156142841808105e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.0024800000246614218,
+          "cost": 0.20990150274795208,
+          "exact_abs_error": 0.0846552281686617,
+          "log_abs_difference": 1.3128387266192476e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0003117000451311469,
+          "cost": 0.20990150274795205,
+          "exact_abs_error": 0.08465522816866167,
+          "log_abs_difference": 1.3156142841808105e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0003206999972462654,
+          "cost": 0.20990150274795205,
+          "exact_abs_error": 0.08465522816866167,
+          "log_abs_difference": 1.3156142841808105e-14,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.1",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.1
+      },
+      "seed": 94002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00033000000985339284,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.12800191986770826,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00035690004006028175,
+          "cost": 0.2234473779438665,
+          "exact_abs_error": 0.09544545807615823,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0003281999961473048,
+          "cost": 0.2234473779438665,
+          "exact_abs_error": 0.09544545807615823,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.002391899994108826,
+          "cost": 0.2234473779438665,
+          "exact_abs_error": 0.09544545807615823,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.00030620000325143337,
+          "cost": 0.223447377943065,
+          "exact_abs_error": 0.09544545807535673,
+          "log_abs_difference": 8.014977570525161e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.0024608999956399202,
+          "cost": 0.22344737794306496,
+          "exact_abs_error": 0.0954454580753567,
+          "log_abs_difference": 8.015255126281318e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.0003223000094294548,
+          "cost": 0.223447377943065,
+          "exact_abs_error": 0.09544545807535673,
+          "log_abs_difference": 8.014977570525161e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0003238999634049833,
+          "cost": 0.223447377943065,
+          "exact_abs_error": 0.09544545807535673,
+          "log_abs_difference": 8.014977570525161e-13,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.1",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.1
+      },
+      "seed": 94003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0005117999971844256,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.14140883581320246,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.00022149999858811498,
+          "cost": 0.22225702068615905,
+          "exact_abs_error": 0.08084818487295659,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.0003423999878577888,
+          "cost": 0.2222570206999601,
+          "exact_abs_error": 0.08084818488675763,
+          "log_abs_difference": 1.3801043641237243e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.0013543000095523894,
+          "cost": 0.22225702068615905,
+          "exact_abs_error": 0.08084818487295659,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.0003390999627299607,
+          "cost": 0.22225702069996006,
+          "exact_abs_error": 0.0808481848867576,
+          "log_abs_difference": 1.3801015885661627e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.002688300039153546,
+          "cost": 0.22225702069996006,
+          "exact_abs_error": 0.0808481848867576,
+          "log_abs_difference": 1.3801015885661627e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.00030939996941015124,
+          "cost": 0.22225702069996006,
+          "exact_abs_error": 0.0808481848867576,
+          "log_abs_difference": 1.3801015885661627e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.0003284999984316528,
+          "cost": 0.22225702069996006,
+          "exact_abs_error": 0.0808481848867576,
+          "log_abs_difference": 1.3801015885661627e-11,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94001,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00031779997516423464,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.12524627457929038,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 0,
+          "median_seconds": 0.1377134000067599,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 0,
+          "median_seconds": 0.11750170000595972,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 0,
+          "median_seconds": 1.1248353999690153,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 0,
+          "median_seconds": 0.10877170000458136,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 0,
+          "median_seconds": 1.2322489999933168,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 0,
+          "median_seconds": 1.000477600027807,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 0,
+          "median_seconds": 1.0053072000155225,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94002,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.00039380002999678254,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.12800191986770826,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 0,
+          "median_seconds": 0.1461466000182554,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 0,
+          "median_seconds": 0.1167272999882698,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 0,
+          "median_seconds": 1.138005000015255,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 0,
+          "median_seconds": 0.1136314999894239,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 0,
+          "median_seconds": 1.283230300003197,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 0,
+          "median_seconds": 1.0104221000219695,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        },
+        "bounded_full": {
+          "successes": 0,
+          "median_seconds": 1.0205927999923006,
+          "cost": null,
+          "exact_abs_error": null,
+          "log_abs_difference": null,
+          "agrees_with_log": null,
+          "fallback_runs": 0
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94003,
+      "active_source": 30,
+      "active_target": 30,
+      "preprocessing_seconds": 0.0004975000047124922,
+      "dense_cost_bytes": 720000,
+      "exact_cost": 0.14140883581320246,
+      "metrics": {
+        "sinkhorn": {
+          "successes": 3,
+          "median_seconds": 0.061281300033442676,
+          "cost": 0.141438596690067,
+          "exact_abs_error": 2.9760876864542984e-05,
+          "log_abs_difference": 2.498001805406602e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.05622389999916777,
+          "cost": 0.14143859669006703,
+          "exact_abs_error": 2.976087686457074e-05,
+          "log_abs_difference": 2.7755575615628914e-16,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "sinkhorn_log": {
+          "successes": 3,
+          "median_seconds": 0.5202417999971658,
+          "cost": 0.14143859669006675,
+          "exact_abs_error": 2.9760876864293184e-05,
+          "log_abs_difference": 0.0,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_full": {
+          "successes": 3,
+          "median_seconds": 0.058017399976961315,
+          "cost": 0.14143859669893047,
+          "exact_abs_error": 2.97608857280085e-05,
+          "log_abs_difference": 8.863715317275478e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "matched_log": {
+          "successes": 3,
+          "median_seconds": 0.6232113000005484,
+          "cost": 0.14143859669893036,
+          "exact_abs_error": 2.976088572789748e-05,
+          "log_abs_difference": 8.863604294973015e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 0
+        },
+        "cold_switch": {
+          "successes": 3,
+          "median_seconds": 0.6527837000321597,
+          "cost": 0.14143859669893036,
+          "exact_abs_error": 2.976088572789748e-05,
+          "log_abs_difference": 8.863604294973015e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        },
+        "bounded_full": {
+          "successes": 3,
+          "median_seconds": 0.39350479998392984,
+          "cost": 0.14143859669893036,
+          "exact_abs_error": 2.976088572789748e-05,
+          "log_abs_difference": 8.863604294973015e-12,
+          "agrees_with_log": true,
+          "fallback_runs": 3
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "manifest_verified": true,
+  "cases": 12,
+  "runs": 108,
+  "totals": {
+    "periodic": {
+      "successes": 36,
+      "runs": 36,
+      "sum_case_median_seconds": 0.19795790006173775,
+      "fallback_runs": 0
+    },
+    "residual_gate": {
+      "successes": 36,
+      "runs": 36,
+      "sum_case_median_seconds": 0.23825239995494485,
+      "fallback_runs": 0
+    },
+    "always": {
+      "successes": 36,
+      "runs": 36,
+      "sum_case_median_seconds": 4.916339900053572,
+      "fallback_runs": 36
+    }
+  },
+  "failures": [],
+  "max_accepted_objective_spread": 9.397993896986812e-09,
+  "paired_cases": 12,
+  "paired_speedup_median": 1.0271596197880015,
+  "faster_cases": 6,
+  "paired_ratios": [
+    {
+      "label": "base",
+      "seed": 100001,
+      "baseline_over_periodic": 1.2164416196314092
+    },
+    {
+      "label": "base",
+      "seed": 100002,
+      "baseline_over_periodic": 0.9832902800525504
+    },
+    {
+      "label": "base",
+      "seed": 100003,
+      "baseline_over_periodic": 1.1705803053164436
+    },
+    {
+      "label": "d_32",
+      "seed": 100001,
+      "baseline_over_periodic": 0.9797215925119088
+    },
+    {
+      "label": "d_32",
+      "seed": 100002,
+      "baseline_over_periodic": 0.9347326825938483
+    },
+    {
+      "label": "d_32",
+      "seed": 100003,
+      "baseline_over_periodic": 0.9256868299260026
+    },
+    {
+      "label": "d_128",
+      "seed": 100001,
+      "baseline_over_periodic": 0.9271177573995357
+    },
+    {
+      "label": "d_128",
+      "seed": 100002,
+      "baseline_over_periodic": 0.9772423872548015
+    },
+    {
+      "label": "d_128",
+      "seed": 100003,
+      "baseline_over_periodic": 1.0710289595234528
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 100001,
+      "baseline_over_periodic": 1.1770012987362197
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 100002,
+      "baseline_over_periodic": 1.2270263862698219
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 100003,
+      "baseline_over_periodic": 1.347300900210459
+    }
+  ],
+  "note": "descriptive timing, three repeats per case; shared seeds are dependent; no statistical significance claim"
+}

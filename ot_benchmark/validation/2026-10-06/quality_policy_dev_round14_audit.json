@@ -1,0 +1,293 @@
+{
+  "manifest_verified": true,
+  "cases": 52,
+  "runs": 468,
+  "totals": {
+    "periodic": {
+      "successes": 156,
+      "runs": 156,
+      "sum_case_median_seconds": 7.716466099780519,
+      "fallback_runs": 12
+    },
+    "residual_gate": {
+      "successes": 156,
+      "runs": 156,
+      "sum_case_median_seconds": 8.394014399498701,
+      "fallback_runs": 12
+    },
+    "always": {
+      "successes": 156,
+      "runs": 156,
+      "sum_case_median_seconds": 26.14793710008962,
+      "fallback_runs": 156
+    }
+  },
+  "failures": [],
+  "max_accepted_objective_spread": 9.961669433788956e-09,
+  "paired_cases": 52,
+  "paired_speedup_median": 1.059346104908312,
+  "faster_cases": 33,
+  "paired_ratios": [
+    {
+      "label": "base",
+      "seed": 96001,
+      "baseline_over_periodic": 1.036938632950813
+    },
+    {
+      "label": "base",
+      "seed": 96002,
+      "baseline_over_periodic": 0.9956388039397174
+    },
+    {
+      "label": "base",
+      "seed": 96003,
+      "baseline_over_periodic": 0.9142043345431203
+    },
+    {
+      "label": "base",
+      "seed": 97001,
+      "baseline_over_periodic": 1.0257763295555111
+    },
+    {
+      "label": "base",
+      "seed": 97002,
+      "baseline_over_periodic": 1.1208653855495152
+    },
+    {
+      "label": "base",
+      "seed": 97003,
+      "baseline_over_periodic": 1.1666783294966727
+    },
+    {
+      "label": "d_32",
+      "seed": 94001,
+      "baseline_over_periodic": 0.9820380366207058
+    },
+    {
+      "label": "d_32",
+      "seed": 96001,
+      "baseline_over_periodic": 1.0061772033626524
+    },
+    {
+      "label": "d_32",
+      "seed": 96002,
+      "baseline_over_periodic": 0.9912785572135212
+    },
+    {
+      "label": "d_32",
+      "seed": 96003,
+      "baseline_over_periodic": 0.9696478614864281
+    },
+    {
+      "label": "d_32",
+      "seed": 97001,
+      "baseline_over_periodic": 0.9578947372477407
+    },
+    {
+      "label": "d_32",
+      "seed": 97002,
+      "baseline_over_periodic": 0.9480591367946736
+    },
+    {
+      "label": "d_32",
+      "seed": 97003,
+      "baseline_over_periodic": 1.1605776100433018
+    },
+    {
+      "label": "d_128",
+      "seed": 94001,
+      "baseline_over_periodic": 0.9830764084712662
+    },
+    {
+      "label": "d_128",
+      "seed": 96001,
+      "baseline_over_periodic": 1.042377273363168
+    },
+    {
+      "label": "d_128",
+      "seed": 96002,
+      "baseline_over_periodic": 0.9260984845005303
+    },
+    {
+      "label": "d_128",
+      "seed": 96003,
+      "baseline_over_periodic": 0.9157378835031073
+    },
+    {
+      "label": "d_128",
+      "seed": 97001,
+      "baseline_over_periodic": 0.9664545752115639
+    },
+    {
+      "label": "d_128",
+      "seed": 97002,
+      "baseline_over_periodic": 1.0648365260023853
+    },
+    {
+      "label": "d_128",
+      "seed": 97003,
+      "baseline_over_periodic": 0.8908575643234097
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 94001,
+      "baseline_over_periodic": 1.6729378269819022
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 94002,
+      "baseline_over_periodic": 0.9827806556428581
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 96001,
+      "baseline_over_periodic": 1.7149025523934567
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 96002,
+      "baseline_over_periodic": 1.1636164627296204
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 96003,
+      "baseline_over_periodic": 1.3492939519599019
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 97001,
+      "baseline_over_periodic": 1.4632856238670746
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 97002,
+      "baseline_over_periodic": 1.1208832286091657
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 97003,
+      "baseline_over_periodic": 1.22077670688495
+    },
+    {
+      "label": "base",
+      "seed": 98001,
+      "baseline_over_periodic": 0.9902729098516851
+    },
+    {
+      "label": "base",
+      "seed": 98002,
+      "baseline_over_periodic": 1.261760852751562
+    },
+    {
+      "label": "base",
+      "seed": 98003,
+      "baseline_over_periodic": 0.9741698682067216
+    },
+    {
+      "label": "d_32",
+      "seed": 98001,
+      "baseline_over_periodic": 1.1525951441600117
+    },
+    {
+      "label": "d_32",
+      "seed": 98002,
+      "baseline_over_periodic": 2.1291024265740615
+    },
+    {
+      "label": "d_32",
+      "seed": 98003,
+      "baseline_over_periodic": 1.449249847624996
+    },
+    {
+      "label": "d_128",
+      "seed": 98001,
+      "baseline_over_periodic": 1.136490397243356
+    },
+    {
+      "label": "d_128",
+      "seed": 98002,
+      "baseline_over_periodic": 1.6818786658932483
+    },
+    {
+      "label": "d_128",
+      "seed": 98003,
+      "baseline_over_periodic": 0.9639698622251446
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 98001,
+      "baseline_over_periodic": 1.131896443372764
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 98002,
+      "baseline_over_periodic": 1.0599357254759423
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 98003,
+      "baseline_over_periodic": 1.4633268457844468
+    },
+    {
+      "label": "base",
+      "seed": 99001,
+      "baseline_over_periodic": 1.0342970512655616
+    },
+    {
+      "label": "base",
+      "seed": 99002,
+      "baseline_over_periodic": 1.2151463764854586
+    },
+    {
+      "label": "base",
+      "seed": 99003,
+      "baseline_over_periodic": 1.0140711566274094
+    },
+    {
+      "label": "d_32",
+      "seed": 99001,
+      "baseline_over_periodic": 1.1503564402675182
+    },
+    {
+      "label": "d_32",
+      "seed": 99002,
+      "baseline_over_periodic": 1.68120067126086
+    },
+    {
+      "label": "d_32",
+      "seed": 99003,
+      "baseline_over_periodic": 0.931798164927119
+    },
+    {
+      "label": "d_128",
+      "seed": 99001,
+      "baseline_over_periodic": 1.0587564843406818
+    },
+    {
+      "label": "d_128",
+      "seed": 99002,
+      "baseline_over_periodic": 1.4654245811694222
+    },
+    {
+      "label": "d_128",
+      "seed": 99003,
+      "baseline_over_periodic": 0.9652975617372204
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 99001,
+      "baseline_over_periodic": 1.2652452516021417
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 99002,
+      "baseline_over_periodic": 0.9743650922667096
+    },
+    {
+      "label": "reg_0.001",
+      "seed": 99003,
+      "baseline_over_periodic": 1.2940067649179523
+    }
+  ],
+  "note": "descriptive timing, three repeats per case; shared seeds are dependent; no statistical significance claim"
+}

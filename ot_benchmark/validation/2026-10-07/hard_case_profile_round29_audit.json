@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "runs": 6,
+  "totals": {
+    "guarded_250": {
+      "median_seconds": 16.07185509998817,
+      "successes": 3
+    },
+    "direct_epsilon": {
+      "median_seconds": 12.888795299979392,
+      "successes": 3
+    }
+  },
+  "stage_medians": {
+    "ordinary_continue": 2.441560200008098,
+    "cold_epsilon": 12.976727099972777
+  },
+  "prefix_and_other_median": 0.6535678000072949,
+  "epsilon_fraction_median": 0.8074193687810394,
+  "direct_reduction": 0.19805179801621786,
+  "limitation": "single known case, three timing repeats, no warmup; medians of components need not add to median total"
+}

@@ -1,0 +1,211 @@
+{
+  "manifest_verified": true,
+  "cases": 4,
+  "runs": 48,
+  "totals": {
+    "ordinary_continue": {
+      "successes": 3,
+      "runs": 12,
+      "sum_medians": 8.76102080004057
+    },
+    "warm_stabilized": {
+      "successes": 12,
+      "runs": 12,
+      "sum_medians": 2.410295900015626
+    },
+    "cold_stabilized": {
+      "successes": 9,
+      "runs": 12,
+      "sum_medians": 2.9623188000405207
+    },
+    "cold_epsilon": {
+      "successes": 12,
+      "runs": 12,
+      "sum_medians": 5.258630600059405
+    }
+  },
+  "rows": [
+    {
+      "domain": "movielens",
+      "seed": 105002,
+      "prefix_gap": 4.366256921073397e-06,
+      "metrics": {
+        "ordinary_continue": {
+          "successes": 3,
+          "median_seconds": 1.9314800000283867
+        },
+        "warm_stabilized": {
+          "successes": 3,
+          "median_seconds": 2.3391038000117987
+        },
+        "cold_stabilized": {
+          "successes": 0,
+          "median_seconds": 2.8228808999992907
+        },
+        "cold_epsilon": {
+          "successes": 3,
+          "median_seconds": 3.805479699978605
+        }
+      },
+      "first_repeat": {
+        "cold_stabilized": {
+          "work": 200000,
+          "blocks": 40,
+          "gap": 8.76620981554721e-07
+        },
+        "cold_epsilon": {
+          "work": 271,
+          "blocks": 1,
+          "gap": 5.227207555691393e-13
+        },
+        "ordinary_continue": {
+          "work": 165000,
+          "blocks": 33,
+          "gap": 2.4714251201096715e-09
+        },
+        "warm_stabilized": {
+          "work": 165000,
+          "blocks": 33,
+          "gap": 2.47142550868773e-09
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 105007,
+      "prefix_gap": 2.4301976260160396e-05,
+      "metrics": {
+        "ordinary_continue": {
+          "successes": 0,
+          "median_seconds": 2.103986400004942
+        },
+        "warm_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.004970400012098253
+        },
+        "cold_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.04592820000834763
+        },
+        "cold_epsilon": {
+          "successes": 3,
+          "median_seconds": 0.43489360000239685
+        }
+      },
+      "first_repeat": {
+        "ordinary_continue": {
+          "work": 200000,
+          "blocks": 40,
+          "gap": 2.4301976260188152e-05
+        },
+        "cold_epsilon": {
+          "work": 37,
+          "blocks": 1,
+          "gap": 1.0982881271104361e-13
+        },
+        "cold_stabilized": {
+          "work": 3921,
+          "blocks": 1,
+          "gap": 5.284661597215745e-14
+        },
+        "warm_stabilized": {
+          "work": 401,
+          "blocks": 1,
+          "gap": 2.899902540320909e-13
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 105001,
+      "prefix_gap": 141.041122121591,
+      "metrics": {
+        "ordinary_continue": {
+          "successes": 0,
+          "median_seconds": 2.168972700019367
+        },
+        "warm_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.04714580002473667
+        },
+        "cold_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.05750150000676513
+        },
+        "cold_epsilon": {
+          "successes": 3,
+          "median_seconds": 0.4480151000316255
+        }
+      },
+      "first_repeat": {
+        "ordinary_continue": {
+          "work": 200000,
+          "blocks": 40,
+          "gap": 141.041122121591
+        },
+        "warm_stabilized": {
+          "work": 3881,
+          "blocks": 1,
+          "gap": 4.906630657330879e-13
+        },
+        "cold_stabilized": {
+          "work": 4641,
+          "blocks": 1,
+          "gap": 2.462474668618597e-13
+        },
+        "cold_epsilon": {
+          "work": 37,
+          "blocks": 1,
+          "gap": 1.7863488466218769e-13
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 105002,
+      "prefix_gap": 6.336375848781106e-05,
+      "metrics": {
+        "ordinary_continue": {
+          "successes": 0,
+          "median_seconds": 2.5565816999878734
+        },
+        "warm_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.019075899966992438
+        },
+        "cold_stabilized": {
+          "successes": 3,
+          "median_seconds": 0.036008200026117265
+        },
+        "cold_epsilon": {
+          "successes": 3,
+          "median_seconds": 0.5702422000467777
+        }
+      },
+      "first_repeat": {
+        "warm_stabilized": {
+          "work": 1221,
+          "blocks": 1,
+          "gap": 4.2299497238218464e-13
+        },
+        "cold_epsilon": {
+          "work": 37,
+          "blocks": 1,
+          "gap": 1.2367884494324244e-13
+        },
+        "ordinary_continue": {
+          "work": 200000,
+          "blocks": 40,
+          "gap": 6.336375848781106e-05
+        },
+        "cold_stabilized": {
+          "work": 1841,
+          "blocks": 1,
+          "gap": 1.8784973576657649e-13
+        }
+      }
+    }
+  ],
+  "warning_runs": 18,
+  "note": "development action timings; four selected previously observed fallback states, no holdout or full-policy claim"
+}

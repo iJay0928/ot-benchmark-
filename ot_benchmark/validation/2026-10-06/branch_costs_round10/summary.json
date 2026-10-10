@@ -1,0 +1,918 @@
+{
+  "cases": [
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.0025802000891417265,
+      "preprocessing_seconds": 0.0009596000309102237,
+      "state_sha256": "9cb28295279aed1be133d473d8621f975bf579b129e45cb963de47048ff4d298",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.28657310002017766,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 1.0328372999792919,
+          "cost": 0.31093407205763646
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 1.0420873999828473,
+          "cost": 0.31093407205763646
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.007871199923101813,
+      "preprocessing_seconds": 0.0009596000309102237,
+      "state_sha256": "b1e634eefc603487213d5a0b19f89d0b39f961b18ef5d3a1b1daa3d002a35e68",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.2732391000026837,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 1.04189100000076,
+          "cost": 0.31093407205763646
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 1.0507699999725446,
+          "cost": 0.31093407205763646
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.002701599383726716,
+      "preprocessing_seconds": 0.0026694000116549432,
+      "state_sha256": "706cb35d3ecb5c9a2c2efdedf9b2d3fdb7cc08608b128cb2665f61de10cfa680",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.28745980001986027,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 1.160481799975969,
+          "cost": 0.5252619040510853
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 1.1534440000541508,
+          "cost": 0.5252619040510853
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.0076938996789976954,
+      "preprocessing_seconds": 0.0026694000116549432,
+      "state_sha256": "6752752712761eafc9b69de62a9ff0038662dc9bb457f43299168482522c3dea",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.2774858999764547,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 1.1599861000431702,
+          "cost": 0.5252619040510853
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 1.169735299947206,
+          "cost": 0.5252619040510853
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94001,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.002542999980505556,
+      "preprocessing_seconds": 0.000451600004453212,
+      "state_sha256": "87da9e7560cc2549bb0366903907d0d806979e6caf1cb1a6b27c028eb28a67d1",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.16327650001039729,
+          "cost": 0.1252843124793962
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 1.4960050999652594,
+          "cost": 0.12528431253691438
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 1.5168306999839842,
+          "cost": 0.12528431253691438
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94001,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.0075364995282143354,
+      "preprocessing_seconds": 0.000451600004453212,
+      "state_sha256": "58b5a5127c3fbd8dc9ab7846b94f8748fb9e39b154800056af798ecccea73ae0",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.1540163999889046,
+          "cost": 0.1252843124793962
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 1.5043156999745406,
+          "cost": 0.12528431253691438
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 1.5278393999906257,
+          "cost": 0.12528431253691438
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94002,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.0033895999076776206,
+      "preprocessing_seconds": 0.0004335999838076532,
+      "state_sha256": "5753fc7d8ba32e3b2918326e5a86c878d2842b20b1508ca5adc9ce50361d12fd",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.29499000002397224,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.9321809000102803,
+          "cost": 0.12801041722229017
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.9408154000411741,
+          "cost": 0.12801041722229017
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94002,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.008909899566788226,
+      "preprocessing_seconds": 0.0004335999838076532,
+      "state_sha256": "32a17a9a195023eec1567f1b718e74bfac16d0a4f85b527dd0703b4c6ba91fee",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.2773009999655187,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.94347519997973,
+          "cost": 0.12801041722229017
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.931076499982737,
+          "cost": 0.12801041722229017
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96001,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.0025555999018251896,
+      "preprocessing_seconds": 0.00025679997634142637,
+      "state_sha256": "d2545fab1b0d604b94f83e5eccab316cef8a857cb17916c1d1efce466a3225ec",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.29150859999936074,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.918773700017482,
+          "cost": 0.13565834370834057
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.925265500030946,
+          "cost": 0.13565834370834057
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96001,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.008061699627432972,
+      "preprocessing_seconds": 0.00025679997634142637,
+      "state_sha256": "0338b42c72a177dc60dc9e295703f39f81ae21c17ae84cabc00296585a4219cb",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 0,
+          "median_seconds": 0.2798215000075288,
+          "cost": null
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.9308952999999747,
+          "cost": 0.13565834370834057
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.9212803000118583,
+          "cost": 0.13565834370834057
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96002,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.003047699690796435,
+      "preprocessing_seconds": 0.00043209997238591313,
+      "state_sha256": "484398336d205c61dc92d4091fee3b271766e2ec747267afcc3d5d715725f5bf",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.007387499965261668,
+          "cost": 0.1263179142185052
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.43051470001228154,
+          "cost": 0.12631791422916577
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.431668599951081,
+          "cost": 0.12631791422916577
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96003,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.0025808996288105845,
+      "preprocessing_seconds": 0.000437700015027076,
+      "state_sha256": "3c5aa479acf6f619818977ef66acf118b227611414763bb6deaa40e9869c151f",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.008654300007037818,
+          "cost": 0.12229575486460866
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.4307892000069842,
+          "cost": 0.12229575486849716
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.4310475999955088,
+          "cost": 0.12229575486849716
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97001,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.002830100362189114,
+      "preprocessing_seconds": 0.00028979999478906393,
+      "state_sha256": "d043a6b4e0d88b881f88bd9d33b06aa503a12778c7246e1371f9ee5ac691fb68",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.21809390000998974,
+          "cost": 0.12404467570916734
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.6986346999765374,
+          "cost": 0.12404467570038602
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.7189486999996006,
+          "cost": 0.124044675700386
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97001,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.008285500574856997,
+      "preprocessing_seconds": 0.00028979999478906393,
+      "state_sha256": "9896022a70e844c9f2d07132b9cb8216fc36c0ec374073288d8cf602ef58a1ce",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.1999583999859169,
+          "cost": 0.12404467570916734
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.6916150000179186,
+          "cost": 0.12404467570038602
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.7019673999748193,
+          "cost": 0.12404467570038602
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97002,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.0026549004833213985,
+      "preprocessing_seconds": 0.0004091999726369977,
+      "state_sha256": "5312ffa7f58617d584169fae2f7e249ee83ac77f04240d849238353ecd762f1c",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.015601799997966737,
+          "cost": 0.12009713389714163
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.4283376000239514,
+          "cost": 0.12009713391928975
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.42219059995841235,
+          "cost": 0.12009713391928975
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97002,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.00799750053556636,
+      "preprocessing_seconds": 0.0004091999726369977,
+      "state_sha256": "e22634c9ead3bef1e6aa2d577e283a9c34c44301d4b6b525007124f9e9646b21",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.003408699994906783,
+          "cost": 0.12009713389714163
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.42893910000566393,
+          "cost": 0.12009713391928975
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.41703450004570186,
+          "cost": 0.12009713391928975
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97003,
+      "checkpoint": 1000,
+      "prefix_seconds": 0.0025191999739035964,
+      "preprocessing_seconds": 0.0004113999893888831,
+      "state_sha256": "7baa79813292c79d0d7656ec8e7d7d6f8dda799874c546b0b903245a5f5cd278",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.02045069995801896,
+          "cost": 0.12394654282756565
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.4295828999602236,
+          "cost": 0.12394654282137915
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.42216340004233643,
+          "cost": 0.12394654282137914
+        }
+      }
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97003,
+      "checkpoint": 3000,
+      "prefix_seconds": 0.00760919984895736,
+      "preprocessing_seconds": 0.0004113999893888831,
+      "state_sha256": "ce8807d16a719c10c98c12f13facb0cb915b8aaab0d2d2a69aeb07e285acea5f",
+      "state_unchanged": true,
+      "metrics": {
+        "continue": {
+          "successes": 3,
+          "median_seconds": 0.008876699954271317,
+          "cost": 0.12394654282756565
+        },
+        "epsilon_cold": {
+          "successes": 3,
+          "median_seconds": 0.4252583999768831,
+          "cost": 0.12394654282137915
+        },
+        "epsilon_warm": {
+          "successes": 3,
+          "median_seconds": 0.4239674000418745,
+          "cost": 0.12394654282137915
+        }
+      }
+    }
+  ],
+  "screening": [
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 94001,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94001,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 94002,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96001,
+      "accepted_by_3000": true,
+      "iterations": 200
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96002,
+      "accepted_by_3000": true,
+      "iterations": 250
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96003,
+      "accepted_by_3000": true,
+      "iterations": 250
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96001,
+      "accepted_by_3000": true,
+      "iterations": 150
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96002,
+      "accepted_by_3000": true,
+      "iterations": 250
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96003,
+      "accepted_by_3000": true,
+      "iterations": 250
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96001,
+      "accepted_by_3000": true,
+      "iterations": 200
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96002,
+      "accepted_by_3000": true,
+      "iterations": 100
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 96003,
+      "accepted_by_3000": true,
+      "iterations": 350
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96001,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96002,
+      "accepted_by_3000": true,
+      "iterations": 2150
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 96003,
+      "accepted_by_3000": true,
+      "iterations": 2500
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97001,
+      "accepted_by_3000": true,
+      "iterations": 400
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97002,
+      "accepted_by_3000": true,
+      "iterations": 450
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97003,
+      "accepted_by_3000": true,
+      "iterations": 300
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97001,
+      "accepted_by_3000": true,
+      "iterations": 250
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97002,
+      "accepted_by_3000": true,
+      "iterations": 550
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97003,
+      "accepted_by_3000": true,
+      "iterations": 350
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97001,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97002,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97003,
+      "accepted_by_3000": false,
+      "iterations": 3000
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97001,
+      "accepted_by_3000": true,
+      "iterations": 250
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97002,
+      "accepted_by_3000": true,
+      "iterations": 600
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97003,
+      "accepted_by_3000": true,
+      "iterations": 300
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "role": "40 previously viewed development instances; no new holdout or decision rule",
+  "iteration_budget": 50000,
+  "solver_check_every": 50,
+  "solver_acceptance_l1": 1e-09,
+  "diagnostic_every": 250,
+  "objective": "sum(C*P)+reg*sum(P*(log(P)-1)); dual=reg*(a@log_u+b@log_v-sum(exp(log_u+log_v-C/reg)))",
+  "rounding": "AWR 2017 Algorithm 2; numerical feasibility <=1e-12; no interval arithmetic",
+  "features": "centered dual potential motion, raw plan L1 motion, rounded primal-dual numerical gap",
+  "timing": "instrumented diagnostic run, not a performance benchmark",
+  "source_sha256": {
+    "validation\\2026-10-06\\policy_dev_round11\\summary.json": "376d8b721baa1e0dcf4b5392dc18c36d783391e4182b41562b41092477f81851",
+    "validation\\2026-10-06\\policy_holdout_round11\\summary.json": "c10ceadf10173f62157b2e8103a5642fe12d74bd7cb059d9c7528297d427808c"
+  }
+}

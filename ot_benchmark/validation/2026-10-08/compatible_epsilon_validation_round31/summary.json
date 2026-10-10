@@ -1,0 +1,5212 @@
+{
+  "cases": [
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112001,
+        "file": "movielens_000.npz",
+        "source_id": "movielens:user:137",
+        "target_id": "movielens:user:8",
+        "active_source": 32,
+        "active_target": 42,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999993103,
+          0.9999999999994013
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "e20428786a2ab4df8b766000b780c720dc42d435ee04b64cbe95cbc6a3fc5c95"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6510138000594452,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0563685343134566e-13,
+              "rounded_residual": 1.6566609195578508e-16,
+              "rounded_primal": 0.04997090984377862,
+              "dual": 0.04997090984376642,
+              "numerical_gap": 1.2198575483068907e-14,
+              "rounding_l1": 1.0562785060377775e-13,
+              "raw_transport_cost": 0.11138964358457693,
+              "rounded_transport_cost": 0.11138964358461681
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.2198575483068907e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6566609195578508e-16,
+          "audit_objective": 0.0499709098437786,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6686528999125585,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0563685343134566e-13,
+              "rounded_residual": 1.6566609195578508e-16,
+              "rounded_primal": 0.04997090984377862,
+              "dual": 0.04997090984376642,
+              "numerical_gap": 1.2198575483068907e-14,
+              "rounding_l1": 1.0562785060377775e-13,
+              "raw_transport_cost": 0.11138964358457693,
+              "rounded_transport_cost": 0.11138964358461681
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6566609195578508e-16,
+          "audit_objective": 0.0499709098437786,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6685734000056982,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0563685343134566e-13,
+              "rounded_residual": 1.6566609195578508e-16,
+              "rounded_primal": 0.04997090984377862,
+              "dual": 0.04997090984376642,
+              "numerical_gap": 1.2198575483068907e-14,
+              "rounding_l1": 1.0562785060377775e-13,
+              "raw_transport_cost": 0.11138964358457693,
+              "rounded_transport_cost": 0.11138964358461681
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.2198575483068907e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6566609195578508e-16,
+          "audit_objective": 0.0499709098437786,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6910963000264019,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0563685343134566e-13,
+              "rounded_residual": 1.6566609195578508e-16,
+              "rounded_primal": 0.04997090984377862,
+              "dual": 0.04997090984376642,
+              "numerical_gap": 1.2198575483068907e-14,
+              "rounding_l1": 1.0562785060377775e-13,
+              "raw_transport_cost": 0.11138964358457693,
+              "rounded_transport_cost": 0.11138964358461681
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6566609195578508e-16,
+          "audit_objective": 0.0499709098437786,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6643154999474064,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0563685343134566e-13,
+              "rounded_residual": 1.6566609195578508e-16,
+              "rounded_primal": 0.04997090984377862,
+              "dual": 0.04997090984376642,
+              "numerical_gap": 1.2198575483068907e-14,
+              "rounding_l1": 1.0562785060377775e-13,
+              "raw_transport_cost": 0.11138964358457693,
+              "rounded_transport_cost": 0.11138964358461681
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6566609195578508e-16,
+          "audit_objective": 0.0499709098437786,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6494023000122979,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0563685343134566e-13,
+              "rounded_residual": 1.6566609195578508e-16,
+              "rounded_primal": 0.04997090984377862,
+              "dual": 0.04997090984376642,
+              "numerical_gap": 1.2198575483068907e-14,
+              "rounding_l1": 1.0562785060377775e-13,
+              "raw_transport_cost": 0.11138964358457693,
+              "rounded_transport_cost": 0.11138964358461681
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.2198575483068907e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6566609195578508e-16,
+          "audit_objective": 0.0499709098437786,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6686528999125585
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6510138000594452
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112001,
+        "file": "movielens_000.npz",
+        "source_id": "movielens:user:137",
+        "target_id": "movielens:user:8",
+        "active_source": 32,
+        "active_target": 42,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999993103,
+          0.9999999999994013
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "e20428786a2ab4df8b766000b780c720dc42d435ee04b64cbe95cbc6a3fc5c95"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6633376999525353,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0174968506637683e-12,
+              "rounded_residual": 2.498001805406602e-16,
+              "rounded_primal": 0.10524776208447245,
+              "dual": 0.10524776208427203,
+              "numerical_gap": 2.0042301152045638e-13,
+              "rounding_l1": 1.0174910101980399e-12,
+              "raw_transport_cost": 0.11138963450487273,
+              "rounded_transport_cost": 0.11138963450521737
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.4137996329210978e-16,
+          "audit_objective": 0.10524776208447245,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6661235000938177,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0174968506637683e-12,
+              "rounded_residual": 2.498001805406602e-16,
+              "rounded_primal": 0.10524776208447245,
+              "dual": 0.10524776208427203,
+              "numerical_gap": 2.0042301152045638e-13,
+              "rounding_l1": 1.0174910101980399e-12,
+              "raw_transport_cost": 0.11138963450487273,
+              "rounded_transport_cost": 0.11138963450521737
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.0042301152045638e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.4137996329210978e-16,
+          "audit_objective": 0.10524776208447245,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6576678999699652,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0174968506637683e-12,
+              "rounded_residual": 2.498001805406602e-16,
+              "rounded_primal": 0.10524776208447245,
+              "dual": 0.10524776208427203,
+              "numerical_gap": 2.0042301152045638e-13,
+              "rounding_l1": 1.0174910101980399e-12,
+              "raw_transport_cost": 0.11138963450487273,
+              "rounded_transport_cost": 0.11138963450521737
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.0042301152045638e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.4137996329210978e-16,
+          "audit_objective": 0.10524776208447245,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6750436999136582,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0174968506637683e-12,
+              "rounded_residual": 2.498001805406602e-16,
+              "rounded_primal": 0.10524776208447245,
+              "dual": 0.10524776208427203,
+              "numerical_gap": 2.0042301152045638e-13,
+              "rounding_l1": 1.0174910101980399e-12,
+              "raw_transport_cost": 0.11138963450487273,
+              "rounded_transport_cost": 0.11138963450521737
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.4137996329210978e-16,
+          "audit_objective": 0.10524776208447245,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6617519999854267,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0174968506637683e-12,
+              "rounded_residual": 2.498001805406602e-16,
+              "rounded_primal": 0.10524776208447245,
+              "dual": 0.10524776208427203,
+              "numerical_gap": 2.0042301152045638e-13,
+              "rounding_l1": 1.0174910101980399e-12,
+              "raw_transport_cost": 0.11138963450487273,
+              "rounded_transport_cost": 0.11138963450521737
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.0042301152045638e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.4137996329210978e-16,
+          "audit_objective": 0.10524776208447245,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6427271000575274,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0174968506637683e-12,
+              "rounded_residual": 2.498001805406602e-16,
+              "rounded_primal": 0.10524776208447245,
+              "dual": 0.10524776208427203,
+              "numerical_gap": 2.0042301152045638e-13,
+              "rounding_l1": 1.0174910101980399e-12,
+              "raw_transport_cost": 0.11138963450487273,
+              "rounded_transport_cost": 0.11138963450521737
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.4137996329210978e-16,
+          "audit_objective": 0.10524776208447245,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6633376999525353
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6617519999854267
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112003,
+        "file": "movielens_001.npz",
+        "source_id": "movielens:user:13",
+        "target_id": "movielens:user:158",
+        "active_source": 258,
+        "active_target": 108,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.999999999999881,
+          0.9999999999997586
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "e09e4897b2d447b2e3bd3bd24700d5c3ef2130a133808e11a19330d413cf5b50"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 1.2183539000106975,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.6790930625065759e-13,
+              "rounded_residual": 7.103692634125025e-16,
+              "rounded_primal": 0.004691907082257085,
+              "dual": 0.004691907082246245,
+              "numerical_gap": 1.0840287001379068e-14,
+              "rounding_l1": 1.6888025096180842e-13,
+              "raw_transport_cost": 0.08973074342228787,
+              "rounded_transport_cost": 0.08973074342234061
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.0840287001379068e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 7.884318198314588e-16,
+          "audit_objective": 0.0046919070822570574,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 1.4030016999458894,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.6790930625065759e-13,
+              "rounded_residual": 7.103692634125025e-16,
+              "rounded_primal": 0.004691907082257085,
+              "dual": 0.004691907082246245,
+              "numerical_gap": 1.0840287001379068e-14,
+              "rounding_l1": 1.6888025096180842e-13,
+              "raw_transport_cost": 0.08973074342228787,
+              "rounded_transport_cost": 0.08973074342234061
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 7.884318198314588e-16,
+          "audit_objective": 0.0046919070822570574,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 1.362823500065133,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.6790930625065759e-13,
+              "rounded_residual": 7.103692634125025e-16,
+              "rounded_primal": 0.004691907082257085,
+              "dual": 0.004691907082246245,
+              "numerical_gap": 1.0840287001379068e-14,
+              "rounding_l1": 1.6888025096180842e-13,
+              "raw_transport_cost": 0.08973074342228787,
+              "rounded_transport_cost": 0.08973074342234061
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 7.884318198314588e-16,
+          "audit_objective": 0.0046919070822570574,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 1.2961702999891713,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.6790930625065759e-13,
+              "rounded_residual": 7.103692634125025e-16,
+              "rounded_primal": 0.004691907082257085,
+              "dual": 0.004691907082246245,
+              "numerical_gap": 1.0840287001379068e-14,
+              "rounding_l1": 1.6888025096180842e-13,
+              "raw_transport_cost": 0.08973074342228787,
+              "rounded_transport_cost": 0.08973074342234061
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.0840287001379068e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 7.884318198314588e-16,
+          "audit_objective": 0.0046919070822570574,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 1.2226395000470802,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.6790930625065759e-13,
+              "rounded_residual": 7.103692634125025e-16,
+              "rounded_primal": 0.004691907082257085,
+              "dual": 0.004691907082246245,
+              "numerical_gap": 1.0840287001379068e-14,
+              "rounding_l1": 1.6888025096180842e-13,
+              "raw_transport_cost": 0.08973074342228787,
+              "rounded_transport_cost": 0.08973074342234061
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 7.884318198314588e-16,
+          "audit_objective": 0.0046919070822570574,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 1.2554670999525115,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.6790930625065759e-13,
+              "rounded_residual": 7.103692634125025e-16,
+              "rounded_primal": 0.004691907082257085,
+              "dual": 0.004691907082246245,
+              "numerical_gap": 1.0840287001379068e-14,
+              "rounding_l1": 1.6888025096180842e-13,
+              "raw_transport_cost": 0.08973074342228787,
+              "rounded_transport_cost": 0.08973074342234061
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.0840287001379068e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 7.884318198314588e-16,
+          "audit_objective": 0.0046919070822570574,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 1.362823500065133
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 1.2554670999525115
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112003,
+        "file": "movielens_001.npz",
+        "source_id": "movielens:user:13",
+        "target_id": "movielens:user:158",
+        "active_source": 258,
+        "active_target": 108,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.999999999999881,
+          0.9999999999997586
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "e09e4897b2d447b2e3bd3bd24700d5c3ef2130a133808e11a19330d413cf5b50"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 1.3391109000658616,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2683077244696195e-12,
+              "rounded_residual": 5.915407053080912e-16,
+              "rounded_primal": 0.08122682928727337,
+              "dual": 0.08122682928698245,
+              "numerical_gap": 2.9092006581521446e-13,
+              "rounding_l1": 1.2789931241147495e-12,
+              "raw_transport_cost": 0.08973070934250371,
+              "rounded_transport_cost": 0.0897307093429339
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.9092006581521446e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 6.4791921827733745e-16,
+          "audit_objective": 0.0812268292872734,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 1.363364899996668,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.2683077244696195e-12,
+              "rounded_residual": 5.915407053080912e-16,
+              "rounded_primal": 0.08122682928727337,
+              "dual": 0.08122682928698245,
+              "numerical_gap": 2.9092006581521446e-13,
+              "rounding_l1": 1.2789931241147495e-12,
+              "raw_transport_cost": 0.08973070934250371,
+              "rounded_transport_cost": 0.0897307093429339
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 6.4791921827733745e-16,
+          "audit_objective": 0.0812268292872734,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 1.2975109999533743,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.2683077244696195e-12,
+              "rounded_residual": 5.915407053080912e-16,
+              "rounded_primal": 0.08122682928727337,
+              "dual": 0.08122682928698245,
+              "numerical_gap": 2.9092006581521446e-13,
+              "rounding_l1": 1.2789931241147495e-12,
+              "raw_transport_cost": 0.08973070934250371,
+              "rounded_transport_cost": 0.0897307093429339
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 6.4791921827733745e-16,
+          "audit_objective": 0.0812268292872734,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 1.2658590999199077,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2683077244696195e-12,
+              "rounded_residual": 5.915407053080912e-16,
+              "rounded_primal": 0.08122682928727337,
+              "dual": 0.08122682928698245,
+              "numerical_gap": 2.9092006581521446e-13,
+              "rounding_l1": 1.2789931241147495e-12,
+              "raw_transport_cost": 0.08973070934250371,
+              "rounded_transport_cost": 0.0897307093429339
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.9092006581521446e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 6.4791921827733745e-16,
+          "audit_objective": 0.0812268292872734,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 1.3078669001115486,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.2683077244696195e-12,
+              "rounded_residual": 5.915407053080912e-16,
+              "rounded_primal": 0.08122682928727337,
+              "dual": 0.08122682928698245,
+              "numerical_gap": 2.9092006581521446e-13,
+              "rounding_l1": 1.2789931241147495e-12,
+              "raw_transport_cost": 0.08973070934250371,
+              "rounded_transport_cost": 0.0897307093429339
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 6.4791921827733745e-16,
+          "audit_objective": 0.0812268292872734,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 1.3069931999780238,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2683077244696195e-12,
+              "rounded_residual": 5.915407053080912e-16,
+              "rounded_primal": 0.08122682928727337,
+              "dual": 0.08122682928698245,
+              "numerical_gap": 2.9092006581521446e-13,
+              "rounding_l1": 1.2789931241147495e-12,
+              "raw_transport_cost": 0.08973070934250371,
+              "rounded_transport_cost": 0.0897307093429339
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.9092006581521446e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 6.4791921827733745e-16,
+          "audit_objective": 0.0812268292872734,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 1.3078669001115486
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 1.3069931999780238
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112010,
+        "file": "movielens_002.npz",
+        "source_id": "movielens:user:204",
+        "target_id": "movielens:user:124",
+        "active_source": 34,
+        "active_target": 20,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999991596,
+          0.9999999999986111
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "cdb4cbe43665746e3c7f24c2fcfe0fe57787a46f2029fc16c820c5507b630897"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6484864000231028,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 8.071321389024888e-14,
+              "rounded_residual": 2.5326962749261384e-16,
+              "rounded_primal": 0.11538084358793993,
+              "dual": 0.11538084358793362,
+              "numerical_gap": 6.314393452555578e-15,
+              "rounding_l1": 8.98585937849448e-14,
+              "raw_transport_cost": 0.17661064665830942,
+              "rounded_transport_cost": 0.17661064665833542
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.5326962749261384e-16,
+          "audit_objective": 0.11538084358793999,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6333005001069978,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.071321389024888e-14,
+              "rounded_residual": 2.5326962749261384e-16,
+              "rounded_primal": 0.11538084358793993,
+              "dual": 0.11538084358793362,
+              "numerical_gap": 6.314393452555578e-15,
+              "rounding_l1": 8.98585937849448e-14,
+              "raw_transport_cost": 0.17661064665830942,
+              "rounded_transport_cost": 0.17661064665833542
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 6.314393452555578e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.5326962749261384e-16,
+          "audit_objective": 0.11538084358793999,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6440739000681788,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 8.071321389024888e-14,
+              "rounded_residual": 2.5326962749261384e-16,
+              "rounded_primal": 0.11538084358793993,
+              "dual": 0.11538084358793362,
+              "numerical_gap": 6.314393452555578e-15,
+              "rounding_l1": 8.98585937849448e-14,
+              "raw_transport_cost": 0.17661064665830942,
+              "rounded_transport_cost": 0.17661064665833542
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.5326962749261384e-16,
+          "audit_objective": 0.11538084358793999,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6287517000455409,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.071321389024888e-14,
+              "rounded_residual": 2.5326962749261384e-16,
+              "rounded_primal": 0.11538084358793993,
+              "dual": 0.11538084358793362,
+              "numerical_gap": 6.314393452555578e-15,
+              "rounding_l1": 8.98585937849448e-14,
+              "raw_transport_cost": 0.17661064665830942,
+              "rounded_transport_cost": 0.17661064665833542
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 6.314393452555578e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.5326962749261384e-16,
+          "audit_objective": 0.11538084358793999,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6424647000385448,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 8.071321389024888e-14,
+              "rounded_residual": 2.5326962749261384e-16,
+              "rounded_primal": 0.11538084358793993,
+              "dual": 0.11538084358793362,
+              "numerical_gap": 6.314393452555578e-15,
+              "rounding_l1": 8.98585937849448e-14,
+              "raw_transport_cost": 0.17661064665830942,
+              "rounded_transport_cost": 0.17661064665833542
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 6.314393452555578e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.5326962749261384e-16,
+          "audit_objective": 0.11538084358793999,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6508312999503687,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 8.071321389024888e-14,
+              "rounded_residual": 2.5326962749261384e-16,
+              "rounded_primal": 0.11538084358793993,
+              "dual": 0.11538084358793362,
+              "numerical_gap": 6.314393452555578e-15,
+              "rounding_l1": 8.98585937849448e-14,
+              "raw_transport_cost": 0.17661064665830942,
+              "rounded_transport_cost": 0.17661064665833542
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.5326962749261384e-16,
+          "audit_objective": 0.11538084358793999,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6484864000231028
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6333005001069978
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112010,
+        "file": "movielens_002.npz",
+        "source_id": "movielens:user:204",
+        "target_id": "movielens:user:124",
+        "active_source": 34,
+        "active_target": 20,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999991596,
+          0.9999999999986111
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "cdb4cbe43665746e3c7f24c2fcfe0fe57787a46f2029fc16c820c5507b630897"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6388094000285491,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.157005047325299e-12,
+              "rounded_residual": 1.3357370765021415e-16,
+              "rounded_primal": 0.1704876641758058,
+              "dual": 0.17048766417568484,
+              "numerical_gap": 1.209587985329108e-13,
+              "rounding_l1": 1.1570081448790091e-12,
+              "raw_transport_cost": 0.1766106442272638,
+              "rounded_transport_cost": 0.17661064422761977
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.209587985329108e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.1704876641758058,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6305853999219835,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.157005047325299e-12,
+              "rounded_residual": 1.3357370765021415e-16,
+              "rounded_primal": 0.1704876641758058,
+              "dual": 0.17048766417568484,
+              "numerical_gap": 1.209587985329108e-13,
+              "rounding_l1": 1.1570081448790091e-12,
+              "raw_transport_cost": 0.1766106442272638,
+              "rounded_transport_cost": 0.17661064422761977
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.1704876641758058,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6341840999666601,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.157005047325299e-12,
+              "rounded_residual": 1.3357370765021415e-16,
+              "rounded_primal": 0.1704876641758058,
+              "dual": 0.17048766417568484,
+              "numerical_gap": 1.209587985329108e-13,
+              "rounding_l1": 1.1570081448790091e-12,
+              "raw_transport_cost": 0.1766106442272638,
+              "rounded_transport_cost": 0.17661064422761977
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.1704876641758058,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6256577000021935,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.157005047325299e-12,
+              "rounded_residual": 1.3357370765021415e-16,
+              "rounded_primal": 0.1704876641758058,
+              "dual": 0.17048766417568484,
+              "numerical_gap": 1.209587985329108e-13,
+              "rounding_l1": 1.1570081448790091e-12,
+              "raw_transport_cost": 0.1766106442272638,
+              "rounded_transport_cost": 0.17661064422761977
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.209587985329108e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.1704876641758058,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6537948000477627,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.157005047325299e-12,
+              "rounded_residual": 1.3357370765021415e-16,
+              "rounded_primal": 0.1704876641758058,
+              "dual": 0.17048766417568484,
+              "numerical_gap": 1.209587985329108e-13,
+              "rounding_l1": 1.1570081448790091e-12,
+              "raw_transport_cost": 0.1766106442272638,
+              "rounded_transport_cost": 0.17661064422761977
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.1704876641758058,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6498795000370592,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.157005047325299e-12,
+              "rounded_residual": 1.3357370765021415e-16,
+              "rounded_primal": 0.1704876641758058,
+              "dual": 0.17048766417568484,
+              "numerical_gap": 1.209587985329108e-13,
+              "rounding_l1": 1.1570081448790091e-12,
+              "raw_transport_cost": 0.1766106442272638,
+              "rounded_transport_cost": 0.17661064422761977
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.209587985329108e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.1704876641758058,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6341840999666601
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6388094000285491
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112012,
+        "file": "movielens_003.npz",
+        "source_id": "movielens:user:68",
+        "target_id": "movielens:user:254",
+        "active_source": 20,
+        "active_target": 88,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999986485,
+          0.9999999999996416
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "cdef937bb4d3077561bbfe5f8a85288f02b43ad391ad197203f766d817cebe61"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6663497999543324,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1617790063311872e-13,
+              "rounded_residual": 1.4354836763708079e-16,
+              "rounded_primal": 0.11766342583931315,
+              "dual": 0.11766342583930853,
+              "numerical_gap": 4.621303340002214e-15,
+              "rounding_l1": 1.1616882937719252e-13,
+              "raw_transport_cost": 0.1844328540424685,
+              "rounded_transport_cost": 0.18443285404251122
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.4354836763708079e-16,
+          "audit_objective": 0.11766342583931315,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6460791999706998,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1617790063311872e-13,
+              "rounded_residual": 1.4354836763708079e-16,
+              "rounded_primal": 0.11766342583931315,
+              "dual": 0.11766342583930853,
+              "numerical_gap": 4.621303340002214e-15,
+              "rounding_l1": 1.1616882937719252e-13,
+              "raw_transport_cost": 0.1844328540424685,
+              "rounded_transport_cost": 0.18443285404251122
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 4.621303340002214e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.4354836763708079e-16,
+          "audit_objective": 0.11766342583931315,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6587494999403134,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1617790063311872e-13,
+              "rounded_residual": 1.4354836763708079e-16,
+              "rounded_primal": 0.11766342583931315,
+              "dual": 0.11766342583930853,
+              "numerical_gap": 4.621303340002214e-15,
+              "rounding_l1": 1.1616882937719252e-13,
+              "raw_transport_cost": 0.1844328540424685,
+              "rounded_transport_cost": 0.18443285404251122
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 4.621303340002214e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.4354836763708079e-16,
+          "audit_objective": 0.11766342583931315,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6561724999919534,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1617790063311872e-13,
+              "rounded_residual": 1.4354836763708079e-16,
+              "rounded_primal": 0.11766342583931315,
+              "dual": 0.11766342583930853,
+              "numerical_gap": 4.621303340002214e-15,
+              "rounding_l1": 1.1616882937719252e-13,
+              "raw_transport_cost": 0.1844328540424685,
+              "rounded_transport_cost": 0.18443285404251122
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.4354836763708079e-16,
+          "audit_objective": 0.11766342583931315,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6495571000268683,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1617790063311872e-13,
+              "rounded_residual": 1.4354836763708079e-16,
+              "rounded_primal": 0.11766342583931315,
+              "dual": 0.11766342583930853,
+              "numerical_gap": 4.621303340002214e-15,
+              "rounding_l1": 1.1616882937719252e-13,
+              "raw_transport_cost": 0.1844328540424685,
+              "rounded_transport_cost": 0.18443285404251122
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 4.621303340002214e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.4354836763708079e-16,
+          "audit_objective": 0.11766342583931315,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6731409999774769,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1617790063311872e-13,
+              "rounded_residual": 1.4354836763708079e-16,
+              "rounded_primal": 0.11766342583931315,
+              "dual": 0.11766342583930853,
+              "numerical_gap": 4.621303340002214e-15,
+              "rounding_l1": 1.1616882937719252e-13,
+              "raw_transport_cost": 0.1844328540424685,
+              "rounded_transport_cost": 0.18443285404251122
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.4354836763708079e-16,
+          "audit_objective": 0.11766342583931315,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6663497999543324
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6495571000268683
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112012,
+        "file": "movielens_003.npz",
+        "source_id": "movielens:user:68",
+        "target_id": "movielens:user:254",
+        "active_source": 20,
+        "active_target": 88,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999986485,
+          0.9999999999996416
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "cdef937bb4d3077561bbfe5f8a85288f02b43ad391ad197203f766d817cebe61"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6627681000391021,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0649636554560526e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.1777558806515188,
+              "dual": 0.17775588065134176,
+              "numerical_gap": 1.770250612764812e-13,
+              "rounding_l1": 1.064962664517956e-12,
+              "raw_transport_cost": 0.18443281988492843,
+              "rounded_transport_cost": 0.18443281988533186
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.770250612764812e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.5785983631388945e-16,
+          "audit_objective": 0.17775588065151876,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6462684000143781,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0649636554560526e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.1777558806515188,
+              "dual": 0.17775588065134176,
+              "numerical_gap": 1.770250612764812e-13,
+              "rounding_l1": 1.064962664517956e-12,
+              "raw_transport_cost": 0.18443281988492843,
+              "rounded_transport_cost": 0.18443281988533186
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.5785983631388945e-16,
+          "audit_objective": 0.17775588065151876,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6632823999971151,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0649636554560526e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.1777558806515188,
+              "dual": 0.17775588065134176,
+              "numerical_gap": 1.770250612764812e-13,
+              "rounding_l1": 1.064962664517956e-12,
+              "raw_transport_cost": 0.18443281988492843,
+              "rounded_transport_cost": 0.18443281988533186
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.770250612764812e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.5785983631388945e-16,
+          "audit_objective": 0.17775588065151876,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6522168000228703,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0649636554560526e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.1777558806515188,
+              "dual": 0.17775588065134176,
+              "numerical_gap": 1.770250612764812e-13,
+              "rounding_l1": 1.064962664517956e-12,
+              "raw_transport_cost": 0.18443281988492843,
+              "rounded_transport_cost": 0.18443281988533186
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.5785983631388945e-16,
+          "audit_objective": 0.17775588065151876,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6792056000558659,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0649636554560526e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.1777558806515188,
+              "dual": 0.17775588065134176,
+              "numerical_gap": 1.770250612764812e-13,
+              "rounding_l1": 1.064962664517956e-12,
+              "raw_transport_cost": 0.18443281988492843,
+              "rounded_transport_cost": 0.18443281988533186
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.770250612764812e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.5785983631388945e-16,
+          "audit_objective": 0.17775588065151876,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6654795999638736,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0649636554560526e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.1777558806515188,
+              "dual": 0.17775588065134176,
+              "numerical_gap": 1.770250612764812e-13,
+              "rounding_l1": 1.064962664517956e-12,
+              "raw_transport_cost": 0.18443281988492843,
+              "rounded_transport_cost": 0.18443281988533186
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.5785983631388945e-16,
+          "audit_objective": 0.17775588065151876,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6522168000228703
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6632823999971151
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112013,
+        "file": "movielens_004.npz",
+        "source_id": "movielens:user:253",
+        "target_id": "movielens:user:6",
+        "active_source": 57,
+        "active_target": 120,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999995557,
+          0.9999999999997653
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "449b9a17250d0f5ae691f4e7b8b1a730ee586444ea10b442961be4941b1511f6"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7826266000047326,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.299112727115581e-13,
+              "rounded_residual": 2.3418766925686896e-16,
+              "rounded_primal": 0.047732224179292695,
+              "dual": 0.04773222417928891,
+              "numerical_gap": 3.788636071533347e-15,
+              "rounding_l1": 1.3235200805206033e-13,
+              "raw_transport_cost": 0.12392812810676168,
+              "rounded_transport_cost": 0.12392812810679942
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.0661237437890065e-16,
+          "audit_objective": 0.047732224179292695,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7813516000751406,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.299112727115581e-13,
+              "rounded_residual": 2.3418766925686896e-16,
+              "rounded_primal": 0.047732224179292695,
+              "dual": 0.04773222417928891,
+              "numerical_gap": 3.788636071533347e-15,
+              "rounding_l1": 1.3235200805206033e-13,
+              "raw_transport_cost": 0.12392812810676168,
+              "rounded_transport_cost": 0.12392812810679942
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 3.788636071533347e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.0661237437890065e-16,
+          "audit_objective": 0.047732224179292695,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.810282799997367,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.299112727115581e-13,
+              "rounded_residual": 2.3418766925686896e-16,
+              "rounded_primal": 0.047732224179292695,
+              "dual": 0.04773222417928891,
+              "numerical_gap": 3.788636071533347e-15,
+              "rounding_l1": 1.3235200805206033e-13,
+              "raw_transport_cost": 0.12392812810676168,
+              "rounded_transport_cost": 0.12392812810679942
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 3.788636071533347e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.0661237437890065e-16,
+          "audit_objective": 0.047732224179292695,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7807145999977365,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.299112727115581e-13,
+              "rounded_residual": 2.3418766925686896e-16,
+              "rounded_primal": 0.047732224179292695,
+              "dual": 0.04773222417928891,
+              "numerical_gap": 3.788636071533347e-15,
+              "rounding_l1": 1.3235200805206033e-13,
+              "raw_transport_cost": 0.12392812810676168,
+              "rounded_transport_cost": 0.12392812810679942
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.0661237437890065e-16,
+          "audit_objective": 0.047732224179292695,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7833694000728428,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.299112727115581e-13,
+              "rounded_residual": 2.3418766925686896e-16,
+              "rounded_primal": 0.047732224179292695,
+              "dual": 0.04773222417928891,
+              "numerical_gap": 3.788636071533347e-15,
+              "rounding_l1": 1.3235200805206033e-13,
+              "raw_transport_cost": 0.12392812810676168,
+              "rounded_transport_cost": 0.12392812810679942
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 3.788636071533347e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.0661237437890065e-16,
+          "audit_objective": 0.047732224179292695,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7639426999958232,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.299112727115581e-13,
+              "rounded_residual": 2.3418766925686896e-16,
+              "rounded_primal": 0.047732224179292695,
+              "dual": 0.04773222417928891,
+              "numerical_gap": 3.788636071533347e-15,
+              "rounding_l1": 1.3235200805206033e-13,
+              "raw_transport_cost": 0.12392812810676168,
+              "rounded_transport_cost": 0.12392812810679942
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.0661237437890065e-16,
+          "audit_objective": 0.047732224179292695,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7807145999977365
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7833694000728428
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112013,
+        "file": "movielens_004.npz",
+        "source_id": "movielens:user:253",
+        "target_id": "movielens:user:6",
+        "active_source": 57,
+        "active_target": 120,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999995557,
+          0.9999999999997653
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "449b9a17250d0f5ae691f4e7b8b1a730ee586444ea10b442961be4941b1511f6"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7731156999943778,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3272724933011126e-12,
+              "rounded_residual": 1.8041124150158794e-16,
+              "rounded_primal": 0.11630843424488962,
+              "dual": 0.11630843424464676,
+              "numerical_gap": 2.42861286636753e-13,
+              "rounding_l1": 1.3459612702615383e-12,
+              "raw_transport_cost": 0.12392801249820296,
+              "rounded_transport_cost": 0.12392801249862874
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.42861286636753e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.233456475320139e-16,
+          "audit_objective": 0.11630843424488962,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7810459999600425,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3272724933011126e-12,
+              "rounded_residual": 1.8041124150158794e-16,
+              "rounded_primal": 0.11630843424488962,
+              "dual": 0.11630843424464676,
+              "numerical_gap": 2.42861286636753e-13,
+              "rounding_l1": 1.3459612702615383e-12,
+              "raw_transport_cost": 0.12392801249820296,
+              "rounded_transport_cost": 0.12392801249862874
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.233456475320139e-16,
+          "audit_objective": 0.11630843424488962,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7866648000199348,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3272724933011126e-12,
+              "rounded_residual": 1.8041124150158794e-16,
+              "rounded_primal": 0.11630843424488962,
+              "dual": 0.11630843424464676,
+              "numerical_gap": 2.42861286636753e-13,
+              "rounding_l1": 1.3459612702615383e-12,
+              "raw_transport_cost": 0.12392801249820296,
+              "rounded_transport_cost": 0.12392801249862874
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.42861286636753e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.233456475320139e-16,
+          "audit_objective": 0.11630843424488962,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.8724583999719471,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3272724933011126e-12,
+              "rounded_residual": 1.8041124150158794e-16,
+              "rounded_primal": 0.11630843424488962,
+              "dual": 0.11630843424464676,
+              "numerical_gap": 2.42861286636753e-13,
+              "rounding_l1": 1.3459612702615383e-12,
+              "raw_transport_cost": 0.12392801249820296,
+              "rounded_transport_cost": 0.12392801249862874
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.233456475320139e-16,
+          "audit_objective": 0.11630843424488962,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.8151034000329673,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3272724933011126e-12,
+              "rounded_residual": 1.8041124150158794e-16,
+              "rounded_primal": 0.11630843424488962,
+              "dual": 0.11630843424464676,
+              "numerical_gap": 2.42861286636753e-13,
+              "rounding_l1": 1.3459612702615383e-12,
+              "raw_transport_cost": 0.12392801249820296,
+              "rounded_transport_cost": 0.12392801249862874
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 2.42861286636753e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.233456475320139e-16,
+          "audit_objective": 0.11630843424488962,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.8530779000138864,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3272724933011126e-12,
+              "rounded_residual": 1.8041124150158794e-16,
+              "rounded_primal": 0.11630843424488962,
+              "dual": 0.11630843424464676,
+              "numerical_gap": 2.42861286636753e-13,
+              "rounding_l1": 1.3459612702615383e-12,
+              "raw_transport_cost": 0.12392801249820296,
+              "rounded_transport_cost": 0.12392801249862874
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.233456475320139e-16,
+          "audit_objective": 0.11630843424488962,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.8530779000138864
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7866648000199348
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112017,
+        "file": "movielens_005.npz",
+        "source_id": "movielens:user:295",
+        "target_id": "movielens:user:40",
+        "active_source": 108,
+        "active_target": 28,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999997817,
+          0.9999999999987654
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "78f2b9433503338bf427be8ac64e051be33fb6c58a7c54011aa53b5aaeb8918d"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7109447999391705,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.6740255015523786e-13,
+              "rounded_residual": 4.2500725161431774e-16,
+              "rounded_primal": 0.07286381549390429,
+              "dual": 0.07286381549390333,
+              "numerical_gap": 9.575673587391975e-16,
+              "rounding_l1": 1.6746271940325072e-13,
+              "raw_transport_cost": 0.1439484748513883,
+              "rounded_transport_cost": 0.14394847485143664
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 4.2500725161431774e-16,
+          "audit_objective": 0.07286381549390426,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.689473700011149,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.6740255015523786e-13,
+              "rounded_residual": 4.2500725161431774e-16,
+              "rounded_primal": 0.07286381549390429,
+              "dual": 0.07286381549390333,
+              "numerical_gap": 9.575673587391975e-16,
+              "rounding_l1": 1.6746271940325072e-13,
+              "raw_transport_cost": 0.1439484748513883,
+              "rounded_transport_cost": 0.14394847485143664
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 9.575673587391975e-16,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 4.2500725161431774e-16,
+          "audit_objective": 0.07286381549390426,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6996765999356285,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.6740255015523786e-13,
+              "rounded_residual": 4.2500725161431774e-16,
+              "rounded_primal": 0.07286381549390429,
+              "dual": 0.07286381549390333,
+              "numerical_gap": 9.575673587391975e-16,
+              "rounding_l1": 1.6746271940325072e-13,
+              "raw_transport_cost": 0.1439484748513883,
+              "rounded_transport_cost": 0.14394847485143664
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 9.575673587391975e-16,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 4.2500725161431774e-16,
+          "audit_objective": 0.07286381549390426,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7313762999838218,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.6740255015523786e-13,
+              "rounded_residual": 4.2500725161431774e-16,
+              "rounded_primal": 0.07286381549390429,
+              "dual": 0.07286381549390333,
+              "numerical_gap": 9.575673587391975e-16,
+              "rounding_l1": 1.6746271940325072e-13,
+              "raw_transport_cost": 0.1439484748513883,
+              "rounded_transport_cost": 0.14394847485143664
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 4.2500725161431774e-16,
+          "audit_objective": 0.07286381549390426,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7287307999795303,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.6740255015523786e-13,
+              "rounded_residual": 4.2500725161431774e-16,
+              "rounded_primal": 0.07286381549390429,
+              "dual": 0.07286381549390333,
+              "numerical_gap": 9.575673587391975e-16,
+              "rounding_l1": 1.6746271940325072e-13,
+              "raw_transport_cost": 0.1439484748513883,
+              "rounded_transport_cost": 0.14394847485143664
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 9.575673587391975e-16,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 4.2500725161431774e-16,
+          "audit_objective": 0.07286381549390426,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7143477000063285,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.6740255015523786e-13,
+              "rounded_residual": 4.2500725161431774e-16,
+              "rounded_primal": 0.07286381549390429,
+              "dual": 0.07286381549390333,
+              "numerical_gap": 9.575673587391975e-16,
+              "rounding_l1": 1.6746271940325072e-13,
+              "raw_transport_cost": 0.1439484748513883,
+              "rounded_transport_cost": 0.14394847485143664
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 4.2500725161431774e-16,
+          "audit_objective": 0.07286381549390426,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7143477000063285
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6996765999356285
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "movielens",
+        "seed": 112017,
+        "file": "movielens_005.npz",
+        "source_id": "movielens:user:295",
+        "target_id": "movielens:user:40",
+        "active_source": 108,
+        "active_target": 28,
+        "stored_shape": [
+          400,
+          400
+        ],
+        "loader_mass_sums": [
+          0.9999999999997817,
+          0.9999999999987654
+        ],
+        "geometry": "Movie genre vectors (19D)",
+        "sha256": "78f2b9433503338bf427be8ac64e051be33fb6c58a7c54011aa53b5aaeb8918d"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6905848999740556,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1570943855843119e-12,
+              "rounded_residual": 3.469446951953614e-16,
+              "rounded_primal": 0.136839996347709,
+              "dual": 0.1368399963475578,
+              "numerical_gap": 1.511846203783307e-13,
+              "rounding_l1": 1.1980568514915963e-12,
+              "raw_transport_cost": 0.14394846080871276,
+              "rounded_transport_cost": 0.14394846080901047
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.469446951953614e-16,
+          "audit_objective": 0.13683999634770894,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.703406700049527,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1570943855843119e-12,
+              "rounded_residual": 3.469446951953614e-16,
+              "rounded_primal": 0.136839996347709,
+              "dual": 0.1368399963475578,
+              "numerical_gap": 1.511846203783307e-13,
+              "rounding_l1": 1.1980568514915963e-12,
+              "raw_transport_cost": 0.14394846080871276,
+              "rounded_transport_cost": 0.14394846080901047
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.511846203783307e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.469446951953614e-16,
+          "audit_objective": 0.13683999634770894,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7107711000135168,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1570943855843119e-12,
+              "rounded_residual": 3.469446951953614e-16,
+              "rounded_primal": 0.136839996347709,
+              "dual": 0.1368399963475578,
+              "numerical_gap": 1.511846203783307e-13,
+              "rounding_l1": 1.1980568514915963e-12,
+              "raw_transport_cost": 0.14394846080871276,
+              "rounded_transport_cost": 0.14394846080901047
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.469446951953614e-16,
+          "audit_objective": 0.13683999634770894,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7164020999334753,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1570943855843119e-12,
+              "rounded_residual": 3.469446951953614e-16,
+              "rounded_primal": 0.136839996347709,
+              "dual": 0.1368399963475578,
+              "numerical_gap": 1.511846203783307e-13,
+              "rounding_l1": 1.1980568514915963e-12,
+              "raw_transport_cost": 0.14394846080871276,
+              "rounded_transport_cost": 0.14394846080901047
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.511846203783307e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.469446951953614e-16,
+          "audit_objective": 0.13683999634770894,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7139353998936713,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1570943855843119e-12,
+              "rounded_residual": 3.469446951953614e-16,
+              "rounded_primal": 0.136839996347709,
+              "dual": 0.1368399963475578,
+              "numerical_gap": 1.511846203783307e-13,
+              "rounding_l1": 1.1980568514915963e-12,
+              "raw_transport_cost": 0.14394846080871276,
+              "rounded_transport_cost": 0.14394846080901047
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.469446951953614e-16,
+          "audit_objective": 0.13683999634770894,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7269577999832109,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1570943855843119e-12,
+              "rounded_residual": 3.469446951953614e-16,
+              "rounded_primal": 0.136839996347709,
+              "dual": 0.1368399963475578,
+              "numerical_gap": 1.511846203783307e-13,
+              "rounding_l1": 1.1980568514915963e-12,
+              "raw_transport_cost": 0.14394846080871276,
+              "rounded_transport_cost": 0.14394846080901047
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.511846203783307e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.469446951953614e-16,
+          "audit_objective": 0.13683999634770894,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7107711000135168
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7164020999334753
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112002,
+        "file": "kos_000.npz",
+        "source_id": "uci:kos:document:78",
+        "target_id": "uci:kos:document:612",
+        "active_source": 63,
+        "active_target": 53,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "9b172188a07d214862e6bc1333b27124aba2df955d836257db02d4f6e15902c7"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6891524998936802,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3986901914453398e-13,
+              "rounded_residual": 2.914335439641036e-16,
+              "rounded_primal": 0.20351707505318195,
+              "dual": 0.20351707505318037,
+              "numerical_gap": 1.582067810090848e-15,
+              "rounding_l1": 1.4049581839077533e-13,
+              "raw_transport_cost": 0.263438806028669,
+              "rounded_transport_cost": 0.26343880602872893
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.582067810090848e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.914335439641036e-16,
+          "audit_objective": 0.20351707505318206,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.720327700022608,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3986901914453398e-13,
+              "rounded_residual": 2.914335439641036e-16,
+              "rounded_primal": 0.20351707505318195,
+              "dual": 0.20351707505318037,
+              "numerical_gap": 1.582067810090848e-15,
+              "rounding_l1": 1.4049581839077533e-13,
+              "raw_transport_cost": 0.263438806028669,
+              "rounded_transport_cost": 0.26343880602872893
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.914335439641036e-16,
+          "audit_objective": 0.20351707505318206,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7373790999408811,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3986901914453398e-13,
+              "rounded_residual": 2.914335439641036e-16,
+              "rounded_primal": 0.20351707505318195,
+              "dual": 0.20351707505318037,
+              "numerical_gap": 1.582067810090848e-15,
+              "rounding_l1": 1.4049581839077533e-13,
+              "raw_transport_cost": 0.263438806028669,
+              "rounded_transport_cost": 0.26343880602872893
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.582067810090848e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.914335439641036e-16,
+          "audit_objective": 0.20351707505318206,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7316656999755651,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3986901914453398e-13,
+              "rounded_residual": 2.914335439641036e-16,
+              "rounded_primal": 0.20351707505318195,
+              "dual": 0.20351707505318037,
+              "numerical_gap": 1.582067810090848e-15,
+              "rounding_l1": 1.4049581839077533e-13,
+              "raw_transport_cost": 0.263438806028669,
+              "rounded_transport_cost": 0.26343880602872893
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.914335439641036e-16,
+          "audit_objective": 0.20351707505318206,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.708019399899058,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3986901914453398e-13,
+              "rounded_residual": 2.914335439641036e-16,
+              "rounded_primal": 0.20351707505318195,
+              "dual": 0.20351707505318037,
+              "numerical_gap": 1.582067810090848e-15,
+              "rounding_l1": 1.4049581839077533e-13,
+              "raw_transport_cost": 0.263438806028669,
+              "rounded_transport_cost": 0.26343880602872893
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.582067810090848e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.914335439641036e-16,
+          "audit_objective": 0.20351707505318206,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.752664600033313,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3986901914453398e-13,
+              "rounded_residual": 2.914335439641036e-16,
+              "rounded_primal": 0.20351707505318195,
+              "dual": 0.20351707505318037,
+              "numerical_gap": 1.582067810090848e-15,
+              "rounding_l1": 1.4049581839077533e-13,
+              "raw_transport_cost": 0.263438806028669,
+              "rounded_transport_cost": 0.26343880602872893
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.914335439641036e-16,
+          "audit_objective": 0.20351707505318206,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7316656999755651
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.708019399899058
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112002,
+        "file": "kos_000.npz",
+        "source_id": "uci:kos:document:78",
+        "target_id": "uci:kos:document:612",
+        "active_source": 63,
+        "active_target": 53,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "9b172188a07d214862e6bc1333b27124aba2df955d836257db02d4f6e15902c7"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7300261000636965,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1305539837636047e-12,
+              "rounded_residual": 1.6479873021779667e-16,
+              "rounded_primal": 0.25523393575870873,
+              "dual": 0.25523393575851966,
+              "numerical_gap": 1.8907098109366416e-13,
+              "rounding_l1": 1.1563110185786538e-12,
+              "raw_transport_cost": 0.2607391699540798,
+              "rounded_transport_cost": 0.26073916995448426
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.25523393575870873,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7204068000428379,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1305539837636047e-12,
+              "rounded_residual": 1.6479873021779667e-16,
+              "rounded_primal": 0.25523393575870873,
+              "dual": 0.25523393575851966,
+              "numerical_gap": 1.8907098109366416e-13,
+              "rounding_l1": 1.1563110185786538e-12,
+              "raw_transport_cost": 0.2607391699540798,
+              "rounded_transport_cost": 0.26073916995448426
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.8907098109366416e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.25523393575870873,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.738664299948141,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1305539837636047e-12,
+              "rounded_residual": 1.6479873021779667e-16,
+              "rounded_primal": 0.25523393575870873,
+              "dual": 0.25523393575851966,
+              "numerical_gap": 1.8907098109366416e-13,
+              "rounding_l1": 1.1563110185786538e-12,
+              "raw_transport_cost": 0.2607391699540798,
+              "rounded_transport_cost": 0.26073916995448426
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.25523393575870873,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7099825000623241,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1305539837636047e-12,
+              "rounded_residual": 1.6479873021779667e-16,
+              "rounded_primal": 0.25523393575870873,
+              "dual": 0.25523393575851966,
+              "numerical_gap": 1.8907098109366416e-13,
+              "rounding_l1": 1.1563110185786538e-12,
+              "raw_transport_cost": 0.2607391699540798,
+              "rounded_transport_cost": 0.26073916995448426
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.8907098109366416e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.25523393575870873,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7175827999599278,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1305539837636047e-12,
+              "rounded_residual": 1.6479873021779667e-16,
+              "rounded_primal": 0.25523393575870873,
+              "dual": 0.25523393575851966,
+              "numerical_gap": 1.8907098109366416e-13,
+              "rounding_l1": 1.1563110185786538e-12,
+              "raw_transport_cost": 0.2607391699540798,
+              "rounded_transport_cost": 0.26073916995448426
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.25523393575870873,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7152414999436587,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1305539837636047e-12,
+              "rounded_residual": 1.6479873021779667e-16,
+              "rounded_primal": 0.25523393575870873,
+              "dual": 0.25523393575851966,
+              "numerical_gap": 1.8907098109366416e-13,
+              "rounding_l1": 1.1563110185786538e-12,
+              "raw_transport_cost": 0.2607391699540798,
+              "rounded_transport_cost": 0.26073916995448426
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.8907098109366416e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6479873021779667e-16,
+          "audit_objective": 0.25523393575870873,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7300261000636965
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7152414999436587
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112003,
+        "file": "kos_001.npz",
+        "source_id": "uci:kos:document:535",
+        "target_id": "uci:kos:document:529",
+        "active_source": 44,
+        "active_target": 126,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "95e5eb98f35fcb7cd863ec9eecd538e0bda5395ba414ec91c6fa854b2590e579"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7562539000064135,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.5154717758480984e-13,
+              "rounded_residual": 2.1163626406917047e-16,
+              "rounded_primal": 0.4337784270540351,
+              "dual": 0.43377842705403197,
+              "numerical_gap": 3.1086244689504383e-15,
+              "rounding_l1": 1.5311426007019707e-13,
+              "raw_transport_cost": 0.5105019781451977,
+              "rounded_transport_cost": 0.5105019781452881
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 3.1086244689504383e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.122502256758253e-16,
+          "audit_objective": 0.4337784270540351,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.779630700009875,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.5154717758480984e-13,
+              "rounded_residual": 2.1163626406917047e-16,
+              "rounded_primal": 0.4337784270540351,
+              "dual": 0.43377842705403197,
+              "numerical_gap": 3.1086244689504383e-15,
+              "rounding_l1": 1.5311426007019707e-13,
+              "raw_transport_cost": 0.5105019781451977,
+              "rounded_transport_cost": 0.5105019781452881
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.122502256758253e-16,
+          "audit_objective": 0.4337784270540351,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7791737000225112,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.5154717758480984e-13,
+              "rounded_residual": 2.1163626406917047e-16,
+              "rounded_primal": 0.4337784270540351,
+              "dual": 0.43377842705403197,
+              "numerical_gap": 3.1086244689504383e-15,
+              "rounding_l1": 1.5311426007019707e-13,
+              "raw_transport_cost": 0.5105019781451977,
+              "rounded_transport_cost": 0.5105019781452881
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.122502256758253e-16,
+          "audit_objective": 0.4337784270540351,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7521730000153184,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.5154717758480984e-13,
+              "rounded_residual": 2.1163626406917047e-16,
+              "rounded_primal": 0.4337784270540351,
+              "dual": 0.43377842705403197,
+              "numerical_gap": 3.1086244689504383e-15,
+              "rounding_l1": 1.5311426007019707e-13,
+              "raw_transport_cost": 0.5105019781451977,
+              "rounded_transport_cost": 0.5105019781452881
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 3.1086244689504383e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.122502256758253e-16,
+          "audit_objective": 0.4337784270540351,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7435132999671623,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.5154717758480984e-13,
+              "rounded_residual": 2.1163626406917047e-16,
+              "rounded_primal": 0.4337784270540351,
+              "dual": 0.43377842705403197,
+              "numerical_gap": 3.1086244689504383e-15,
+              "rounding_l1": 1.5311426007019707e-13,
+              "raw_transport_cost": 0.5105019781451977,
+              "rounded_transport_cost": 0.5105019781452881
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 3.1086244689504383e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 3.122502256758253e-16,
+          "audit_objective": 0.4337784270540351,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7850487999385223,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.5154717758480984e-13,
+              "rounded_residual": 2.1163626406917047e-16,
+              "rounded_primal": 0.4337784270540351,
+              "dual": 0.43377842705403197,
+              "numerical_gap": 3.1086244689504383e-15,
+              "rounding_l1": 1.5311426007019707e-13,
+              "raw_transport_cost": 0.5105019781451977,
+              "rounded_transport_cost": 0.5105019781452881
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 3.122502256758253e-16,
+          "audit_objective": 0.4337784270540351,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.779630700009875
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7521730000153184
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112003,
+        "file": "kos_001.npz",
+        "source_id": "uci:kos:document:535",
+        "target_id": "uci:kos:document:529",
+        "active_source": 44,
+        "active_target": 126,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "95e5eb98f35fcb7cd863ec9eecd538e0bda5395ba414ec91c6fa854b2590e579"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7993993000127375,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.4549724272616693e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.49847831079373117,
+              "dual": 0.4984783107936341,
+              "numerical_gap": 9.708900350346994e-14,
+              "rounding_l1": 1.4636687974243616e-12,
+              "raw_transport_cost": 0.5049892453334688,
+              "rounded_transport_cost": 0.5049892453343265
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 9.708900350346994e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.8275992658421956e-16,
+          "audit_objective": 0.49847831079373117,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7617445000214502,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.4549724272616693e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.49847831079373117,
+              "dual": 0.4984783107936341,
+              "numerical_gap": 9.708900350346994e-14,
+              "rounding_l1": 1.4636687974243616e-12,
+              "raw_transport_cost": 0.5049892453334688,
+              "rounded_transport_cost": 0.5049892453343265
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.8275992658421956e-16,
+          "audit_objective": 0.49847831079373117,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7599687000038102,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.4549724272616693e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.49847831079373117,
+              "dual": 0.4984783107936341,
+              "numerical_gap": 9.708900350346994e-14,
+              "rounding_l1": 1.4636687974243616e-12,
+              "raw_transport_cost": 0.5049892453334688,
+              "rounded_transport_cost": 0.5049892453343265
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.8275992658421956e-16,
+          "audit_objective": 0.49847831079373117,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7552150000119582,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.4549724272616693e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.49847831079373117,
+              "dual": 0.4984783107936341,
+              "numerical_gap": 9.708900350346994e-14,
+              "rounding_l1": 1.4636687974243616e-12,
+              "raw_transport_cost": 0.5049892453334688,
+              "rounded_transport_cost": 0.5049892453343265
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 9.708900350346994e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.8275992658421956e-16,
+          "audit_objective": 0.49847831079373117,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7575909000588581,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.4549724272616693e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.49847831079373117,
+              "dual": 0.4984783107936341,
+              "numerical_gap": 9.708900350346994e-14,
+              "rounding_l1": 1.4636687974243616e-12,
+              "raw_transport_cost": 0.5049892453334688,
+              "rounded_transport_cost": 0.5049892453343265
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.8275992658421956e-16,
+          "audit_objective": 0.49847831079373117,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7682984999846667,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.4549724272616693e-12,
+              "rounded_residual": 1.5785983631388945e-16,
+              "rounded_primal": 0.49847831079373117,
+              "dual": 0.4984783107936341,
+              "numerical_gap": 9.708900350346994e-14,
+              "rounding_l1": 1.4636687974243616e-12,
+              "raw_transport_cost": 0.5049892453334688,
+              "rounded_transport_cost": 0.5049892453343265
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 9.708900350346994e-14,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.8275992658421956e-16,
+          "audit_objective": 0.49847831079373117,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7599687000038102
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7682984999846667
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112005,
+        "file": "kos_002.npz",
+        "source_id": "uci:kos:document:48",
+        "target_id": "uci:kos:document:591",
+        "active_source": 31,
+        "active_target": 39,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "de21e6cdbd294d05b02f50a7fa90cd09fd9e35b9519114aea219a2552ce28836"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6602164999349043,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1443970771018996e-13,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.0837896052153142,
+              "dual": 0.08378960521531192,
+              "numerical_gap": 2.275957200481571e-15,
+              "rounding_l1": 1.168761748714843e-13,
+              "raw_transport_cost": 0.13742014771017436,
+              "rounded_transport_cost": 0.13742014771020547
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.3530843112619095e-16,
+          "audit_objective": 0.08378960521531417,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7472307001007721,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1443970771018996e-13,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.0837896052153142,
+              "dual": 0.08378960521531192,
+              "numerical_gap": 2.275957200481571e-15,
+              "rounding_l1": 1.168761748714843e-13,
+              "raw_transport_cost": 0.13742014771017436,
+              "rounded_transport_cost": 0.13742014771020547
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 2.275957200481571e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.3530843112619095e-16,
+          "audit_objective": 0.08378960521531417,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6485397000797093,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1443970771018996e-13,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.0837896052153142,
+              "dual": 0.08378960521531192,
+              "numerical_gap": 2.275957200481571e-15,
+              "rounding_l1": 1.168761748714843e-13,
+              "raw_transport_cost": 0.13742014771017436,
+              "rounded_transport_cost": 0.13742014771020547
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.3530843112619095e-16,
+          "audit_objective": 0.08378960521531417,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6603598999790847,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1443970771018996e-13,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.0837896052153142,
+              "dual": 0.08378960521531192,
+              "numerical_gap": 2.275957200481571e-15,
+              "rounding_l1": 1.168761748714843e-13,
+              "raw_transport_cost": 0.13742014771017436,
+              "rounded_transport_cost": 0.13742014771020547
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 2.275957200481571e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.3530843112619095e-16,
+          "audit_objective": 0.08378960521531417,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6401387000223622,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1443970771018996e-13,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.0837896052153142,
+              "dual": 0.08378960521531192,
+              "numerical_gap": 2.275957200481571e-15,
+              "rounding_l1": 1.168761748714843e-13,
+              "raw_transport_cost": 0.13742014771017436,
+              "rounded_transport_cost": 0.13742014771020547
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.3530843112619095e-16,
+          "audit_objective": 0.08378960521531417,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6605179000180215,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1443970771018996e-13,
+              "rounded_residual": 1.3530843112619095e-16,
+              "rounded_primal": 0.0837896052153142,
+              "dual": 0.08378960521531192,
+              "numerical_gap": 2.275957200481571e-15,
+              "rounding_l1": 1.168761748714843e-13,
+              "raw_transport_cost": 0.13742014771017436,
+              "rounded_transport_cost": 0.13742014771020547
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 2.275957200481571e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.3530843112619095e-16,
+          "audit_objective": 0.08378960521531417,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6485397000797093
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6605179000180215
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112005,
+        "file": "kos_002.npz",
+        "source_id": "uci:kos:document:48",
+        "target_id": "uci:kos:document:591",
+        "active_source": 31,
+        "active_target": 39,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          0.9999999999999999
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "de21e6cdbd294d05b02f50a7fa90cd09fd9e35b9519114aea219a2552ce28836"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.665296999970451,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 9.494627306594339e-13,
+              "rounded_residual": 1.6653345369377348e-16,
+              "rounded_primal": 0.1303600060033675,
+              "dual": 0.13036000600322223,
+              "numerical_gap": 1.4527268277220173e-13,
+              "rounding_l1": 9.503013583353499e-13,
+              "raw_transport_cost": 0.13538008935037216,
+              "rounded_transport_cost": 0.1353800893506873
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6653345369377348e-16,
+          "audit_objective": 0.13036000600336753,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6526240999810398,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.494627306594339e-13,
+              "rounded_residual": 1.6653345369377348e-16,
+              "rounded_primal": 0.1303600060033675,
+              "dual": 0.13036000600322223,
+              "numerical_gap": 1.4527268277220173e-13,
+              "rounding_l1": 9.503013583353499e-13,
+              "raw_transport_cost": 0.13538008935037216,
+              "rounded_transport_cost": 0.1353800893506873
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.4527268277220173e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6653345369377348e-16,
+          "audit_objective": 0.13036000600336753,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6584778999676928,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.494627306594339e-13,
+              "rounded_residual": 1.6653345369377348e-16,
+              "rounded_primal": 0.1303600060033675,
+              "dual": 0.13036000600322223,
+              "numerical_gap": 1.4527268277220173e-13,
+              "rounding_l1": 9.503013583353499e-13,
+              "raw_transport_cost": 0.13538008935037216,
+              "rounded_transport_cost": 0.1353800893506873
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.4527268277220173e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6653345369377348e-16,
+          "audit_objective": 0.13036000600336753,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6571449000621215,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 9.494627306594339e-13,
+              "rounded_residual": 1.6653345369377348e-16,
+              "rounded_primal": 0.1303600060033675,
+              "dual": 0.13036000600322223,
+              "numerical_gap": 1.4527268277220173e-13,
+              "rounding_l1": 9.503013583353499e-13,
+              "raw_transport_cost": 0.13538008935037216,
+              "rounded_transport_cost": 0.1353800893506873
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6653345369377348e-16,
+          "audit_objective": 0.13036000600336753,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6351375000085682,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 9.494627306594339e-13,
+              "rounded_residual": 1.6653345369377348e-16,
+              "rounded_primal": 0.1303600060033675,
+              "dual": 0.13036000600322223,
+              "numerical_gap": 1.4527268277220173e-13,
+              "rounding_l1": 9.503013583353499e-13,
+              "raw_transport_cost": 0.13538008935037216,
+              "rounded_transport_cost": 0.1353800893506873
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.6653345369377348e-16,
+          "audit_objective": 0.13036000600336753,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6721016000956297,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 9.494627306594339e-13,
+              "rounded_residual": 1.6653345369377348e-16,
+              "rounded_primal": 0.1303600060033675,
+              "dual": 0.13036000600322223,
+              "numerical_gap": 1.4527268277220173e-13,
+              "rounding_l1": 9.503013583353499e-13,
+              "raw_transport_cost": 0.13538008935037216,
+              "rounded_transport_cost": 0.1353800893506873
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.4527268277220173e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.6653345369377348e-16,
+          "audit_objective": 0.13036000600336753,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6571449000621215
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6584778999676928
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112007,
+        "file": "kos_003.npz",
+        "source_id": "uci:kos:document:268",
+        "target_id": "uci:kos:document:681",
+        "active_source": 32,
+        "active_target": 33,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "5613f8cd3885b6bef36015d723ab46b0491584c028a559b1c09abfd690dbfbde"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.6478855999885127,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0758754998008158e-13,
+              "rounded_residual": 1.5265566588595902e-16,
+              "rounded_primal": 0.20871542783320346,
+              "dual": 0.20871542783320113,
+              "numerical_gap": 2.3314683517128287e-15,
+              "rounding_l1": 1.1047655435248027e-13,
+              "raw_transport_cost": 0.26252001789783547,
+              "rounded_transport_cost": 0.2625200178978762
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.5265566588595902e-16,
+          "audit_objective": 0.20871542783320346,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6577264999505132,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0758754998008158e-13,
+              "rounded_residual": 1.5265566588595902e-16,
+              "rounded_primal": 0.20871542783320346,
+              "dual": 0.20871542783320113,
+              "numerical_gap": 2.3314683517128287e-15,
+              "rounding_l1": 1.1047655435248027e-13,
+              "raw_transport_cost": 0.26252001789783547,
+              "rounded_transport_cost": 0.2625200178978762
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 2.3314683517128287e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.5265566588595902e-16,
+          "audit_objective": 0.20871542783320346,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.6605427000904456,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0758754998008158e-13,
+              "rounded_residual": 1.5265566588595902e-16,
+              "rounded_primal": 0.20871542783320346,
+              "dual": 0.20871542783320113,
+              "numerical_gap": 2.3314683517128287e-15,
+              "rounding_l1": 1.1047655435248027e-13,
+              "raw_transport_cost": 0.26252001789783547,
+              "rounded_transport_cost": 0.2625200178978762
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.5265566588595902e-16,
+          "audit_objective": 0.20871542783320346,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.6336188000859693,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0758754998008158e-13,
+              "rounded_residual": 1.5265566588595902e-16,
+              "rounded_primal": 0.20871542783320346,
+              "dual": 0.20871542783320113,
+              "numerical_gap": 2.3314683517128287e-15,
+              "rounding_l1": 1.1047655435248027e-13,
+              "raw_transport_cost": 0.26252001789783547,
+              "rounded_transport_cost": 0.2625200178978762
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 2.3314683517128287e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.5265566588595902e-16,
+          "audit_objective": 0.20871542783320346,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.661447299993597,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.0758754998008158e-13,
+              "rounded_residual": 1.5265566588595902e-16,
+              "rounded_primal": 0.20871542783320346,
+              "dual": 0.20871542783320113,
+              "numerical_gap": 2.3314683517128287e-15,
+              "rounding_l1": 1.1047655435248027e-13,
+              "raw_transport_cost": 0.26252001789783547,
+              "rounded_transport_cost": 0.2625200178978762
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.5265566588595902e-16,
+          "audit_objective": 0.20871542783320346,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6776525999885052,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.0758754998008158e-13,
+              "rounded_residual": 1.5265566588595902e-16,
+              "rounded_primal": 0.20871542783320346,
+              "dual": 0.20871542783320113,
+              "numerical_gap": 2.3314683517128287e-15,
+              "rounding_l1": 1.1047655435248027e-13,
+              "raw_transport_cost": 0.26252001789783547,
+              "rounded_transport_cost": 0.2625200178978762
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 2.3314683517128287e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.5265566588595902e-16,
+          "audit_objective": 0.20871542783320346,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.6605427000904456
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6577264999505132
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112007,
+        "file": "kos_003.npz",
+        "source_id": "uci:kos:document:268",
+        "target_id": "uci:kos:document:681",
+        "active_source": 32,
+        "active_target": 33,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "5613f8cd3885b6bef36015d723ab46b0491584c028a559b1c09abfd690dbfbde"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7244578000390902,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3820524585872462e-11,
+              "rounded_residual": 1.1449174941446927e-16,
+              "rounded_primal": 0.25513786408459554,
+              "dual": 0.25513786408362,
+              "numerical_gap": 9.75552971738125e-13,
+              "rounding_l1": 1.4049897241142768e-11,
+              "raw_transport_cost": 0.2601236551374913,
+              "rounded_transport_cost": 0.26012365513856484
+            },
+            "accepted": true,
+            "outer": 41
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.2551378640845956,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.714167199912481,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3820524585872462e-11,
+              "rounded_residual": 1.1449174941446927e-16,
+              "rounded_primal": 0.25513786408459554,
+              "dual": 0.25513786408362,
+              "numerical_gap": 9.75552971738125e-13,
+              "rounding_l1": 1.4049897241142768e-11,
+              "raw_transport_cost": 0.2601236551374913,
+              "rounded_transport_cost": 0.26012365513856484
+            },
+            "outer": 41,
+            "inner_work": 41000,
+            "trace": [
+              {
+                "outer": 41,
+                "schedule_reg": 0.0010000000000000044,
+                "target_reg": 0.001,
+                "gap": 9.75552971738125e-13,
+                "accepted": true,
+                "inner_work": 41000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.2551378640845956,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7091919999802485,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3820524585872462e-11,
+              "rounded_residual": 1.1449174941446927e-16,
+              "rounded_primal": 0.25513786408459554,
+              "dual": 0.25513786408362,
+              "numerical_gap": 9.75552971738125e-13,
+              "rounding_l1": 1.4049897241142768e-11,
+              "raw_transport_cost": 0.2601236551374913,
+              "rounded_transport_cost": 0.26012365513856484
+            },
+            "accepted": true,
+            "outer": 41
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.2551378640845956,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7060781000182033,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3820524585872462e-11,
+              "rounded_residual": 1.1449174941446927e-16,
+              "rounded_primal": 0.25513786408459554,
+              "dual": 0.25513786408362,
+              "numerical_gap": 9.75552971738125e-13,
+              "rounding_l1": 1.4049897241142768e-11,
+              "raw_transport_cost": 0.2601236551374913,
+              "rounded_transport_cost": 0.26012365513856484
+            },
+            "outer": 41,
+            "inner_work": 41000,
+            "trace": [
+              {
+                "outer": 41,
+                "schedule_reg": 0.0010000000000000044,
+                "target_reg": 0.001,
+                "gap": 9.75552971738125e-13,
+                "accepted": true,
+                "inner_work": 41000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.2551378640845956,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7457716000499204,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.3820524585872462e-11,
+              "rounded_residual": 1.1449174941446927e-16,
+              "rounded_primal": 0.25513786408459554,
+              "dual": 0.25513786408362,
+              "numerical_gap": 9.75552971738125e-13,
+              "rounding_l1": 1.4049897241142768e-11,
+              "raw_transport_cost": 0.2601236551374913,
+              "rounded_transport_cost": 0.26012365513856484
+            },
+            "outer": 41,
+            "inner_work": 41000,
+            "trace": [
+              {
+                "outer": 41,
+                "schedule_reg": 0.0010000000000000044,
+                "target_reg": 0.001,
+                "gap": 9.75552971738125e-13,
+                "accepted": true,
+                "inner_work": 41000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.2551378640845956,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7403436999302357,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.3820524585872462e-11,
+              "rounded_residual": 1.1449174941446927e-16,
+              "rounded_primal": 0.25513786408459554,
+              "dual": 0.25513786408362,
+              "numerical_gap": 9.75552971738125e-13,
+              "rounding_l1": 1.4049897241142768e-11,
+              "raw_transport_cost": 0.2601236551374913,
+              "rounded_transport_cost": 0.26012365513856484
+            },
+            "accepted": true,
+            "outer": 41
+          },
+          "audit_residual": 1.0061396160665481e-16,
+          "audit_objective": 0.2551378640845956,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7244578000390902
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.714167199912481
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112011,
+        "file": "kos_004.npz",
+        "source_id": "uci:kos:document:32",
+        "target_id": "uci:kos:document:138",
+        "active_source": 104,
+        "active_target": 39,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "002af7ac05ab905eeefecb036322c4da264a8a812a69dca3ca7dd994931ef4bc"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7416351001011208,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.5041787260194894e-13,
+              "rounded_residual": 4.2327252813834093e-16,
+              "rounded_primal": 0.16667247903103127,
+              "dual": 0.16667247903103227,
+              "numerical_gap": -9.992007221626409e-16,
+              "rounding_l1": 1.5341134626497118e-13,
+              "raw_transport_cost": 0.22722676908673498,
+              "rounded_transport_cost": 0.22722676908679307
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": -9.992007221626409e-16,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 4.2327252813834093e-16,
+          "audit_objective": 0.16667247903103127,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7438210999825969,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.5041787260194894e-13,
+              "rounded_residual": 4.2327252813834093e-16,
+              "rounded_primal": 0.16667247903103127,
+              "dual": 0.16667247903103227,
+              "numerical_gap": -9.992007221626409e-16,
+              "rounding_l1": 1.5341134626497118e-13,
+              "raw_transport_cost": 0.22722676908673498,
+              "rounded_transport_cost": 0.22722676908679307
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 4.2327252813834093e-16,
+          "audit_objective": 0.16667247903103127,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7578739000018686,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.5041787260194894e-13,
+              "rounded_residual": 4.2327252813834093e-16,
+              "rounded_primal": 0.16667247903103127,
+              "dual": 0.16667247903103227,
+              "numerical_gap": -9.992007221626409e-16,
+              "rounding_l1": 1.5341134626497118e-13,
+              "raw_transport_cost": 0.22722676908673498,
+              "rounded_transport_cost": 0.22722676908679307
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 4.2327252813834093e-16,
+          "audit_objective": 0.16667247903103127,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.8056803999934345,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.5041787260194894e-13,
+              "rounded_residual": 4.2327252813834093e-16,
+              "rounded_primal": 0.16667247903103127,
+              "dual": 0.16667247903103227,
+              "numerical_gap": -9.992007221626409e-16,
+              "rounding_l1": 1.5341134626497118e-13,
+              "raw_transport_cost": 0.22722676908673498,
+              "rounded_transport_cost": 0.22722676908679307
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": -9.992007221626409e-16,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 4.2327252813834093e-16,
+          "audit_objective": 0.16667247903103127,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7473242999985814,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.5041787260194894e-13,
+              "rounded_residual": 4.2327252813834093e-16,
+              "rounded_primal": 0.16667247903103127,
+              "dual": 0.16667247903103227,
+              "numerical_gap": -9.992007221626409e-16,
+              "rounding_l1": 1.5341134626497118e-13,
+              "raw_transport_cost": 0.22722676908673498,
+              "rounded_transport_cost": 0.22722676908679307
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": -9.992007221626409e-16,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 4.2327252813834093e-16,
+          "audit_objective": 0.16667247903103127,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.7569019000511616,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.5041787260194894e-13,
+              "rounded_residual": 4.2327252813834093e-16,
+              "rounded_primal": 0.16667247903103127,
+              "dual": 0.16667247903103227,
+              "numerical_gap": -9.992007221626409e-16,
+              "rounding_l1": 1.5341134626497118e-13,
+              "raw_transport_cost": 0.22722676908673498,
+              "rounded_transport_cost": 0.22722676908679307
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 4.2327252813834093e-16,
+          "audit_objective": 0.16667247903103127,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7569019000511616
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7473242999985814
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112011,
+        "file": "kos_004.npz",
+        "source_id": "uci:kos:document:32",
+        "target_id": "uci:kos:document:138",
+        "active_source": 104,
+        "active_target": 39,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "002af7ac05ab905eeefecb036322c4da264a8a812a69dca3ca7dd994931ef4bc"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.746877699973993,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2123808901254307e-12,
+              "rounded_residual": 2.42861286636753e-16,
+              "rounded_primal": 0.21919997240180558,
+              "dual": 0.21919997240163605,
+              "numerical_gap": 1.695310558602614e-13,
+              "rounding_l1": 1.2400796344197566e-12,
+              "raw_transport_cost": 0.22483903161640728,
+              "rounded_transport_cost": 0.22483903161684296
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.695310558602614e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.42861286636753e-16,
+          "audit_objective": 0.21919997240180553,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7456640000455081,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.2123808901254307e-12,
+              "rounded_residual": 2.42861286636753e-16,
+              "rounded_primal": 0.21919997240180558,
+              "dual": 0.21919997240163605,
+              "numerical_gap": 1.695310558602614e-13,
+              "rounding_l1": 1.2400796344197566e-12,
+              "raw_transport_cost": 0.22483903161640728,
+              "rounded_transport_cost": 0.22483903161684296
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.42861286636753e-16,
+          "audit_objective": 0.21919997240180553,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7432499000569806,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2123808901254307e-12,
+              "rounded_residual": 2.42861286636753e-16,
+              "rounded_primal": 0.21919997240180558,
+              "dual": 0.21919997240163605,
+              "numerical_gap": 1.695310558602614e-13,
+              "rounding_l1": 1.2400796344197566e-12,
+              "raw_transport_cost": 0.22483903161640728,
+              "rounded_transport_cost": 0.22483903161684296
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.695310558602614e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.42861286636753e-16,
+          "audit_objective": 0.21919997240180553,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7506668999558315,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.2123808901254307e-12,
+              "rounded_residual": 2.42861286636753e-16,
+              "rounded_primal": 0.21919997240180558,
+              "dual": 0.21919997240163605,
+              "numerical_gap": 1.695310558602614e-13,
+              "rounding_l1": 1.2400796344197566e-12,
+              "raw_transport_cost": 0.22483903161640728,
+              "rounded_transport_cost": 0.22483903161684296
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.42861286636753e-16,
+          "audit_objective": 0.21919997240180553,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.7596396999433637,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.2123808901254307e-12,
+              "rounded_residual": 2.42861286636753e-16,
+              "rounded_primal": 0.21919997240180558,
+              "dual": 0.21919997240163605,
+              "numerical_gap": 1.695310558602614e-13,
+              "rounding_l1": 1.2400796344197566e-12,
+              "raw_transport_cost": 0.22483903161640728,
+              "rounded_transport_cost": 0.22483903161684296
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.695310558602614e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.42861286636753e-16,
+          "audit_objective": 0.21919997240180553,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.772762699984014,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.2123808901254307e-12,
+              "rounded_residual": 2.42861286636753e-16,
+              "rounded_primal": 0.21919997240180558,
+              "dual": 0.21919997240163605,
+              "numerical_gap": 1.695310558602614e-13,
+              "rounding_l1": 1.2400796344197566e-12,
+              "raw_transport_cost": 0.22483903161640728,
+              "rounded_transport_cost": 0.22483903161684296
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.42861286636753e-16,
+          "audit_objective": 0.21919997240180553,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7506668999558315
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.746877699973993
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112013,
+        "file": "kos_005.npz",
+        "source_id": "uci:kos:document:457",
+        "target_id": "uci:kos:document:330",
+        "active_source": 64,
+        "active_target": 52,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "e94bef0c96297ca713d1a342810b30825815980f2bb8fb248add57bf82ae707b"
+      },
+      "reg": 0.01,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.7473510999698192,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.337038119109124e-13,
+              "rounded_residual": 2.411265631607762e-16,
+              "rounded_primal": 0.12015018447816986,
+              "dual": 0.12015018447816841,
+              "numerical_gap": 1.4432899320127035e-15,
+              "rounding_l1": 1.3377309687640714e-13,
+              "raw_transport_cost": 0.18143741484335624,
+              "rounded_transport_cost": 0.18143741484340165
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.4432899320127035e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.411265631607762e-16,
+          "audit_objective": 0.12015018447816991,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7034635000163689,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.337038119109124e-13,
+              "rounded_residual": 2.411265631607762e-16,
+              "rounded_primal": 0.12015018447816986,
+              "dual": 0.12015018447816841,
+              "numerical_gap": 1.4432899320127035e-15,
+              "rounding_l1": 1.3377309687640714e-13,
+              "raw_transport_cost": 0.18143741484335624,
+              "rounded_transport_cost": 0.18143741484340165
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.411265631607762e-16,
+          "audit_objective": 0.12015018447816991,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7239689999260008,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.337038119109124e-13,
+              "rounded_residual": 2.411265631607762e-16,
+              "rounded_primal": 0.12015018447816986,
+              "dual": 0.12015018447816841,
+              "numerical_gap": 1.4432899320127035e-15,
+              "rounding_l1": 1.3377309687640714e-13,
+              "raw_transport_cost": 0.18143741484335624,
+              "rounded_transport_cost": 0.18143741484340165
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.4432899320127035e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.411265631607762e-16,
+          "audit_objective": 0.12015018447816991,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7071686999406666,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.337038119109124e-13,
+              "rounded_residual": 2.411265631607762e-16,
+              "rounded_primal": 0.12015018447816986,
+              "dual": 0.12015018447816841,
+              "numerical_gap": 1.4432899320127035e-15,
+              "rounding_l1": 1.3377309687640714e-13,
+              "raw_transport_cost": 0.18143741484335624,
+              "rounded_transport_cost": 0.18143741484340165
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.411265631607762e-16,
+          "audit_objective": 0.12015018447816991,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.700291599961929,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.337038119109124e-13,
+              "rounded_residual": 2.411265631607762e-16,
+              "rounded_primal": 0.12015018447816986,
+              "dual": 0.12015018447816841,
+              "numerical_gap": 1.4432899320127035e-15,
+              "rounding_l1": 1.3377309687640714e-13,
+              "raw_transport_cost": 0.18143741484335624,
+              "rounded_transport_cost": 0.18143741484340165
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.01000000000000023,
+                "target_reg": 0.01,
+                "gap": 1.4432899320127035e-15,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 2.411265631607762e-16,
+          "audit_objective": 0.12015018447816991,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.688596099964343,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.337038119109124e-13,
+              "rounded_residual": 2.411265631607762e-16,
+              "rounded_primal": 0.12015018447816986,
+              "dual": 0.12015018447816841,
+              "numerical_gap": 1.4432899320127035e-15,
+              "rounding_l1": 1.3377309687640714e-13,
+              "raw_transport_cost": 0.18143741484335624,
+              "rounded_transport_cost": 0.18143741484340165
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 2.411265631607762e-16,
+          "audit_objective": 0.12015018447816991,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7034635000163689
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.7239689999260008
+        }
+      }
+    },
+    {
+      "input": {
+        "domain": "kos",
+        "seed": 112013,
+        "file": "kos_005.npz",
+        "source_id": "uci:kos:document:457",
+        "target_id": "uci:kos:document:330",
+        "active_source": 64,
+        "active_target": 52,
+        "stored_shape": [
+          500,
+          500
+        ],
+        "loader_mass_sums": [
+          1.0,
+          1.0
+        ],
+        "geometry": "TF-IDF term co-occurrence latent geometry",
+        "sha256": "e94bef0c96297ca713d1a342810b30825815980f2bb8fb248add57bf82ae707b"
+      },
+      "reg": 0.001,
+      "runs": [
+        {
+          "method": "quality_compat",
+          "repeat": 0,
+          "seconds": 0.6854648999869823,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1576451602879345e-12,
+              "rounded_residual": 1.7867651802561113e-16,
+              "rounded_primal": 0.1731057861209721,
+              "dual": 0.1731057861208201,
+              "numerical_gap": 1.5201728764679956e-13,
+              "rounding_l1": 1.1914983340529301e-12,
+              "raw_transport_cost": 0.1787409363231736,
+              "rounded_transport_cost": 0.17874093632351323
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.5201728764679956e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.7867651802561113e-16,
+          "audit_objective": 0.1731057861209721,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 0,
+          "seconds": 0.7171998999547213,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1576451602879345e-12,
+              "rounded_residual": 1.7867651802561113e-16,
+              "rounded_primal": 0.1731057861209721,
+              "dual": 0.1731057861208201,
+              "numerical_gap": 1.5201728764679956e-13,
+              "rounding_l1": 1.1914983340529301e-12,
+              "raw_transport_cost": 0.1787409363231736,
+              "rounded_transport_cost": 0.17874093632351323
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.7867651802561113e-16,
+          "audit_objective": 0.1731057861209721,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 1,
+          "seconds": 0.7116276000160724,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1576451602879345e-12,
+              "rounded_residual": 1.7867651802561113e-16,
+              "rounded_primal": 0.1731057861209721,
+              "dual": 0.1731057861208201,
+              "numerical_gap": 1.5201728764679956e-13,
+              "rounding_l1": 1.1914983340529301e-12,
+              "raw_transport_cost": 0.1787409363231736,
+              "rounded_transport_cost": 0.17874093632351323
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.5201728764679956e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.7867651802561113e-16,
+          "audit_objective": 0.1731057861209721,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 1,
+          "seconds": 0.7065962000051513,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1576451602879345e-12,
+              "rounded_residual": 1.7867651802561113e-16,
+              "rounded_primal": 0.1731057861209721,
+              "dual": 0.1731057861208201,
+              "numerical_gap": 1.5201728764679956e-13,
+              "rounding_l1": 1.1914983340529301e-12,
+              "raw_transport_cost": 0.1787409363231736,
+              "rounded_transport_cost": 0.17874093632351323
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.7867651802561113e-16,
+          "audit_objective": 0.1731057861209721,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "quality_compat",
+          "repeat": 2,
+          "seconds": 0.6955969999544322,
+          "detail": {
+            "accepted": true,
+            "diagnostics": {
+              "raw_residual": 1.1576451602879345e-12,
+              "rounded_residual": 1.7867651802561113e-16,
+              "rounded_primal": 0.1731057861209721,
+              "dual": 0.1731057861208201,
+              "numerical_gap": 1.5201728764679956e-13,
+              "rounding_l1": 1.1914983340529301e-12,
+              "raw_transport_cost": 0.1787409363231736,
+              "rounded_transport_cost": 0.17874093632351323
+            },
+            "outer": 37,
+            "inner_work": 37000,
+            "trace": [
+              {
+                "outer": 37,
+                "schedule_reg": 0.0010000000000002318,
+                "target_reg": 0.001,
+                "gap": 1.5201728764679956e-13,
+                "accepted": true,
+                "inner_work": 37000,
+                "legacy_due": true
+              }
+            ],
+            "reason": "target quality"
+          },
+          "audit_residual": 1.7867651802561113e-16,
+          "audit_objective": 0.1731057861209721,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        },
+        {
+          "method": "pot1000",
+          "repeat": 2,
+          "seconds": 0.6951473000226542,
+          "detail": {
+            "diagnostics": {
+              "raw_residual": 1.1576451602879345e-12,
+              "rounded_residual": 1.7867651802561113e-16,
+              "rounded_primal": 0.1731057861209721,
+              "dual": 0.1731057861208201,
+              "numerical_gap": 1.5201728764679956e-13,
+              "rounding_l1": 1.1914983340529301e-12,
+              "raw_transport_cost": 0.1787409363231736,
+              "rounded_transport_cost": 0.17874093632351323
+            },
+            "accepted": true,
+            "outer": 37
+          },
+          "audit_residual": 1.7867651802561113e-16,
+          "audit_objective": 0.1731057861209721,
+          "warnings": [
+            "Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`."
+          ]
+        }
+      ],
+      "metrics": {
+        "pot1000": {
+          "successes": 3,
+          "median_seconds": 0.7065962000051513
+        },
+        "quality_compat": {
+          "successes": 3,
+          "median_seconds": 0.6955969999544322
+        }
+      }
+    }
+  ]
+}

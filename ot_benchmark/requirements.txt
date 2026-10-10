@@ -1,0 +1,22 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+POT>=0.9.0
+matplotlib>=3.7
+psutil>=5.9
+tqdm>=4.65
+pyyaml>=6.0
+scikit-learn>=1.3
+joblib>=1.3
+rich>=13.0
+
+# GPU acceleration (optional)
+# torch>=2.0
+# cupy-cuda12x>=12.0  # Linux only
+
+# Huawei Cloud (optional)
+# esdk-obs-python>=3.0
+
+# Development
+# pytest>=7.0
+# pytest-cov>=4.0

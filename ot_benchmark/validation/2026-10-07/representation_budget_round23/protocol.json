@@ -1,0 +1,16 @@
+{
+  "role": "post-hoc development, all four round19 saved states",
+  "input_hashes": {
+    "kos_reg_0.001_105001_state.npz": "1138f51801c768ca474e769b18fda0835450363f35662f9c0d38295848de8d9f",
+    "kos_reg_0.001_105002_state.npz": "f002cbb031ba94fe554cf44352516cd8672acb2b11dc60adebbc7ee688820ba2",
+    "movielens_reg_0.001_105002_state.npz": "645864502daba97909bab4f2a8fdce58ff1249b160eab32f4c3d063d6b1265db",
+    "movielens_reg_0.001_105007_state.npz": "0605612ea40d0dfaa873858963d48b83ca591389beb349851e5e55dc0c4c7413"
+  },
+  "reg": 0.001,
+  "quality_tolerance": 1e-08,
+  "decision": "offline only; no threshold selection and no solver modification",
+  "sources": [
+    "https://arxiv.org/pdf/quant-ph/0610146",
+    "https://arxiv.org/pdf/1610.06519"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "cases": 40,
+  "diagnostic_records": 1329,
+  "ordinary_accepted": 36,
+  "manifest_verified": true,
+  "max_rounded_residual": 2.949029909160572e-16,
+  "min_numerical_gap": 3.3306690738754696e-16
+}

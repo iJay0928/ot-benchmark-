@@ -1,0 +1,43 @@
+{
+  "pairs_per_corpus": 10,
+  "repetitions": 3,
+  "first_seed": 41000,
+  "geometry_seed": 42,
+  "weights": [
+    0.35,
+    0.3,
+    0.25,
+    0.1
+  ],
+  "algorithms": [
+    "Sinkhorn (reg=0.1)",
+    "Sinkhorn (reg=0.01)",
+    "Greenkhorn",
+    "Sparse Sinkhorn"
+  ],
+  "baseline": "Sparse Sinkhorn",
+  "model_sha256": "a70d37a490c3374f2cd6666939be3eda7bde2508bf6ba3de5661f3a64bf183ff",
+  "model_training": "synthetic only; frozen; no refit on real observations",
+  "movielens": {
+    "n_users": 300,
+    "n_items": 400,
+    "min_ratings_per_user": 5
+  },
+  "bow": {
+    "dataset_name": "kos",
+    "n_terms": 500,
+    "max_docs": 1000,
+    "min_terms_per_doc": 20,
+    "geometry_seed": 42,
+    "compress_active": false
+  },
+  "inclusion": "first eligible pairs with no observation reused within corpus; no score-based selection",
+  "inference": "conditional on shared corpus preprocessing; not independent corpora",
+  "python": "C:\\Users\\Lenovo\\Desktop\\大创\\ot_benchmark\\.venv\\Scripts\\python.exe",
+  "python_version": "3.11.9",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

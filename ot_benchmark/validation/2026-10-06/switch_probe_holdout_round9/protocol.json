@@ -1,0 +1,140 @@
+{
+  "role": "new seed replay validation; no actual solver switching",
+  "decision_iteration": 1000,
+  "fit_window": [
+    500,
+    1000
+  ],
+  "check_every": 50,
+  "total_budget": 50000,
+  "tolerance": 1e-09,
+  "hypothesis": "residual log-slope by iteration 1000 predicts failure to reach target by 50000",
+  "limitation": "predicts budget failure, not which solver is faster; no deployed switching or runtime saving claim",
+  "source_sha256": {
+    "validation\\2026-10-06\\epsilon_strict_dev_round8\\summary.json": "96495f2218c7ca15a997d5b6490146cd2d5d9dd322da2e9095ec0c3ae3483efb",
+    "validation\\2026-10-06\\epsilon_holdout_round8\\summary.json": "68fb725ef31ca4a84221119f4d539ae63b7e89ed7815bd046db12eed81f93067"
+  },
+  "rolling_rule": "every 1000 through 10000, fit last 500, switch if projected finish >50000",
+  "cases": [
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97001
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97002
+    },
+    {
+      "config": {
+        "label": "d_32",
+        "n": 300,
+        "d": 32,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97003
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97001
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97002
+    },
+    {
+      "config": {
+        "label": "d_128",
+        "n": 300,
+        "d": 128,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97003
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97001
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97002
+    },
+    {
+      "config": {
+        "label": "reg_0.001",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.001
+      },
+      "seed": 97003
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97001
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97002
+    },
+    {
+      "config": {
+        "label": "base",
+        "n": 300,
+        "d": 8,
+        "zero": 0.9,
+        "reg": 0.01
+      },
+      "seed": 97003
+    }
+  ]
+}

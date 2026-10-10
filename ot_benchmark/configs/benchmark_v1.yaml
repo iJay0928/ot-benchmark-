@@ -1,0 +1,302 @@
+# ============================================================================
+# OTBench Benchmark v1.0 — 固定数据集清单
+# ============================================================================
+# sparsity_semantics: "zero_ratio" — 表示零元素比例
+#   例: sparsity=0.95 表示 95% 的条目为零, 仅 5% 为非零
+# ground_truth_mode:
+#   - "exact":        小场景使用 EMD 精确解
+#   - "sinkhorn_ref": 大场景使用 Sinkhorn(reg=0.01, 5000iter, thr=1e-9) 参考解
+#   - "l1_fallback":  降级用 L1 距离
+# seeds: 数据生成种子列表
+#   - quick 模式使用 seeds[0]
+#   - 正式模式每场景至少使用 3 个 seed
+#   - 相同 seed 必定生成相同数据
+# ============================================================================
+
+scenarios:
+
+  # ---- 低维稠密 ----
+  - id: "SYN-DENSE-0200-S01"
+    name: "低维稠密-均匀基准"
+    source_type: "uniform"
+    target_type: "uniform"
+    n_source: 200
+    dimension: 200
+    sparsity: 0.50
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.01
+    balanced: true
+    seeds: [10, 11, 12]
+    ground_truth_mode: "exact"
+    enabled: true
+    notes: "低维稠密场景, 作为精度基准参考。EMD 可精确求解。"
+
+  # ---- 低维稀疏 ----
+  - id: "SYN-SPARSE-0300-S02"
+    name: "低维稀疏-Zipf同分布"
+    source_type: "zipf"
+    target_type: "zipf"
+    n_source: 300
+    dimension: 300
+    sparsity: 0.85
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.03
+    balanced: true
+    seeds: [20, 21, 22]
+    ground_truth_mode: "exact"
+    enabled: true
+    notes: "低维稀疏场景, 源与目标同分布。模拟同类数据间最优传输。"
+
+  - id: "SYN-SPARSE-0400-S03"
+    name: "低维稀疏-跨分布偏移"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 400
+    dimension: 400
+    sparsity: 0.90
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: true
+    seeds: [30, 31, 32]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "源分布(Zipf)与目标分布(Pareto)不同, 测试跨分布场景。"
+
+  # ---- 中维稠密 ----
+  - id: "SYN-DENSE-0500-S04"
+    name: "中维稠密-正态基准"
+    source_type: "uniform"
+    target_type: "uniform"
+    n_source: 500
+    dimension: 500
+    sparsity: 0.30
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.01
+    balanced: true
+    seeds: [40, 41, 42]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "中维稠密场景, 测试算法在低稀疏度下的精度和效率。"
+
+  # ---- 中维稀疏 ----
+  - id: "SYN-SPARSE-0800-S05"
+    name: "中维稀疏-推荐系统模拟"
+    source_type: "zipf"
+    target_type: "zipf"
+    n_source: 800
+    dimension: 800
+    sparsity: 0.92
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: true
+    seeds: [50, 51, 52]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "模拟推荐系统中用户行为的长尾分布特征。"
+
+  # ---- 高维混合高斯 ----
+  - id: "SYN-MIXTURE-1000-S06"
+    name: "高维混合高斯-生物信息"
+    source_type: "gaussian_mixture"
+    target_type: "gaussian_mixture"
+    n_source: 1000
+    dimension: 1000
+    sparsity: 0.60
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.08
+    balanced: true
+    seeds: [60, 61, 62]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "模拟生物信息学中多模态基因表达分布。"
+
+  # ---- 高维随机稀疏 ----
+  - id: "SYN-SPARSE-1500-S07"
+    name: "高维随机稀疏-文本分类"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 1500
+    dimension: 1500
+    sparsity: 0.95
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.10
+    balanced: true
+    seeds: [70, 71, 72]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "模拟文本分类中的高维稀疏词频分布。"
+
+  # ---- 结构化块稀疏 ----
+  - id: "SYN-BLOCK-1000-S08"
+    name: "结构化块稀疏-图像分块"
+    source_type: "zipf"
+    target_type: "zipf"
+    n_source: 1000
+    dimension: 1000
+    sparsity: 0.88
+    sparsity_semantics: "zero_ratio"
+    structure: "block"
+    geometry_dim: 8
+    noise_level: 0.03
+    balanced: true
+    seeds: [80, 81, 82]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "非零元素聚集在连续块中, 模拟图像分块或分区域特征。"
+
+  # ---- 组稀疏 ----
+  - id: "SYN-GROUP-1200-S09"
+    name: "组稀疏-多模态数据"
+    source_type: "zipf"
+    target_type: "gaussian_mixture"
+    n_source: 1200
+    dimension: 1200
+    sparsity: 0.85
+    sparsity_semantics: "zero_ratio"
+    structure: "group"
+    geometry_dim: 8
+    noise_level: 0.04
+    balanced: true
+    seeds: [90, 91, 92]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "维度分组, 组间稀疏、组内密集。模拟多模态特征拼接。"
+
+  # ---- 长尾极端稀疏 ----
+  - id: "SYN-LONGTAIL-2000-S10"
+    name: "长尾极端稀疏-大规模推荐"
+    source_type: "pareto"
+    target_type: "zipf"
+    n_source: 2000
+    dimension: 2000
+    sparsity: 0.97
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: true
+    seeds: [100, 101, 102]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "大规模推荐系统场景, 极少数热门物品占据大部分交互。"
+
+  - id: "SYN-LONGTAIL-3000-S11"
+    name: "超大规模长尾稀疏-极限测试"
+    source_type: "zipf"
+    target_type: "zipf"
+    n_source: 3000
+    dimension: 3000
+    sparsity: 0.98
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.02
+    balanced: true
+    seeds: [110, 111, 112]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "维度 3000、稀疏度 98% 的极限场景, 测试算法在大尺度下的性能。"
+
+  # ---- 层级稀疏 ----
+  - id: "SYN-HIERARCH-1500-S12"
+    name: "层级稀疏-多分辨率特征"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 1500
+    dimension: 1500
+    sparsity: 0.90
+    sparsity_semantics: "zero_ratio"
+    structure: "hierarchical"
+    geometry_dim: 8
+    noise_level: 0.04
+    balanced: true
+    seeds: [120, 121, 122]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "大块稀疏 + 小块密集的多层级结构, 模拟多分辨率特征。"
+
+  # ---- 非平衡场景 ----
+  - id: "SYN-UNBAL-0500-S13"
+    name: "非平衡分布-质量不守恒"
+    source_type: "uniform"
+    target_type: "zipf"
+    n_source: 500
+    dimension: 500
+    sparsity: 0.70
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: false
+    seeds: [130, 131, 132]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "源均匀、目标长尾, 质量分布不守恒。仅适用于非平衡OT算法。"
+
+  # ---- 压力测试 (默认 disabled) ----
+  - id: "SYN-STRESS-5000-S14"
+    name: "压力测试-超高维极限稀疏"
+    source_type: "pareto"
+    target_type: "zipf"
+    n_source: 5000
+    dimension: 5000
+    sparsity: 0.99
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.02
+    balanced: true
+    seeds: [140]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: false
+    notes: "维度 5000、稀疏度 99% 的压力测试。部分算法将超时或内存不足。默认禁用。"
+
+  - id: "SYN-STRESS-NOISE15"
+    name: "压力测试-高噪声鲁棒性"
+    source_type: "uniform"
+    target_type: "pareto"
+    n_source: 300
+    dimension: 300
+    sparsity: 0.40
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.20
+    balanced: true
+    seeds: [150, 151, 152]
+    ground_truth_mode: "exact"
+    enabled: true
+    notes: "噪声水平 20%, 测试算法在强噪声下的鲁棒性。"
+
+  # ---- 协变量偏移 ----
+  - id: "SYN-SHIFT-0600-S16"
+    name: "协变量偏移-训练测试分布不一致"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 600
+    dimension: 600
+    sparsity: 0.85
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    noise_level: 0.03
+    balanced: true
+    seeds: [160, 161, 162]
+    ground_truth_mode: "sinkhorn_ref"
+    shift_type: "covariate"
+    shift_intensity: 0.30
+    enabled: true
+    notes: "通过 apply_distribution_shift 施加协变量偏移, 模拟训练/测试分布不一致。"

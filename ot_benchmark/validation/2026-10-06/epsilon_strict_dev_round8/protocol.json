@@ -1,0 +1,61 @@
+{
+  "configs": [
+    {
+      "label": "base",
+      "n": 300,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "d_32",
+      "n": 300,
+      "d": 32,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "d_128",
+      "n": 300,
+      "d": 128,
+      "zero": 0.9,
+      "reg": 0.01
+    },
+    {
+      "label": "reg_0.001",
+      "n": 300,
+      "d": 8,
+      "zero": 0.9,
+      "reg": 0.001
+    }
+  ],
+  "seeds": [
+    94001,
+    94002
+  ],
+  "repetitions": 3,
+  "methods": [
+    "ordinary_10000",
+    "ordinary_50000",
+    "stabilized_50000",
+    "epsilon_scaling"
+  ],
+  "pot_version": "0.9.6.post1",
+  "acceptance_residual": 1e-09,
+  "internal_stop_threshold": 1e-12,
+  "epsilon0": 1.0,
+  "epsilon_outer_budget": 200,
+  "epsilon_internal_stop_threshold": 1e-22,
+  "epsilon_inner_budget": 1000,
+  "mode": "four previously failed cases only",
+  "budget_note": "different algorithm budgets; compare full observed time, not equal-work claims",
+  "geometry": "shared uniform support, squared Euclidean divided by full matrix maximum",
+  "reference": "ordinary_50000 when independently accepted; EMD separately records unregularized bias",
+  "design": "development selected by prior failures; holdout all 4 configs x 3 new seeds, no outcome filtering",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "pot_source_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592"
+}

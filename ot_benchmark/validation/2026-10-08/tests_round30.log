@@ -1,0 +1,25 @@
+........................................................................ [ 49%]
+........................................................................ [ 99%]
+.                                                                        [100%]
+============================== warnings summary ===============================
+tests/test_backend.py::TestBackendAutoDetect::test_explicit_invalid_falls_back
+  C:\Users\Lenovo\Desktop\��\ot_benchmark\tests\..\ot_benchmark\backend\base.py:125: UserWarning: Backend 'nonexistent_backend' not available, falling back to NumPy
+    warnings.warn(f"Backend '{preferred}' not available, falling back to NumPy")
+
+tests/test_numeric_guard_policy.py: 5 warnings
+tests/test_quality_epsilon.py: 3 warnings
+tests/test_quality_policy.py: 2 warnings
+tests/test_segmented_rescue.py: 1 warning
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\ot\bregman\_sinkhorn.py:1330: UserWarning: Sinkhorn did not converge. You might want to increase the number of iterations `numItermax` or the regularization parameter `reg`.
+    warnings.warn(
+
+tests/test_numeric_guard_policy.py::test_nonfinite_update_restores_finite_warm_start
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\ot\bregman\_sinkhorn.py:1278: RuntimeWarning: divide by zero encountered in divide
+    v = b / (nx.dot(K.T, u))
+
+tests/test_numeric_guard_policy.py::test_nonfinite_update_restores_finite_warm_start
+  C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\ot\bregman\_sinkhorn.py:1324: UserWarning: Numerical errors at iteration 1
+    warnings.warn("Numerical errors at iteration %d" % ii)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+145 passed, 14 warnings in 40.51s

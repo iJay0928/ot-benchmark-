@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "switch_probe_round9",
+    "cases": 16,
+    "manifest_verified": true
+  },
+  {
+    "directory": "switch_probe_holdout_round9",
+    "cases": 12,
+    "manifest_verified": true
+  }
+]

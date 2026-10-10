@@ -1,0 +1,45 @@
+{
+  "role": "post-hoc single known difficult case; no new threshold or independent validation",
+  "case": {
+    "domain": "kos",
+    "seed": 111012,
+    "file": "kos_005.npz",
+    "source_id": "uci:kos:document:77",
+    "target_id": "uci:kos:document:60",
+    "active_source": 33,
+    "active_target": 42,
+    "stored_shape": [
+      500,
+      500
+    ],
+    "loader_mass_sums": [
+      0.9999999999999999,
+      0.9999999999999999
+    ],
+    "geometry": "TF-IDF term co-occurrence latent geometry",
+    "sha256": "28f15ba4a0278d46ae0109e5933ad4e2fef64090a05520878c99969c93f90135"
+  },
+  "reg": 0.001,
+  "methods": [
+    "guarded_250",
+    "direct_epsilon"
+  ],
+  "repetitions": 3,
+  "order_seed": 29000,
+  "timing": "whole call and separately instrumented rescue calls; direct epsilon includes active extraction, normalization and full plan allocation",
+  "epsilon": {
+    "outer": 1000,
+    "inner": 1000,
+    "epsilon0": 1.0,
+    "stop": 1e-22
+  },
+  "quality_gap": 1e-08,
+  "feasibility": 1e-12,
+  "pot_version": "0.9.6.post1",
+  "pot_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "summary": {
+    "movielens": {
+      "instances": 10,
+      "selector_accuracy": 0.3,
+      "baseline_accuracy": 0.9,
+      "selector_mean_score_regret": 0.5286633333333335,
+      "baseline_mean_score_regret": 0.07813333333333335,
+      "selector_failed_runs": 18,
+      "baseline_failed_runs": 3
+    },
+    "kos": {
+      "instances": 10,
+      "selector_accuracy": 0.8,
+      "baseline_accuracy": 1.0,
+      "selector_mean_score_regret": 0.16641999999999998,
+      "baseline_mean_score_regret": 0.0,
+      "selector_failed_runs": 6,
+      "baseline_failed_runs": 0
+    },
+    "all": {
+      "instances": 20,
+      "selector_accuracy": 0.55,
+      "baseline_accuracy": 0.95,
+      "selector_mean_score_regret": 0.3475416666666667,
+      "baseline_mean_score_regret": 0.03906666666666667,
+      "selector_failed_runs": 24,
+      "baseline_failed_runs": 3
+    }
+  },
+  "cases": [
+    {
+      "domain": "movielens",
+      "seed": 41000,
+      "source_id": "movielens:user:23",
+      "target_id": "movielens:user:285",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.1483301012459004,
+      "reference_method": "EMD exact validated (active support=114, residual=1.94e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0006455000257119536,
+      "predict_seconds": 0.021941099956166,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.6923,
+        "Sinkhorn (reg=0.01)": 0.6709333333333333,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.015898733322198193,
+          "mean_error_success": 0.5239325273241308
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.6631431333177412,
+          "mean_error_success": 5.528803332630389e-07
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.6811020333358707,
+          "mean_error_success": 5.528803332630389e-07
+        }
+      },
+      "selector_regret": 0.8367,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41001,
+      "source_id": "movielens:user:157",
+      "target_id": "movielens:user:251",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.11326356587209499,
+      "reference_method": "EMD exact validated (active support=70, residual=9.89e-17)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0009860999998636544,
+      "predict_seconds": 0.000590600015129894,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.6648,
+        "Sinkhorn (reg=0.01)": 0.6708666666666666,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.023407199982708942,
+          "mean_error_success": 0.6536769857475283
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.17170366668142378,
+          "mean_error_success": 5.564294287558491e-08
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.17451076665505147,
+          "mean_error_success": 5.564294287558491e-08
+        }
+      },
+      "selector_regret": 0.8367,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41002,
+      "source_id": "movielens:user:205",
+      "target_id": "movielens:user:228",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.17356902353932824,
+      "reference_method": "EMD exact validated (active support=26, residual=3.12e-16)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.000992799992673099,
+      "predict_seconds": 0.000582600012421608,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7689,
+        "Sinkhorn (reg=0.01)": 0.6708666666666666,
+        "Greenkhorn": 0.7154666666666666,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.015262300012788424,
+          "mean_error_success": 0.26073081466474035
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.1890599666706597,
+          "mean_error_success": 9.658124738088726e-08
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.03869143332121894,
+          "mean_error_success": 0.2607308114759061
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.19154996667445326,
+          "mean_error_success": 9.658124738088726e-08
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41003,
+      "source_id": "movielens:user:49",
+      "target_id": "movielens:user:258",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.19218867354380528,
+      "reference_method": "EMD exact validated (active support=128, residual=1.35e-16)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0009919999865815043,
+      "predict_seconds": 0.0005871999892406166,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7574,
+        "Sinkhorn (reg=0.01)": 0.6708666666666666,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.016995466663502157,
+          "mean_error_success": 0.29568836881479477
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.3537524000081855,
+          "mean_error_success": 2.737718177979121e-08
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.35830876669691253,
+          "mean_error_success": 2.737718177979121e-08
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41004,
+      "source_id": "movielens:user:154",
+      "target_id": "movielens:user:160",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.12746037955166212,
+      "reference_method": "EMD exact validated (active support=83, residual=4.1e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.000972700014244765,
+      "predict_seconds": 0.0005812000017613173,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.6717999999999998,
+        "Sinkhorn (reg=0.01)": 0.6709333333333333,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.023336733342148364,
+          "mean_error_success": 0.6168930553105951
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.2493169333320111,
+          "mean_error_success": 2.1503669040385648e-07
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.2548772666680937,
+          "mean_error_success": 2.1503669040385648e-07
+        }
+      },
+      "selector_regret": 0.8367,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41005,
+      "source_id": "movielens:user:188",
+      "target_id": "movielens:user:112",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.14360524958942994,
+      "reference_method": "EMD exact validated (active support=99, residual=6.47e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0011993000516667962,
+      "predict_seconds": 0.0006077999714761972,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.6865,
+        "Sinkhorn (reg=0.01)": 0.6709999999999999,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.01650913335227718,
+          "mean_error_success": 0.5485583622591523
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.2547900333496121,
+          "mean_error_success": 4.595764100012835e-07
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.2620133333451425,
+          "mean_error_success": 4.595764100012835e-07
+        }
+      },
+      "selector_regret": 0.8367,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41006,
+      "source_id": "movielens:user:86",
+      "target_id": "movielens:user:232",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.1696855894906197,
+      "reference_method": "EMD exact validated (active support=69, residual=8.33e-17)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0011378000490367413,
+      "predict_seconds": 0.0005999000277370214,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7374,
+        "Sinkhorn (reg=0.01)": 0.6715333333333332,
+        "Greenkhorn": 0.5149,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.015267233344881484,
+          "mean_error_success": 0.35925896710276967
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.12617396670005596,
+          "mean_error_success": 4.64448853360376e-08
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.09967339999275282,
+          "mean_error_success": 0.3592589610082512
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.1321318666644705,
+          "mean_error_success": 4.64448853360376e-08
+        }
+      },
+      "selector_regret": 0.3218,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41007,
+      "source_id": "movielens:user:210",
+      "target_id": "movielens:user:186",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.17105481724648233,
+      "reference_method": "EMD exact validated (active support=123, residual=7.46e-17)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0009825000306591392,
+      "predict_seconds": 0.0006312999757938087,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7208,
+        "Sinkhorn (reg=0.01)": 0.6709333333333335,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.01700126666886111,
+          "mean_error_success": 0.41560846729450723
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.22363046667305753,
+          "mean_error_success": 4.142650366315874e-08
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.2289642333247078,
+          "mean_error_success": 4.142650366315874e-08
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "movielens",
+      "seed": 41009,
+      "source_id": "movielens:user:249",
+      "target_id": "movielens:user:32",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.12497980899567304,
+      "reference_method": "EMD exact validated (active support=115, residual=1.35e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sinkhorn (reg=0.01)",
+      "feature_seconds": 0.001006099977530539,
+      "predict_seconds": 0.0005765000241808593,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7290000000000001,
+        "Sinkhorn (reg=0.01)": 0.7813333333333334,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.0
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.024417366657871753,
+          "mean_error_success": 0.6064537969468934
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 4.137522433341171,
+          "mean_error_success": 3.0085517177872628e-05
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        }
+      },
+      "selector_regret": 0.7813333333333334,
+      "baseline_regret": 0.7813333333333334
+    },
+    {
+      "domain": "movielens",
+      "seed": 41010,
+      "source_id": "movielens:user:94",
+      "target_id": "movielens:user:24",
+      "nominal_dimension": 400,
+      "stored_dimension": 400,
+      "geometry_dimension": 19,
+      "reference": 0.09460653829625756,
+      "reference_method": "EMD exact validated (active support=200, residual=1.55e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0010546999983489513,
+      "predict_seconds": 0.0005609000218100846,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.6325,
+        "Sinkhorn (reg=0.01)": 0.6708333333333333,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8367
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.01983476666888843,
+          "mean_error_success": 1.0526380330744645
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 1.7254864000327264,
+          "mean_error_success": 1.1621337164427231e-05
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 1.7313258999881025,
+          "mean_error_success": 1.1621337164427231e-05
+        }
+      },
+      "selector_regret": 0.8367,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41000,
+      "source_id": "uci:kos:document:163",
+      "target_id": "uci:kos:document:647",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.4648527788086789,
+      "reference_method": "EMD exact validated (active support=156, residual=1.01e-16)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.001575400005094707,
+      "predict_seconds": 0.0006434000097215176,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.8146,
+        "Sinkhorn (reg=0.01)": 0.6656333333333333,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8324000000000001
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.009482100023888052,
+          "mean_error_success": 0.13226325541041167
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.4133631666772999,
+          "mean_error_success": 0.010137741688636702
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.42158543335972354,
+          "mean_error_success": 0.010137741688636702
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41001,
+      "source_id": "uci:kos:document:277",
+      "target_id": "uci:kos:document:62",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.2556633949515208,
+      "reference_method": "EMD exact validated (active support=53, residual=2.5e-16)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0016142000094987452,
+      "predict_seconds": 0.0005904999561607838,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7639,
+        "Sinkhorn (reg=0.01)": 0.6657,
+        "Greenkhorn": 0.5991,
+        "Sparse Sinkhorn": 0.8327
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.015634699996250372,
+          "mean_error_success": 0.2759026219952118
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.1348092000116594,
+          "mean_error_success": 0.009842266812265174
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.07341176667250693,
+          "mean_error_success": 0.27590262491504747
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.13202086663416898,
+          "mean_error_success": 0.009842266812265826
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41002,
+      "source_id": "uci:kos:document:473",
+      "target_id": "uci:kos:document:522",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.1782702992048324,
+      "reference_method": "EMD exact validated (active support=69, residual=8.33e-17)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0017714999848976731,
+      "predict_seconds": 0.0006033999961800873,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7056,
+        "Sinkhorn (reg=0.01)": 0.6654,
+        "Greenkhorn": 0.5153,
+        "Sparse Sinkhorn": 0.8321999999999999
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.01717749998594324,
+          "mean_error_success": 0.4713477781838184
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.19335499999579042,
+          "mean_error_success": 0.01073513183418129
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.1083196333493106,
+          "mean_error_success": 0.47134777704530983
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.19784830002269396,
+          "mean_error_success": 0.01073513183418129
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41003,
+      "source_id": "uci:kos:document:297",
+      "target_id": "uci:kos:document:866",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.3414441783078686,
+      "reference_method": "EMD exact validated (active support=46, residual=2.78e-17)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0015662000514566898,
+      "predict_seconds": 0.0005934999790042639,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7925999999999999,
+        "Sinkhorn (reg=0.01)": 0.6667666666666667,
+        "Greenkhorn": 0.6943999999999999,
+        "Sparse Sinkhorn": 0.8332333333333334
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.014972533312781403,
+          "mean_error_success": 0.1923743885491417
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.13890553331778696,
+          "mean_error_success": 0.008285969691157986
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.04939073333904768,
+          "mean_error_success": 0.19237438714536345
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.14030249998904765,
+          "mean_error_success": 0.008285969691157986
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41004,
+      "source_id": "uci:kos:document:733",
+      "target_id": "uci:kos:document:87",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.442188988218541,
+      "reference_method": "EMD exact validated (active support=136, residual=2.5e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0016226000152528286,
+      "predict_seconds": 0.0005859999801032245,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.8251,
+        "Sinkhorn (reg=0.01)": 0.6653666666666667,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.8321999999999999
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.009083666664082557,
+          "mean_error_success": 0.1044428593440707
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.06795346665118511,
+          "mean_error_success": 0.010818563460516753
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.06816463333476956,
+          "mean_error_success": 0.010818563460516753
+        }
+      },
+      "selector_regret": 0.8321999999999999,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41005,
+      "source_id": "uci:kos:document:203",
+      "target_id": "uci:kos:document:135",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.4790547862252319,
+      "reference_method": "EMD exact validated (active support=153, residual=3.23e-16)",
+      "prediction": "Greenkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0014448000001721084,
+      "predict_seconds": 0.0006073999684303999,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.8209,
+        "Sinkhorn (reg=0.01)": 0.6651666666666667,
+        "Greenkhorn": 0.0,
+        "Sparse Sinkhorn": 0.832
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.01008213332776601,
+          "mean_error_success": 0.11545912704135712
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.1669766999936352,
+          "mean_error_success": 0.011205504609193603
+        },
+        "Greenkhorn": {
+          "successes": 0,
+          "attempts": 3,
+          "mean_runtime_success": null,
+          "mean_error_success": null
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.170517099982438,
+          "mean_error_success": 0.011205504609193603
+        }
+      },
+      "selector_regret": 0.832,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41006,
+      "source_id": "uci:kos:document:441",
+      "target_id": "uci:kos:document:777",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.27835721240178407,
+      "reference_method": "EMD exact validated (active support=56, residual=3.54e-16)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0016361000016331673,
+      "predict_seconds": 0.0005850999732501805,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7649,
+        "Sinkhorn (reg=0.01)": 0.6667333333333333,
+        "Greenkhorn": 0.6034333333333333,
+        "Sparse Sinkhorn": 0.8334333333333334
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.016012533335015178,
+          "mean_error_success": 0.2728902585146772
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.10754923334267612,
+          "mean_error_success": 0.00781766492559909
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.059795333324776344,
+          "mean_error_success": 0.27289025655284144
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.10733573332739373,
+          "mean_error_success": 0.00781766492559909
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41007,
+      "source_id": "uci:kos:document:532",
+      "target_id": "uci:kos:document:952",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.1401352957934121,
+      "reference_method": "EMD exact validated (active support=73, residual=4.86e-17)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.001725899986922741,
+      "predict_seconds": 0.0007513999589718878,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.6821,
+        "Sinkhorn (reg=0.01)": 0.6645333333333333,
+        "Greenkhorn": 0.49523333333333336,
+        "Sparse Sinkhorn": 0.8314333333333334
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.022937933312884223,
+          "mean_error_success": 0.567977925039319
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.2448700333091741,
+          "mean_error_success": 0.012671967414867364
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.12814710000141835,
+          "mean_error_success": 0.5679779293589642
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.24984279998655742,
+          "mean_error_success": 0.012671967414867364
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41008,
+      "source_id": "uci:kos:document:527",
+      "target_id": "uci:kos:document:572",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.21765821106460473,
+      "reference_method": "EMD exact validated (active support=64, residual=1.18e-16)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0023561999551020563,
+      "predict_seconds": 0.0005882999976165593,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7325,
+        "Sinkhorn (reg=0.01)": 0.6669666666666667,
+        "Greenkhorn": 0.6197333333333334,
+        "Sparse Sinkhorn": 0.8331
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.016897366653817397,
+          "mean_error_success": 0.3754312159674416
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.20724939999248213,
+          "mean_error_success": 0.008962186582278165
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.07321066669343661,
+          "mean_error_success": 0.3754312201410473
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.21398206666344777,
+          "mean_error_success": 0.008962186582278165
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    },
+    {
+      "domain": "kos",
+      "seed": 41009,
+      "source_id": "uci:kos:document:720",
+      "target_id": "uci:kos:document:427",
+      "nominal_dimension": 500,
+      "stored_dimension": 500,
+      "geometry_dimension": 16,
+      "reference": 0.3731569371191406,
+      "reference_method": "EMD exact validated (active support=68, residual=7.98e-17)",
+      "prediction": "Sparse Sinkhorn",
+      "baseline": "Sparse Sinkhorn",
+      "oracle": "Sparse Sinkhorn",
+      "feature_seconds": 0.0019459000322967768,
+      "predict_seconds": 0.000577300030272454,
+      "scores": {
+        "Sinkhorn (reg=0.1)": 0.7876,
+        "Sinkhorn (reg=0.01)": 0.6686,
+        "Greenkhorn": 0.6719333333333334,
+        "Sparse Sinkhorn": 0.8348
+      },
+      "outcomes": {
+        "Sinkhorn (reg=0.1)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.016901733353734016,
+          "mean_error_success": 0.20661203672457906
+        },
+        "Sinkhorn (reg=0.01)": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.20413170002090433,
+          "mean_error_success": 0.004458643457542694
+        },
+        "Greenkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.07781486667227,
+          "mean_error_success": 0.20661203307346007
+        },
+        "Sparse Sinkhorn": {
+          "successes": 3,
+          "attempts": 3,
+          "mean_runtime_success": 0.20751683332491666,
+          "mean_error_success": 0.004458643457542694
+        }
+      },
+      "selector_regret": 0.0,
+      "baseline_regret": 0.0
+    }
+  ],
+  "skipped": [
+    {
+      "domain": "movielens",
+      "seed": 41008,
+      "reason": "observation reused"
+    }
+  ],
+  "limitations": [
+    "small pilot; shared corpus preprocessing",
+    "unequal default iteration budgets",
+    "full cost matrix required for features",
+    "no end-to-end speedup claim"
+  ]
+}

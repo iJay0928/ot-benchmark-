@@ -1,0 +1,199 @@
+# ============================================================================
+# OTBench Benchmark v1.0 — 中等规模正式实验配置
+# ============================================================================
+# 用于大创结项报告/简单会议论文的实验验证章节。
+# - 8 个代表性场景
+# - 每场景 3 个 dataset_seed
+# - 每 seed 2 次重复
+# - 不包含 3000+ 维度的重场景
+# ============================================================================
+
+scenarios:
+
+  # ---- 低维稠密 (精确解可用) ----
+  - id: "OFF-DENSE-0200-01"
+    name: "低维稠密-均匀基准"
+    source_type: "uniform"
+    target_type: "uniform"
+    n_source: 200
+    dimension: 200
+    sparsity: 0.50
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.01
+    balanced: true
+    seeds: [10, 11, 12]
+    ground_truth_mode: "exact"
+    enabled: true
+    notes: "EMD 精确解可用, 作为精度基准"
+
+  # ---- 低维稀疏 ----
+  - id: "OFF-SPARSE-0300-02"
+    name: "低维稀疏-Zipf异步分布"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 300
+    dimension: 300
+    sparsity: 0.90
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: true
+    seeds: [20, 21, 22]
+    ground_truth_mode: "exact"
+    enabled: true
+    notes: "跨分布稀疏场景"
+
+  # ---- 中维稀疏 ----
+  - id: "OFF-SPARSE-0500-03"
+    name: "中维稀疏-推荐系统模拟"
+    source_type: "zipf"
+    target_type: "zipf"
+    n_source: 500
+    dimension: 500
+    sparsity: 0.92
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: true
+    seeds: [30, 31, 32]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "中等维度同分布稀疏场景"
+
+  # ---- 中高维稀疏 ----
+  - id: "OFF-SPARSE-0800-04"
+    name: "中高维稀疏-长尾分布"
+    source_type: "pareto"
+    target_type: "zipf"
+    n_source: 800
+    dimension: 800
+    sparsity: 0.95
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.05
+    balanced: true
+    seeds: [40, 41, 42]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "长尾稀疏场景, 参考解来自 Sinkhorn"
+
+  # ---- 高维稀疏 ----
+  - id: "OFF-SPARSE-1000-05"
+    name: "高维稀疏-文本分类模拟"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 1000
+    dimension: 1000
+    sparsity: 0.95
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.10
+    balanced: true
+    seeds: [50, 51, 52]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "高维跨分布稀疏场景"
+
+  # ---- 高维长尾 ----
+  - id: "OFF-SPARSE-1500-06"
+    name: "高维长尾-大规模推荐"
+    source_type: "pareto"
+    target_type: "zipf"
+    n_source: 1500
+    dimension: 1500
+    sparsity: 0.97
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.03
+    balanced: true
+    seeds: [60, 61, 62]
+    ground_truth_mode: "sinkhorn_ref"
+    enabled: true
+    notes: "较高维度长尾稀疏"
+
+  # ---- 协变量偏移 ----
+  - id: "OFF-SHIFT-0600-07"
+    name: "协变量偏移-训练测试不一致"
+    source_type: "zipf"
+    target_type: "pareto"
+    n_source: 600
+    dimension: 600
+    sparsity: 0.85
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.03
+    balanced: true
+    seeds: [70, 71, 72]
+    ground_truth_mode: "sinkhorn_ref"
+    shift_type: "covariate"
+    shift_intensity: 0.30
+    enabled: true
+    notes: "分布偏移场景, 模拟训练/测试分布不一致"
+
+  # ---- 高噪声鲁棒性 ----
+  - id: "OFF-STRESS-NOISE-08"
+    name: "高噪声鲁棒性测试"
+    source_type: "uniform"
+    target_type: "pareto"
+    n_source: 300
+    dimension: 300
+    sparsity: 0.40
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    geometry_dim: 8
+    noise_level: 0.20
+    balanced: true
+    seeds: [80, 81, 82]
+    ground_truth_mode: "exact"
+    enabled: true
+    notes: "高噪声 (20%) 鲁棒性测试, EMD 精确解可用"
+
+  # ---- 真实数据 (1 seed, 无需合成) ----
+  - id: "REAL-MOVIELENS-09"
+    name: "MovieLens 100K 用户评分分布"
+    source_type: "real"
+    real_dataset: "movielens"
+    real_params:
+      n_users: 300
+      n_items: 400
+      min_ratings_per_user: 5
+    n_source: 300
+    dimension: 300
+    sparsity: 0.94
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    noise_level: 0.0
+    balanced: true
+    seeds: [0]
+    ground_truth_mode: "unavailable"
+    enabled: true
+    notes: "真实推荐系统数据, 源=随机用户评分分布, 目标=另一随机用户评分分布"
+
+  - id: "REAL-UCIBOW-10"
+    name: "UCI Bag of Words — KOS 词频分布"
+    source_type: "real"
+    real_dataset: "uci_bow"
+    real_params:
+      dataset_name: "kos"
+      n_terms: 500
+      max_docs: 2000
+      min_terms_per_doc: 20
+    n_source: 500
+    dimension: 500
+    sparsity: 0.97
+    sparsity_semantics: "zero_ratio"
+    structure: "random"
+    noise_level: 0.0
+    balanced: true
+    seeds: [0]
+    ground_truth_mode: "unavailable"
+    enabled: true
+    notes: "真实文本词袋数据, KOS 数据集, 源/目标来自两个随机文档的 TF 分布"

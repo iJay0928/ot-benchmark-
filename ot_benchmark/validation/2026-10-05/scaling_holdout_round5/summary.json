@@ -1,0 +1,1132 @@
+{
+  "summary": {
+    "movielens": {
+      "dense_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 1.3882146000978537,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 0,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 13.39054017692904
+      },
+      "bounded_sparse_then_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 1.3743714999873191,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 30,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 13.19270643185273
+      },
+      "unshifted_full_then_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 0.08694579993607476,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 0,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 1.0185133189029878
+      },
+      "shifted_full_then_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 0.07907380006508902,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 0,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 1.0
+      }
+    },
+    "kos": {
+      "dense_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 0.34536030009621754,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 0,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 10.55535979507001
+      },
+      "bounded_sparse_then_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 0.3422194000449963,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 30,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 10.368563052907922
+      },
+      "unshifted_full_then_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 0.02697409992106259,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 0,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 0.9517929247862806
+      },
+      "shifted_full_then_log": {
+        "instances": 10,
+        "runs": 30,
+        "successes": 30,
+        "sum_case_median_seconds": 0.028006199921946973,
+        "dense_agreement_cases": 10,
+        "fallback_runs": 0,
+        "paired_success_cases": 10,
+        "median_speedup_of_shifted": 1.0
+      }
+    },
+    "all": {
+      "dense_log": {
+        "instances": 20,
+        "runs": 60,
+        "successes": 60,
+        "sum_case_median_seconds": 1.7335749001940712,
+        "dense_agreement_cases": 20,
+        "fallback_runs": 0,
+        "paired_success_cases": 20,
+        "median_speedup_of_shifted": 11.976345506558324
+      },
+      "bounded_sparse_then_log": {
+        "instances": 20,
+        "runs": 60,
+        "successes": 60,
+        "sum_case_median_seconds": 1.7165909000323154,
+        "dense_agreement_cases": 20,
+        "fallback_runs": 60,
+        "paired_success_cases": 20,
+        "median_speedup_of_shifted": 11.72320213732113
+      },
+      "unshifted_full_then_log": {
+        "instances": 20,
+        "runs": 60,
+        "successes": 60,
+        "sum_case_median_seconds": 0.11391989985713735,
+        "dense_agreement_cases": 20,
+        "fallback_runs": 0,
+        "paired_success_cases": 20,
+        "median_speedup_of_shifted": 0.995318533676903
+      },
+      "shifted_full_then_log": {
+        "instances": 20,
+        "runs": 60,
+        "successes": 60,
+        "sum_case_median_seconds": 0.10707999998703599,
+        "dense_agreement_cases": 20,
+        "fallback_runs": 0,
+        "paired_success_cases": 20,
+        "median_speedup_of_shifted": 1.0
+      }
+    }
+  },
+  "cases": [
+    {
+      "domain": "movielens",
+      "seed": 81001,
+      "source_id": "movielens:user:97",
+      "target_id": "movielens:user:169",
+      "reference": 0.1617516629435016,
+      "reference_method": "EMD exact validated (active support=57, residual=1.25e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.023676799959503114,
+          "cost": 0.16175167733229612,
+          "error_to_exact": 8.895608400644341e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.023502999974880368,
+          "cost": 0.16175167733229612,
+          "error_to_exact": 8.895608400644341e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.002262099995277822,
+          "cost": 0.16175167731956558,
+          "error_to_exact": 8.887737978409632e-08,
+          "absolute_difference_to_dense": 1.2730538845318051e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0021189000108279288,
+          "cost": 0.16175167731969367,
+          "error_to_exact": 8.887817168928687e-08,
+          "absolute_difference_to_dense": 1.2602446863851924e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81002,
+      "source_id": "movielens:user:33",
+      "target_id": "movielens:user:267",
+      "reference": 0.18272930645643318,
+      "reference_method": "EMD exact validated (active support=124, residual=1.99e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.11417269997764379,
+          "cost": 0.1827296272562533,
+          "error_to_exact": 1.7556013665568262e-06,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.11058999999659136,
+          "cost": 0.1827296272562533,
+          "error_to_exact": 1.7556013665568262e-06,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.00986449996707961,
+          "cost": 0.1827296275347173,
+          "error_to_exact": 1.7571252819443316e-06,
+          "absolute_difference_to_dense": 2.7846400185715936e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.009711499966215342,
+          "cost": 0.18272962753535146,
+          "error_to_exact": 1.7571287524297396e-06,
+          "absolute_difference_to_dense": 2.7909816124882525e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81004,
+      "source_id": "movielens:user:73",
+      "target_id": "movielens:user:145",
+      "reference": 0.12136137241974579,
+      "reference_method": "EMD exact validated (active support=174, residual=2.58e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.1430520000285469,
+          "cost": 0.12136139882730594,
+          "error_to_exact": 2.175944423333618e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.13687489996664226,
+          "cost": 0.12136139882730594,
+          "error_to_exact": 2.175944423333618e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.00836240005446598,
+          "cost": 0.12136139880339429,
+          "error_to_exact": 2.1739741382288347e-07,
+          "absolute_difference_to_dense": 2.3911650437469234e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.008610800025053322,
+          "cost": 0.1213613988036032,
+          "error_to_exact": 2.173991351476815e-07,
+          "absolute_difference_to_dense": 2.3702748097598203e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81005,
+      "source_id": "movielens:user:60",
+      "target_id": "movielens:user:181",
+      "reference": 0.09971654223112761,
+      "reference_method": "EMD exact validated (active support=211, residual=3.28e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.21869320003315806,
+          "cost": 0.09971656465075665,
+          "error_to_exact": 2.248335987240933e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.21572849998483434,
+          "cost": 0.09971656465075665,
+          "error_to_exact": 2.248335987240933e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.010158999997656792,
+          "cost": 0.09971656482162952,
+          "error_to_exact": 2.2654718473083395e-07,
+          "absolute_difference_to_dense": 1.7087287140782337e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.010339900036342442,
+          "cost": 0.0997165648211517,
+          "error_to_exact": 2.2654239288685984e-07,
+          "absolute_difference_to_dense": 1.703950452958125e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81006,
+      "source_id": "movielens:user:28",
+      "target_id": "movielens:user:131",
+      "reference": 0.2594871794427847,
+      "reference_method": "EMD exact validated (active support=72, residual=1.35e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.043590900022536516,
+          "cost": 0.25948720136295245,
+          "error_to_exact": 8.447495473021326e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.043150799989234656,
+          "cost": 0.25948720136295245,
+          "error_to_exact": 8.447495473021326e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.003989599994383752,
+          "cost": 0.2594872013724947,
+          "error_to_exact": 8.451172824594086e-08,
+          "absolute_difference_to_dense": 9.542255874350758e-12,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0031843000324442983,
+          "cost": 0.25948720137249337,
+          "error_to_exact": 8.45117231117079e-08,
+          "absolute_difference_to_dense": 9.540923606721208e-12,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81007,
+      "source_id": "movielens:user:91",
+      "target_id": "movielens:user:80",
+      "reference": 0.1808888888579412,
+      "reference_method": "EMD exact validated (active support=70, residual=2.26e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.04289349995087832,
+          "cost": 0.1808888951071774,
+          "error_to_exact": 3.454737464139851e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.04401850001886487,
+          "cost": 0.1808888951071774,
+          "error_to_exact": 3.454737464139851e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.003796399978455156,
+          "cost": 0.18088889523711554,
+          "error_to_exact": 3.526570590208886e-08,
+          "absolute_difference_to_dense": 1.29938143578201e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.003875399997923523,
+          "cost": 0.18088889523514484,
+          "error_to_exact": 3.525481136128924e-08,
+          "absolute_difference_to_dense": 1.279674421983401e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81008,
+      "source_id": "movielens:user:167",
+      "target_id": "movielens:user:14",
+      "reference": 0.11614100183541737,
+      "reference_method": "EMD exact validated (active support=81, residual=1.57e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.15139990003081039,
+          "cost": 0.1161410585679368,
+          "error_to_exact": 4.884796801793911e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.15022940002381802,
+          "cost": 0.11614105856793695,
+          "error_to_exact": 4.884796814937905e-07,
+          "absolute_difference_to_dense": 1.5265566588595902e-16,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.013071099994704127,
+          "cost": 0.11614105870546493,
+          "error_to_exact": 4.896638281168248e-07,
+          "absolute_difference_to_dense": 1.3752812777489964e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.012836900015827268,
+          "cost": 0.11614105870550999,
+          "error_to_exact": 4.896642161036365e-07,
+          "absolute_difference_to_dense": 1.3757318895191162e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81009,
+      "source_id": "movielens:user:72",
+      "target_id": "movielens:user:280",
+      "reference": 0.10484857960864433,
+      "reference_method": "EMD exact validated (active support=166, residual=3.05e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.5028121000505053,
+          "cost": 0.10484918895349402,
+          "error_to_exact": 5.81166527923923e-06,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.5060323000070639,
+          "cost": 0.10484918895349402,
+          "error_to_exact": 5.81166527923923e-06,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.023958400008268654,
+          "cost": 0.10484918901475253,
+          "error_to_exact": 5.812249536197029e-06,
+          "absolute_difference_to_dense": 6.125851215177391e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.01734520000172779,
+          "cost": 0.10484918901472103,
+          "error_to_exact": 5.812249235739184e-06,
+          "absolute_difference_to_dense": 6.122700957345018e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81010,
+      "source_id": "movielens:user:247",
+      "target_id": "movielens:user:64",
+      "reference": 0.13430968499321216,
+      "reference_method": "EMD exact validated (active support=133, residual=1.8e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.12277020001783967,
+          "cost": 0.13430970727313551,
+          "error_to_exact": 1.6588471152928118e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.11907800001790747,
+          "cost": 0.13430970727313551,
+          "error_to_exact": 1.6588471152928118e-07,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.00934579997556284,
+          "cost": 0.13430970756585622,
+          "error_to_exact": 1.6806415755209086e-07,
+          "absolute_difference_to_dense": 2.927207087832784e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.009173500002361834,
+          "cost": 0.13430970756518912,
+          "error_to_exact": 1.6805919063358492e-07,
+          "absolute_difference_to_dense": 2.9205360352335674e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "movielens",
+      "seed": 81011,
+      "source_id": "movielens:user:196",
+      "target_id": "movielens:user:292",
+      "reference": 0.22557526842002112,
+      "reference_method": "EMD exact validated (active support=99, residual=2.62e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.02515330002643168,
+          "cost": 0.22557527358627705,
+          "error_to_exact": 2.2902581294691605e-08,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.025166100007481873,
+          "cost": 0.22557527358627702,
+          "error_to_exact": 2.2902581171648082e-08,
+          "absolute_difference_to_dense": 2.7755575615628914e-17,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0021364999702200294,
+          "cost": 0.2255752737717934,
+          "error_to_exact": 2.372499570908882e-08,
+          "absolute_difference_to_dense": 1.8551635228014618e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0018773999763652682,
+          "cost": 0.22557527377511366,
+          "error_to_exact": 2.3739714790468065e-08,
+          "absolute_difference_to_dense": 1.888366130131658e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81000,
+      "source_id": "uci:kos:document:198",
+      "target_id": "uci:kos:document:83",
+      "reference": 0.2905650734134105,
+      "reference_method": "EMD exact validated (active support=76, residual=2.36e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.021608700044453144,
+          "cost": 0.2924311157271539,
+          "error_to_exact": 0.006422114990704553,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.02168449998134747,
+          "cost": 0.2924311157271539,
+          "error_to_exact": 0.006422114990704553,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0019067000248469412,
+          "cost": 0.2924311158488806,
+          "error_to_exact": 0.006422115409635441,
+          "absolute_difference_to_dense": 1.217266842878928e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0020404999959282577,
+          "cost": 0.2924311158588898,
+          "error_to_exact": 0.006422115444082856,
+          "absolute_difference_to_dense": 1.317358999664009e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81001,
+      "source_id": "uci:kos:document:565",
+      "target_id": "uci:kos:document:119",
+      "reference": 0.39663070937584133,
+      "reference_method": "EMD exact validated (active support=56, residual=2.91e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.023086700006388128,
+          "cost": 0.39912073228896644,
+          "error_to_exact": 0.006277937775023878,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.022298500000033528,
+          "cost": 0.3991207322889667,
+          "error_to_exact": 0.006277937775024577,
+          "absolute_difference_to_dense": 2.7755575615628914e-16,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0021078999852761626,
+          "cost": 0.39912073229158085,
+          "error_to_exact": 0.006277937781615422,
+          "absolute_difference_to_dense": 2.61440868953855e-12,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0018987999646924436,
+          "cost": 0.39912073229131667,
+          "error_to_exact": 0.006277937780949368,
+          "absolute_difference_to_dense": 2.350231120828994e-12,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81002,
+      "source_id": "uci:kos:document:122",
+      "target_id": "uci:kos:document:519",
+      "reference": 0.149501951070049,
+      "reference_method": "EMD exact validated (active support=67, residual=1.01e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.028205899987369776,
+          "cost": 0.15173605863004647,
+          "error_to_exact": 0.014943668253203526,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.02692070003831759,
+          "cost": 0.15173605863004647,
+          "error_to_exact": 0.014943668253203526,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0025449999957345426,
+          "cost": 0.15173605865909834,
+          "error_to_exact": 0.014943668447527893,
+          "absolute_difference_to_dense": 2.9051872019181246e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.003076299966778606,
+          "cost": 0.151736058663897,
+          "error_to_exact": 0.014943668479625544,
+          "absolute_difference_to_dense": 3.385053348736733e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81003,
+      "source_id": "uci:kos:document:304",
+      "target_id": "uci:kos:document:890",
+      "reference": 0.36068126064343137,
+      "reference_method": "EMD exact validated (active support=179, residual=2.75e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.06697139999596402,
+          "cost": 0.3643063869261657,
+          "error_to_exact": 0.010050775236471477,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.06743019999703392,
+          "cost": 0.3643063869261659,
+          "error_to_exact": 0.010050775236472093,
+          "absolute_difference_to_dense": 2.220446049250313e-16,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.004278599983081222,
+          "cost": 0.3643063871750934,
+          "error_to_exact": 0.010050775926631292,
+          "absolute_difference_to_dense": 2.4892771177675854e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.004424499988090247,
+          "cost": 0.36430638717946573,
+          "error_to_exact": 0.010050775938753729,
+          "absolute_difference_to_dense": 2.5330004760348857e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81004,
+      "source_id": "uci:kos:document:264",
+      "target_id": "uci:kos:document:45",
+      "reference": 0.34114410168965037,
+      "reference_method": "EMD exact validated (active support=231, residual=2.24e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.05884610000066459,
+          "cost": 0.34546375352386016,
+          "error_to_exact": 0.012662249802400268,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.058243700012099,
+          "cost": 0.34546375352386005,
+          "error_to_exact": 0.012662249802399942,
+          "absolute_difference_to_dense": 1.1102230246251565e-16,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0029279000009410083,
+          "cost": 0.34546375385645656,
+          "error_to_exact": 0.012662250777344267,
+          "absolute_difference_to_dense": 3.325963948697108e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0027658999897539616,
+          "cost": 0.3454637538653127,
+          "error_to_exact": 0.012662250803304376,
+          "absolute_difference_to_dense": 3.4145253291484323e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81005,
+      "source_id": "uci:kos:document:308",
+      "target_id": "uci:kos:document:769",
+      "reference": 0.19086513772155395,
+      "reference_method": "EMD exact validated (active support=83, residual=4.93e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.02263469999888912,
+          "cost": 0.19301934302841064,
+          "error_to_exact": 0.011286531068860722,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.022381700051482767,
+          "cost": 0.19301934302841067,
+          "error_to_exact": 0.011286531068860867,
+          "absolute_difference_to_dense": 2.7755575615628914e-17,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.002159699972253293,
+          "cost": 0.19301934306083882,
+          "error_to_exact": 0.011286531238761688,
+          "absolute_difference_to_dense": 3.242817125936881e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.002339300001040101,
+          "cost": 0.19301934306153237,
+          "error_to_exact": 0.011286531242395438,
+          "absolute_difference_to_dense": 3.3121727582852145e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81006,
+      "source_id": "uci:kos:document:454",
+      "target_id": "uci:kos:document:764",
+      "reference": 0.2344700904677588,
+      "reference_method": "EMD exact validated (active support=55, residual=6.25e-17)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.022772800002712756,
+          "cost": 0.23656254078010638,
+          "error_to_exact": 0.008924167292183111,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.022824499988928437,
+          "cost": 0.23656254078010638,
+          "error_to_exact": 0.008924167292183111,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0022823999752290547,
+          "cost": 0.23656254091657372,
+          "error_to_exact": 0.008924167874207611,
+          "absolute_difference_to_dense": 1.3646733743044592e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0023824000381864607,
+          "cost": 0.23656254090790654,
+          "error_to_exact": 0.008924167837242649,
+          "absolute_difference_to_dense": 1.2780015934410471e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81007,
+      "source_id": "uci:kos:document:334",
+      "target_id": "uci:kos:document:375",
+      "reference": 0.3161901600109759,
+      "reference_method": "EMD exact validated (active support=146, residual=5.67e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.04392120003467426,
+          "cost": 0.31979348980453226,
+          "error_to_exact": 0.011396084537960618,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.04474270000355318,
+          "cost": 0.3197934898045325,
+          "error_to_exact": 0.011396084537961319,
+          "absolute_difference_to_dense": 2.220446049250313e-16,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0033469999907538295,
+          "cost": 0.31979348982733513,
+          "error_to_exact": 0.011396084610078202,
+          "absolute_difference_to_dense": 2.280287070277609e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.003539700002875179,
+          "cost": 0.3197934898272766,
+          "error_to_exact": 0.01139608460989316,
+          "absolute_difference_to_dense": 2.2744361949378344e-11,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81008,
+      "source_id": "uci:kos:document:783",
+      "target_id": "uci:kos:document:281",
+      "reference": 0.44486651919708226,
+      "reference_method": "EMD exact validated (active support=156, residual=2.36e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.021531900041736662,
+          "cost": 0.4485060394720193,
+          "error_to_exact": 0.008181151239490479,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.020386499993037432,
+          "cost": 0.4485060394720193,
+          "error_to_exact": 0.008181151239490479,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0018983000190928578,
+          "cost": 0.44850603927286997,
+          "error_to_exact": 0.008181150791829666,
+          "absolute_difference_to_dense": 1.9914930815545517e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0020465999841690063,
+          "cost": 0.4485060391866152,
+          "error_to_exact": 0.008181150597940539,
+          "absolute_difference_to_dense": 2.8540408925081806e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    },
+    {
+      "domain": "kos",
+      "seed": 81009,
+      "source_id": "uci:kos:document:9",
+      "target_id": "uci:kos:document:724",
+      "reference": 0.27307418206149636,
+      "reference_method": "EMD exact validated (active support=84, residual=4.93e-16)",
+      "metrics": {
+        "dense_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.03578089998336509,
+          "cost": 0.27473378413364113,
+          "error_to_exact": 0.006077477041645151,
+          "absolute_difference_to_dense": 0.0,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "bounded_sparse_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.03530639997916296,
+          "cost": 0.2747337841336407,
+          "error_to_exact": 0.006077477041643525,
+          "absolute_difference_to_dense": 4.440892098500626e-16,
+          "agrees_with_dense": true,
+          "fallbacks": 3
+        },
+        "unshifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0035205999738536775,
+          "cost": 0.27473378402283655,
+          "error_to_exact": 0.006077476635877799,
+          "absolute_difference_to_dense": 1.1080458772738666e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        },
+        "shifted_full_then_log": {
+          "successes": 3,
+          "attempts": 3,
+          "median_seconds": 0.0034921999904327095,
+          "cost": 0.2747337838858879,
+          "error_to_exact": 0.006077476134370577,
+          "absolute_difference_to_dense": 2.477532623501588e-10,
+          "agrees_with_dense": true,
+          "fallbacks": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "manifest_verified": true,
+  "groups": {
+    "all": {
+      "totals": {
+        "guarded": {
+          "successes": 72,
+          "runs": 72,
+          "sum_medians": 0.7238191002397798,
+          "rescue_runs": 6,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 72,
+          "runs": 72,
+          "sum_medians": 2.573079699650407,
+          "rescue_runs": 6,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 72,
+          "runs": 72,
+          "sum_medians": 3.8356138001545332,
+          "rescue_runs": 6,
+          "epsilon_runs": 6
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 24,
+          "faster_cases": 13,
+          "median_speedup": 1.0049820564082736,
+          "paired_time_reduction": 0.7186954215455814,
+          "worst_speedup": 0.8334720112651672
+        },
+        "cold_budget": {
+          "paired_cases": 24,
+          "faster_cases": 13,
+          "median_speedup": 1.0014519587420372,
+          "paired_time_reduction": 0.811289890496635,
+          "worst_speedup": 0.8173424703359716
+        }
+      }
+    },
+    "movielens": {
+      "totals": {
+        "guarded": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.33775550010614097,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 1.5389547997619957,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 2.3981923001119867,
+          "rescue_runs": 3,
+          "epsilon_runs": 3
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 12,
+          "faster_cases": 7,
+          "median_speedup": 1.0067573431109436,
+          "paired_time_reduction": 0.7805292915955843,
+          "worst_speedup": 0.8334720112651672
+        },
+        "cold_budget": {
+          "paired_cases": 12,
+          "faster_cases": 7,
+          "median_speedup": 1.016151455955337,
+          "paired_time_reduction": 0.85916246162146,
+          "worst_speedup": 0.8173424703359716
+        }
+      }
+    },
+    "kos": {
+      "totals": {
+        "guarded": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 0.38606360013363883,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 1.0341248998884112,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 36,
+          "runs": 36,
+          "sum_medians": 1.4374215000425465,
+          "rescue_runs": 3,
+          "epsilon_runs": 3
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 12,
+          "faster_cases": 6,
+          "median_speedup": 0.9962431185188745,
+          "paired_time_reduction": 0.6266760425406084,
+          "worst_speedup": 0.9243943334050658
+        },
+        "cold_budget": {
+          "paired_cases": 12,
+          "faster_cases": 6,
+          "median_speedup": 0.998062128284061,
+          "paired_time_reduction": 0.7314193504673392,
+          "worst_speedup": 0.911925934607084
+        }
+      }
+    },
+    "movielens_reg_0.01": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.04796960006933659,
+          "rescue_runs": 0,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.04686769988620654,
+          "rescue_runs": 0,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.04893779999110848,
+          "rescue_runs": 0,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 6,
+          "faster_cases": 3,
+          "median_speedup": 0.9976539305122178,
+          "paired_time_reduction": -0.02351086538928593,
+          "worst_speedup": 0.8334720112651672
+        },
+        "cold_budget": {
+          "paired_cases": 6,
+          "faster_cases": 4,
+          "median_speedup": 1.033405303323162,
+          "paired_time_reduction": 0.019784296023683035,
+          "worst_speedup": 0.8173424703359716
+        }
+      }
+    },
+    "movielens_reg_0.001": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.2897859000368044,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 1.4920870998757891,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 2.349254500120878,
+          "rescue_runs": 3,
+          "epsilon_runs": 3
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 6,
+          "faster_cases": 4,
+          "median_speedup": 1.0133686754729996,
+          "paired_time_reduction": 0.8057848633227055,
+          "worst_speedup": 0.9693999524732271
+        },
+        "cold_budget": {
+          "paired_cases": 6,
+          "faster_cases": 3,
+          "median_speedup": 1.0003558041932785,
+          "paired_time_reduction": 0.8766477195119159,
+          "worst_speedup": 0.987770228907061
+        }
+      }
+    },
+    "kos_reg_0.01": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.02973580005345866,
+          "rescue_runs": 0,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.029532899905461818,
+          "rescue_runs": 0,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.030259300081524998,
+          "rescue_runs": 0,
+          "epsilon_runs": 0
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 6,
+          "faster_cases": 4,
+          "median_speedup": 1.0064639083850457,
+          "paired_time_reduction": -0.006870308999331165,
+          "worst_speedup": 0.9243943334050658
+        },
+        "cold_budget": {
+          "paired_cases": 6,
+          "faster_cases": 4,
+          "median_speedup": 1.0014519587420372,
+          "paired_time_reduction": 0.017300467183838264,
+          "worst_speedup": 0.911925934607084
+        }
+      }
+    },
+    "kos_reg_0.001": {
+      "totals": {
+        "guarded": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 0.35632780008018017,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "warm_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 1.0045919999829493,
+          "rescue_runs": 3,
+          "epsilon_runs": 0
+        },
+        "cold_budget": {
+          "successes": 18,
+          "runs": 18,
+          "sum_medians": 1.4071621999610215,
+          "rescue_runs": 3,
+          "epsilon_runs": 3
+        }
+      },
+      "comparisons": {
+        "warm_budget": {
+          "paired_cases": 6,
+          "faster_cases": 2,
+          "median_speedup": 0.9868313392575494,
+          "paired_time_reduction": 0.645300977823606,
+          "worst_speedup": 0.9595024909552585
+        },
+        "cold_budget": {
+          "paired_cases": 6,
+          "faster_cases": 2,
+          "median_speedup": 0.9937810448743292,
+          "paired_time_reduction": 0.7467756026348273,
+          "worst_speedup": 0.9693761790686599
+        }
+      }
+    }
+  },
+  "failures": [],
+  "trigger_cases": [
+    {
+      "domain": "movielens",
+      "seed": 106011,
+      "reg": 0.001,
+      "iteration": 2250,
+      "discrepancy": 1.3579670573709236e-08
+    },
+    {
+      "domain": "kos",
+      "seed": 106007,
+      "reg": 0.001,
+      "iteration": 250,
+      "discrepancy": 1.6612874582923071e+44
+    }
+  ],
+  "warning_runs": 6,
+  "note": "complete solver timings; shared preprocessing excluded; six pairs per corpus reused across regularizations; no statistical significance claim"
+}

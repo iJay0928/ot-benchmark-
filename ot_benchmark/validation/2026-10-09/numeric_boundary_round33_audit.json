@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "failures": [
+    [
+      113001,
+      "near_balanced_blocks_reg_0.001",
+      "legacy_fallback",
+      0
+    ],
+    [
+      113001,
+      "near_balanced_blocks_reg_0.001",
+      "quality_fallback",
+      0
+    ],
+    [
+      113001,
+      "near_balanced_blocks_reg_0.001",
+      "legacy_fallback",
+      1
+    ],
+    [
+      113001,
+      "near_balanced_blocks_reg_0.001",
+      "quality_fallback",
+      1
+    ],
+    [
+      113001,
+      "near_balanced_blocks_reg_0.001",
+      "legacy_fallback",
+      2
+    ],
+    [
+      113001,
+      "near_balanced_blocks_reg_0.001",
+      "quality_fallback",
+      2
+    ],
+    [
+      113002,
+      "near_balanced_blocks_reg_0.001",
+      "quality_fallback",
+      0
+    ],
+    [
+      113002,
+      "near_balanced_blocks_reg_0.001",
+      "legacy_fallback",
+      0
+    ],
+    [
+      113002,
+      "near_balanced_blocks_reg_0.001",
+      "quality_fallback",
+      1
+    ],
+    [
+      113002,
+      "near_balanced_blocks_reg_0.001",
+      "legacy_fallback",
+      1
+    ],
+    [
+      113002,
+      "near_balanced_blocks_reg_0.001",
+      "quality_fallback",
+      2
+    ],
+    [
+      113002,
+      "near_balanced_blocks_reg_0.001",
+      "legacy_fallback",
+      2
+    ]
+  ],
+  "fallback_cases": [
+    {
+      "seed": 113001,
+      "label": "near_balanced_blocks_reg_0.001",
+      "old_outer": 1000,
+      "new_outer": 1000,
+      "old_gap": 5.19541041662467e-05,
+      "new_gap": 5.19541041662467e-05
+    },
+    {
+      "seed": 113002,
+      "label": "near_balanced_blocks_reg_0.001",
+      "old_outer": 1000,
+      "new_outer": 1000,
+      "old_gap": 5.053337847483585e-05,
+      "new_gap": 5.053337847483585e-05
+    }
+  ],
+  "groups": {
+    "all": {
+      "cases": 12,
+      "totals": {
+        "legacy_fallback": 37.21192800001154,
+        "quality_fallback": 37.33819929999299
+      },
+      "reduction": -0.003393301738663368,
+      "faster": 4
+    },
+    "fallback": {
+      "cases": 2,
+      "totals": {
+        "legacy_fallback": 31.746942600002512,
+        "quality_fallback": 31.875181399998837
+      },
+      "reduction": -0.004039406301642234,
+      "faster": 0
+    },
+    "no_fallback": {
+      "cases": 10,
+      "totals": {
+        "legacy_fallback": 5.464985400009027,
+        "quality_fallback": 5.463017899994156
+      },
+      "reduction": 0.00036001926279027874,
+      "faster": 4
+    }
+  },
+  "runs": 72
+}

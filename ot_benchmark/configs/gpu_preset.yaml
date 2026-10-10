@@ -1,0 +1,30 @@
+# OT Benchmark GPU 优化预设
+
+execution:
+  parallel_workers: 1            # GPU 模式下串行化 (避免 GPU 争用)
+  timeout_per_algorithm: 120
+  memory_limit_mb: 16384
+
+backend:
+  type: torch                   # 使用 PyTorch GPU
+  gpu_id: 0
+  fallback: true
+
+weight_config:
+  w_accuracy: 0.35
+  w_speed: 0.30
+  w_memory: 0.25
+  w_success: 0.10
+  max_runtime: 60.0
+  max_memory: 16384.0
+
+output:
+  charts: true
+  html_report: true
+  format: png
+  dpi: 150
+  output_dir: benchmark_results
+
+logging:
+  level: INFO
+  file: benchmark.log

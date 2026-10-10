@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "failures": [],
+  "fallback_cases": [],
+  "groups": {
+    "all": {
+      "cases": 24,
+      "totals": {
+        "legacy_fallback": 3.158464600215666,
+        "quality_fallback": 3.133568500285037
+      },
+      "reduction": 0.007882342556230992,
+      "faster": 15
+    },
+    "fallback": {
+      "cases": 0,
+      "totals": {
+        "legacy_fallback": 0,
+        "quality_fallback": 0
+      },
+      "reduction": null,
+      "faster": 0
+    },
+    "no_fallback": {
+      "cases": 24,
+      "totals": {
+        "legacy_fallback": 3.158464600215666,
+        "quality_fallback": 3.133568500285037
+      },
+      "reduction": 0.007882342556230992,
+      "faster": 15
+    }
+  },
+  "runs": 144
+}

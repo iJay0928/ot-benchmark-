@@ -1,0 +1,25 @@
+{
+  "role": "previously viewed development pairs",
+  "inputs": "C:\\Users\\Lenovo\\Desktop\\\u5927\u521b\\ot_benchmark\\validation\\2026-10-07\\quality_real_inputs_round28",
+  "input_manifest_sha256": "48464116d23432d65258c53c69ed31eb6b79b3d176cd9b7e54aa7def05196fda",
+  "methods": [
+    "pot1000",
+    "quality_compat"
+  ],
+  "reg": [
+    0.01,
+    0.001
+  ],
+  "repetitions": 3,
+  "seed": 31000,
+  "schedule": "(1-reg)*exp(-i)+reg; POT stabilized inner1000 stop1e-22 tau1000; cap1000",
+  "quality": "target-reg gap [-1e-10,1e-8], rounded residual<=1e-12; check i>=35 and i%10==0 or final; also check when legacy residual would stop; accept only target quality",
+  "time": "full solve, normalization, diagnostics, rounding and full plan allocation; excludes independent audit",
+  "pot_version": "0.9.6.post1",
+  "pot_source_sha256": "71ee6030e5dffc4dff9b0200a8d2f2317da5e2546102e0f478d1b247bafe2592",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

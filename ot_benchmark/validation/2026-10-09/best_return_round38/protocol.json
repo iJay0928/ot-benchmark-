@@ -1,0 +1,52 @@
+{
+  "role": "four known failed conditions, development only",
+  "source_sha256": "054c8082d6c12affaca49dcc0f74f926833d19a6b4f114e4ec964b549d44adb8",
+  "jobs": [
+    {
+      "case": {
+        "seed": 137001,
+        "delta": 1e-05,
+        "file": "seed_137001_delta1.npz",
+        "sha256": "ee052729f9e51d650aff62f4d31bd5372c06cb447ce4ddc162cd1f4d45a1c691"
+      },
+      "reg": 0.001,
+      "method": "gated"
+    },
+    {
+      "case": {
+        "seed": 137002,
+        "delta": 1e-05,
+        "file": "seed_137002_delta1.npz",
+        "sha256": "a0ae28f3c7b110f45e4dca5972acf6a1133fc24c4e873715389eec69cac4eb1d"
+      },
+      "reg": 0.003,
+      "method": "gated"
+    },
+    {
+      "case": {
+        "seed": 137002,
+        "delta": 1e-05,
+        "file": "seed_137002_delta1.npz",
+        "sha256": "a0ae28f3c7b110f45e4dca5972acf6a1133fc24c4e873715389eec69cac4eb1d"
+      },
+      "reg": 0.001,
+      "method": "gated"
+    },
+    {
+      "case": {
+        "seed": 137001,
+        "delta": 1e-05,
+        "file": "seed_137001_delta1.npz",
+        "sha256": "ee052729f9e51d650aff62f4d31bd5372c06cb447ce4ddc162cd1f4d45a1c691"
+      },
+      "reg": 0.003,
+      "method": "gated"
+    }
+  ],
+  "keep_best": true,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

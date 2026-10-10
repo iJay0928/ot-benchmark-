@@ -1,0 +1,27 @@
+{
+  "role": "development paired actions; all 28 prior cases; skip branches already converged",
+  "checkpoints": [
+    1000,
+    3000
+  ],
+  "methods": [
+    "continue",
+    "epsilon_cold",
+    "epsilon_warm"
+  ],
+  "repetitions": 3,
+  "acceptance_l1": 1e-09,
+  "ordinary_total_budget": 50000,
+  "epsilon_outer_budget": 200,
+  "epsilon_inner_budget": 1000,
+  "epsilon0": 1.0,
+  "epsilon_stop": 1e-22,
+  "pot_version": "0.9.6.post1",
+  "warmstart": "alpha=reg*log(u), beta=reg*log(v), in original cost units",
+  "timing": "remaining branch including state copy, warmstart conversion, validation; shared prefix and preprocessing separate",
+  "budget_warning": "ordinary iterations and epsilon inner/outer budgets are different work units",
+  "inputs": {
+    "validation\\2026-10-06\\switch_probe_round9\\summary.json": "172701049ee2d938e860ad52413d808e89c30a716f3e620a85c06ffd7686eb57",
+    "validation\\2026-10-06\\switch_probe_holdout_round9\\summary.json": "25f55bead2bc49ffcd25dc28ddf0cb8463f5a0b4359478d5ace46f0bc12b9239"
+  }
+}

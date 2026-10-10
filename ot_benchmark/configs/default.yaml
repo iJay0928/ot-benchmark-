@@ -1,0 +1,38 @@
+# OT Benchmark 默认配置文件
+# ========================
+# CLI 参数会覆盖此文件中的对应值
+
+execution:
+  parallel_workers: 0           # 0 = 自动 (CPU 核心数)
+  timeout_per_algorithm: 300    # 每个算法超时秒数
+  memory_limit_mb: 8192         # 每个 worker 内存上限
+
+backend:
+  type: auto                    # auto | numpy | torch | cupy
+  gpu_id: 0                     # GPU 设备 ID
+  fallback: true                # GPU 不可用时回退到 CPU
+
+weight_config:
+  w_accuracy: 0.35
+  w_speed: 0.30
+  w_memory: 0.25
+  w_success: 0.10
+  max_runtime: 120.0            # 时间归一化上限 (秒)
+  max_memory: 8192.0            # 内存归一化上限 (MB)
+
+output:
+  charts: true
+  html_report: true
+  format: png
+  dpi: 150
+  output_dir: benchmark_results
+
+cloud:
+  obs_enabled: false
+  obs_endpoint: "https://obs.cn-south-1.myhuaweicloud.com"
+  obs_bucket: "ot-benchmark-results"
+  modelarts_enabled: false
+
+logging:
+  level: INFO
+  file: null                    # null = 仅控制台输出
