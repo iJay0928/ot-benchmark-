@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "trajectories": 24,
+  "precision_dps": [
+    600,
+    800
+  ],
+  "relative_tolerance": "1e-24",
+  "comparison_floor": "1e-120",
+  "note": "High precision identities and consistency only; no interval certificate or new theorem"
+}

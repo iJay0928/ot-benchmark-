@@ -1,0 +1,18 @@
+{
+  "dps": 600,
+  "inverse_epsilon": [
+    8,
+    32,
+    128,
+    1000
+  ],
+  "deltas": [
+    "0",
+    "1e-6",
+    "1e-5",
+    "1e-4",
+    "1e-3"
+  ],
+  "perturbed_balanced_initial_log_ratio": "0.1",
+  "role": "analytic model check; no empirical solver speed or held-out generalization claim"
+}
