@@ -1,0 +1,32 @@
+{
+  "role": "controlled mechanism development, known cluster labels",
+  "seeds": [
+    139001,
+    139002
+  ],
+  "widths": [
+    0.0,
+    0.001,
+    0.02
+  ],
+  "deltas": [
+    0.0,
+    1e-05,
+    0.001
+  ],
+  "regs": [
+    0.03125,
+    0.0078125
+  ],
+  "n": 16,
+  "iterations": 20000,
+  "checkpoints": [
+    1,
+    10,
+    100,
+    1000,
+    10000,
+    20000
+  ],
+  "zero_width_tolerance": 1e-10
+}

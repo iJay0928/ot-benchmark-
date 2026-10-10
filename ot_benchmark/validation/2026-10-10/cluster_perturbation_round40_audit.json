@@ -1,0 +1,39 @@
+{
+  "audit_passed": true,
+  "groups": {
+    "0.0": {
+      "conditions": 12,
+      "accepted": 6,
+      "max_block_error": 1.1102230246251565e-16,
+      "max_reconstruction_l1": 3.608224830031759e-15,
+      "max_first_raw_residual_balanced": 6.661338147750939e-16
+    },
+    "0.001": {
+      "conditions": 12,
+      "accepted": 6,
+      "max_block_error": 3.2023272922288015e-11,
+      "max_reconstruction_l1": 2.523155295808266e-15,
+      "max_first_raw_residual_balanced": 8.528221878689735e-11
+    },
+    "0.02": {
+      "conditions": 12,
+      "accepted": 6,
+      "max_block_error": 4.351856652817787e-10,
+      "max_reconstruction_l1": 2.3678975447083417e-15,
+      "max_first_raw_residual_balanced": 1.3725434221338595e-05
+    }
+  },
+  "posthoc_cross_flow_relative_error": {
+    "condition": [
+      139002,
+      0.02,
+      0.0,
+      0.0078125
+    ],
+    "iteration": 10,
+    "coarse_cross_total": 2.572209372642415e-56,
+    "fine_cross_total": 3.821558435522853e-54,
+    "relative_error": 147.5710485378175
+  },
+  "limitation": "relative-flow diagnostic added after outputs; not a preregistered pass criterion"
+}
