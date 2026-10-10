@@ -1,0 +1,2564 @@
+{
+  "rows": [
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.0,
+        "delta": 0.0001,
+        "file": "input_00.npz",
+        "sha256": "a45a1f57495357922959b057d2ae11a5b95129af89092d3350d645bd6290d009"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413332165e-06,
+            "crossing_net": 1.0001962465325606e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.9994837116039935e-05,
+            "crossing_net": 5.0004837116139825e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718188e-05,
+            "crossing_net": 9.00015203267043e-05
+          }
+        ],
+        "final_net": 9.999999328939955e-05,
+        "diagnostics": {
+          "raw_residual": 1.3420542455122586e-11,
+          "rounded_residual": 3.3306690738754696e-16,
+          "rounded_primal": -0.1828056866636905,
+          "dual": -0.18280568666369038,
+          "numerical_gap": -1.1102230246251565e-16,
+          "rounding_l1": 1.3420431432820124e-11,
+          "raw_transport_cost": 9.999999328939965e-05,
+          "rounded_transport_cost": 9.999999999980966e-05
+        },
+        "final_accepted": true,
+        "trace": "fine_00.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.0,
+        "delta": 0.0001,
+        "file": "input_00.npz",
+        "sha256": "a45a1f57495357922959b057d2ae11a5b95129af89092d3350d645bd6290d009"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.02669710173589e-39,
+        "diagnostics": {
+          "raw_residual": 0.00019999999999831264,
+          "rounded_residual": 3.3306690738754696e-16,
+          "rounded_primal": -0.0456264216659226,
+          "dual": -0.04568773659270537,
+          "numerical_gap": 6.13149267827684e-05,
+          "rounding_l1": 0.00019999999999892326,
+          "raw_transport_cost": 3.026697101735884e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "fine_01.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.0,
+        "delta": 0.001,
+        "file": "input_01.npz",
+        "sha256": "46f050a41c54e122005b0eb62a22c2f5ce211d3d5bb18207eee965a265da79c4"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692142e-05,
+            "crossing_net": 0.00010016771650128081
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182686,
+            "crossing_net": 0.0005001601199561951
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859319,
+            "crossing_net": 0.000900307274718548
+          }
+        ],
+        "final_net": 0.0009999999999998684,
+        "diagnostics": {
+          "raw_residual": 1.3322676295501878e-15,
+          "rounded_residual": 4.440892098500626e-16,
+          "rounded_primal": -0.18210137097970924,
+          "dual": -0.18210137097970958,
+          "numerical_gap": 3.3306690738754696e-16,
+          "rounding_l1": 1.3419871831435283e-15,
+          "raw_transport_cost": 0.0009999999999998682,
+          "rounded_transport_cost": 0.0010000000000005998
+        },
+        "final_accepted": true,
+        "trace": "fine_02.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.0,
+        "delta": 0.001,
+        "file": "input_01.npz",
+        "sha256": "46f050a41c54e122005b0eb62a22c2f5ce211d3d5bb18207eee965a265da79c4"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195966e-05,
+            "crossing_net": 0.00010017925428888516
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050482,
+            "crossing_net": 0.0005001921200258884
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.0008999592073794093,
+            "crossing_net": 0.0009003187626793277
+          }
+        ],
+        "final_net": 0.0010000000000000028,
+        "diagnostics": {
+          "raw_residual": 4.218847493575595e-15,
+          "rounded_residual": 2.7755575615628914e-16,
+          "rounded_primal": -0.044775342744927324,
+          "dual": -0.044775342744927366,
+          "numerical_gap": 4.163336342344337e-17,
+          "rounding_l1": 4.04494146510892e-15,
+          "raw_transport_cost": 0.0010000000000000033,
+          "rounded_transport_cost": 0.0010000000000000514
+        },
+        "final_accepted": true,
+        "trace": "fine_03.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.001,
+        "delta": 0.0001,
+        "file": "input_02.npz",
+        "sha256": "febcda81294477dbda310bcd4cd2ba93ee97b8aacb94048623abe0db74ebb20e"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53115,
+            "previous_net": 9.997847903868663e-06,
+            "crossing_net": 1.0001447791153944e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58608,
+            "previous_net": 4.999340611560928e-05,
+            "crossing_net": 5.0003406115165946e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64101,
+            "previous_net": 8.999740342504924e-05,
+            "crossing_net": 9.000100367957739e-05
+          }
+        ],
+        "final_net": 9.999999355214395e-05,
+        "diagnostics": {
+          "raw_residual": 1.2895691459124947e-11,
+          "rounded_residual": 1.457167719820518e-16,
+          "rounded_primal": -0.18280568199308303,
+          "dual": -0.182805681993083,
+          "numerical_gap": -2.7755575615628914e-17,
+          "rounding_l1": 1.2895996769821444e-11,
+          "raw_transport_cost": 0.00010000383269048357,
+          "rounded_transport_cost": 0.00010000383913030304
+        },
+        "final_accepted": true,
+        "trace": "fine_04.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.001,
+        "delta": 0.0001,
+        "file": "input_02.npz",
+        "sha256": "febcda81294477dbda310bcd4cd2ba93ee97b8aacb94048623abe0db74ebb20e"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.562475531184887e-39,
+        "diagnostics": {
+          "raw_residual": 0.00020000000000001267,
+          "rounded_residual": 1.0408340855860843e-16,
+          "rounded_primal": -0.045626416166754974,
+          "dual": -0.04568760710173547,
+          "numerical_gap": 6.119093498049843e-05,
+          "rounding_l1": 0.0002000000000003336,
+          "raw_transport_cost": 1.2949429425976054e-07,
+          "rounded_transport_cost": 0.00010000549806313287
+        },
+        "final_accepted": false,
+        "trace": "fine_05.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.001,
+        "delta": 0.001,
+        "file": "input_03.npz",
+        "sha256": "856cb76abb4ed3f6e8a87e79b34f8ca1a843874a4ce2b5693ab0c7c839943c90"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5888,
+            "previous_net": 9.980260477864778e-05,
+            "crossing_net": 0.00010016254911491292
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6437,
+            "previous_net": 0.000499145630689634,
+            "crossing_net": 0.0005001456306552704
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6987,
+            "previous_net": 0.0008999423096191177,
+            "crossing_net": 0.0009003019185788757
+          }
+        ],
+        "final_net": 0.0009999999999999475,
+        "diagnostics": {
+          "raw_residual": 6.245004513516506e-16,
+          "rounded_residual": 6.938893903907228e-17,
+          "rounded_primal": -0.18210248968484116,
+          "dual": -0.1821024896848412,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 7.970783321570307e-16,
+          "raw_transport_cost": 0.0009988729976601052,
+          "rounded_transport_cost": 0.0009988729976602793
+        },
+        "final_accepted": true,
+        "trace": "fine_06.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.001,
+        "delta": 0.001,
+        "file": "input_03.npz",
+        "sha256": "856cb76abb4ed3f6e8a87e79b34f8ca1a843874a4ce2b5693ab0c7c839943c90"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29857,
+            "previous_net": 9.972779182899085e-05,
+            "crossing_net": 0.00010008749576038953
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30407,
+            "previous_net": 0.0004999349860038216,
+            "crossing_net": 0.0005009349775551
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30956,
+            "previous_net": 0.0008998640500760191,
+            "crossing_net": 0.0009002239038444842
+          }
+        ],
+        "final_net": 0.00099999999999993,
+        "diagnostics": {
+          "raw_residual": 2.789435349370706e-15,
+          "rounded_residual": 1.8735013540549517e-16,
+          "rounded_primal": -0.044776486496375695,
+          "dual": -0.044776486496376125,
+          "numerical_gap": 4.3021142204224816e-16,
+          "rounding_l1": 3.1936143214375624e-15,
+          "raw_transport_cost": 0.0009988226550335592,
+          "rounded_transport_cost": 0.0009988226550341301
+        },
+        "final_accepted": true,
+        "trace": "fine_07.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.02,
+        "delta": 0.0001,
+        "file": "input_04.npz",
+        "sha256": "ce638fb2d1060c20484faa10ec296a8b48a4f6561fd70b43c53450d19fbe992d"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 50970,
+            "previous_net": 9.999091670590229e-06,
+            "crossing_net": 1.0002691939433392e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 56463,
+            "previous_net": 4.999618792987544e-05,
+            "crossing_net": 5.0006187700222676e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 61956,
+            "previous_net": 8.999774097658826e-05,
+            "crossing_net": 9.000134097461063e-05
+          }
+        ],
+        "final_net": 9.999999726425077e-05,
+        "diagnostics": {
+          "raw_residual": 5.471949282576105e-12,
+          "rounded_residual": 1.3183898417423734e-16,
+          "rounded_primal": -0.18275645290110734,
+          "dual": -0.18275645290110737,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 5.472139236807284e-12,
+          "raw_transport_cost": 0.0001488478036990121,
+          "rounded_transport_cost": 0.00014884780636713977
+        },
+        "final_accepted": true,
+        "trace": "fine_08.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.02,
+        "delta": 0.0001,
+        "file": "input_04.npz",
+        "sha256": "ce638fb2d1060c20484faa10ec296a8b48a4f6561fd70b43c53450d19fbe992d"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.5300147561109927e-37,
+        "diagnostics": {
+          "raw_residual": 0.0002000000000002139,
+          "rounded_residual": 6.938893903907228e-17,
+          "rounded_primal": -0.04557698688672059,
+          "dual": -0.04563583064286119,
+          "numerical_gap": 5.884375614059745e-05,
+          "rounding_l1": 0.00020000000000044028,
+          "raw_transport_cost": 5.172849803951892e-05,
+          "rounded_transport_cost": 0.00014925558659426897
+        },
+        "final_accepted": false,
+        "trace": "fine_09.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.02,
+        "delta": 0.001,
+        "file": "input_05.npz",
+        "sha256": "8e410c5385bf463a22142ca995f13324d8a7d54e320ae09f534da8356f9dcf28"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5674,
+            "previous_net": 9.999086523895626e-05,
+            "crossing_net": 0.00010035139630527327
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6223,
+            "previous_net": 0.0004996018953905674,
+            "crossing_net": 0.0005006016669791668
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6772,
+            "previous_net": 0.0008996799219470763,
+            "crossing_net": 0.0009000402210102298
+          }
+        ],
+        "final_net": 0.0009999999999999434,
+        "diagnostics": {
+          "raw_residual": 5.48172618408671e-16,
+          "rounded_residual": 1.0408340855860843e-16,
+          "rounded_primal": -0.18207738877285434,
+          "dual": -0.18207738877285434,
+          "numerical_gap": 0.0,
+          "rounding_l1": 7.257584837801214e-16,
+          "raw_transport_cost": 0.001020531836957729,
+          "rounded_transport_cost": 0.0010205318369579182
+        },
+        "final_accepted": true,
+        "trace": "fine_10.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.02,
+        "delta": 0.001,
+        "file": "input_05.npz",
+        "sha256": "8e410c5385bf463a22142ca995f13324d8a7d54e320ae09f534da8356f9dcf28"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 28708,
+            "previous_net": 9.96780911092874e-05,
+            "crossing_net": 0.00010003744255138199
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 29258,
+            "previous_net": 0.0004990081400470433,
+            "crossing_net": 0.0005000054485352029
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 29810,
+            "previous_net": 0.0008998290434985756,
+            "crossing_net": 0.0009001872718020207
+          }
+        ],
+        "final_net": 0.0009999999999999525,
+        "diagnostics": {
+          "raw_residual": 1.7139067942650854e-15,
+          "rounded_residual": 9.020562075079397e-17,
+          "rounded_primal": -0.04476059534779626,
+          "dual": -0.04476059534779671,
+          "numerical_gap": 4.510281037539698e-16,
+          "rounding_l1": 2.099713689428145e-15,
+          "raw_transport_cost": 0.0010050239676507664,
+          "rounded_transport_cost": 0.0010050239676513417
+        },
+        "final_accepted": true,
+        "trace": "fine_11.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.1,
+        "delta": 0.0001,
+        "file": "input_06.npz",
+        "sha256": "69ef63a1de133770d4b144419518a76a3a955b252d468041943516393ff28524"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 38130,
+            "previous_net": 9.998293887243964e-06,
+            "crossing_net": 1.0001893689645975e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 43624,
+            "previous_net": 4.9995354898233134e-05,
+            "crossing_net": 5.000535173689963e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 49120,
+            "previous_net": 8.999974346251418e-05,
+            "crossing_net": 9.000334092064675e-05
+          }
+        ],
+        "final_net": 9.99999999836815e-05,
+        "diagnostics": {
+          "raw_residual": 3.261974024226788e-14,
+          "rounded_residual": 1.3877787807814457e-16,
+          "rounded_primal": -0.181520938514657,
+          "dual": -0.18152093851465695,
+          "numerical_gap": -5.551115123125783e-17,
+          "rounding_l1": 3.282530629766011e-14,
+          "raw_transport_cost": 0.0013505188862463521,
+          "rounded_transport_cost": 0.0013505188862606243
+        },
+        "final_accepted": true,
+        "trace": "fine_12.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.1,
+        "delta": 0.0001,
+        "file": "input_06.npz",
+        "sha256": "69ef63a1de133770d4b144419518a76a3a955b252d468041943516393ff28524"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.274698104017254e-26,
+        "diagnostics": {
+          "raw_residual": 0.0002000000000008592,
+          "rounded_residual": 1.249000902703301e-16,
+          "rounded_primal": -0.044425160466564785,
+          "dual": -0.044474315306768056,
+          "numerical_gap": 4.915484020327071e-05,
+          "rounding_l1": 0.00020000000000097978,
+          "raw_transport_cost": 0.001092851900092848,
+          "rounded_transport_cost": 0.0011806726801798634
+        },
+        "final_accepted": false,
+        "trace": "fine_13.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.1,
+        "delta": 0.001,
+        "file": "input_07.npz",
+        "sha256": "31d92dfcd74356b13df8dcb7d1713ba3757536fca7142bfa646ad768a1659e00"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 4390,
+            "previous_net": 9.99323756282312e-05,
+            "crossing_net": 0.00010029250782475387
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 4940,
+            "previous_net": 0.0004995785211355924,
+            "crossing_net": 0.0005005753655526977
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 5492,
+            "previous_net": 0.0008998996450753136,
+            "crossing_net": 0.0009002573499127479
+          }
+        ],
+        "final_net": 0.0009999999999999426,
+        "diagnostics": {
+          "raw_residual": 3.3306690738754696e-16,
+          "rounded_residual": 9.020562075079397e-17,
+          "rounded_primal": -0.18098622641138437,
+          "dual": -0.18098622641138437,
+          "numerical_gap": 0.0,
+          "rounding_l1": 5.203951522853115e-16,
+          "raw_transport_cost": 0.0020404099076573616,
+          "rounded_transport_cost": 0.002040409907657487
+        },
+        "final_accepted": true,
+        "trace": "fine_14.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139001,
+        "width": 0.1,
+        "delta": 0.001,
+        "file": "input_07.npz",
+        "sha256": "31d92dfcd74356b13df8dcb7d1713ba3757536fca7142bfa646ad768a1659e00"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 22395,
+            "previous_net": 9.972980648919425e-05,
+            "crossing_net": 0.00010008906704890898
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 22946,
+            "previous_net": 0.0004991030501723486,
+            "crossing_net": 0.0005000968076552881
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 23501,
+            "previous_net": 0.0008999007596478727,
+            "crossing_net": 0.0009002564680321922
+          }
+        ],
+        "final_net": 0.0009999999999999545,
+        "diagnostics": {
+          "raw_residual": 2.2690183065776637e-15,
+          "rounded_residual": 8.326672684688674e-17,
+          "rounded_primal": -0.04379632761130766,
+          "dual": -0.04379632761130799,
+          "numerical_gap": 3.3306690738754696e-16,
+          "rounding_l1": 2.8509038487996932e-15,
+          "raw_transport_cost": 0.0018385741807549782,
+          "rounded_transport_cost": 0.0018385741807554552
+        },
+        "final_accepted": true,
+        "trace": "fine_15.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.0,
+        "delta": 0.0001,
+        "file": "input_08.npz",
+        "sha256": "a45a1f57495357922959b057d2ae11a5b95129af89092d3350d645bd6290d009"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413332165e-06,
+            "crossing_net": 1.0001962465325606e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.9994837116039935e-05,
+            "crossing_net": 5.0004837116139825e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718188e-05,
+            "crossing_net": 9.00015203267043e-05
+          }
+        ],
+        "final_net": 9.999999328939955e-05,
+        "diagnostics": {
+          "raw_residual": 1.3420542455122586e-11,
+          "rounded_residual": 3.3306690738754696e-16,
+          "rounded_primal": -0.1828056866636905,
+          "dual": -0.18280568666369038,
+          "numerical_gap": -1.1102230246251565e-16,
+          "rounding_l1": 1.3420431432820124e-11,
+          "raw_transport_cost": 9.999999328939965e-05,
+          "rounded_transport_cost": 9.999999999980966e-05
+        },
+        "final_accepted": true,
+        "trace": "fine_16.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.0,
+        "delta": 0.0001,
+        "file": "input_08.npz",
+        "sha256": "a45a1f57495357922959b057d2ae11a5b95129af89092d3350d645bd6290d009"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.02669710173589e-39,
+        "diagnostics": {
+          "raw_residual": 0.00019999999999831264,
+          "rounded_residual": 3.3306690738754696e-16,
+          "rounded_primal": -0.0456264216659226,
+          "dual": -0.04568773659270537,
+          "numerical_gap": 6.13149267827684e-05,
+          "rounding_l1": 0.00019999999999892326,
+          "raw_transport_cost": 3.026697101735884e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "fine_17.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.0,
+        "delta": 0.001,
+        "file": "input_09.npz",
+        "sha256": "46f050a41c54e122005b0eb62a22c2f5ce211d3d5bb18207eee965a265da79c4"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692142e-05,
+            "crossing_net": 0.00010016771650128081
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182686,
+            "crossing_net": 0.0005001601199561951
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859319,
+            "crossing_net": 0.000900307274718548
+          }
+        ],
+        "final_net": 0.0009999999999998684,
+        "diagnostics": {
+          "raw_residual": 1.3322676295501878e-15,
+          "rounded_residual": 4.440892098500626e-16,
+          "rounded_primal": -0.18210137097970924,
+          "dual": -0.18210137097970958,
+          "numerical_gap": 3.3306690738754696e-16,
+          "rounding_l1": 1.3419871831435283e-15,
+          "raw_transport_cost": 0.0009999999999998682,
+          "rounded_transport_cost": 0.0010000000000005998
+        },
+        "final_accepted": true,
+        "trace": "fine_18.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.0,
+        "delta": 0.001,
+        "file": "input_09.npz",
+        "sha256": "46f050a41c54e122005b0eb62a22c2f5ce211d3d5bb18207eee965a265da79c4"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195966e-05,
+            "crossing_net": 0.00010017925428888516
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050482,
+            "crossing_net": 0.0005001921200258884
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.0008999592073794093,
+            "crossing_net": 0.0009003187626793277
+          }
+        ],
+        "final_net": 0.0010000000000000028,
+        "diagnostics": {
+          "raw_residual": 4.218847493575595e-15,
+          "rounded_residual": 2.7755575615628914e-16,
+          "rounded_primal": -0.044775342744927324,
+          "dual": -0.044775342744927366,
+          "numerical_gap": 4.163336342344337e-17,
+          "rounding_l1": 4.04494146510892e-15,
+          "raw_transport_cost": 0.0010000000000000033,
+          "rounded_transport_cost": 0.0010000000000000514
+        },
+        "final_accepted": true,
+        "trace": "fine_19.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.001,
+        "delta": 0.0001,
+        "file": "input_10.npz",
+        "sha256": "88b5cd5fdcd7d86f3cf925096622928cbc140c7820c9e0656d9540c4e9356ef5"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53093,
+            "previous_net": 9.998548469860537e-06,
+            "crossing_net": 1.0002148581372132e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58586,
+            "previous_net": 4.999535282406537e-05,
+            "crossing_net": 5.000535282376106e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64079,
+            "previous_net": 8.999810475484864e-05,
+            "crossing_net": 9.000170478507348e-05
+          }
+        ],
+        "final_net": 9.999999360913666e-05,
+        "diagnostics": {
+          "raw_residual": 1.2781484204360538e-11,
+          "rounded_residual": 1.0408340855860843e-16,
+          "rounded_primal": -0.18280573993916482,
+          "dual": -0.18280573993916482,
+          "numerical_gap": 0.0,
+          "rounding_l1": 1.2781677625604593e-11,
+          "raw_transport_cost": 9.994608594797128e-05,
+          "rounded_transport_cost": 9.99460923290937e-05
+        },
+        "final_accepted": true,
+        "trace": "fine_20.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.001,
+        "delta": 0.0001,
+        "file": "input_10.npz",
+        "sha256": "88b5cd5fdcd7d86f3cf925096622928cbc140c7820c9e0656d9540c4e9356ef5"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.6883120876261935e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999999849,
+          "rounded_residual": 1.1796119636642288e-16,
+          "rounded_primal": -0.04562647430869551,
+          "dual": -0.04568763730415819,
+          "numerical_gap": 6.116299546268106e-05,
+          "rounding_l1": 0.000200000000000017,
+          "raw_transport_cost": 9.929191805584616e-08,
+          "rounded_transport_cost": 9.994735657023438e-05
+        },
+        "final_accepted": false,
+        "trace": "fine_21.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.001,
+        "delta": 0.001,
+        "file": "input_11.npz",
+        "sha256": "ee7acf9afd28ed28846f80d8a866c1c4802e3b6d25cb7173e602658895eb2955"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5886,
+            "previous_net": 9.988150185330417e-05,
+            "crossing_net": 0.00010024169906027175
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6435,
+            "previous_net": 0.0004993651347317149,
+            "crossing_net": 0.0005003651352558266
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6984,
+            "previous_net": 0.0008996608732775027,
+            "crossing_net": 0.0009000213814372514
+          }
+        ],
+        "final_net": 0.0009999999999999495,
+        "diagnostics": {
+          "raw_residual": 5.828670879282072e-16,
+          "rounded_residual": 6.245004513516506e-17,
+          "rounded_primal": -0.18210279732446746,
+          "dual": -0.18210279732446752,
+          "numerical_gap": 5.551115123125783e-17,
+          "rounding_l1": 7.186004241066274e-16,
+          "raw_transport_cost": 0.000998567346039404,
+          "rounded_transport_cost": 0.0009985673460395678
+        },
+        "final_accepted": true,
+        "trace": "fine_22.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.001,
+        "delta": 0.001,
+        "file": "input_11.npz",
+        "sha256": "ee7acf9afd28ed28846f80d8a866c1c4802e3b6d25cb7173e602658895eb2955"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29849,
+            "previous_net": 9.99716975794818e-05,
+            "crossing_net": 0.00010033218336770695
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30398,
+            "previous_net": 0.0004996140942066093,
+            "crossing_net": 0.0005006140887954827
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30947,
+            "previous_net": 0.0008997490056919834,
+            "crossing_net": 0.0009001092285034631
+          }
+        ],
+        "final_net": 0.000999999999999958,
+        "diagnostics": {
+          "raw_residual": 3.157196726277789e-15,
+          "rounded_residual": 6.938893903907228e-17,
+          "rounded_primal": -0.04477678791422924,
+          "dual": -0.044776787914229656,
+          "numerical_gap": 4.163336342344337e-16,
+          "rounding_l1": 3.4448345946005393e-15,
+          "raw_transport_cost": 0.0009985298676852045,
+          "rounded_transport_cost": 0.0009985298676857483
+        },
+        "final_accepted": true,
+        "trace": "fine_23.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.02,
+        "delta": 0.0001,
+        "file": "input_12.npz",
+        "sha256": "1c3fac34db1ed8daab30d003249dbb7b9bb67b591575d76bcedbe563a05324ea"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 50598,
+            "previous_net": 9.999192875998766e-06,
+            "crossing_net": 1.0002793183023834e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 56091,
+            "previous_net": 4.9996705384327595e-05,
+            "crossing_net": 5.000670523508236e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 61584,
+            "previous_net": 8.999816026760987e-05,
+            "crossing_net": 9.000176018358295e-05
+          }
+        ],
+        "final_net": 9.999999764316242e-05,
+        "diagnostics": {
+          "raw_residual": 4.713972268088895e-12,
+          "rounded_residual": 4.85722573273506e-17,
+          "rounded_primal": -0.1827688581924659,
+          "dual": -0.18276885819246586,
+          "numerical_gap": -5.551115123125783e-17,
+          "rounding_l1": 4.714246357039344e-12,
+          "raw_transport_cost": 0.00013656972440289993,
+          "rounded_transport_cost": 0.0001365697266882441
+        },
+        "final_accepted": true,
+        "trace": "fine_24.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.02,
+        "delta": 0.0001,
+        "file": "input_12.npz",
+        "sha256": "1c3fac34db1ed8daab30d003249dbb7b9bb67b591575d76bcedbe563a05324ea"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 4.492173962312687e-37,
+        "diagnostics": {
+          "raw_residual": 0.00019999999999986,
+          "rounded_residual": 1.1102230246251565e-16,
+          "rounded_primal": -0.045589433667729995,
+          "dual": -0.04564771723382942,
+          "numerical_gap": 5.8283566099423534e-05,
+          "rounding_l1": 0.0002000000000002113,
+          "raw_transport_cost": 3.9913351453093986e-05,
+          "rounded_transport_cost": 0.0001368803930606717
+        },
+        "final_accepted": false,
+        "trace": "fine_25.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.02,
+        "delta": 0.001,
+        "file": "input_13.npz",
+        "sha256": "70ceaabe1b9080ef0ac53b7e8af14634202811857a8a4cf47b4a3a75b119a311"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5636,
+            "previous_net": 9.970562305265596e-05,
+            "crossing_net": 0.00010006524581023126
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6186,
+            "previous_net": 0.0004998319843569957,
+            "crossing_net": 0.0005008318357138128
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6735,
+            "previous_net": 0.0008997861995608252,
+            "crossing_net": 0.0009001462111594198
+          }
+        ],
+        "final_net": 0.0009999999999999363,
+        "diagnostics": {
+          "raw_residual": 5.551115123125783e-16,
+          "rounded_residual": 7.632783294297951e-17,
+          "rounded_primal": -0.18209398181145794,
+          "dual": -0.18209398181145797,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 8.688216129348181e-16,
+          "raw_transport_cost": 0.0010050474161491063,
+          "rounded_transport_cost": 0.0010050474161493136
+        },
+        "final_accepted": true,
+        "trace": "fine_26.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.02,
+        "delta": 0.001,
+        "file": "input_13.npz",
+        "sha256": "70ceaabe1b9080ef0ac53b7e8af14634202811857a8a4cf47b4a3a75b119a311"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 28648,
+            "previous_net": 9.977370603822782e-05,
+            "crossing_net": 0.0001001333743725388
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 29198,
+            "previous_net": 0.0004993181222567269,
+            "crossing_net": 0.0005003155826892673
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 29750,
+            "previous_net": 0.0008999857264437298,
+            "crossing_net": 0.0009003435576094201
+          }
+        ],
+        "final_net": 0.0009999999999999402,
+        "diagnostics": {
+          "raw_residual": 1.8457457784393227e-15,
+          "rounded_residual": 1.457167719820518e-16,
+          "rounded_primal": -0.0447743661795724,
+          "dual": -0.044774366179572984,
+          "numerical_gap": 5.828670879282072e-16,
+          "rounding_l1": 2.202921821788307e-15,
+          "raw_transport_cost": 0.0009932504945211228,
+          "rounded_transport_cost": 0.000993250494521878
+        },
+        "final_accepted": true,
+        "trace": "fine_27.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.1,
+        "delta": 0.0001,
+        "file": "input_14.npz",
+        "sha256": "b9044f5a5ecf8fa0f7c20143b966278b77617a94ce4af046f28c59543897532d"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 37398,
+            "previous_net": 9.998110970165242e-06,
+            "crossing_net": 1.0001710690566577e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 42892,
+            "previous_net": 4.999389033982415e-05,
+            "crossing_net": 5.000388685342398e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 48388,
+            "previous_net": 8.999827514161522e-05,
+            "crossing_net": 9.000187285909688e-05
+          }
+        ],
+        "final_net": 9.999999998780098e-05,
+        "diagnostics": {
+          "raw_residual": 2.4300006451483114e-14,
+          "rounded_residual": 1.5265566588595902e-16,
+          "rounded_primal": -0.1817956840405725,
+          "dual": -0.18179568404057253,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 2.4556049145944376e-14,
+          "raw_transport_cost": 0.001087424446165731,
+          "rounded_transport_cost": 0.0010874244461761007
+        },
+        "final_accepted": true,
+        "trace": "fine_28.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 53215,
+            "previous_net": 9.998362413337865e-06,
+            "crossing_net": 1.0001962465331308e-05
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 58708,
+            "previous_net": 4.999483711605555e-05,
+            "crossing_net": 5.000483711615545e-05
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 64201,
+            "previous_net": 8.999792023718696e-05,
+            "crossing_net": 9.000152032670938e-05
+          }
+        ],
+        "final_net": 9.999999328939822e-05,
+        "diagnostics": {
+          "raw_residual": 1.3421042055483667e-11,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.05284059030870061,
+          "dual": -0.05284059030870064,
+          "numerical_gap": 2.7755575615628914e-17,
+          "rounding_l1": 1.3421097566634899e-11,
+          "raw_transport_cost": 9.999999328939829e-05,
+          "rounded_transport_cost": 0.00010000000000003034
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.0001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.1,
+        "delta": 0.0001,
+        "file": "input_14.npz",
+        "sha256": "b9044f5a5ecf8fa0f7c20143b966278b77617a94ce4af046f28c59543897532d"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 4.748475373170405e-25,
+        "diagnostics": {
+          "raw_residual": 0.00019999999999961715,
+          "rounded_residual": 1.1102230246251565e-16,
+          "rounded_primal": -0.04466840175052827,
+          "dual": -0.0447147323278552,
+          "numerical_gap": 4.6330577326933464e-05,
+          "rounding_l1": 0.00020000000000017747,
+          "raw_transport_cost": 0.0008967375233442753,
+          "rounded_transport_cost": 0.000981730197137133
+        },
+        "final_accepted": false,
+        "trace": "fine_29.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.5,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          },
+          {
+            "fraction": 0.9,
+            "iteration": null,
+            "previous_net": null,
+            "crossing_net": null
+          }
+        ],
+        "final_net": 3.0266971017358907e-39,
+        "diagnostics": {
+          "raw_residual": 0.0001999999999991453,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.013135147577175169,
+          "dual": -0.013196462503957923,
+          "numerical_gap": 6.131492678275452e-05,
+          "rounding_l1": 0.0001999999999991453,
+          "raw_transport_cost": 3.026697101735875e-39,
+          "rounded_transport_cost": 9.999999999998899e-05
+        },
+        "final_accepted": false,
+        "trace": "coarse_0.0001_0.0078125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.1,
+        "delta": 0.001,
+        "file": "input_15.npz",
+        "sha256": "094ebbadc64da5e600f41c51b241d82837c1c72834bc00cd49cf8d746c134407"
+      },
+      "reg": 0.03125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 4317,
+            "previous_net": 9.999690736459958e-05,
+            "crossing_net": 0.00010035722261773618
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 4867,
+            "previous_net": 0.0004996633765686975,
+            "crossing_net": 0.0005006599035612835
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 5419,
+            "previous_net": 0.0008998392348474258,
+            "crossing_net": 0.0009001969314124279
+          }
+        ],
+        "final_net": 0.0009999999999999645,
+        "diagnostics": {
+          "raw_residual": 4.718447854656915e-16,
+          "rounded_residual": 6.938893903907228e-17,
+          "rounded_primal": -0.18126919358019145,
+          "dual": -0.1812691935801915,
+          "numerical_gap": 5.551115123125783e-17,
+          "rounding_l1": 5.083706002358778e-16,
+          "raw_transport_cost": 0.0017741576825825393,
+          "rounded_transport_cost": 0.0017741576825826486
+        },
+        "final_accepted": true,
+        "trace": "fine_30.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 5898,
+            "previous_net": 9.980775561692656e-05,
+            "crossing_net": 0.00010016771650128593
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 6447,
+            "previous_net": 0.0004991601194182834,
+            "crossing_net": 0.00050016011995621
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 6997,
+            "previous_net": 0.0008999476825859383,
+            "crossing_net": 0.0009003072747185544
+          }
+        ],
+        "final_net": 0.0009999999999999439,
+        "diagnostics": {
+          "raw_residual": 3.885780586188048e-16,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.052136274624719765,
+          "dual": -0.0521362746247198,
+          "numerical_gap": 3.469446951953614e-17,
+          "rounding_l1": 3.568883779772999e-16,
+          "raw_transport_cost": 0.0009999999999999434,
+          "rounded_transport_cost": 0.0010000000000000783
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.03125.npy"
+      }
+    },
+    {
+      "input": {
+        "seed": 139002,
+        "width": 0.1,
+        "delta": 0.001,
+        "file": "input_15.npz",
+        "sha256": "094ebbadc64da5e600f41c51b241d82837c1c72834bc00cd49cf8d746c134407"
+      },
+      "reg": 0.0078125,
+      "fine": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 21727,
+            "previous_net": 9.978897293238483e-05,
+            "crossing_net": 0.00010014790308135595
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 22280,
+            "previous_net": 0.0004991341676115297,
+            "crossing_net": 0.0005001207612049323
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 22841,
+            "previous_net": 0.0008999381637979169,
+            "crossing_net": 0.0009002891457830502
+          }
+        ],
+        "final_net": 0.0009999999999999547,
+        "diagnostics": {
+          "raw_residual": 2.5604518505417673e-15,
+          "rounded_residual": 1.1102230246251565e-16,
+          "rounded_primal": -0.04405757068941013,
+          "dual": -0.044057570689410436,
+          "numerical_gap": 3.0531133177191805e-16,
+          "rounding_l1": 3.4206483007574485e-15,
+          "raw_transport_cost": 0.0016107127771794072,
+          "rounded_transport_cost": 0.0016107127771798585
+        },
+        "final_accepted": true,
+        "trace": "fine_31.npy"
+      },
+      "coarse": {
+        "arrivals": [
+          {
+            "fraction": 0.1,
+            "iteration": 29898,
+            "previous_net": 9.981925654195828e-05,
+            "crossing_net": 0.00010017925428888376
+          },
+          {
+            "fraction": 0.5,
+            "iteration": 30447,
+            "previous_net": 0.0004991921194050453,
+            "crossing_net": 0.0005001921200258855
+          },
+          {
+            "fraction": 0.9,
+            "iteration": 30997,
+            "previous_net": 0.000899959207379411,
+            "crossing_net": 0.0009003187626793298
+          }
+        ],
+        "final_net": 0.0009999999999999022,
+        "diagnostics": {
+          "raw_residual": 3.0531133177191805e-15,
+          "rounded_residual": 0.0,
+          "rounded_primal": -0.012284068656179939,
+          "dual": -0.01228406865617996,
+          "numerical_gap": 2.0816681711721685e-17,
+          "rounding_l1": 3.0531133177191805e-15,
+          "raw_transport_cost": 0.0009999999999999007,
+          "rounded_transport_cost": 0.0010000000000000117
+        },
+        "final_accepted": true,
+        "trace": "coarse_0.001_0.0078125.npy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "audit_passed": true,
+  "groups": {
+    "0.0": {
+      "conditions": 8,
+      "accepted": 6,
+      "both_observed": 18,
+      "both_censored": 6,
+      "discordant_censoring": 0,
+      "max_relative_error": 0.0,
+      "median_relative_error": 0.0
+    },
+    "0.001": {
+      "conditions": 8,
+      "accepted": 6,
+      "both_observed": 18,
+      "both_censored": 6,
+      "discordant_censoring": 0,
+      "max_relative_error": 0.0022925866766889034,
+      "median_relative_error": 0.0016671978045122832
+    },
+    "0.02": {
+      "conditions": 8,
+      "accepted": 6,
+      "both_observed": 18,
+      "both_censored": 6,
+      "discordant_censoring": 0,
+      "max_relative_error": 0.0491778633843841,
+      "median_relative_error": 0.04001584654636531
+    },
+    "0.1": {
+      "conditions": 8,
+      "accepted": 6,
+      "both_observed": 18,
+      "both_censored": 6,
+      "discordant_censoring": 0,
+      "max_relative_error": 0.297228225124495,
+      "median_relative_error": 0.2533165662540532
+    }
+  },
+  "limitation": "dense traces audited; floating-point diagnostic, not interval certificate; development seeds"
+}
