@@ -1,0 +1,1042 @@
+{
+  "date": "2026-10-10",
+  "note": "Discovery only; publisher/full text verification separate.",
+  "queries": [
+    {
+      "query": "optimal transport Sinkhorn sparse low rank",
+      "cross_validated": [
+        {
+          "title": "Approximating Optimal Transport via Low-rank and Sparse Factorization",
+          "authors": [
+            "Weijie Liu",
+            "Chao Zhang",
+            "Nenggan Zheng",
+            "Hui Qian"
+          ],
+          "year": 2021,
+          "citations": 1,
+          "doi": "10.48550/arxiv.2111.06546",
+          "abstract": "Optimal transport (OT) naturally arises in a wide range of machine learning applications but may often become the computational bottleneck. Recently, one line of works propose to solve OT approximately by searching the \\emph{transport plan} in a low-rank subspace. However, the optimal transport plan is often not low-rank, which tends to yield large approximation errors. For example, when Monge's \\emph{transport map} exists, the transport plan is full rank. This paper concerns the computation of the OT distance with adequate accuracy and efficiency. A novel approximation for OT is proposed, in which the transport plan can be decomposed into the sum of a low-rank matrix and a sparse one. We theoretically analyze the approximation error. An augmented Lagrangian method is then designed to efficiently calculate the transport plan.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2111.06546"
+        },
+        {
+          "title": "Accelerating the Sinkhorn Algorithm for Sparse Multi-Marginal Optimal Transport via Fast Fourier Transforms",
+          "authors": [
+            "Fatima Antarou Ba",
+            "Michael Quellmalz"
+          ],
+          "year": 2022,
+          "citations": 14,
+          "doi": "10.3390/a15090311",
+          "abstract": "We consider the numerical solution of the discrete multi-marginal optimal transport (MOT) by means of the Sinkhorn algorithm. In general, the Sinkhorn algorithm suffers from the curse of dimensionality with respect to the number of marginals. If the MOT cost function decouples according to a tree or circle, its complexity is linear in the number of marginal measures. In this case, we speed up the convolution with the radial kernel required in the Sinkhorn algorithm via non-uniform fast Fourier methods. Each step of the proposed accelerated Sinkhorn algorithm with a tree-structured cost function has a complexity of O(KN) instead of the classical O(KN2) for straightforward matrix–vector operations, where K is the number of marginals and each marginal measure is supported on, at most, N points. In the case of a circle-structured cost function, the complexity improves from O(KN3) to O(KN2). This is confirmed through numerical experiments.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Algorithms",
+          "volume": "15",
+          "issue": "9",
+          "pages": "311-311",
+          "url": "https://doi.org/10.3390/a15090311"
+        },
+        {
+          "title": "PINS: Proximal Iterations with Sparse Newton and Sinkhorn for Optimal Transport",
+          "authors": [
+            "D.J. Wu",
+            "Ling Liang",
+            "Haizhao Yang"
+          ],
+          "year": 2025,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2502.03749",
+          "abstract": "Optimal transport (OT) is a widely used tool in machine learning, but computing high-accuracy solutions for large instances remains costly. Entropic regularization and the Sinkhorn algorithm improve scalability; however, when the regularization parameter is small, Sinkhorn convergence slows, and the iterates approach an entropic solution that remains separated from the true OT plan by an entropic-bias plateau. We introduce PINS (Proximal Iterations with sparse Newton and Sinkhorn), a two-loop solver designed to move beyond this plateau. The outer loop applies an entropic proximal-point method, solving the original OT problem through a sequence of entropic subproblems with shifted cost matrices. Each inner subproblem is then solved by a Sinkhorn warm-up followed by sparse-Newton refinement. We prove that PINS converges globally to an optimal solution of the unregularized OT problem and that the inner Hessian admits a sparsification at every outer iteration with a structure independent of the cost matrix. On synthetic and augmented-MNIST instances, PINS achieves much lower relative cost errors than Sinkhorn-type baselines, which stall at the entropic-bias plateau, and is $5$--$73\\times$ faster than Sinkhorn with the same outer loop at matched accuracy. On large-scale DOTmark instances, a streaming implementation reduces peak memory by $24$--$54\\%$ compared with the network-simplex linear programming (LP) solver and remains feasible under per-process memory budgets for which the LP solver fails.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://arxiv.org/abs/2502.03749"
+        },
+        {
+          "title": "SinkSLOT: Sinkhorn via Sparse Lifted Optimal Transport",
+          "authors": [
+            "Ian Hsieh",
+            "Soumya Snigdha Kundu",
+            "Tom K. Vercauteren",
+            "Reuben Dorent"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2608.28262",
+          "abstract": "Entropic optimal transport (EOT) has been shown to offer a computationally tractable approximation to exact optimal transport. However, the standard Sinkhorn-Knopp algorithm has two main limitations. First, given discrete measures with $N$ points, each iteration requires $O(N^2)$ operations, which restricts its use on large-scale datasets (e.g. $N\\geq10^4$). Second, it uses the independent coupling as a reference measure for regularisation. This assigns mass to high-cost transport edges at moderate regularisation strengths. We propose SinkSLOT, which addresses both limitations by putting forth the expected sliced lifted transport plan as a natural way to sparsify the Gibbs kernel with a non-independent prior coupling. We prove that: 1) SinkSLOT converges; 2) with $L$ slices, each resulting sparse Sinkhorn iteration costs $O(LN)$; and 3) the resulting objective is a divergence requiring no debiasing. Experiments on synthetic benchmarks show that SinkSLOT delivers substantial speedups over state-of-the-art dense and sparse EOT methods. We also demonstrate the applicability of the proposed divergence in a gradient flow experiment. The code is publicly available at https://github.com/cai4cai/SinkSLOT.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://arxiv.org/abs/2608.28262"
+        },
+        {
+          "title": "Geodesic Sinkhorn For Fast and Accurate Optimal Transport on Manifolds",
+          "authors": [
+            "Guillaume Huguet",
+            "Alexander A. Tong",
+            "María Ramos Zapatero",
+            "Christopher J. Tape",
+            "Guy Wolf",
+            "Smita Krishnaswamy"
+          ],
+          "year": 2023,
+          "citations": 5,
+          "doi": "10.1109/mlsp55844.2023.10285995",
+          "abstract": "Efficient computation of optimal transport distance between distributions is of growing importance in data science. Sinkhorn-based methods are currently the state-of-the-art for such computations, but require O(n2) computations. In addition, Sinkhorn-based methods commonly use an Euclidean ground distance between datapoints. However, with the prevalence of manifold structured scientific data, it is often desirable to consider geodesic ground distance. Here, we tackle both issues by proposing Geodesic Sinkhorn—based on diffusing a heat kernel on a manifold graph. Notably, Geodesic Sinkhorn requires only O(n log n) computation, as we approximate the heat kernel with Chebyshev polynomials based on the sparse graph Laplacian. We apply our method to the computation of barycenters of several distributions of high dimensional single cell data from patient samples undergoing chemotherapy. In particular, we define the barycentric distance as the distance between two such barycenters. Using this definition, we identify an optimal transport distance and path associated with the effect of treatment on cellular data.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "IEEE International Workshop on Machine Learning for Signal Processing (MLSP)",
+          "volume": null,
+          "issue": null,
+          "pages": "1-6",
+          "url": "https://doi.org/10.1109/mlsp55844.2023.10285995"
+        },
+        {
+          "title": "Near-linear time approximation algorithms for optimal transport via Sinkhorn iteration",
+          "authors": [
+            "Jason M. Altschuler",
+            "Jonathan Weed",
+            "Philippe Rigollet"
+          ],
+          "year": 2017,
+          "citations": 289,
+          "doi": "10.48550/arxiv.1705.09634",
+          "abstract": "Computing optimal transport distances such as the earth mover's distance is a fundamental problem in machine learning, statistics, and computer vision. Despite the recent introduction of several algorithms with good empirical performance, it is unknown whether general optimal transport distances can be approximated in near-linear time. This paper demonstrates that this ambitious goal is in fact achieved by Cuturi's Sinkhorn Distances. This result relies on a new analysis of Sinkhorn iteration, which also directly suggests a new greedy coordinate descent algorithm, Greenkhorn, with the same theoretical guarantees. Numerical simulations illustrate that Greenkhorn significantly outperforms the classical Sinkhorn algorithm in practice.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": "30",
+          "issue": null,
+          "pages": "1964-1974",
+          "url": "http://arxiv.org/abs/1705.09634"
+        },
+        {
+          "title": "Hilbert Sinkhorn Divergence for Optimal Transport",
+          "authors": [
+            "Qian Li",
+            "Zhichao Wang",
+            "Gang Li",
+            "Jun Pang",
+            "Guandong Xu"
+          ],
+          "year": 2021,
+          "citations": 9,
+          "doi": "10.1109/cvpr46437.2021.00383",
+          "abstract": "The Sinkhorn divergence has become a very popular metric to compare probability distributions in optimal transport. However, most works resort to the Sinkhorn divergence in Euclidean space, which greatly blocks their applications in complex data with nonlinear structure. It is therefore of theoretical demand to empower the Sinkhorn divergence with the capability of capturing nonlinear structures. We propose a theoretical and computational framework to bridge this gap. In this paper, we extend the Sinkhorn divergence in Euclidean space to the reproducing kernel Hilbert space, which we term \"Hilbert Sinkhorn divergence\" (HSD). In particular, we can use kernel matrices to derive a closed form expression of the HSD that is proved to be a tractable convex optimization problem. We also prove several attractive statistical properties of the proposed HSD, i.e., strong consistency, asymptotic behavior and sample complexity. Empirically, our method yields state-of-the-art performances on image classification and topological data analysis.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+          "volume": null,
+          "issue": null,
+          "pages": "3834-3843",
+          "url": "https://doi.org/10.1109/cvpr46437.2021.00383"
+        },
+        {
+          "title": "Accelerating Sinkhorn Algorithm with Sparse Newton Iterations",
+          "authors": [
+            "Xun Tang",
+            "Michael Shavlovsky",
+            "Holakou Rahmanian",
+            "Elisa Tardini",
+            "Kiran Koshy Thekumparampil",
+            "Tesi Xiao",
+            "Lexing Ying"
+          ],
+          "year": 2024,
+          "citations": 1,
+          "doi": "10.48550/arxiv.2401.12253",
+          "abstract": "Computing the optimal transport distance between statistical distributions is a fundamental task in machine learning. One remarkable recent advancement is entropic regularization and the Sinkhorn algorithm, which utilizes only matrix scaling and guarantees an approximated solution with near-linear runtime. Despite the success of the Sinkhorn algorithm, its runtime may still be slow due to the potentially large number of iterations needed for convergence. To achieve possibly super-exponential convergence, we present Sinkhorn-Newton-Sparse (SNS), an extension to the Sinkhorn algorithm, by introducing early stopping for the matrix scaling steps and a second stage featuring a Newton-type subroutine. Adopting the variational viewpoint that the Sinkhorn algorithm maximizes a concave Lyapunov potential, we offer the insight that the Hessian matrix of the potential function is approximately sparse. Sparsification of the Hessian results in a fast $O(n^2)$ per-iteration complexity, the same as the Sinkhorn algorithm. In terms of total iteration count, we observe that the SNS algorithm converges orders of magnitude faster across a wide range of practical cases, including optimal transportation between empirical distributions and calculating the Wasserstein $W_1, W_2$ distance of discretized densities. The empirical performance is corroborated by a rigorous bound on the approximate sparsity of the Hessian matrix.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2401.12253"
+        }
+      ],
+      "openalex_only": [],
+      "anysearch_only": [],
+      "stats": {
+        "openalex_total": 16,
+        "anysearch_total": 10,
+        "cross_validated": 8,
+        "openalex_unique": 6,
+        "anysearch_unique": 0,
+        "filtered_irrelevant": 1,
+        "collapsed_duplicates": 1
+      }
+    },
+    {
+      "query": "optimal transport diffusion image editing",
+      "cross_validated": [
+        {
+          "title": "Optimal Transport for Rectified Flow Image Editing: Unifying Inversion-Based and Direct Methods",
+          "authors": [
+            "Marian Lupaşcu",
+            "Mihai‐Sorin Stupariu"
+          ],
+          "year": 2026,
+          "citations": 1,
+          "doi": "10.1109/wacv61042.2026.00654",
+          "abstract": "Image editing in rectified flow models remains challenging due to the fundamental trade-off between reconstruction fidelity and editing flexibility. While inversion-based methods suffer from trajectory deviation, recent inversion-free approaches like FlowEdit offer direct editing pathways but can benefit from additional guidance to improve structure preservation. In this work, we demonstrate that optimal transport theory provides a unified framework for improving both paradigms in rectified flow editing. We introduce a zero-shot transport-guided inversion framework that leverages optimal transport during the reverse diffusion process, and extend optimal transport principles to enhance inversion-free methods through transport-optimized velocity field corrections. Incorporating transport-based guidance can effectively balance reconstruction accuracy and editing controllability across different rectified flow editing approaches. For inversion-based editing, our method achieves high-fidelity reconstruction with LPIPS scores of 0.001 and SSIM of 0.992 on face editing benchmarks, observing 7.8% to 12.9% improvements over RF-Inversion on LSUN datasets. For inversion-free editing with FlowEdit on FLUX and Stable Diffusion 3, we demonstrate consistent improvements in semantic consistency and structure preservation across diverse editing scenarios. Our semantic face editing experiments show an 11.2% improvement in identity preservation and enhanced perceptual quality. The unified optimal transport framework produces visually compelling edits with superior detail preservation across both inversion-based and direct editing paradigms. Code is available for RF-Inversion and FlowEdit at https://github.com/marianlupascu/OT-RF",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+          "volume": null,
+          "issue": null,
+          "pages": "6764-6774",
+          "url": "https://doi.org/10.1109/wacv61042.2026.00654"
+        },
+        {
+          "title": "COT Flow: Learning Optimal-Transport Image Sampling and Editing by Contrastive Pairs",
+          "authors": [
+            "Dawei Zu",
+            "Qian Tao"
+          ],
+          "year": 2024,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2406.12140",
+          "abstract": "Diffusion models have demonstrated strong performance in sampling and editing multi-modal data with high generation quality, yet they suffer from the iterative generation process which is computationally expensive and slow. In addition, most methods are constrained to generate data from Gaussian noise, which limits their sampling and editing flexibility. To overcome both disadvantages, we present Contrastive Optimal Transport Flow (COT Flow), a new method that achieves fast and high-quality generation with improved zero-shot editing flexibility compared to previous diffusion models. Benefiting from optimal transport (OT), our method has no limitation on the prior distribution, enabling unpaired image-to-image (I2I) translation and doubling the editable space (at both the start and end of the trajectory) compared to other zero-shot editing methods. In terms of quality, COT Flow can generate competitive results in merely one step compared to previous state-of-the-art unpaired image-to-image (I2I) translation methods. To highlight the advantages of COT Flow through the introduction of OT, we introduce the COT Editor to perform user-guided editing with excellent flexibility and quality. The code will be released at https://github.com/zuxinrui/cot_flow.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2406.12140"
+        },
+        {
+          "title": "OT-ALD: Aligning Latent Distributions with Optimal Transport for Accelerated Image-to-Image Translation",
+          "authors": [
+            "Zhanpeng Wang",
+            "Shuting Cao",
+            "Yuhang Lu",
+            "YuhanLi",
+            "Na Lei",
+            "Zhongxuan Luo"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.1609/aaai.v40i31.39886",
+          "abstract": "The Dual Diffusion Implicit Bridge (DDIB) is an emerging image-to-image (I2I) translation method that preserves cycle consistency while achieving strong flexibility. It links two independently trained diffusion models (DMs) in the source and target domains by first adding noise to a source image to obtain a latent code, then denoising it in the target domain to generate the translated image. However, this method faces two key challenges: (1) low translation efficiency, and (2) translation trajectory deviations caused by mismatched latent distributions. To address these issues, we propose a novel I2I translation framework, OT-ALD, grounded in optimal transport (OT) theory, which retains the strengths of DDIB-based approach. Specifically, we compute an OT map from the latent distribution of the source domain to that of the target domain, and use the mapped distribution as the starting point for the reverse diffusion process in the target domain. Our error analysis confirms that OT-ALD eliminates latent distribution mismatches. Moreover, OT-ALD effectively balances faster image translation with improved image quality. Experiments on four translation tasks across three high-resolution datasets show that OT-ALD improves sampling efficiency by 20.29% and reduces the FID score by 2.6 on average compared to the top-performing baseline models.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "40",
+          "issue": "31",
+          "pages": "26760-26768",
+          "url": "https://doi.org/10.1609/aaai.v40i31.39886"
+        },
+        {
+          "title": "Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport",
+          "authors": [
+            "Jialin Li",
+            "Zhuo Zhang",
+            "Yue Cao",
+            "Guipeng Lan",
+            "Jiabao Wen",
+            "Shuai Xiao",
+            "Jiachen Yang"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2605.08851",
+          "abstract": "The scarcity of high-quality imaging data for coronary angiography (CAG) stenosis limits the clinical translation of automated stenosis detection. Synthetic stenosis data provides a practical avenue to augment training sets, improving data quality, diversity, and distributional coverage, and enhancing detection precision and generalization. However, diffusion-based editing commonly relies on soft guidance in a noise-initialized reverse process, offering limited pixel-level precision and structure preservation. We propose the OT-Bridge Editor, which reframes localized editing as a constrained entropic optimal transport (OT) problem and leverages geometric information to steer the generation path, enabling stronger geometric control. Extensive experiments show that our synthesized angiograms consistently improve downstream stenosis detection, yielding substantial relative gains of 27.8% on the public ARCADE benchmark and 23.0% on our multi-center dataset, supported by consistent qualitative results.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://arxiv.org/abs/2605.08851"
+        },
+        {
+          "title": "Optimal Mass Transport with Lagrangian Workflow Reveals Advective and Diffusion Driven Solute Transport in the Glymphatic System",
+          "authors": [
+            "Sunil Koundal",
+            "Rena Elkin",
+            "Saad Nadeem",
+            "Yuechuan Xue",
+            "Stefan Constantinou",
+            "Simon Sanggaard",
+            "Xiaodan Liu",
+            "Brittany Monte",
+            "Feng Xu",
+            "William Van Nostrand",
+            "Maiken Nedergaard",
+            "Hedok Lee",
+            "Joanna Marguerite Wardlaw",
+            "Helene Benveniste",
+            "Allen Tannenbaum"
+          ],
+          "year": 2020,
+          "citations": 121,
+          "doi": "10.1038/s41598-020-59045-9",
+          "abstract": "The glymphatic system (GS) hypothesis states that advective driven cerebrospinal fluid (CSF) influx from the perivascular spaces into the interstitial fluid space rapidly transport solutes and clear waste from brain. However, the presence of advection in neuropil is contested and solutes are claimed to be transported by diffusion only. To address this controversy, we implemented a regularized version of the optimal mass transport (rOMT) problem, wherein the advection/diffusion equation is the only a priori assumption required. rOMT analysis with a Lagrangian perspective of GS transport revealed that solute speed was faster in CSF compared to grey and white matter. Further, rOMT analysis also demonstrated 2-fold differences in regional solute speed within the brain. Collectively, these results imply that advective transport dominates in CSF while diffusion and advection both contribute to GS transport in parenchyma. In a rat model of cerebral small vessel disease (cSVD), solute transport in the perivascular spaces (PVS) and PVS-to-tissue transfer was slower compared to normal rats. Thus, the analytical framework of rOMT provides novel insights in the local dynamics of GS transport that may have implications for neurodegenerative diseases. Future studies should apply the rOMT analysis approach to confirm GS transport reductions in humans with cSVD.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Scientific Reports",
+          "volume": "10",
+          "issue": "1",
+          "pages": "1990-1990",
+          "url": "https://doi.org/10.1038/s41598-020-59045-9"
+        },
+        {
+          "title": "Textualize Visual Prompt for Image Editing via Diffusion Bridge",
+          "authors": [
+            "Pengcheng Xu",
+            "Qingnan Fan",
+            "Fei Kou",
+            "Shuai Qin",
+            "Hong Gu",
+            "Ruoyu Zhao",
+            "Charles X. Ling",
+            "Boyu Wang"
+          ],
+          "year": 2025,
+          "citations": 2,
+          "doi": "10.1609/aaai.v39i20.35483",
+          "abstract": "Visual prompt, a pair of before-and-after edited images, can convey indescribable imagery transformations and prosper in image editing. However, current visual prompt methods rely on a pretrained text-guided image-to-image generative model that requires a triplet of text, before, and after images for retraining over a text-to-image model. Such crafting triplets and retraining processes limit the scalability and generalization of editing. In this paper, we present a framework based on any single text-to-image model without reliance on the explicit image-to-image model thus enhancing the generalizability and scalability. Specifically, by leveraging the probability-flow ordinary equation, we construct a diffusion bridge to transfer the distribution between before-and-after images under the text guidance. By optimizing the text via the bridge, the framework adaptively textualizes the editing transformation conveyed by visual prompts into text embeddings without other models. Meanwhile, we introduce differential attention control during optimization, which disentangles the text embedding from the invariance of the before-and-after images and makes it solely capture the delicate transformation and generalize to edit various images. Experiments on real images validate competitive results on the generalization, contextual coherence, and high fidelity for delicate editing with just one image pair as the visual prompt.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "issue": "20",
+          "pages": "21779-21787",
+          "url": "https://doi.org/10.1609/aaai.v39i20.35483"
+        },
+        {
+          "title": "A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models",
+          "authors": [
+            "Xincheng Shuai",
+            "Henghui Ding",
+            "Xingjun Ma",
+            "Rong-Cheng Tu",
+            "Yu–Gang Jiang",
+            "Dacheng Tao"
+          ],
+          "year": 2024,
+          "citations": 2,
+          "doi": "10.48550/arxiv.2406.14555",
+          "abstract": "Image editing aims to edit the given synthetic or real image to meet the specific requirements from users. It is widely studied in recent years as a promising and challenging field of Artificial Intelligence Generative Content (AIGC). Recent significant advancement in this field is based on the development of text-to-image (T2I) diffusion models, which generate images according to text prompts. These models demonstrate remarkable generative capabilities and have become widely used tools for image editing. T2I-based image editing methods significantly enhance editing performance and offer a user-friendly interface for modifying content guided by multimodal inputs. In this survey, we provide a comprehensive review of multimodal-guided image editing techniques that leverage T2I diffusion models. First, we define the scope of image editing from a holistic perspective and detail various control signals and editing scenarios. We then propose a unified framework to formalize the editing process, categorizing it into two primary algorithm families. This framework offers a design space for users to achieve specific goals. Subsequently, we present an in-depth analysis of each component within this framework, examining the characteristics and applicable scenarios of different combinations. Given that training-based methods learn to directly map the source image to target one under user guidance, we discuss them separately, and introduce injection schemes of source image in different scenarios. Additionally, we review the application of 2D techniques to video editing, highlighting solutions for inter-frame inconsistency. Finally, we discuss open challenges in the field and suggest potential future research directions. We keep tracing related works at https://github.com/xinchengshuai/Awesome-Image-Editing.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2406.14555"
+        },
+        {
+          "title": "Solving Prior Distribution Mismatch in Diffusion Models via Optimal Transport",
+          "authors": [
+            "Zhanpeng Wang",
+            "Shenghao Li",
+            "Che, Jiameng",
+            "Chen Wang",
+            "Jui, Shangling",
+            "Na Lei",
+            "Zhongxuan Luo"
+          ],
+          "year": 2024,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2410.13431",
+          "abstract": "Diffusion Models (DMs) have achieved remarkable progress in generative modeling. However, the mismatch between the forward terminal distribution and reverse initial distribution introduces prior error, leading to deviations of sampling trajectories from the true distribution and severely limiting model performance. This issue further triggers cascading problems, including non-zero Signal-to-Noise Ratio, accumulated denoising errors, degraded generation quality, and constrained sampling efficiency. To address this issue, this paper proposes a prior error elimination framework based on Optimal Transport (OT). Specifically, an OT map from the reverse initial distribution to the forward terminal distribution is constructed to achieve precise matching of the two distributions. Meanwhile, the upper bound of the prior error is quantified using the Wasserstein distance, proving that the prior error can be effectively eliminated via the OT map. Additionally, by deriving the asymptotic consistency between dynamic OT and probability flow, this method is revealed to be highly compatible with the intrinsic mechanism of the diffusion process. Experimental results demonstrate that the proposed method completely eliminates the prior error both theoretically and practically, providing a universal and rigorous solution for optimizing the performance of DMs.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2410.13431"
+        }
+      ],
+      "openalex_only": [],
+      "anysearch_only": [],
+      "stats": {
+        "openalex_total": 16,
+        "anysearch_total": 10,
+        "cross_validated": 10,
+        "openalex_unique": 5,
+        "anysearch_unique": 0,
+        "filtered_irrelevant": 1,
+        "collapsed_duplicates": 0
+      }
+    },
+    {
+      "query": "optimal transport attention style",
+      "cross_validated": [
+        {
+          "title": "COTA: Color-guided optimal transport attention for arbitrary style transfer",
+          "authors": [
+            "Liudi Wang",
+            "Qiang Lin",
+            "Ya Zhao",
+            "Ting Li",
+            "Pengfei Yang",
+            "Xiaohong Li",
+            "Xiaodi Huang"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.1016/j.array.2026.101197",
+          "abstract": ": Arbitrary style transfer seeks to preserve the semantic structure of a content image while transferring the visual appearance of an arbitrary reference style image. Existing attention-based methods usually establish content-style correspondences through pairwise feature similarity, which can become unreliable when the two images differ substantially in semantics, texture, or color composition. We therefore propose COTA, a Color-guided Optimal Transport Attention framework that complements scaled dot-product attention with a structured color-correspondence prior. A shared ColorMaskNet performs soft color decomposition in the Lab color space and extracts representative color prototypes and component proportions from both images. A learnable color metric and Sinkhorn optimal transport then estimate a globally coupled soft transport plan subject to the color distributions of the two images. In contrast to hard assignment or independently normalized color matching, this formulation supports flexible one-to-many and many-to-many correspondences while coordinating color allocation globally. The transport plan is projected into layer-wise spatial priors and integrated with feature affinity in a multi-scale gated-attention framework. Experiments show that COTA provides competitive content preservation and style rendering, with coherent structures, stable local stylization, and consistent regional color allocation.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Array",
+          "volume": "31",
+          "issue": null,
+          "pages": "101197-101197",
+          "url": "https://doi.org/10.1016/j.array.2026.101197"
+        },
+        {
+          "title": "Arbitrary style transfer with attentional networks via unbalanced optimal transport",
+          "authors": [
+            "Jie Li",
+            "Liwen Wu",
+            "Dan Xu",
+            "Shaowen Yao"
+          ],
+          "year": 2022,
+          "citations": 6,
+          "doi": "10.1049/ipr2.12403",
+          "abstract": "Abstract Arbitrary style transfer aims to stylize the content image with the style image. The key problem of style transfer is how to balance the global content structure and the local style patterns. A promising method to solve this problem is the attentional style transfer method, where a learnable embedding of image features enables style patterns to be flexibly recombined with the content image, so local style patterns will be well preserved in the stylized image. However, current attentional style transfer methods cannot well preserve the global content structure. To solve this problem, a novel attentional style transfer network is proposed, that relies on Optimal Transport (OT) for computing the attention map. The proposed OT‐based attention ensures the similarity between global distributions of the synthesized image and its corresponding style image. For the optimal transport computation, a regularized formulation is used, which not only allows an unbalanced optimal transport to address the deviational distributions but also improves the robustness of stylized results. The proposed method finds a well balance between the global content structure and local style patterns. Various experiments are conducted to demonstrate the superiority of the proposed method over state‐of‐the‐art methods.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "IET Image Processing",
+          "volume": "16",
+          "issue": "7",
+          "pages": "1778-1792",
+          "url": "https://doi.org/10.1049/ipr2.12403"
+        },
+        {
+          "title": "Text Style Transfer via Optimal Transport",
+          "authors": [
+            "Nasim Nouri"
+          ],
+          "year": 2022,
+          "citations": 7,
+          "doi": "10.18653/v1/2022.naacl-main.182",
+          "abstract": "Text style transfer (TST) is a well-known task whose goal is to convert the style of the text (e.g., from formal to informal) while preserving its content.Recently, it has been shown that both syntactic and semantic similarities between the source and the converted text are important for TST.However, the interaction between these two concepts has not been modeled.In this work, we propose a novel method based on Optimal Transport for TST to simultaneously incorporate syntactic and semantic information into similarity computation between the source and the converted text.We evaluate the proposed method in both supervised and unsupervised settings.Our analysis reveal the superiority of the proposed model in both settings.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+          "volume": null,
+          "issue": null,
+          "pages": "2532-2541",
+          "url": "https://doi.org/10.18653/v1/2022.naacl-main.182"
+        },
+        {
+          "title": "Multi-Scale Convolution with Optimal Transport Attention Effect on Multivariate Time Series",
+          "authors": [
+            "HaoChong Fu",
+            "Jian Xu"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2607.10740",
+          "abstract": "The analysis of Multivariate Time Series (MTS) plays an important role in a lot of real-world practical applications, but it still remains some challenging problem about capturing multi-granularity structural patterns and suppressing noise appropriately. Multi-Scale Convolution with Optimal Transport Attention (MSC-OT) is proposed in this paper. MSC-OT is a useful architecture to optimize the attention mechanism. It combines multi-scale convolution with Sinkhorn optimal transport method based on inverted embedding. The inverted embedding approach embeds each variable as a token and allows the model to capture cross-variate relationships better. MSC-OT consists of two part: (1) Multi-Scale Convolution Enhancement, that applies multi-scale convolutions to attention score matrices based on inverted embedding, capturing local structural patterns in the variate-interaction space induced by compressed temporal representations; (2) Sinkhorn Optimal Transport Regularization, that formulates attention computation as an optimal transport problem and employs iterative matrix scaling to ensure balanced information flow across variates. Adaptive Fusion Strategy utilizes softmax-normalized learnable weights to dynamically combine base attention, convolution-enhanced, and OT-regularized scores. Experiments on widely-used datasets, including ETT, Electricity, Traffic, Solar-Energy, and Exchange-Rate, show that MSC-OT achieves well performance in both short-term and long-term forecasting tasks. Ablation experiments further validate the effectiveness of each proposed component and their synergistic contributions to improving prediction accuracy for multivariate time series forecasting.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://arxiv.org/abs/2607.10740"
+        },
+        {
+          "title": "Fine-Tuning Graph Neural Networks via Graph Topology Induced Optimal Transport",
+          "authors": [
+            "Jiying Zhang",
+            "Xi Xiao",
+            "Long-Kai Huang",
+            "Yu Rong",
+            "Yatao Bian"
+          ],
+          "year": 2022,
+          "citations": 22,
+          "doi": "10.24963/ijcai.2022/518",
+          "abstract": "Recently, the pretrain-finetuning paradigm has attracted tons of attention in graph learning community due to its power of alleviating the lack of labels problem in many real-world applications. Current studies use existing techniques, such as weight constraint, representation constraint, which are derived from images or text data, to transfer the invariant knowledge from the pre-train stage to fine-tuning stage. However, these methods failed to preserve invariances from graph structure and Graph Neural Network (GNN) style models. In this paper, we present a novel optimal transport-based fine-tuning framework called GTOT-Tuning, namely, Graph Topology induced Optimal Transport fine-Tuning, for GNN style backbones. GTOT-Tuning is required to utilize the property of graph data to enhance the preservation of representation produced by fine-tuned networks. Toward this goal, we formulate graph local knowledge transfer as an Optimal Transport (OT) problem with a structural prior and construct the GTOT regularizer to constrain the fine-tuned model behaviors. By using the adjacency relationship amongst nodes, the GTOT regularizer achieves node-level optimal transport procedures and reduces redundant transport procedures, resulting in efficient knowledge transfer from the pre-trained models. We evaluate GTOT-Tuning on eight downstream tasks with various GNN backbones and demonstrate that it achieves state-of-the-art fine-tuning performance for GNNs.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "volume": null,
+          "issue": null,
+          "pages": "3730-3736",
+          "url": "https://doi.org/10.24963/ijcai.2022/518"
+        },
+        {
+          "title": "Optimal Image Transport on Sparse Dictionaries",
+          "authors": [
+            "Junqing Huang",
+            "Haihui Wang",
+            "Andreas Weiermann",
+            "Michael V. Ruzhansky"
+          ],
+          "year": 2023,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2311.01984",
+          "abstract": "In this paper, we derive a novel optimal image transport algorithm over sparse dictionaries by taking advantage of Sparse Representation (SR) and Optimal Transport (OT). Concisely, we design a unified optimization framework in which the individual image features (color, textures, styles, etc.) are encoded using sparse representation compactly, and an optimal transport plan is then inferred between two learned dictionaries in accordance with the encoding process. This paradigm gives rise to a simple but effective way for simultaneous image representation and transformation, which is also empirically solvable because of the moderate size of sparse coding and optimal transport sub-problems. We demonstrate its versatility and many benefits to different image-to-image translation tasks, in particular image color transform and artistic style transfer, and show the plausible results for photo-realistic transferred effects.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2311.01984"
+        },
+        {
+          "title": "Quadratically Regularized Optimal Transport on Graphs",
+          "authors": [
+            "Montacer Essid",
+            "Justin Solomon"
+          ],
+          "year": 2018,
+          "citations": 76,
+          "doi": "10.1137/17m1132665",
+          "abstract": "Optimal transportation provides a means of lifting distances between points on a geometric domain to distances between signals over the domain, expressed as probability distributions. On a graph, transportation problems can be used to express challenging tasks involving matching supply to demand with minimal shipment expense; in discrete language, these become minimum-cost network flow problems. Regularization typically is needed to ensure uniqueness for the linear ground distance case and to improve optimization convergence. In this paper, we characterize a quadratic regularizer for transport with linear ground distance over a graph. We theoretically analyze the behavior of quadratically regularized graph transport, characterizing how regularization affects the structure of flows in the regime of small but nonzero regularization. We further exploit elegant second-order structure in the dual of this problem to derive an easily implemented Newton-type optimization algorithm.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "SIAM Journal on Scientific Computing",
+          "volume": "40",
+          "issue": "4",
+          "pages": "A1961-A1986",
+          "url": "https://doi.org/10.1137/17m1132665"
+        },
+        {
+          "title": "Introduction to Optimal Transport Theory",
+          "authors": [
+            "Filippo Santambrogio"
+          ],
+          "year": 2010,
+          "citations": 7,
+          "doi": "10.48550/arxiv.1009.3856",
+          "abstract": "These notes constitute a sort of Crash Course in Optimal Transport Theory. The different features of the problem of Monge-Kantorovitch are treated, starting from convex duality issues. The main properties of space of probability measures endowed with the distances $W_p$ induced by optimal transport are detailed. The key tools to put in relation optimal transport and PDEs are provided.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/1009.3856"
+        }
+      ],
+      "openalex_only": [],
+      "anysearch_only": [],
+      "stats": {
+        "openalex_total": 16,
+        "anysearch_total": 10,
+        "cross_validated": 9,
+        "openalex_unique": 5,
+        "anysearch_unique": 0,
+        "filtered_irrelevant": 0,
+        "collapsed_duplicates": 2
+      }
+    },
+    {
+      "query": "optimal transport spatial attention layout",
+      "cross_validated": [
+        {
+          "title": "COTA: Color-guided optimal transport attention for arbitrary style transfer",
+          "authors": [
+            "Liudi Wang",
+            "Qiang Lin",
+            "Ya Zhao",
+            "Ting Li",
+            "Pengfei Yang",
+            "Xiaohong Li",
+            "Xiaodi Huang"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.1016/j.array.2026.101197",
+          "abstract": ": Arbitrary style transfer seeks to preserve the semantic structure of a content image while transferring the visual appearance of an arbitrary reference style image. Existing attention-based methods usually establish content-style correspondences through pairwise feature similarity, which can become unreliable when the two images differ substantially in semantics, texture, or color composition. We therefore propose COTA, a Color-guided Optimal Transport Attention framework that complements scaled dot-product attention with a structured color-correspondence prior. A shared ColorMaskNet performs soft color decomposition in the Lab color space and extracts representative color prototypes and component proportions from both images. A learnable color metric and Sinkhorn optimal transport then estimate a globally coupled soft transport plan subject to the color distributions of the two images. In contrast to hard assignment or independently normalized color matching, this formulation supports flexible one-to-many and many-to-many correspondences while coordinating color allocation globally. The transport plan is projected into layer-wise spatial priors and integrated with feature affinity in a multi-scale gated-attention framework. Experiments show that COTA provides competitive content preservation and style rendering, with coherent structures, stable local stylization, and consistent regional color allocation.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Array",
+          "volume": "31",
+          "issue": null,
+          "pages": "101197-101197",
+          "url": "https://doi.org/10.1016/j.array.2026.101197"
+        },
+        {
+          "title": "Optimal Feature Transport for Cross-View Image Geo-Localization",
+          "authors": [
+            "Yujiao Shi",
+            "Xin Feng Yu",
+            "Liu Liu",
+            "Tong Zhang",
+            "Hongdong Li"
+          ],
+          "year": 2020,
+          "citations": 171,
+          "doi": "10.1609/aaai.v34i07.6875",
+          "abstract": "This paper addresses the problem of cross-view image geo-localization, where the geographic location of a ground-level street-view query image is estimated by matching it against a large scale aerial map (e.g., a high-resolution satellite image). State-of-the-art deep-learning based methods tackle this problem as deep metric learning which aims to learn global feature representations of the scene seen by the two different views. Despite promising results are obtained by such deep metric learning methods, they, however, fail to exploit a crucial cue relevant for localization, namely, the spatial layout of local features. Moreover, little attention is paid to the obvious domain gap (between aerial view and ground view) in the context of cross-view localization. This paper proposes a novel Cross-View Feature Transport (CVFT) technique to explicitly establish cross-view domain transfer that facilitates feature alignment between ground and aerial images. Specifically, we implement the CVFT as network layers, which transports features from one domain to the other, leading to more meaningful feature similarity comparison. Our model is differentiable and can be learned end-to-end. Experiments on large-scale datasets have demonstrated that our method has remarkably boosted the state-of-the-art cross-view localization performance, e.g., on the CVUSA dataset, with significant improvements for top-1 recall from 40.79% to 61.43%, and for top-10 from 76.36% to 90.49%. We expect the key insight of the paper (i.e., explicitly handling domain difference via domain transport) will prove to be useful for other similar problems in computer vision as well.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "34",
+          "issue": "07",
+          "pages": "11990-11997",
+          "url": "https://doi.org/10.1609/aaai.v34i07.6875"
+        },
+        {
+          "title": "GenOT: generative optimal transport enables spatiotemporal interpolation and generation in cross-platform spatial transcriptomics",
+          "authors": [
+            "Rui Wang",
+            "Xinxin Liu",
+            "Linlin Zhuo",
+            "Zhecheng Zhou",
+            "Junqing Xu",
+            "Quan Zou",
+            "Xiangzheng Fu"
+          ],
+          "year": 2026,
+          "citations": 1,
+          "doi": "10.1186/s13059-026-04166-z",
+          "abstract": "Spatial transcriptomics technologies have revolutionized the analysis of spatial gene expression, yet integrating spatial information and generating data across heterogeneous samples remain challenging. We present GenOT, a generative framework combining multi-scale graph self-supervised contrastive learning with optimal transport barycenter theory for efficient cross-slice and cross-platform spatiotemporal interpolation. The core innovation of GenOT lies in introducing an optimal transport barycenter-based interpolation algorithm, which mathematically models spatial distribution differences across heterogeneous samples to reconstruct spatiotemporal gene expression dynamics. Extensive evaluations demonstrate that GenOT consistently outperforms existing approaches in spatial domain identification, cross-platform interpolation, and developmental trajectory reconstruction.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Genome biology",
+          "volume": "27",
+          "issue": "1",
+          "pages": null,
+          "url": "https://doi.org/10.1186/s13059-026-04166-z"
+        },
+        {
+          "title": "Domain adaptive semantic segmentation by optimal transport",
+          "authors": [
+            "Yaqian Guo",
+            "Xin Wang",
+            "Ce Li",
+            "Shihui Ying"
+          ],
+          "year": 2023,
+          "citations": 15,
+          "doi": "10.1016/j.fmre.2023.06.006",
+          "abstract": "Scene segmentation is widely used in autonomous driving for environmental perception. Semantic scene segmentation has gained considerable attention owing to its rich semantic information. It assigns labels to the pixels in an image, thereby enabling automatic image labeling. Current approaches are based mainly on convolutional neural networks (CNN), however, they rely on numerous labels. Therefore, the use of a small amount of labeled data to achieve semantic segmentation has become increasingly important. In this study, we developed a domain adaptation framework based on optimal transport (OT) and an attention mechanism to address this issue. Specifically, we first generated the output space via a CNN owing to its superior of feature representation. Second, we utilized OT to achieve a more robust alignment of the source and target domains in the output space, where the OT plan defined a well attention mechanism to improve the adaptation of the model. In particular, the OT reduced the number of network parameters and made the network more interpretable. Third, to better describe the multiscale properties of the features, we constructed a multiscale segmentation network to perform domain adaptation. Finally, to verify the performance of the proposed method, we conducted an experiment to compare the proposed method with three benchmark and four SOTA methods using three scene datasets. The mean intersection-over-union (mIOU) was significantly improved, and visualization results under multiple domain adaptation scenarios also show that the proposed method performed better than semantic segmentation methods.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Fundamental Research",
+          "volume": "4",
+          "issue": "5",
+          "pages": "981-991",
+          "url": "https://doi.org/10.1016/j.fmre.2023.06.006"
+        },
+        {
+          "title": "Aggregating Visual Information with Optimal Transport for VideoLM Token Compression",
+          "authors": [
+            "Wenti Yin",
+            "Xiaotian Han",
+            "Junyuan Shang",
+            "Yuchen Ding",
+            "Shuohuan Wang",
+            "Dianhai Yu",
+            "Changxin Gao",
+            "Nong Sang"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2608.20473",
+          "abstract": "Video language models process videos as dense visual-token sequences with substantial representational redundancy. Compressing these sequences is therefore essential for reducing the visual-token burden on language-model decoding. The central challenge is to preserve visual information dispersed across frames under such compression. To this end, we introduce Aggregating Visual Information with Optimal Transport (AVIOT), which casts video token compression as transporting a dense empirical measure of frame observations onto a compact target measure. The resulting source-to-target coupling induces a distribution over source observations for each target support, directly specifying how the compressed video representation is constructed. We further adapt this construction along task and spatial axes. Question conditioning modulates the transport cost between source frames and target supports, while influencing how many supports are allocated to each temporal segment, thereby directing representation capacity toward question-relevant content. At multiple spatial granularities, AVIOT computes region-specific temporal transport plans and adaptively fuses the representations they yield, allowing different regions within the same compact representation to draw from different moments. Evaluations across varying compression ratios show that AVIOT matches or outperforms the uncompressed baseline on multiple video-understanding benchmarks while retaining strong performance at higher compression ratios.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://arxiv.org/abs/2608.20473"
+        },
+        {
+          "title": "Spatial equity in the layout of urban public sports facilities in Hangzhou",
+          "authors": [
+            "Yujuan Chen",
+            "Ning Lin",
+            "Yangyang Wu",
+            "Liang Ding",
+            "Jun Pang",
+            "Tonghua Lv"
+          ],
+          "year": 2021,
+          "citations": 42,
+          "doi": "10.1371/journal.pone.0256174",
+          "abstract": "This paper proposes a framework for a layout evaluation of urban public sports facilities. First, the buffer analysis method is used to measure the service level of public sports facilities. The study findings indicate that the overall service level of public sports facilities presents the spatial characteristics of a central agglomeration, and the value of the service level diffuses outward from high to low. There is evident spatial heterogeneity in the layout of public sports facilities in Hangzhou. Second, the Gini coefficient, Lorenz curve, and location entropy are employed to measure the equity of the distribution among spatial units and the intradistrict disparity. The results show a mismatch between the spatial distribution of the facilities and the distribution of the permanent population. The patterns of distribution of the location entropy classes of Hangzhou can be divided into three types: balanced, alternating, and divergent districts. The method in this paper is effective in measuring spatial equity and visualizing it. it has a certain degree of systemicity, universality and operability. At the same time, this method can compare the diachronic characteristics of the same city and the synchronic characteristics of different cities, which has universal application value.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "PLoS ONE",
+          "volume": "16",
+          "issue": "9",
+          "pages": "e0256174-e0256174",
+          "url": "https://doi.org/10.1371/journal.pone.0256174"
+        },
+        {
+          "title": "Optimal transport for a novel event description at hadron colliders",
+          "authors": [
+            "L. Gouskos",
+            "F. Iemmi",
+            "S. P. Liechti",
+            "Benedikt Maier",
+            "V. M. Mikuni",
+            "Huilin Qu"
+          ],
+          "year": 2023,
+          "citations": 7,
+          "doi": "10.1103/physrevd.108.096003",
+          "abstract": "We propose a novel strategy for disentangling proton collisions at hadron colliders such as the LHC that considerably improves over the current state of the art. Employing a metric inspired by optimal transport problems as the cost function of a graph neural network, our algorithm is able to compare two particle collections with different noise levels and learns to flag particles originating from the main interaction amidst products from up to 200 simultaneous pileup collisions. We thereby sidestep the critical task of obtaining a ground truth by labeling particles and avoid arduous human annotation in favor of labels derived in situ through a self-supervised process. We demonstrate how our approach---which, unlike competing algorithms, is trivial to implement---improves the resolution in key objects used in precision measurements and searches alike and present large sensitivity gains in searching for exotic Higgs boson decays at the High-Luminosity LHC.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Physical review. D/Physical review. D.",
+          "volume": "108",
+          "issue": "9",
+          "pages": null,
+          "url": "https://doi.org/10.1103/physrevd.108.096003"
+        },
+        {
+          "title": "Quantum Theory and Application of Contextual Optimal Transport",
+          "authors": [
+            "Nicola Mariella",
+            "Albert Akhriev",
+            "Francesco Tacchino",
+            "Christa Zoufal",
+            "Juan Carlos Gonzalez-Espitia",
+            "Benedek Harsanyi",
+            "Eugene Koskin",
+            "Ivano Tavernelli",
+            "Stefan Woerner",
+            "Maria Anna Rapsomaniki",
+            "Sergiy M. Zhuk",
+            "Jannis Born"
+          ],
+          "year": 2024,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2402.14991",
+          "abstract": "Optimal Transport (OT) has fueled machine learning (ML) across many domains. When paired data measurements $(\\boldsymbolμ, \\boldsymbolν)$ are coupled to covariates, a challenging conditional distribution learning setting arises. Existing approaches for learning a $\\textit{global}$ transport map parameterized through a potentially unseen context utilize Neural OT and largely rely on Brenier's theorem. Here, we propose a first-of-its-kind quantum computing formulation for amortized optimization of contextualized transportation plans. We exploit a direct link between doubly stochastic matrices and unitary operators thus unravelling a natural connection between OT and quantum computation. We verify our method (QontOT) on synthetic and real data by predicting variations in cell type distributions conditioned on drug dosage. Importantly we conduct a 24-qubit hardware experiment on a task challenging for classical computers and report a performance that cannot be matched with our classical neural OT approach. In sum, this is a first step toward learning to predict contextualized transportation plans through quantum computing.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2402.14991"
+        }
+      ],
+      "openalex_only": [],
+      "anysearch_only": [],
+      "stats": {
+        "openalex_total": 16,
+        "anysearch_total": 10,
+        "cross_validated": 8,
+        "openalex_unique": 6,
+        "anysearch_unique": 0,
+        "filtered_irrelevant": 1,
+        "collapsed_duplicates": 1
+      }
+    },
+    {
+      "query": "optimal transport partial domain adaptation",
+      "cross_validated": [
+        {
+          "title": "Joint Partial Optimal Transport for Open Set Domain Adaptation",
+          "authors": [
+            "Renjun Xu",
+            "Pelen Liu",
+            "Yin Zhang⋆",
+            "Fang Wei Cai",
+            "Jindong Wang",
+            "Shuoying Liang",
+            "Heting Ying",
+            "Jianwei Yin"
+          ],
+          "year": 2020,
+          "citations": 29,
+          "doi": "10.24963/ijcai.2020/352",
+          "abstract": "Domain adaptation (DA) has achieved a resounding success to learn a good classifier by leveraging labeled data from a source domain to adapt to an unlabeled target domain. However, in a general setting when the target domain contains classes that are never observed in the source domain, namely in Open Set Domain Adaptation (OSDA), existing DA methods failed to work because of the interference of the extra unknown classes. This is a much more challenging problem, since it can easily result in negative transfer due to the mismatch between the unknown and known classes. Existing researches are susceptible to misclassification when target domain unknown samples in the feature space distributed near the decision boundary learned from the labeled source domain. To overcome this, we propose Joint Partial Optimal Transport (JPOT), fully utilizing information of not only the labeled source domain but also the discriminative representation of unknown class in the target domain. The proposed joint discriminative prototypical compactness loss can not only achieve intra-class compactness and inter-class separability, but also estimate the mean and variance of the unknown class through backpropagation, which remains intractable for previous methods due to the blindness about the structure of the unknown classes. To our best knowledge, this is the first optimal transport model for OSDA. Extensive experiments demonstrate that our proposed model can significantly boost the performance of open set domain adaptation on standard DA datasets.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "volume": null,
+          "issue": null,
+          "pages": "2540-2546",
+          "url": "https://doi.org/10.24963/ijcai.2020/352"
+        },
+        {
+          "title": "MOT: Masked Optimal Transport for Partial Domain Adaptation",
+          "authors": [
+            "You-Wei Luo",
+            "Chuan-Xian Ren"
+          ],
+          "year": 2023,
+          "citations": 21,
+          "doi": "10.1109/cvpr52729.2023.00344",
+          "abstract": "As an important methodology to measure distribution discrepancy, optimal transport (OT) has been successfully applied to learn generalizable visual models under changing environments. However, there are still limitations, including strict prior assumption and implicit alignment, for current OT modeling in challenging real-world scenarios like partial domain adaptation, where the learned trans-port plan may be biased and negative transfer is inevitable. Thus, it is necessary to explore a more feasible OT methodology for real-world applications. In this work, we focus on the rigorous OT modeling for conditional distribution matching and label shift correction. A novel masked OT (MOT) methodology on conditional distributions is proposed by defining a mask operation with label information. Further, a relaxed and reweighting formulation is proposed to improve the robustness of OT in extreme scenarios. We prove the theoretical equivalence between conditional OT and MOT, which implies the well-defined MOT serves as a computation-friendly proxy. Extensive experiments validate the effectiveness of theoretical results and proposed model.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+          "volume": null,
+          "issue": null,
+          "pages": "3531-3540",
+          "url": "https://doi.org/10.1109/cvpr52729.2023.00344"
+        },
+        {
+          "title": "Prototypical Partial Optimal Transport for Universal Domain Adaptation",
+          "authors": [
+            "Yucheng Yang",
+            "Xiang Gu",
+            "Jian Sun"
+          ],
+          "year": 2023,
+          "citations": 17,
+          "doi": "10.1609/aaai.v37i9.26287",
+          "abstract": "Universal domain adaptation (UniDA) aims to transfer knowledge from a labeled source domain to an unlabeled target domain without requiring the same label sets of both domains. The existence of domain and category shift makes the task challenging and requires us to distinguish “known” samples (i.e., samples whose labels exist in both domains) and “unknown” samples (i.e., samples whose labels exist in only one domain) in both domains before reducing the domain gap. In this paper, we consider the problem from the point of view of distribution matching which we only need to align two distributions partially. A novel approach, dubbed mini-batch Prototypical Partial Optimal Transport (m-PPOT), is proposed to conduct partial distribution alignment for UniDA. In training phase, besides minimizing m-PPOT, we also leverage the transport plan of m-PPOT to reweight source prototypes and target samples, and design reweighted entropy loss and reweighted cross-entropy loss to distinguish “known” and “unknown” samples. Experiments on four benchmarks show that our method outperforms the previous state-of-the-art UniDA methods.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "37",
+          "issue": "9",
+          "pages": "10852-10860",
+          "url": "https://doi.org/10.1609/aaai.v37i9.26287"
+        },
+        {
+          "title": "Fused Partial Optimal Transport for Open-Set Heterogeneous Domain Adaptation",
+          "authors": [
+            "Litao Ma",
+            "Shiqi Ai",
+            "J. J. Chen",
+            "Yixuan Li"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.2139/ssrn.7294104",
+          "abstract": null,
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "SSRN Electronic Journal",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://doi.org/10.2139/ssrn.7294104"
+        },
+        {
+          "title": "Partial Optimal Transport for Universal Heterogeneous Domain Adaptation",
+          "authors": [
+            "诗琪 艾"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": "10.12677/sa.2026.153056",
+          "abstract": null,
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Statistics and Applications",
+          "volume": "15",
+          "issue": "03",
+          "pages": "66-80",
+          "url": "https://doi.org/10.12677/sa.2026.153056"
+        },
+        {
+          "title": "Bi-level Unbalanced Optimal Transport for Partial Domain Adaptation",
+          "authors": [
+            "Ziying Chen",
+            "Chuan-Xian Ren",
+            "Hong Yan"
+          ],
+          "year": 2025,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2506.08020",
+          "abstract": "Partial domain adaptation (PDA) problem requires aligning cross-domain samples while distinguishing the outlier classes for accurate knowledge transfer. The widely used weighting framework tries to address the outlier classes by introducing the reweighed source domain with a similar label distribution to the target domain. However, the empirical modeling of weights can only characterize the sample-wise relations, which leads to insufficient exploration of cluster structures, and the weights could be sensitive to the inaccurate prediction and cause confusion on the outlier classes. To tackle these issues, we propose a Bi-level Unbalanced Optimal Transport (BUOT) model to simultaneously characterize the sample-wise and class-wise relations in a unified transport framework. Specifically, a cooperation mechanism between sample-level and class-level transport is introduced, where the sample-level transport provides essential structure information for the class-level knowledge transfer, while the class-level transport supplies discriminative information for the outlier identification. The bi-level transport plan provides guidance for the alignment process. By incorporating the label-aware transport cost, the local transport structure is ensured and a fast computation formulation is derived to improve the efficiency. Extensive experiments on benchmark datasets validate the competitiveness of BUOT.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2506.08020"
+        },
+        {
+          "title": "Weighted Partial Optimal Transport for Multi-Source Partial Domain Adaptation",
+          "authors": [
+            "Jayadev Naram",
+            "Ziming Wang",
+            "Rebecka Jörnsten",
+            "Giuseppe Durisi"
+          ],
+          "year": 2026,
+          "citations": 0,
+          "doi": null,
+          "abstract": "We develop a theoretical and algorithmic framework for multi-source partial domain adaptation (MSPDA) by deriving a generalization bound that relates the target loss to weighted empirical source losses and source-specific partial Wasserstein distances. This bound motivates a partial optimal transport algorithm, termed MS-WARMPOT, that shares a common feature extractor across domains, addressing multi-source heterogeneity. MS-WARMPOT learns source-target sample weights that suppress outlier classes and prevent negative transfer, thereby unifying multi-source domain adaptation (MSDA) and partial domain adaptation within a single framework. Experiments on standard MSDA and MSPDA benchmarks demonstrate competitive performance against the state-of-the-art methods.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "Chalmers Research (Chalmers University of Technology)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "https://research.chalmers.se/en/publication/553823"
+        },
+        {
+          "title": "Soft-Masked Semi-Dual Optimal Transport for Partial Domain Adaptation",
+          "authors": [
+            "Zhai, Yi-Ming",
+            "Chuan-Xian Ren",
+            "Hong Yan"
+          ],
+          "year": 2025,
+          "citations": 0,
+          "doi": "10.48550/arxiv.2505.01664",
+          "abstract": "Visual domain adaptation aims to learn discriminative and domain-invariant representation for an unlabeled target domain by leveraging knowledge from a labeled source domain. Partial domain adaptation (PDA) is a general and practical scenario in which the target label space is a subset of the source one. The challenges of PDA exist due to not only domain shift but also the non-identical label spaces of domains. In this paper, a Soft-masked Semi-dual Optimal Transport (SSOT) method is proposed to deal with the PDA problem. Specifically, the class weights of domains are estimated, and then a reweighed source domain is constructed, which is favorable in conducting class-conditional distribution matching with the target domain. A soft-masked transport distance matrix is constructed by category predictions, which will enhance the class-oriented representation ability of optimal transport in the shared feature space. To deal with large-scale optimal transport problems, the semi-dual formulation of the entropy-regularized Kantorovich problem is employed since it can be optimized by gradient-based algorithms. Further, a neural network is exploited to approximate the Kantorovich potential due to its strong fitting ability. This network parametrization also allows the generalization of the dual variable outside the supports of the input distribution. The SSOT model is built upon neural networks, which can be optimized alternately in an end-to-end manner. Extensive experiments are conducted on four benchmark datasets to demonstrate the effectiveness of SSOT.",
+          "sources": [
+            "openalex",
+            "anysearch"
+          ],
+          "cross_validated": true,
+          "venue": "arXiv (Cornell University)",
+          "volume": null,
+          "issue": null,
+          "pages": null,
+          "url": "http://arxiv.org/abs/2505.01664"
+        }
+      ],
+      "openalex_only": [],
+      "anysearch_only": [],
+      "stats": {
+        "openalex_total": 16,
+        "anysearch_total": 10,
+        "cross_validated": 9,
+        "openalex_unique": 6,
+        "anysearch_unique": 0,
+        "filtered_irrelevant": 0,
+        "collapsed_duplicates": 1
+      }
+    }
+  ]
+}
