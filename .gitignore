@@ -19,6 +19,7 @@
 !/ot_benchmark/tools/
 !/ot_benchmark/tests/
 !/ot_benchmark/research/
+!/ot_benchmark/member_modules/
 !/ot_benchmark/validation/
 /ot_benchmark/validation/**/*
 !/ot_benchmark/validation/**/
