@@ -1,0 +1,115 @@
+{
+  "row_cost_columns_max_abs_difference": 0.0,
+  "row_reference_outer_product_max_error": 2.9002408113987244e-18,
+  "row_reference_analytic_value_error": 5.551115123125783e-16,
+  "mixed_vs_distance_plan_max_error": 2.3310346708438345e-17,
+  "row_vs_mixed_plan_l1_difference": 1.422780369494284,
+  "source_gradient_vs_analytic_max_error": 1.7763568394002505e-15,
+  "reference_gradient_vs_analytic_max_error": 3.8625352916099587e-13,
+  "analytic_reference_gradient_norm": 0.12631237572810483,
+  "above_cost_row_variation": 0.0,
+  "above_cost_column_variation": 0.390625,
+  "direction_probe": {
+    "status": "executed",
+    "results": {
+      "left": {
+        "loss": 1.1100772619247437,
+        "coordinate": [
+          0.0,
+          0.021918201819062233
+        ],
+        "finite_gradient": true,
+        "gradient_norm": 18.008106231689453
+      },
+      "right": {
+        "loss": 1.1100772619247437,
+        "coordinate": [
+          0.0,
+          0.021918201819062233
+        ],
+        "finite_gradient": true,
+        "gradient_norm": 18.008106231689453
+      },
+      "above": {
+        "loss": 1.0535998344421387,
+        "coordinate": [
+          0.0,
+          0.021918201819062233
+        ],
+        "finite_gradient": true,
+        "gradient_norm": 15.852389335632324
+      },
+      "below": {
+        "loss": 1.0535998344421387,
+        "coordinate": [
+          0.0,
+          0.021918201819062233
+        ],
+        "finite_gradient": true,
+        "gradient_norm": 15.852389335632324
+      }
+    },
+    "opposite_pairs": {
+      "left_right": {
+        "loss_abs_difference": 0.0,
+        "gradient_max_abs_difference": 0.0
+      },
+      "above_below": {
+        "loss_abs_difference": 0.0,
+        "gradient_max_abs_difference": 0.0
+      }
+    }
+  },
+  "transport": [
+    {
+      "case": "row_only",
+      "method": "log_reference",
+      "dtype": "torch.float64",
+      "mass": 0.9999999999999997,
+      "marginal_l1": 1.1723207040542638e-15,
+      "linear_cost": 0.926096177499969,
+      "accepted": true,
+      "iterations": 1
+    },
+    {
+      "case": "distance_only",
+      "method": "log_reference",
+      "dtype": "torch.float64",
+      "mass": 0.9999999999999998,
+      "marginal_l1": 6.406189584340881e-11,
+      "linear_cost": 0.09531667871164831,
+      "accepted": true,
+      "iterations": 100
+    },
+    {
+      "case": "mixed_p2_audit",
+      "method": "log_reference",
+      "dtype": "torch.float64",
+      "mass": 0.9999999999999998,
+      "marginal_l1": 6.406211097622488e-11,
+      "linear_cost": 1.0121518943669856,
+      "accepted": true,
+      "iterations": 100
+    },
+    {
+      "case": "row_only",
+      "method": "original",
+      "dtype": "torch.float64",
+      "mass": 0.9960004026235234,
+      "marginal_l1": 0.12199523028777629,
+      "linear_cost": 0.4744783499220361,
+      "accepted": null,
+      "iterations": 100
+    },
+    {
+      "case": "row_only",
+      "method": "original",
+      "dtype": "torch.float32",
+      "mass": 0.9960010051727295,
+      "marginal_l1": 0.1219952180981636,
+      "linear_cost": 0.47447869181632996,
+      "accepted": null,
+      "iterations": 100
+    }
+  ]
+}

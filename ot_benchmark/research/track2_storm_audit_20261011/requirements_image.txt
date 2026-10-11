@@ -1,0 +1,9 @@
+# Independent environment only. Preserve a working CUDA torch installation.
+# Local torch: 2.11.0+cu128; Python: 3.12.10. Not the author's exact runtime.
+diffusers==0.12.1
+huggingface_hub==0.25.2
+transformers==4.38.2
+tokenizers==0.15.2
+accelerate==0.27.2
+ftfy==6.3.1
+ipython==9.17.1

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-11T02:11:54.170658+00:00",
+  "random_seed": 320011,
+  "input_files": [
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\research\\track2_storm_audit_20261011\\protocol_minimal.json",
+      "sha256": "3de0d203935b37378d808ed443e83c55d36127d81f763f4a794bd09d2ee00783",
+      "bytes": 1082
+    },
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\research\\track2_storm_audit_20261011\\model_contract.md",
+      "sha256": "666094e47ffe99a0a31c3365e171e64983c2644217f48d46ee20eef26088bf06",
+      "bytes": 2236
+    },
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\research\\track2_storm_audit_20261011\\audit_storm.py",
+      "sha256": "0e2964dd5bb64891a1508acf743f5cc02afed4f40c629954ed40046026ff1e42",
+      "bytes": 9674
+    },
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\research\\track2_storm_audit_20261011\\transport_reference.py",
+      "sha256": "a4ab8b93b13ef027577aef64efae75fcaa48a53e0329dc7ce30fd4b19ea73648",
+      "bytes": 2273
+    },
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\research\\track2_storm_audit_20261011\\upstream_loader.py",
+      "sha256": "9d6e51f3f2272fd1590a80565d24d1595d42ad2011d15201831c9851a4f9ee00",
+      "bytes": 2027
+    },
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\module_a_synced\\iJay0928-ot-benchmark--39d866c\\ot_benchmark\\research\\track2_storm_audit_20261011\\results_minimal_20261011\\inputs.json",
+      "sha256": "f3228db8878fa4da9141e3259ec736ee57658b8f1619139f954aceac28dd560a",
+      "bytes": 21943
+    },
+    {
+      "path": "D:\\桌面\\ot_benchmark_work\\track2_workspace_20261011\\upstream\\STORM\\pipeline.py",
+      "sha256": "9a7756d28af7c076a381d9e9956b9d1a152e675e264a72c34fb86906c2d9eeb0",
+      "bytes": 49268
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.4.6",
+      "pytest": "9.1.1"
+    }
+  },
+  "key_parameters": {
+    "stage": "P1",
+    "device": "cpu",
+    "tolerance": 1e-10
+  },
+  "reproduce_command": "python audit_storm.py --upstream upstream/STORM --output results_reproduction --device cpu"
+}

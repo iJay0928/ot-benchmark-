@@ -1,0 +1,60 @@
+{
+  "sha256": "9a7756d28af7c076a381d9e9956b9d1a152e675e264a72c34fb86906c2d9eeb0",
+  "methods": {
+    "_compute_cost_function_adj": {
+      "start": 186,
+      "end": 203
+    },
+    "_compute_centroid_2d": {
+      "start": 307,
+      "end": 311
+    },
+    "_exp_cost_weight": {
+      "start": 313,
+      "end": 316
+    },
+    "_compute_cost_function": {
+      "start": 318,
+      "end": 342
+    },
+    "sinkhorn": {
+      "start": 345,
+      "end": 372
+    },
+    "_create_circular_distribution_image": {
+      "start": 374,
+      "end": 390
+    },
+    "_create_circular_distribution": {
+      "start": 392,
+      "end": 417
+    },
+    "_get_attention_maps_for_tokens": {
+      "start": 426,
+      "end": 455
+    },
+    "_normalize_attention_map": {
+      "start": 457,
+      "end": 459
+    },
+    "_apply_smoothing": {
+      "start": 461,
+      "end": 468
+    },
+    "_storm_loss": {
+      "start": 470,
+      "end": 634
+    }
+  },
+  "commit": "88dbc3aca9944593d9648534cdfc7bbd6cda6224",
+  "url": "https://github.com/MICV-yonsei/STORM/blob/88dbc3aca9944593d9648534cdfc7bbd6cda6224/pipeline.py",
+  "local_source_path": "D:\\桌面\\ot_benchmark_work\\track2_workspace_20261011\\upstream\\STORM\\pipeline.py",
+  "own_source_hashes": {
+    "audit_storm.py": "0e2964dd5bb64891a1508acf743f5cc02afed4f40c629954ed40046026ff1e42",
+    "transport_reference.py": "a4ab8b93b13ef027577aef64efae75fcaa48a53e0329dc7ce30fd4b19ea73648",
+    "upstream_loader.py": "9d6e51f3f2272fd1590a80565d24d1595d42ad2011d15201831c9851a4f9ee00",
+    "protocol_minimal.json": "3de0d203935b37378d808ed443e83c55d36127d81f763f4a794bd09d2ee00783",
+    "model_contract.md": "666094e47ffe99a0a31c3365e171e64983c2644217f48d46ee20eef26088bf06"
+  },
+  "input_sha256": "f3228db8878fa4da9141e3259ec736ee57658b8f1619139f954aceac28dd560a"
+}

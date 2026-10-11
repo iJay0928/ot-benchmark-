@@ -1,0 +1,10 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "gpu_memory_bytes": 12820480000,
+  "elapsed_seconds_including_input_and_audit": 1.6397481000167318
+}

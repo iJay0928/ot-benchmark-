@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-11",
+  "stage": "P1 minimal numerical and source audit, not image benchmark",
+  "seed": 320011,
+  "attention_shape": [
+    16,
+    16
+  ],
+  "regularization": 0.1,
+  "weight": 100.0,
+  "original_iterations": 100,
+  "reference_iterations": 2000,
+  "reference_tolerance": 1e-10,
+  "reference_dtype": "float64",
+  "paper_distance_power_assumption": 2,
+  "paper_mixture_lambda": 0.01,
+  "public_source_commit": "88dbc3aca9944593d9648534cdfc7bbd6cda6224",
+  "pipeline_sha256": "9a7756d28af7c076a381d9e9956b9d1a152e675e264a72c34fb86906c2d9eeb0",
+  "questions": [
+    "q1 row-constant transport loss and original marginal feasibility",
+    "q2 opposite-direction routing and vertical-axis behavior",
+    "q3 pair-distance mixture and analytic non-OT control"
+  ],
+  "limits": [
+    "Synthetic structural inputs, not attention from generated images",
+    "No image quality, VISOR or object-presence claim",
+    "Squared grid distance is an explicit p=2 audit choice; the paper defines general p",
+    "No full parameter scan or image experiment before independent P1 review"
+  ]
+}

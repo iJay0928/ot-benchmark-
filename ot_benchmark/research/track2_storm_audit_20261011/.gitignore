@@ -1,0 +1,12 @@
+__pycache__/
+.pytest*/
+results*/**
+!results_minimal_20261011/
+!results_minimal_20261011/*.json
+!results_minimal_20261011/*.csv
+!results_p1_independent_20261011/
+!results_p1_independent_20261011/summary.json
+!results_p1_independent_20261011/environment.json
+upstream/
+*.npy
+*.npz
